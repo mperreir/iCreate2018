@@ -25,7 +25,8 @@ public class StarManager : MonoBehaviour {
 		int num = 0;
 		int width = 0;
 		bool firstLine = true;
-		while (rawLine != null)
+		int i = 0;
+		while (rawLine != null && i < 5000)
 		{
 			dataLine = rawLine.Split(';');
 			if (firstLine)
@@ -70,6 +71,7 @@ public class StarManager : MonoBehaviour {
 				star.transform.position = new Vector3(10-Random.value*20, 5-Random.value*10, Random.value*20);
 				this.stars.Add(star);
 				rawLine = dataFile.ReadLine();
+				i++;
 			}
 		}
 	}
