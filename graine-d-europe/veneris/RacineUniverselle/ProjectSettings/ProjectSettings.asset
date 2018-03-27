@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: bf890b37e8e05024192606ced3ead084
+  productGUID: 9b594e17357adec4289c9137d9e1d024
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -630,12 +630,11 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: f0b9ee07-2acf-48fd-b473-282bb099a87b
-  projectName: RacineUniverselle (1)
+  cloudProjectId: e1d4927b-5eaa-44e8-8e80-f207236944ba
+  projectName: RacineUniverselle (2)
   organizationId: mimoooon
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
