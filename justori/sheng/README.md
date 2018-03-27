@@ -1,9 +1,9 @@
-# Nom de groupe
+# Nom de groupe 生(Sheng)
 
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+- Partenaire: Justori
+- Etudiants: Hugo Michel, Thomas Creissel, Yao Zhou, Sloane Petit, Julien Abt
+- Technologie d'entrée: Traitement d'image
+- Technologie de sortie: Son spatialisé
 
 # Nom de l'installation
 
