@@ -1,16 +1,18 @@
 # Nom de groupe
+VENERIS
 
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+- Partenaire: Graine d'Europe
+- Etudiants: Louna GEYOT, Yann JOUANINE, Simon LASSALLE, Noé LE CARDUNER, Nicolas SKLER, Marie VIGUIER
+- Technologie d'entrée: Analyse d'images
+- Technologie de sortie: Rendu 3D
 
 # Nom de l'installation
+RACINE UNIVERSELLE
 
 ## Description
 
 ## Dépendances logicielles
 
-## Instructions de génération d' l'application
+## Instructions de génération de l'application
 
 ## Instructions d'exécution
