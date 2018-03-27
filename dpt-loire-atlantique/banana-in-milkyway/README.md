@@ -1,14 +1,13 @@
 # Nom de groupe
 
 - Partenaire : Département Loire-Atlantique
-- Etudiants : Nicolas CHABOT, Baptiste GAUTHIER, Fabien HUDIER, 
+- Etudiants : Nicolas CHABOT, Baptiste GAUTHIER, Fabien HUDIER, Loélia RAPIN, Clémence RUSSEIL, Aurane WALLAERT
 - Technologie d'entrée : Geste Leap Motion
 - Technologie de sortie : Son spatialisé
 
 # Nom de l'installation
 
 ## Description
-Comment valoriser un mémorial virtuel départemental sur la Guerre 14-18 ?
 
 ## Dépendances logicielles
 
