@@ -13,9 +13,13 @@
 ## Description
 
 → Téléphone suspendu au centre de la pièce
+
 → 2 axes pour le balancier avec le téléphone
+
 → La question est choisie sur le téléphone, qui est balancé, envoyé sur l'axe
+
 → L'accélération et l'endroit où sera envoyé le téléphone permettra  de générer une réponse
+
 → La question voyage prend de la hauteur pour revenir à son destinataire
 
 ## Dépendances logicielles
