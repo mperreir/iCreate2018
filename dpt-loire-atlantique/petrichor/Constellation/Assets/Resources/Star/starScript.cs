@@ -2,13 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class starScript : MonoBehaviour {
+public class StarScript : MonoBehaviour {
 
-	public int num = 0;
+	public int num;
+	public int age;
+	public string residence;
+	public string grade;
+	public string profession;
+	public string naissance;
+	public string volontaire;
+
 	// Use this for initialization
 	void Start()
 	{
-
+		this.num = 0;
+		this.age = 0;
+		this.residence = null;
+		this.grade = null;
+		this.profession = null;
+		this.naissance = null;
+		this.volontaire = null;
 	}
 
 	// Update is called once per frame

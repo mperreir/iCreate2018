@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33265702251934360}
   - component: {fileID: 23224319456467598}
   - component: {fileID: 122301508756965734}
-  - component: {fileID: 114135051695367226}
+  - component: {fileID: 114968180722890246}
   m_Layer: 0
-  m_Name: starPrefab
+  m_Name: StarPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,7 +84,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1558077088680596}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114135051695367226
+--- !u!114 &114968180722890246
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -96,6 +96,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   num: 0
+  age: 0
+  residence: 
+  grade: 
+  profession: 
+  naissance: 
+  volontaire: 
 --- !u!122 &122301508756965734
 Halo:
   m_ObjectHideFlags: 1
