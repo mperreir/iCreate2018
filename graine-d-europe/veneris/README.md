@@ -6,8 +6,7 @@ VENERIS
 - Technologie d'entrée: Analyse d'images
 - Technologie de sortie: Rendu 3D
 
-# Nom de l'installation
-RACINE UNIVERSELLE
+# RACINE UNIVERSELLE
 
 ## Description
 
