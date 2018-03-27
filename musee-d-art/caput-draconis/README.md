@@ -1,9 +1,9 @@
 # Nom de groupe
 
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+- Partenaire: Musée d'art de Nantes
+- Etudiants: MIMEAU Corentin
+- Technologie d'entrée: Images
+- Technologie de sortie: 3D
 
 # Nom de l'installation
 
