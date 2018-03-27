@@ -20,12 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4415407661039848}
   - component: {fileID: 33265702251934360}
-  - component: {fileID: 135790178007543612}
   - component: {fileID: 23224319456467598}
   - component: {fileID: 122301508756965734}
   - component: {fileID: 114135051695367226}
   m_Layer: 0
-  m_Name: prefab
+  m_Name: starPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1558077088680596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.16, y: 0.11, z: -4.18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,7 +52,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -106,17 +105,5 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278255601
-  m_Size: 3
---- !u!135 &135790178007543612
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1558077088680596}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+    rgba: 4288651167
+  m_Size: 0.1

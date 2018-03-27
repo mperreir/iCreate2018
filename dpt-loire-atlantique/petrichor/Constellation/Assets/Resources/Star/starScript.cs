@@ -14,6 +14,6 @@ public class starScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		this.transform.position = this.transform.position + new Vector3(Mathf.Sin(Time.time + (num / 5F )), 0, 0);
+		this.transform.position = this.transform.position + new Vector3(Mathf.Sin(Time.time*5F + (num / 5F ))/10F, 0, 0);
 	}
 }
