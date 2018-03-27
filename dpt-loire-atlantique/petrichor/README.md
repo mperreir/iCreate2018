@@ -1,11 +1,17 @@
-# Nom de groupe
+﻿# Nom de groupe
 
-- Partenaire:
+- Partenaire: Département de Loire Atlantique
 - Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+ - Kilian RIOU
+ - Gaëtan GEFFROY
+ - Yao SHI
+ - Solenn LE BIHAN
+ - Thomas GAUTIER
+- Technologie d'entrée: Son
+- Technologie de sortie: Rendu 3D
 
 # Nom de l'installation
+Constellation
 
 ## Description
 
