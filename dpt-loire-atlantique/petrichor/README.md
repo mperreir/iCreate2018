@@ -2,11 +2,11 @@
 
 - Partenaire: Département de Loire Atlantique
 - Etudiants:
- - Kilian RIOU
- - Gaëtan GEFFROY
- - Yao SHI
- - Solenn LE BIHAN
- - Thomas GAUTIER
+    - Kilian RIOU
+    - Gaëtan GEFFROY
+    - Yao SHI
+    - Solenn LE BIHAN
+    - Thomas GAUTIER
 - Technologie d'entrée: Son
 - Technologie de sortie: Rendu 3D
 
