@@ -1,15 +1,14 @@
-import com.leapmotion.leap.*;
-
-Controller controller = new Controller();
+final int height = 400;
+final int width = 400;
+int x = 0;
+int y = 0;
 void setup(){
-  size( 500, 500 );
+  size( 400, 400 );
 }
 
 void draw(){
   background(0);
-  Frame frame = controller.frame();
-  System.out.println(frame);
-  text( frame.hands().count() + " Hands", 50, 50 );
-  text( frame.fingers().extended().count() + " Fingers extended", 50, 100 );
-  ellipse(100,100,100,100);
+  ellipse(x,y,100,100);
+  x = (x + 5) % width;
+  y = (y + 5) % height;
 }
