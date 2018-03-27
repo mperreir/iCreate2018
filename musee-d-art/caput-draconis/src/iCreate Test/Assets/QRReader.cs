@@ -6,12 +6,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class QRReader : MonoBehaviour {
+public class QRReader : MonoBehaviour
+{
 
-		public string decodedResult;
+    public string decodedResult;
     WebCamTexture webCamTexture;
     BarcodeReader barcodeReader;
-		public RawImage rawimage;
+    public RawImage rawimage;
+    public Image tableau;
+    public Sprite kandinsky;
+    public Sprite kandinsky2;
+    Dictionary<string, Sprite> dict = new Dictionary<string, Sprite>();
 
     void Start()
     {
@@ -29,17 +34,20 @@ public class QRReader : MonoBehaviour {
         };
 
 
-				WebCamDevice[] devices = WebCamTexture.devices;
+        WebCamDevice[] devices = WebCamTexture.devices;
 
-				for(int i=0; i<devices.Length; i++)
-					Debug.Log(devices[i].name);
+        for(int i = 0; i < devices.Length; i++)
+            Debug.Log(devices[i].name);
 
-        webCamTexture = new WebCamTexture(devices[0].name, 1280, 720);
+        webCamTexture = new WebCamTexture(devices[1].name, 1280, 720);
 
-				rawimage.texture = webCamTexture;
-				rawimage.material.mainTexture = webCamTexture;
+        rawimage.texture = webCamTexture;
+        rawimage.material.mainTexture = webCamTexture;
 
         webCamTexture.Play();
+
+        dict.Add("kandinsky", kandinsky);
+        dict.Add("kandinsky2", kandinsky2);
     }
 
     void Update()
@@ -54,17 +62,20 @@ public class QRReader : MonoBehaviour {
             return;
 
         Result result = barcodeReader.Decode(
-            webCamTexture.GetPixels32(),
-            webCamTexture.width,
-            webCamTexture.height);
+                            webCamTexture.GetPixels32(),
+                            webCamTexture.width,
+                            webCamTexture.height);
 
         if (result != null)
+        {
             decodedResult = result.Text;
+            tableau.sprite = dict[result.Text];
+        }
     }
 
     void OnDestroy()
     {
         if (webCamTexture != null)
             webCamTexture.Stop();
-		}
+    }
 }
