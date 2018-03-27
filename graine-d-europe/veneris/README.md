@@ -1,5 +1,4 @@
-# Nom de groupe
-VENERIS
+# VENERIS
 
 - Partenaire: Graine d'Europe
 - Etudiants: Louna GEYOT, Yann JOUANINE, Simon LASSALLE, Noé LE CARDUNER, Nicolas SKLER, Marie VIGUIER
