@@ -16,7 +16,7 @@ let animaux = ['Grenouille', 'Coq_Poule', 'Chien', 'Vache'];
 
 export default function sketch(p) {
     p.preload = function() {
-        son = p.loadSound("COQ-POULE.mp3");
+        son = p.loadSound("./sonQueteChien/COQ-POULE.mp3");
         //son2 = p.loadSound('CORNE.wav');
     }
 

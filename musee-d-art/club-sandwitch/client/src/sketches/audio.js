@@ -11,8 +11,7 @@ export default function sketch(p) {
   }
 
   p.setup = function() {
-    mySound.setVolume(0.1);
-    //mySound.play();
+    mySound.play();
   }
 
   p.myCustomRedrawAccordingToNewPropsHandler = function(props) {
