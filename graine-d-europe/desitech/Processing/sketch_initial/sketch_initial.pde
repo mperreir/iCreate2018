@@ -27,6 +27,11 @@ int tmpTestTimeStop = 50;
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
 
+String theme = getTheme();
+
+//Test main circle
+MainCircle mc;
+
 void setup() {
   fullScreen();
   frameRate(30);
@@ -37,6 +42,13 @@ void setup() {
   for (int i = 0; i < nbCircleFull; i++) {
     listCirclesFull[i] = new Circle(true);
   }
+  
+  //Test main circle
+  int[] rgb = new int[3];
+  rgb[0] = (int) (Math.random() * (255));
+  rgb[1] = (int) (Math.random() * (255));
+  rgb[2] = (int) (Math.random() * (255));
+  mc = new MainCircle(300, 400, rgb, 100); 
 }
 
 void draw() {
@@ -57,6 +69,9 @@ void draw() {
   checkSpeed();
   
   drawCircles();
+  
+  //Test main circle
+  //mc.update();
 }
 
 class Circle { 
@@ -77,10 +92,7 @@ class Circle {
     this.speedy = (float) (Math.random() * 2) + 1;
     this.speedy *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
     
-    this.rgb = new int[3];
-    this.rgb[0] = (int) (Math.random() * (255));
-    this.rgb[1] = (int) (Math.random() * (255));
-    this.rgb[2] = (int) (Math.random() * (255));
+    this.rgb = getColorRGB(theme);
     this.full = full;
   } 
   
@@ -162,27 +174,65 @@ void handMovements(boolean detected) {
 }
 
 class MainCircle {
-  int time;
-  boolean isGrowing;
+  float xpos, ypos;
+  float speedX, speedY;
+  //change nbFrames to adapt the speed of the circle (time to go to the middle)
+  int nbFrames;
+  boolean isCentered;
+  
   float size;
+  boolean isGrowing;
+
+  int time;
   Timer timer;
   int[] rgb;
   
-  MainCircle () {
+  MainCircle (float x, float y, int[] rgb, float size) {
+    this.xpos = x;
+    this.ypos = y;
+    this.rgb = rgb;
+    this.size = size;
+
     this.isGrowing = true;
     this.time = 300;
-    this.size = 10;
-    this.rgb = new int[3];
-    this.rgb[0] = 255;
-    this.rgb[1] = 0;
-    this.rgb[2] = 0;
     timer = new Timer(time, rgb);
+    
+    
+    //Calcul of the speed to center the circle
+    //nbFrames = number of frames to go to the middle
+    this.nbFrames = 50;
+    this.speedX = abs(xpos - width/2) / nbFrames;
+    if (xpos - width/2 > 0) {
+      this.speedX *= -1;
+    }
+    this.speedY = abs(ypos - height/2) / nbFrames;
+    if (ypos - height/2 > 0) {
+      this.speedY *= -1;
+    }  
   }
   
-  void update() { 
-    if (isGrowing) {
-      size += 2;
-      if (size >= 200) {
+  void update() {
+    if (!isCentered) {
+       xpos += speedX;
+       ypos += speedY;
+       nbFrames--;
+       
+       //check if the circle is centerded
+       if(nbFrames == 0) {
+         xpos = width/2;
+         ypos = height/2;
+         isCentered = true;
+       }
+       
+      fill(255, 255, 255, 255);
+      ellipse(xpos, ypos, size, size);
+      noFill();
+    }
+    else if (isGrowing) {
+      //change size to adapt the growing speed
+      size += 6;
+      //change the value of the test to adapt the size of the main circle
+      if (size >= 500) {
         isGrowing = false;
       }
       fill(255, 255, 255, 255);
@@ -226,7 +276,7 @@ class Timer {
     stroke(this.rgb[0], this.rgb[1], this.rgb[2]);
     strokeWeight(20);
     // "-HALF_PI" make it begin at the top of the circle (without it, it would start at the right of the circle)
-    arc(width/2, height/2, 195, 195, -HALF_PI, (float) radiant - HALF_PI);  
+    arc(width/2, height/2, 495, 495, -HALF_PI, (float) radiant - HALF_PI);  
     noStroke();
     System.out.println("radiant : " + (float) radiant);
     
