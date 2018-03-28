@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="reverseLandscape"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/NoActionBar">
             <intent-filter>
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ThemeActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="reverseLandscape"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/NoActionBar">
         </activity>
