@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -234,9 +234,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98844f8ff94c83843a27943eea2a3d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  criteria: null
-  galaxyDensity: 20
-  initialDisplayLimit: 1000
+  criteria: all
+  galaxyDensity: 15
+  galaxyMinSpeed: 10
+  galaxyMaxSpeed: 25
+  initialDisplayLimit: 5000
+  joinspeed: 2
+  minx: -10
+  maxx: 10
+  miny: -10
+  maxy: 10
+  minz: 0
+  maxz: 20
 --- !u!4 &519155615
 Transform:
   m_ObjectHideFlags: 0

@@ -10,8 +10,10 @@ public class StarManager : MonoBehaviour {
 
 	public string criteria = "all";
 	public float galaxyDensity = 200;
-	public float galaxySpeed = 22;
+	public float galaxyMinSpeed = 10;
+	public float galaxyMaxSpeed = 25;
 	public int initialDisplayLimit = -1;
+	public float joinspeed = 2;
 	public float minx = -10;
 	public float maxx = 10;
 	public float miny = -10;
@@ -35,7 +37,7 @@ public class StarManager : MonoBehaviour {
 		string naissance;
 		string volontaire;
 		int age;
-		int num ;
+		int num;
 		int width = 0;
 		bool firstLine = true;
 		int i = 0;
@@ -56,7 +58,6 @@ public class StarManager : MonoBehaviour {
 				volontaire = null;
 				age = 0;
 				num = 0;
-				width = 0;
 				System.Int32.TryParse(dataLine[0], out num);
 				System.Int32.TryParse(dataLine[11], out age);
 				if (dataLine[13] != "")
@@ -81,23 +82,24 @@ public class StarManager : MonoBehaviour {
 				}
 				star = Instantiate(prefab);
 				star.transform.SetParent(this.transform);
-				star.name = num.ToString();
-				star.GetComponent<StarScript>().num = num;
-				star.GetComponent<StarScript>().age = age;
-				star.GetComponent<StarScript>().residence = residence;
-				star.GetComponent<StarScript>().grade = grade;
-				star.GetComponent<StarScript>().profession = profession;
-				star.GetComponent<StarScript>().naissance = naissance;
-				star.GetComponent<StarScript>().volontaire = volontaire;
-				star.transform.position = new Vector3(this.minx - Random.value * (this.maxx-minx), this.miny - Random.value * (this.maxy - miny), this.minz - Random.value * (this.maxz - minz));
+				star.name = i.ToString();
+				star.num = num;
+				star.age = age;
+				star.residence = residence;
+				star.grade = grade;
+				star.profession = profession;
+				star.naissance = naissance;
+				star.volontaire = volontaire;
+				star.joinSpeed = this.joinspeed;
+				star.transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
 				if (i > this.initialDisplayLimit && this.initialDisplayLimit != -1)
 				{
 					star.gameObject.SetActive(false);
 				}
 				this.stars.Add(star);
-				rawLine = dataFile.ReadLine();
 				i++;
 			}
+			rawLine = dataFile.ReadLine();
 		}
 		dataFile.Close();
 		this.ChangeCriteria(this.criteria);
@@ -143,11 +145,11 @@ public class StarManager : MonoBehaviour {
 		galaxy.galaxyTag = tag;
 		galaxy.galaxyName = name;
 		galaxy.radius = Mathf.Sqrt(num) / density;
-		galaxy.transform.position = new Vector3(this.minx - Random.value * (this.maxx - minx), this.miny - Random.value * (this.maxy - miny), this.minz - Random.value * (this.maxz - minz));
+		galaxy.transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
 		galaxy.rotator = new Vector3(1 - Random.value* 2, 1 - Random.value* 2, 1 - Random.value* 2);
 		galaxy.name = tag;
 		galaxy.transform.SetParent(this.transform);
-		galaxy.speed = Random.value * this.galaxySpeed;
+		galaxy.speed = this.galaxyMinSpeed + Random.value * (this.galaxyMaxSpeed - this.galaxyMinSpeed);
 		this.galaxies.Add(galaxy);
 		return galaxy;
 	}
