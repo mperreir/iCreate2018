@@ -27,6 +27,9 @@ int timerSlow = 0;
 final int waitExplosion = 90;
 int timerExplosion = 0;
 
+final int waitAppear = 30;
+int timerAppear = 0;
+
 float sizeProgressionCoef_f = 5;
 float sizeExpansionCoef_f = 1;
 float sizeCurrentCoef_f = 1;
@@ -66,6 +69,7 @@ void setup() {
 }
 
 void initCircles() {
+  theme = getTheme();
   listCircles = null;
   listCirclesFull = null;
   listCircles = new Circle[nbCircle];
@@ -76,6 +80,8 @@ void initCircles() {
   speedCoef = 50;
   currentSpeedCoef = speedCoef;
   timerExplosion = 0;
+  timerAppear = 0;
+  
   for (int i = 0; i < nbCircle; i++) {
     listCircles[i] = new Circle(false);
   }
@@ -88,6 +94,8 @@ void initCircles() {
 void draw() {
   background(0, 35, 70);
   
+  timerAppear++;
+  
   if (explosion) {
     timerExplosion++;
   }
@@ -95,28 +103,30 @@ void draw() {
   tmpTestCurrent++;
   tmpTestCurrentSize++;
   
-  boolean toReplaceByLeap = leap.countHands() > 0;
-  detectionHand(toReplaceByLeap);
-  
   Vector v = leap.getCoordHand();
   
-  if (!explosion) {
-    if (Math.abs(currentSpeedCoef - 1) < 2.1) {
-      float entropy = leap.getEntropy();
-      detectionExplosion(entropy);
-      
-      if (!explosion) {
-        if (v != null) {
-            int xToReplace = (int)v.getX();
-            int yToReplace = (int)v.getZ();
-            int detectedHover = checkIfHover(xToReplace, yToReplace);
-            detectionHover(detectedHover);
+  if (timerAppear > waitAppear) {
+    boolean toReplaceByLeap = leap.countHands() > 0;
+    detectionHand(toReplaceByLeap);
+    
+    if (!explosion) {
+      if (Math.abs(currentSpeedCoef - 1) < 2.1) {
+        float entropy = leap.getEntropy();
+        detectionExplosion(entropy);
+        
+        if (!explosion) {
+          if (v != null) {
+              int xToReplace = (int)v.getX();
+              int yToReplace = (int)v.getZ();
+              int detectedHover = checkIfHover(xToReplace, yToReplace);
+              detectionHover(detectedHover);
+          }
         }
       }
-    }
-  } else {
-    if (waitExplosion <= timerExplosion) {
-      initCircles();
+    } else {
+      if (waitExplosion <= timerExplosion) {
+        initCircles();
+      }
     }
   }
   checkSpeed();
@@ -146,7 +156,7 @@ class Circle {
   boolean full, hover, hoverReached, reachSize, explosion;
 
   Circle (boolean full) {  
-    this.xpos = (float) (Math.random() * (width));
+    this.xpos = Math.floor(Math.random()*2) == 1 ? (float) (Math.random() * (width)) - width : (float) (Math.random() * (width)) + width;
     this.ypos = (float) (Math.random() * ((height - border) - border)) + border;
     this.baseSize = full ? (float) (Math.random() * (175 - 150)) + 150 : (float) (Math.random() * (90 - 50)) + 50;
     this.size = baseSize;
@@ -159,7 +169,6 @@ class Circle {
     this.baseSpeedy = (float) (Math.random() * 2) + 1;
     this.baseSpeedy *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
     this.speedy = this.baseSpeedy >= 0 ? this.baseSpeedy + (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) : this.baseSpeedy - (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) ;
-    //this.speedy = this.baseSpeedy;
     
     this.rgb = getColorRGB(theme);
     this.full = full;
@@ -215,9 +224,16 @@ class Circle {
 
     // If the circle reaches a top or bottom border, we make it bounce
     if (!this.explosion) {
-      this.xpos = (this.xpos + this.speedx) % width;
-      if (this.xpos < 0) {
-        this.xpos = width;
+      if (timerAppear < waitAppear) {
+        this.xpos = (this.xpos + this.speedx) % (width*2);
+        if (this.xpos < (-width)) {
+          this.xpos = width;
+        }
+      } else {
+        this.xpos = (this.xpos + this.speedx) % width;
+        if (this.xpos < 0) {
+          this.xpos = width;
+        }
       }
       if (((this.ypos + this.speedy) > (height - border)) || ((this.ypos + this.speedy) < border)) {
         this.speedy = -this.speedy;
