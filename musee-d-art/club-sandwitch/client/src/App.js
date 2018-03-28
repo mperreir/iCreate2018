@@ -34,7 +34,7 @@ class App extends Component {
       <Switch>
         <Route exact path='/' component={LandingPage}/>
         <Route path='/tablet' component={TabletPage}/>
-        <Route path='/soundplayer' component={SoundPlayerPage}/>
+        <Route path='/soundplayer/:id' component={SoundPlayerPage}/>
         <Route path='/sketch' component={SketchPage}/>
         <Route path='/control' component={controlPage}/>
       </Switch>

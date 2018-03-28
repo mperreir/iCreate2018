@@ -5,6 +5,8 @@ import audio from '../sketches/audio';
 
 const socketUrl = "http://localhost:5000"
 
+const listeSound = ['CHIEN.mp3','COQ-POULE.mp3','GRENOUILLE.mp3','VACHE.mp3']
+
 class SoundPlayerPage extends Component {
 
   constructor() {
@@ -37,8 +39,12 @@ class SoundPlayerPage extends Component {
     this.setState({socket})
   }
   render() {
+    let name_file = listeSound[this.props.match.params.id]
     return (
-      <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={this.state.arg}/>
+      <div>
+        <p>{this.props.match.params.id}</p>
+        <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={'/sonQueteChien/'+name_file}/>
+      </div>
     );
   }
 }
