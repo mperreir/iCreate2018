@@ -7,7 +7,7 @@ public class StarScript : MonoBehaviour {
 	public int num = 0;
 	public int age = 0;
 	public float galaxyDistance = 0;
-	public float joinSpeed = 1;
+	public float joinSpeed = 2;
 	public string residence = null;
 	public string grade = null;
 	public string profession = null;
