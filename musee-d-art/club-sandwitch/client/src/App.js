@@ -5,7 +5,7 @@ import SoundPlayerPage from './Pages/SoundPlayerPage';
 import TabletPage from './Pages/TabletPage';
 import LandingPage from './Pages/LandingPage';
 import SketchPage from './Pages/SketchPage';
-import controlPage from './Pages/controlPage';
+import controlPage from './Pages/ControlPage';
 
 import 'whatwg-fetch';
 import './App.css';
