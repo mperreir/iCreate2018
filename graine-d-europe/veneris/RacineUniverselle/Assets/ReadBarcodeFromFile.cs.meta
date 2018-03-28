@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1f9901f486628464b933f5ec3989dce3
+timeCreated: 1522170721
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputTexture: {fileID: 2800000, guid: e83b19f3a6801d24aa37fcf754b1b7ee, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
