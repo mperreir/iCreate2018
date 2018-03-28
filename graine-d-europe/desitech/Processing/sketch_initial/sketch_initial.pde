@@ -8,15 +8,21 @@ final
 
 int x = 0;
 int y = 0;
+// The coef of progression about of much the speed is accelerating (linear)
 float speedProgressionCoef = 0.2;
+// The speed coef that we want to reach
 float speedCoef = 50;
+// The current speed coef
 float currentSpeedCoef = 1;
+// Check if we have reached the speedCoef based on our currentSpeedCoef
 boolean reach = false;
-boolean coefOn = true;
+// Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
-int tmpTestTime = 200;
+//Test var for accelerating/deccelerating every x frames
+int tmpTestTime = 300;
 int tmpTestCurrent = 0;
+int tmpTestTimeStop = 50;
 
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
@@ -40,39 +46,17 @@ void draw() {
   
   if (tmpTestCurrent == tmpTestTime) {
     if (speedCoef == 1) {
-      setSpeedCoef(30);
+      handMovements(true);
     } else {
-      setSpeedCoef(1);
+      handMovements(false);
     }
     reach = false;
     tmpTestCurrent = 0;
-    
   }
   
-  if (!reach) {
-    if ((currentSpeedCoef - speedCoef) < -0.1) {
-      currentSpeedCoef += speedProgressionCoef;
-      coefOn = true;
-      higher = true;
-    } else if ((currentSpeedCoef - speedCoef) > 0.1) {
-      currentSpeedCoef -= speedProgressionCoef;
-      coefOn = true;
-      higher = false;
-    } else {
-      coefOn = false;
-      currentSpeedCoef = 1;
-      reach = true;
-    }
-  }
-  System.out.println("TestCurrent : " + tmpTestCurrent + "; currentSpeedCoef : " + currentSpeedCoef);
+  checkSpeed();
   
-  for (Circle c : listCircles) {
-    c.update(coefOn, higher);
-  }
-  
-  for (Circle c : listCirclesFull) {
-    c.update(coefOn, higher);
-  }
+  drawCircles();
 }
 
 class Circle { 
@@ -100,8 +84,10 @@ class Circle {
     this.full = full;
   } 
   
-  void update(boolean coef, boolean higher) {
-    if (coef) {
+  void update(boolean higher) {
+    // Change the speed of the circle based on the coef
+    // We need to check if the speed is negative or positive
+    if (!reach) {
       if (higher) {
         this.speedx = this.speedx >= 0 ? this.speedx + (speedProgressionCoef) : this.speedx - (speedProgressionCoef);
       } else {
@@ -114,6 +100,7 @@ class Circle {
       this.xpos = width;
     }
     
+    // If the circle reaches a top or bottom border, we make it bounce
     if (((this.ypos + this.speedy) > (height - border)) || ((this.ypos + this.speedy) < border)) {
       this.speedy = -this.speedy;
     }
@@ -136,6 +123,40 @@ class Circle {
 } 
 
 void setSpeedCoef(int newCoef) {
-  currentSpeedCoef = speedCoef;
   speedCoef = newCoef;
+}
+
+// Check the current speed to the speed coefficient
+void checkSpeed() {
+  if (!reach) {
+    if ((currentSpeedCoef - speedCoef) < -0.1) {
+      currentSpeedCoef += speedProgressionCoef;
+      higher = true;
+    } else if ((currentSpeedCoef - speedCoef) > 0.1) {
+      currentSpeedCoef -= speedProgressionCoef;
+      higher = false;
+    } else {
+      reach = true;
+    }
+  }
+}
+
+// Draw the circles at each update
+void drawCircles() {
+    for (Circle c : listCircles) {
+    c.update(higher);
+  }
+  
+  for (Circle c : listCirclesFull) {
+    c.update(higher);
+  }
+}
+
+// Check if hand movements are begin detected
+void handMovements(boolean detected) {
+  if (detected) {
+    setSpeedCoef(30);
+  } else {
+    setSpeedCoef(1);  
+  }
 }
