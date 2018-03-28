@@ -10,19 +10,17 @@ int y = 0;
 // The coef of progression about of much the speed is accelerating (linear)
 float speedProgressionCoef = 1;
 // The speed coef that we want to reach
-float speedCoef = 200;
+float speedCoef = 50;
 // The current speed coef
-float currentSpeedCoef = 1;
+float currentSpeedCoef = speedCoef;
 // Check if we have reached the speedCoef based on our currentSpeedCoef
 boolean reach = true;
 // Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
-float sizeProgressionCoef = 3;
-float sizeExpansionCoef = 200;
-float sizeCurrentCoef = 1;
-
-boolean reachSize = true;
+float sizeProgressionCoef_f = 3;
+float sizeExpansionCoef_f = 200;
+float sizeCurrentCoef_f = 1;
 
 //Test var for accelerating/deccelerating every x frames
 boolean enableTest = false;
@@ -31,7 +29,7 @@ int tmpTestCurrent = 0;
 int tmpTestTimeStop = 300;
 
 //Test var for accelerating/deccelerating every x frames
-boolean enableTestSize = false;
+boolean enableTestSize = true;
 int tmpTestTimeSize = 50;
 int tmpTestCurrentSize = 0;
 int tmpTestTimeSizeStop = 100;
@@ -56,70 +54,44 @@ void draw() {
 
   tmpTestCurrent++;
   tmpTestCurrentSize++;
-
-  if (enableTest) {
-    if (tmpTestCurrent > tmpTestTime && tmpTestCurrent < (tmpTestTime + 300)) {
-      handMovements(true);
-      reach = false;
-    } else {
-      handMovements(false);
-      reach = false;
-    }
-  } else {
-    if (false) {
-      handMovements(true);
-      reach = false;
-    } else {
-      handMovements(false);
-      reach = false;
-    }
-  }
   
-  if (enableTestSize) {
-    if (tmpTestCurrentSize == tmpTestTimeSize) {
-      circleHover(1);
-      reachSize = false;
-    } else if (tmpTestCurrentSize == tmpTestTimeSizeStop) {
-      noHover();
-      reachSize = false;
-    }
-  } else {
-    if (false) {
-      circleHover(1);
-      reachSize = false;
-    } else if (tmpTestCurrentSize == tmpTestTimeSizeStop) {
-      noHover();
-      reachSize = false;
-    }
+  boolean toReplaceByLeap = false;
+
+  detectionHand(toReplaceByLeap);
+  
+  int xToReplace = 500;
+  int yToReplace = 500;
+  
+  int detectedHover = checkIfHover(xToReplace, yToReplace);
+  if (detectedHover != -1) {
+    detectionHover(detectedHover);
   }
 
   checkSpeed();
-  checkSize();
   
   drawCircles();
 }
 
 class Circle {
-  float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius;
+  float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius, sizeCurrentCoef, sizeExpansionCoef, sizeProgressionCoef;
   int[] rgb;
   String col;
-  boolean full;
-  boolean hover;
+  boolean full, hover, hoverReached, reachSize;
 
   Circle (boolean full) {  
     this.xpos = (float) (Math.random() * (width));
     this.ypos = (float) (Math.random() * ((height - border) - border)) + border;
-    this.baseSize = full ? (float) (Math.random() * (200 - 100)) + 100 : (float) (Math.random() * (100 - 50)) + 50;
+    this.baseSize = full ? (float) (Math.random() * (175 - 150)) + 150 : (float) (Math.random() * (90 - 50)) + 50;
     this.size = baseSize;
     this.radius = this.size / 2;
     
-    this.speedx = (float) (Math.random() * 3) + 1;
-    this.speedx *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
-    this.baseSpeedx = this.speedx;
+    this.baseSpeedx = (float) (Math.random() * 3) + 1;
+    this.baseSpeedx *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
+    this.speedx = this.baseSpeedx >= 0 ? this.baseSpeedx + (speedProgressionCoef * (speedCoef / speedProgressionCoef)) : this.baseSpeedx - (speedProgressionCoef * (speedCoef / speedProgressionCoef));
     
-    this.speedy = (float) (Math.random() * 2) + 1;
-    this.speedy *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
-    this.baseSpeedy = this.speedy;
+    this.baseSpeedy = (float) (Math.random() * 2) + 1;
+    this.baseSpeedy *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
+    this.speedy = this.baseSpeedy;
     
     this.rgb = new int[3];
     this.rgb[0] = (int) (Math.random() * (255));
@@ -127,6 +99,12 @@ class Circle {
     this.rgb[2] = (int) (Math.random() * (255));
     this.full = full;
     this.hover = false;
+    this.hoverReached = true;
+    this.reachSize = true;
+    
+    this.sizeCurrentCoef = sizeCurrentCoef_f;
+    this.sizeExpansionCoef = sizeExpansionCoef_f;
+    this.sizeProgressionCoef = sizeProgressionCoef_f;
   }
 
   void update(boolean higher) {
@@ -139,8 +117,18 @@ class Circle {
         this.speedx = this.speedx >= 0 ? this.speedx - (speedProgressionCoef) : this.speedx + (speedProgressionCoef);
       }
     }
+    
+    if (!this.reachSize) {
+      if ((this.sizeCurrentCoef - this.sizeExpansionCoef) < -this.sizeProgressionCoef) {
+        this.sizeCurrentCoef += this.sizeProgressionCoef;
+      } else if ((this.sizeCurrentCoef - this.sizeExpansionCoef) > this.sizeProgressionCoef) {
+        this.sizeCurrentCoef -= this.sizeProgressionCoef;
+      } else {
+        this.reachSize = true;
+      }
+    }
 
-    if (!reachSize) {
+    if (!hoverReached) {
       if (this.full && this.hover) {
         if ((sizeCurrentCoef - sizeExpansionCoef) < -sizeProgressionCoef) {
           this.size += sizeProgressionCoef;
@@ -150,7 +138,7 @@ class Circle {
       } else if (this.size > this.baseSize) {
         this.size -= sizeProgressionCoef;
         if (this.speedx == 0) {
-          this.speedx = this.baseSpeedx;
+          this.speedx = this.baseSpeedx >= 0 ? this.baseSpeedx + (speedProgressionCoef * (speedCoef / speedProgressionCoef)) : this.baseSpeedx - (speedProgressionCoef * (speedCoef / speedProgressionCoef));
           this.speedy = this.baseSpeedy;
         }
       }
@@ -202,19 +190,6 @@ void checkSpeed() {
   }
 }
 
-// Check the current speed to the speed coefficient
-void checkSize() {
-  if (!reachSize) {
-    if ((sizeCurrentCoef - sizeExpansionCoef) < -sizeProgressionCoef) {
-      sizeCurrentCoef += sizeProgressionCoef;
-    } else if ((sizeCurrentCoef - sizeExpansionCoef) > sizeProgressionCoef) {
-      sizeCurrentCoef -= sizeProgressionCoef;
-    } else {
-      reachSize = true;
-    }
-  }
-}
-
 // Draw the circles at each update
 void drawCircles() {
     for (Circle c : listCircles) {
@@ -229,9 +204,9 @@ void drawCircles() {
 // Check if hand movements are begin detected
 void handMovements(boolean detected) {
   if (detected) {
-    setSpeedCoef(50);
-  } else {
     setSpeedCoef(1);
+  } else {
+    setSpeedCoef(50);
   }
 }
 
@@ -243,6 +218,53 @@ void noHover() {
 
 void circleHover(int index) {
   listCirclesFull[index].hover = true;
+  listCirclesFull[index].hoverReached = false;
+}
+
+int checkIfHover(int x_coord, int y_coord) {
+  for (int i = 0; i < listCirclesFull.length; i++) {
+    if ((listCirclesFull[i].xpos + listCirclesFull[i].radius) > Math.abs(x_coord - listCirclesFull[i].radius) && 
+        (listCirclesFull[i].ypos + listCirclesFull[i].radius) > Math.abs(y_coord - listCirclesFull[i].radius)) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+void detectionHand(boolean detected) {
+  if (enableTest) {
+    if (tmpTestCurrent > tmpTestTime && tmpTestCurrent < (tmpTestTime + 300)) {
+      handMovements(true);
+      reach = false;
+    } else {
+      handMovements(false);
+      reach = false;
+    }
+  } else {
+    if (detected) {
+      handMovements(true);
+      reach = false;
+    } else {
+      handMovements(false);
+      reach = false;
+    }
+  }
+}
+
+void detectionHover(int index) {
+  if (enableTestSize) {
+    if (tmpTestCurrentSize == tmpTestTimeSize) {
+      circleHover(1);
+    } else if (tmpTestCurrentSize == tmpTestTimeSizeStop) {
+      noHover();
+    }
+  } else {
+    if (index != -1) {
+      circleHover(index);
+    } else {
+      noHover();
+    }
+  }
 }
 
 class MainCircle {
