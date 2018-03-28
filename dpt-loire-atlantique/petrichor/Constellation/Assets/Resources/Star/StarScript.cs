@@ -4,29 +4,22 @@ using UnityEngine;
 
 public class StarScript : MonoBehaviour {
 
-	public int num;
-	public int age;
-	public string residence;
-	public string grade;
-	public string profession;
-	public string naissance;
-	public string volontaire;
+	public int num = 0;
+	public int age = 0;
+	public string residence = null;
+	public string grade = null;
+	public string profession = null;
+	public string naissance = null;
+	public string volontaire = null;
 
 	// Use this for initialization
 	void Start()
 	{
-		this.num = 0;
-		this.age = 0;
-		this.residence = null;
-		this.grade = null;
-		this.profession = null;
-		this.naissance = null;
-		this.volontaire = null;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		this.transform.position = this.transform.position + new Vector3(Mathf.Sin(Time.time*5F + (num / 5F ))/10F, 0, 0);
+		this.transform.position = this.transform.position + new Vector3(Mathf.Sin(Time.time*5F + (this.num / 50F ))/10F, 0, 0);
 	}
 }
