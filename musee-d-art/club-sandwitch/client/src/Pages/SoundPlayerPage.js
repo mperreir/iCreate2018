@@ -15,7 +15,7 @@ class SoundPlayerPage extends Component {
             const idSocket = this.socket.id;
             this.socket.emit('connect-tablet', idSocket);
         });
-        this.socket.on('update', () => this.setState({name: 'Felix'}));  
+        this.socket.on('update', () => this.setState({name: 'Felix'}));
     }
 
     render() {
