@@ -3,15 +3,18 @@ import io from 'socket.io-client';
 import P5Wrapper from 'react-p5-wrapper';
 import audio from '../sketches/audio';
 
+const socketUrl = "http://localhost:5000"
+
 class SoundPlayerPage extends Component {
 
   constructor() {
     super();
     this.state = {
       nomFct: "",
-      arg: "/Grenouille.mp3"
+      arg: "/Grenouille.mp3",
+      socket: null
     }
-    this.socket = io(); //SocketIOClient('http://localhost:5000');
+    /*this.socket = io();
     this.socket.on('connect', () => {
       console.log(this.socket.id); // 'G5p5...'
       const idSocket = this.socket.id;
@@ -19,9 +22,20 @@ class SoundPlayerPage extends Component {
     });
     this.socket.on('update', () => this.setState({nomFct: "play"}));
     this.socket.on('stopSong', () => this.setState({nomFct: "stop"}));
-    this.socket.on('pauseSong', () => this.setState({nomFct: "pause"}));
+    this.socket.on('pauseSong', () => this.setState({nomFct: "pause"}));*/
   }
 
+  componentWillMount() {
+    this.initSocket()
+  }
+
+  initSocket = () => {
+    const socket = io(socketUrl)
+    socket.on('connect', () =>[
+      console.log("SoundPlayer connected")
+    ])
+    this.setState({socket})
+  }
   render() {
     return (
       <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={this.state.arg}/>

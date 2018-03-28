@@ -4,16 +4,19 @@ import videos from '../sketches/videos';
 import P5Wrapper from 'react-p5-wrapper';
 import Fullscreen from 'react-fullscreen-crossbrowser';
 
+const socketUrl = "http://localhost:5000"
+
 class TabletPage extends Component {
 
-    state = {
-        name: 'Laouen',
-        playing: true
-    }
     constructor() {
         super();
-        this.socket = io();//SocketIOClient('http://localhost:5000');
-        this.socket.on('connect', () => {
+        this.state = {
+            name: 'Laouen',
+            playing: true,
+            socket: null
+        }
+
+        /*this.socket.on('connect', () => {
             console.log(this.socket.id);
             const idSocket = this.socket.id;
             this.socket.emit('connect-tablet', idSocket);
@@ -21,8 +24,20 @@ class TabletPage extends Component {
 
         this.socket.on('update', () => this.setState({playing: !this.state.playing}));
         this.socket.on('playVideo', () => this.setState({playing: true}));
-        this.socket.on('pauseVideo', () => this.setState({playing: false}));
+        this.socket.on('pauseVideo', () => this.setState({playing: false}));*/
 
+    }
+
+    componentWillMount() {
+        this.initSocket()
+    }
+
+    initSocket = () => {
+        const socket = io(socketUrl)
+        socket.on('connect', () => {
+            console.log("Tablet connected")
+        })
+        this.setState({socket})
     }
     render() {
         return (

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import io from 'socket.io-client';
 
+const socketUrl = "http://localhost:5000"
+
 class ControlPage extends Component {
 
     constructor() {
         super();
-        this.socket = io();//SocketIOClient('http://localhost:5000');
+        this.state = {
+            socket: null
+        }
+        /*this.socket = io();//SocketIOClient('http://localhost:5000');
         this.socket.on('connect', () => {
             console.log(this.socket.id);
             const idSocket = this.socket.id;
@@ -15,7 +20,19 @@ class ControlPage extends Component {
         this.socket.on('update', () => this.setState({playing: !this.state.playing}));
         this.socket.on('playVideo', () => this.setState({playing: true}));
         this.socket.on('pauseVideo', () => this.setState({playing: false}));
+        */
+    }
 
+    componentWillMount() {
+        this.initSocket()
+    }
+
+    initSocket = () => {
+        const socket = io(socketUrl)
+        socket.on('connect', () => {
+            console.log("Control connected")
+        })
+        this.setState({socket})
     }
 
     launchQuest() {
