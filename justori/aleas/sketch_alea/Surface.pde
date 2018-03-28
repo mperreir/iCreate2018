@@ -1,17 +1,24 @@
 class Surface {
   CornerPinSurface surface;
-  PGraphics offScreenBuffer;
+  OffScreen offScreenBuffer;
   
   Surface(Keystone Ks, int Width, int Height , int Resolution) {
     surface = Ks.createCornerPinSurface(Width, Height, Resolution);
-    offScreenBuffer = createGraphics(500, 500, P3D);
+    offScreenBuffer = new OffScreen(Width, Height);
+  }
+  
+  Surface(Keystone Ks, int Width, int Height , int Resolution, OffScreen OffScreenBuffer) {
+    surface = Ks.createCornerPinSurface(Width, Height, Resolution);
+    offScreenBuffer = OffScreenBuffer;
   }
   
   void draw(){
-    offScreenBuffer.beginDraw();
-    offScreenBuffer.background(255); //On met un fond banc pour voir les formes sur le sketch
-    offScreenBuffer.endDraw();
+    offScreenBuffer.draw();
     
-    surface.render(offScreenBuffer);
+    surface.render(offScreenBuffer.getFrame());
+  }
+  
+  void setOffScreenBuffer(OffScreen OffScreenBuffer){
+    offScreenBuffer = OffScreenBuffer;
   }
 }
