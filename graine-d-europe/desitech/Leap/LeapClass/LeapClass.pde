@@ -19,9 +19,10 @@ boolean reach = true;
 // Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
-float sizeProgressionCoef_f = 3;
-float sizeExpansionCoef_f = 200;
+float sizeProgressionCoef_f = 5;
+float sizeExpansionCoef_f = 1;
 float sizeCurrentCoef_f = 1;
+float sizeTopCoef_f = 100;
 
 //Test var for accelerating/deccelerating every x frames
 boolean enableTest = false;
@@ -67,9 +68,7 @@ void draw() {
       int xToReplace = (int)v.getX();
       int yToReplace = (int)v.getZ();
       int detectedHover = checkIfHover(xToReplace, yToReplace);
-      if (detectedHover != -1) {
-        detectionHover(detectedHover);
-      }
+      detectionHover(detectedHover);
   }
   checkSpeed();
   
@@ -136,21 +135,11 @@ class Circle {
         this.speedx = this.speedx >= 0 ? this.speedx - (speedProgressionCoef) : this.speedx + (speedProgressionCoef);
       }
     }
-    
-    if (!this.reachSize) {
-      if ((this.sizeCurrentCoef - this.sizeExpansionCoef) < -this.sizeProgressionCoef) {
-        this.sizeCurrentCoef += this.sizeProgressionCoef;
-      } else if ((this.sizeCurrentCoef - this.sizeExpansionCoef) > this.sizeProgressionCoef) {
-        this.sizeCurrentCoef -= this.sizeProgressionCoef;
-      } else {
-        this.reachSize = true;
-      }
-    }
 
-    if (!hoverReached) {
+    if (!reachSize) {
       if (this.full && this.hover) {
-        if ((sizeCurrentCoef - sizeExpansionCoef) < -sizeProgressionCoef) {
-          this.size += sizeProgressionCoef;
+        if ((this.sizeCurrentCoef - this.sizeExpansionCoef) < -this.sizeProgressionCoef) {
+          this.size += this.sizeProgressionCoef;
           this.speedx = 0;
           this.speedy = 0;
         }
@@ -160,6 +149,16 @@ class Circle {
           this.speedx = this.baseSpeedx >= 0 ? this.baseSpeedx + (speedProgressionCoef * (speedCoef / speedProgressionCoef)) : this.baseSpeedx - (speedProgressionCoef * (speedCoef / speedProgressionCoef));
           this.speedy = this.baseSpeedy;
         }
+      }
+    }
+
+    if (!this.reachSize) {
+      if ((this.sizeCurrentCoef - this.sizeExpansionCoef) < -this.sizeProgressionCoef) {
+        this.sizeCurrentCoef += this.sizeProgressionCoef;
+      } else if ((this.sizeCurrentCoef - this.sizeExpansionCoef) > this.sizeProgressionCoef) {
+        this.sizeCurrentCoef -= this.sizeProgressionCoef;
+      } else {
+        this.reachSize = true;
       }
     }
 
@@ -229,21 +228,17 @@ void handMovements(boolean detected) {
   }
 }
 
-void noHover() {
-  for (Circle c : listCirclesFull) {
-    c.hover = false;
-  }
-}
-
 void circleHover(int index) {
   listCirclesFull[index].hover = true;
   listCirclesFull[index].hoverReached = false;
+  listCirclesFull[index].reachSize = false;
+  listCirclesFull[index].sizeExpansionCoef = sizeTopCoef_f;
 }
 
 int checkIfHover(int x_coord, int y_coord) {
   for (int i = 0; i < listCirclesFull.length; i++) {
-    if ((listCirclesFull[i].xpos + listCirclesFull[i].radius) > Math.abs(x_coord - listCirclesFull[i].radius) && 
-        (listCirclesFull[i].ypos + listCirclesFull[i].radius) > Math.abs(y_coord - listCirclesFull[i].radius)) {
+    //(x - center_x)^2 + (y - center_y)^2 < radius^2
+    if ((Math.pow(x_coord - listCirclesFull[i].xpos, 2) +  Math.pow(y_coord - listCirclesFull[i].ypos, 2)) < Math.pow(listCirclesFull[i].radius, 2)) {
       return i;
     }
   }
@@ -267,6 +262,14 @@ void detectionHand(boolean detected) {
       handMovements(false);
       reach = false;
     }
+  }
+}
+
+void noHover() {
+  for (Circle c : listCirclesFull) {
+    c.hover = false;
+    c.reachSize = false;
+    c.sizeExpansionCoef = 1;
   }
 }
 
