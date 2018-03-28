@@ -18,7 +18,7 @@ class TabletPage extends Component {
             this.socket.emit('connect-tablet', idSocket);
         });
 
-        this.socket.on('update', () => this.setState({playing: true}));
+        this.socket.on('update', () => this.setState({playing: !this.state.playing}));
         this.socket.on('playVideo', () => this.setState({playing: true}));
         this.socket.on('pauseVideo', () => this.setState({playing: false}));
 
