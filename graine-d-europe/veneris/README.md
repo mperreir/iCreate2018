@@ -10,6 +10,7 @@
 ## Description
 
 ## Dépendances logicielles
+- Unity assets : webRTC
 
 ## Instructions de génération de l'application
 
