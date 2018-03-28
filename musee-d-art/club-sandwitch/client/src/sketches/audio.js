@@ -2,9 +2,6 @@ import "p5/lib/addons/p5.dom";
 
 let mySound;
 let src;
-let vid;
-let video_name;
-let playing = false;
 
 export default function sketch(p) {
 
@@ -31,6 +28,8 @@ export default function sketch(p) {
           case "stop":
             mySound.stop();
             break;
+          default:
+          
         }
       }
     } else {

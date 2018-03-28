@@ -24,6 +24,10 @@ io.on('connection', function(socket) {
     socket.on('connect-sound-player', (msg) => {
         console.log('soundPlayer connected! ' + msg);
     });
+    socket.on('lauch-quest', () => {
+        console.log('lauch-quest');
+        io.emit('update');
+    });
 });
 
 server.listen(process.env.PORT || 5000, function() {

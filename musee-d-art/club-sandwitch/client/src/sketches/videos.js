@@ -9,11 +9,9 @@ let playing = false;
 export default function sketch(p) {
   p.setup = function() {
     p.createCanvas(0, 0);
-    //p.background(10);
-    // specify multiple formats for different browsers
     vid = p.createVideo([video_name]);
     button = p.createButton('play');
-    button.mousePressed(p.toggleVid); // attach button listener
+    button.mousePressed(p.toggleVid);
   };
 
   p.toggleVid = function() {
@@ -21,7 +19,7 @@ export default function sketch(p) {
       vid.pause();
       button.html('play');
     } else {
-      vid.loop();
+      vid.play();
       button.html('pause');
     }
     playing = !playing;
