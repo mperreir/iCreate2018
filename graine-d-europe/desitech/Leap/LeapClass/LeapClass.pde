@@ -19,6 +19,14 @@ boolean reach = true;
 // Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
+boolean explosion = false;
+
+final int waitSlow = 180;
+int timerSlow = 0;
+
+final int waitExplosion = 90;
+int timerExplosion = 0;
+
 float sizeProgressionCoef_f = 5;
 float sizeExpansionCoef_f = 1;
 float sizeCurrentCoef_f = 1;
@@ -36,6 +44,12 @@ int tmpTestTimeSize = 50;
 int tmpTestCurrentSize = 0;
 int tmpTestTimeSizeStop = 100;
 
+//Test var for accelerating/deccelerating every x frames
+boolean enableTestExplosion = false;
+int tmpTestTimeExplosion = 50;
+int tmpTestCurrentExplosion = 0;
+int tmpTestTimeExplosionStop = 100;
+
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
 
@@ -47,6 +61,20 @@ String theme = getTheme();
 void setup() {
   fullScreen();
   frameRate(30);
+  initCircles();
+}
+
+void initCircles() {
+  listCircles = null;
+  listCirclesFull = null;
+  listCircles = new Circle[nbCircle];
+  listCirclesFull = new Circle[nbCircleFull];
+
+  explosion = false; 
+  speedProgressionCoef = 1;
+  speedCoef = 50;
+  currentSpeedCoef = speedCoef;
+  timerExplosion = 0;
   for (int i = 0; i < nbCircle; i++) {
     listCircles[i] = new Circle(false);
   }
@@ -58,6 +86,10 @@ void setup() {
 
 void draw() {
   background(0, 35, 70);
+  
+  if (explosion) {
+    timerExplosion++;
+  }
 
   tmpTestCurrent++;
   tmpTestCurrentSize++;
@@ -66,11 +98,25 @@ void draw() {
   detectionHand(toReplaceByLeap);
   
   Vector v = leap.getCoordHand();
-  if (v != null) {
-      int xToReplace = (int)v.getX();
-      int yToReplace = (int)v.getZ();
-      int detectedHover = checkIfHover(xToReplace, yToReplace);
-      detectionHover(detectedHover);
+  
+  if (!explosion) {
+    if (Math.abs(currentSpeedCoef - 1) < 2.1) {
+      float entropy = leap.getEntropy();
+      detectionExplosion(entropy);
+      
+      if (!explosion) {
+        if (v != null) {
+            int xToReplace = (int)v.getX();
+            int yToReplace = (int)v.getZ();
+            int detectedHover = checkIfHover(xToReplace, yToReplace);
+            detectionHover(detectedHover);
+        }
+      }
+    }
+  } else {
+    if (waitExplosion <= timerExplosion) {
+      initCircles();
+    }
   }
   checkSpeed();
   
@@ -96,7 +142,7 @@ class Circle {
   float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius, sizeCurrentCoef, sizeExpansionCoef, sizeProgressionCoef;
   int[] rgb;
   String col;
-  boolean full, hover, hoverReached, reachSize;
+  boolean full, hover, hoverReached, reachSize, explosion;
 
   Circle (boolean full) {  
     this.xpos = (float) (Math.random() * (width));
@@ -118,6 +164,7 @@ class Circle {
     this.hover = false;
     this.hoverReached = true;
     this.reachSize = true;
+    this.explosion = false;
     
     this.sizeCurrentCoef = sizeCurrentCoef_f;
     this.sizeExpansionCoef = sizeExpansionCoef_f;
@@ -161,18 +208,25 @@ class Circle {
       }
     }
 
-    this.xpos = (this.xpos + this.speedx) % width;
-    if (this.xpos < 0) {
-      this.xpos = width;
-    }
 
     // If the circle reaches a top or bottom border, we make it bounce
-    if (((this.ypos + this.speedy) > (height - border)) || ((this.ypos + this.speedy) < border)) {
-      this.speedy = -this.speedy;
-    }
-    this.ypos = (this.ypos + this.speedy) % (height - border);
-    if (this.ypos < 100) {
-      this.ypos = height - border;
+    if (!this.explosion) {
+      this.xpos = (this.xpos + this.speedx) % width;
+      if (this.xpos < 0) {
+        this.xpos = width;
+      }
+      if (((this.ypos + this.speedy) > (height - border)) || ((this.ypos + this.speedy) < border)) {
+        this.speedy = -this.speedy;
+      }
+      this.ypos = (this.ypos + this.speedy) % (height - border);
+      if (this.ypos < border) {
+        this.ypos = height - border;
+      }
+    } else {
+      this.speedx += this.speedx >= 0 ? 1 : -1; 
+      this.speedy += this.speedy >= 0 ? 1 : -1; 
+      this.xpos = (this.xpos + this.speedx);
+      this.ypos = (this.ypos + this.speedy);
     }
 
     if (this.full) {
@@ -232,6 +286,14 @@ void circleHover(int index) {
   listCirclesFull[index].hoverReached = false;
   listCirclesFull[index].reachSize = false;
   listCirclesFull[index].sizeExpansionCoef = sizeTopCoef_f;
+  
+  for (int i = 0; i < listCirclesFull.length; i++) {
+    if (i != index) {
+      listCirclesFull[i].hover = false;
+      listCirclesFull[i].reachSize = false;
+      listCirclesFull[i].sizeExpansionCoef = 1;
+    }
+  }
 }
 
 int checkIfHover(int x_coord, int y_coord) {
@@ -288,84 +350,107 @@ void detectionHover(int index) {
   }
 }
 
-class MainCircle {
-  float xpos, ypos;
-  float speedX, speedY;
-  //change nbFrames to adapt the speed of the circle (time to go to the middle)
-  int nbFrames;
-  boolean isCentered;
-  
-  float size;
-  boolean isGrowing;
-
-  int time;
-  Timer timer;
-  int[] rgb;
-  
-  MainCircle (float x, float y, int[] rgb, float size) {
-    this.xpos = x;
-    this.ypos = y;
-    this.rgb = rgb;
-    this.size = size;
-
-    this.isGrowing = true;
-    this.time = 300;
-    timer = new Timer(time, rgb);
-    
-    
-    //Calcul of the speed to center the circle
-    //nbFrames = number of frames to go to the middle
-    this.nbFrames = 50;
-    this.speedX = abs(xpos - width/2) / nbFrames;
-    if (xpos - width/2 > 0) {
-      this.speedX *= -1;
+void detectionExplosion(float entropy) {
+  if (enableTestExplosion) {
+    if (tmpTestCurrentExplosion == tmpTestTimeExplosion) {
+      explosion();
     }
-    this.speedY = abs(ypos - height/2) / nbFrames;
-    if (ypos - height/2 > 0) {
-      this.speedY *= -1;
-    }  
+  } else {
+    System.out.println(entropy);
+    if (entropy > 1000 && !explosion) {
+      explosion();
+      explosion = true;
+    }
+  }
+}
+
+void explosion() {
+  int[] corner1 = {0, 0};
+  int[] corner2 = {height, 0};
+  int[] corner3 = {height, width};
+  int[] corner4 = {0, width};
+  int[][] corners = {corner1, corner2, corner3, corner4};
+  for (Circle c : listCircles) {
+    subExplosition(corners, c);
+  }
+  for (Circle c : listCirclesFull) {
+    subExplosition(corners, c);
+  }
+}
+
+void subExplosition(int[][] corners, Circle c) {
+  int corner_index = 0;
+  double value = Integer.MAX_VALUE;
+  for (int i = 0; i < corners.length; i++) {
+    double tmpDist = Math.sqrt(Math.pow((corners[i][1] - c.xpos), 2) + Math.pow((corners[i][0] - c.ypos), 2));
+    if (value > tmpDist) {
+      corner_index = i;
+      value = tmpDist;
+    }
   }
   
-  void update() {
-    if (!isCentered) {
-       xpos += speedX;
-       ypos += speedY;
-       nbFrames--;
-       
-       //check if the circle is centerded
-       if(nbFrames == 0) {
-         xpos = width/2;
-         ypos = height/2;
-         isCentered = true;
-       }
-       
-      fill(255, 255, 255, 255);
-      ellipse(xpos, ypos, size, size);
-      noFill();
+  switch (corner_index) {
+      case 0:
+        c.speedx = -Math.abs(c.speedx);
+        c.speedy = -Math.abs(c.speedy);
+        break;
+      case 1:
+        c.speedx = -Math.abs(c.speedx);
+        c.speedy = Math.abs(c.speedy);
+        break;
+      case 2:
+        c.speedx = Math.abs(c.speedx);
+        c.speedy = Math.abs(c.speedy);
+        break;
+      case 3:
+        c.speedx = Math.abs(c.speedx);
+        c.speedy = -Math.abs(c.speedy);
+        break;
     }
-    else if (isGrowing) {
-      //change size to adapt the growing speed
-      size += 6;
-      //change the value of the test to adapt the size of the main circle
-      if (size >= 500) {
+    
+    c.explosion = true;
+}
+
+class MainCircle {
+  int time;
+  boolean isGrowing;
+  float size;
+  Timer timer;
+  int[] rgb;
+
+  MainCircle () {
+    this.isGrowing = true;
+    this.time = 300;
+    this.size = 10;
+    this.rgb = new int[3];
+    this.rgb[0] = 255;
+    this.rgb[1] = 0;
+    this.rgb[2] = 0;
+    timer = new Timer(time, rgb);
+  }
+
+  void update() {
+    if (isGrowing) {
+      size += 2;
+      if (size >= 200) {
         isGrowing = false;
       }
       fill(255, 255, 255, 255);
       ellipse(width/2, height/2, size, size);
       noFill();
-      
+
     } else {
       fill(255, 255, 255, 255);
       ellipse(width/2, height/2, size, size);
       noFill();
-      
+
       if (time > 0 ) {
         time--;
         timer.update();
       }
     }
-    
-  } 
+
+  }
 }
 
 // The timer around the center circle
@@ -374,27 +459,27 @@ class Timer {
   int totalTime;
   int actualTime;
   int[] rgb;
-  
-  Timer (int t, int[] rgb) {  
+
+  Timer (int t, int[] rgb) {
     this.totalTime = t;
     this.actualTime = t;
     this.rgb = rgb;
-  } 
-  
+  }
+
   void update() {
     //calcul the radiant for the size of the arc
     float percent = ((float) actualTime / (float) totalTime) * 100;
     float degree = percent * 3.6;
     double radiant = degree * Math.PI/180;
-    
+
     noFill();
     stroke(this.rgb[0], this.rgb[1], this.rgb[2]);
     strokeWeight(20);
     // "-HALF_PI" make it begin at the top of the circle (without it, it would start at the right of the circle)
-    arc(width/2, height/2, 495, 495, -HALF_PI, (float) radiant - HALF_PI);  
+    arc(width/2, height/2, 195, 195, -HALF_PI, (float) radiant - HALF_PI);
     noStroke();
     System.out.println("radiant : " + (float) radiant);
-    
+
     actualTime--;
- } 
+ }
 }
