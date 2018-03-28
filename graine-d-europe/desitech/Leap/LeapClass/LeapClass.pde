@@ -4,7 +4,7 @@ final int[] green = {0, 255, 0};
 final int[] blue = {0, 0, 255};
 final int nbCircle = 40;
 final int nbCircleFull = 5;
-final int border = 200;
+final int border = 50;
 
 int x = 0;
 int y = 0;
@@ -31,6 +31,7 @@ float sizeProgressionCoef_f = 5;
 float sizeExpansionCoef_f = 1;
 float sizeCurrentCoef_f = 1;
 float sizeTopCoef_f = 100;
+float coefSpeedY = 4;
 
 //Test var for accelerating/deccelerating every x frames
 boolean enableTest = false;
@@ -155,7 +156,8 @@ class Circle {
     
     this.baseSpeedy = (float) (Math.random() * 2) + 1;
     this.baseSpeedy *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
-    this.speedy = this.baseSpeedy;
+    this.speedy = this.baseSpeedy >= 0 ? this.baseSpeedy + (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) : this.baseSpeedy - (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) ;
+    //this.speedy = this.baseSpeedy;
     
     this.rgb = new int[3];
     this.rgb[0] = (int) (Math.random() * (255));
@@ -178,8 +180,10 @@ class Circle {
     if (!reach) {
       if (higher) {
         this.speedx = this.speedx >= 0 ? this.speedx + (speedProgressionCoef) : this.speedx - (speedProgressionCoef);
+        this.speedy = this.speedy >= 0 ? this.speedy + (speedProgressionCoef/coefSpeedY) : this.speedy - (speedProgressionCoef/coefSpeedY);
       } else {
         this.speedx = this.speedx >= 0 ? this.speedx - (speedProgressionCoef) : this.speedx + (speedProgressionCoef);
+        this.speedy = this.speedy >= 0 ? this.speedy - (speedProgressionCoef/coefSpeedY) : this.speedy + (speedProgressionCoef/coefSpeedY);
       }
     }
 
@@ -357,7 +361,6 @@ void detectionExplosion(float entropy) {
       explosion();
     }
   } else {
-    System.out.println(entropy);
     if (entropy > 1000 && !explosion) {
       explosion();
       explosion = true;
