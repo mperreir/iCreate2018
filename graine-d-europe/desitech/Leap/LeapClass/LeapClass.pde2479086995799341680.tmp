@@ -19,14 +19,6 @@ boolean reach = true;
 // Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
-boolean explosion = false;
-
-final int waitSlow = 180;
-int timerSlow = 0;
-
-final int waitExplosion = 90;
-int timerExplosion = 0;
-
 float sizeProgressionCoef_f = 5;
 float sizeExpansionCoef_f = 1;
 float sizeCurrentCoef_f = 1;
@@ -59,20 +51,6 @@ LinkedList<Vector> positionList = new LinkedList<Vector>();
 void setup() {
   fullScreen();
   frameRate(30);
-  initCircles();
-}
-
-void initCircles() {
-  listCircles = null;
-  listCirclesFull = null;
-  listCircles = new Circle[nbCircle];
-  listCirclesFull = new Circle[nbCircleFull];
-
-  explosion = false; 
-  speedProgressionCoef = 1;
-  speedCoef = 50;
-  currentSpeedCoef = speedCoef;
-  timerExplosion = 0;
   for (int i = 0; i < nbCircle; i++) {
     listCircles[i] = new Circle(false);
   }
@@ -84,10 +62,6 @@ void initCircles() {
 
 void draw() {
   background(0, 35, 70);
-  
-  if (explosion) {
-    timerExplosion++;
-  }
 
   tmpTestCurrent++;
   tmpTestCurrentSize++;
@@ -95,26 +69,15 @@ void draw() {
   boolean toReplaceByLeap = leap.countHands() > 0;
   detectionHand(toReplaceByLeap);
   
-  Vector v = leap.getCoordHand();
+  float entropy = leap.getEntropy();
+  detectionExplosion(entropy);
   
-  if (!explosion) {
-    if (Math.abs(currentSpeedCoef - 1) < 2.1) {
-      float entropy = leap.getEntropy();
-      detectionExplosion(entropy);
-      
-      if (!explosion) {
-        if (v != null) {
-            int xToReplace = (int)v.getX();
-            int yToReplace = (int)v.getZ();
-            int detectedHover = checkIfHover(xToReplace, yToReplace);
-            detectionHover(detectedHover);
-        }
-      }
-    }
-  } else {
-    if (waitExplosion <= timerExplosion) {
-      initCircles();
-    }
+  Vector v = leap.getCoordHand();
+  if (v != null) {
+      int xToReplace = (int)v.getX();
+      int yToReplace = (int)v.getZ();
+      int detectedHover = checkIfHover(xToReplace, yToReplace);
+      detectionHover(detectedHover);
   }
   checkSpeed();
   
@@ -209,13 +172,13 @@ class Circle {
       }
     }
 
+    this.xpos = (this.xpos + this.speedx) % width;
+    if (this.xpos < 0) {
+      this.xpos = width;
+    }
 
     // If the circle reaches a top or bottom border, we make it bounce
-    if (!this.explosion) {
-      this.xpos = (this.xpos + this.speedx) % width;
-      if (this.xpos < 0) {
-        this.xpos = width;
-      }
+    if (!explosion) {
       if (((this.ypos + this.speedy) > (height - border)) || ((this.ypos + this.speedy) < border)) {
         this.speedy = -this.speedy;
       }
@@ -223,11 +186,6 @@ class Circle {
       if (this.ypos < border) {
         this.ypos = height - border;
       }
-    } else {
-      this.speedx += this.speedx >= 0 ? 1 : -1; 
-      this.speedy += this.speedy >= 0 ? 1 : -1; 
-      this.xpos = (this.xpos + this.speedx);
-      this.ypos = (this.ypos + this.speedy);
     }
 
     if (this.full) {
@@ -354,62 +312,48 @@ void detectionHover(int index) {
 void detectionExplosion(float entropy) {
   if (enableTestExplosion) {
     if (tmpTestCurrentExplosion == tmpTestTimeExplosion) {
-      explosion();
+      explosion(entropy);
     }
   } else {
-    System.out.println(entropy);
-    if (entropy > 1000 && !explosion) {
-      explosion();
-      explosion = true;
+    if (entropy > 500) {
+      explosion(entropy);
     }
   }
 }
 
-void explosion() {
+void explosion(float entropy) {
   int[] corner1 = {0, 0};
-  int[] corner2 = {height, 0};
-  int[] corner3 = {height, width};
-  int[] corner4 = {0, width};
+  int[] corner2 = {width, 0};
+  int[] corner3 = {width, height};
+  int[] corner4 = {0, height};
   int[][] corners = {corner1, corner2, corner3, corner4};
   for (Circle c : listCircles) {
-    subExplosition(corners, c);
-  }
-  for (Circle c : listCirclesFull) {
-    subExplosition(corners, c);
-  }
-}
-
-void subExplosition(int[][] corners, Circle c) {
-  int corner_index = 0;
-  double value = Integer.MAX_VALUE;
-  for (int i = 0; i < corners.length; i++) {
-    double tmpDist = Math.sqrt(Math.pow((corners[i][1] - c.xpos), 2) + Math.pow((corners[i][0] - c.ypos), 2));
-    if (value > tmpDist) {
-      corner_index = i;
-      value = tmpDist;
-    }
-  }
-  
-  switch (corner_index) {
-      case 0:
-        c.speedx = -Math.abs(c.speedx);
-        c.speedy = -Math.abs(c.speedy);
-        break;
-      case 1:
-        c.speedx = -Math.abs(c.speedx);
-        c.speedy = Math.abs(c.speedy);
-        break;
-      case 2:
-        c.speedx = Math.abs(c.speedx);
-        c.speedy = Math.abs(c.speedy);
-        break;
-      case 3:
-        c.speedx = Math.abs(c.speedx);
-        c.speedy = -Math.abs(c.speedy);
-        break;
+    int corner_index = 0;
+    double value = Integer.MAX_VALUE;
+    for (int i = 0; i < corners.length; i++) {
+      double tmpDist = Math.sqrt(Math.pow((corners[i][0] - c.xpos), 2) + Math.pow((corners[i][1] - c.ypos), 2));
+      if (value > tmpDist) {
+        corner_index = i;
+        value = tmpDist;
+      }
     }
     
-    c.explosion = true;
+    switch (corner_index) {
+        case 0:
+          c.speedx = -Math.abs(c.speedx);
+          c.speedy = Math.abs(c.speedy);
+        case 1:
+          c.speedx = Math.abs(c.speedx);
+          c.speedy = Math.abs(c.speedy);
+        case 2:
+          c.speedx = Math.abs(c.speedx);
+          c.speedy = -Math.abs(c.speedy);
+        case 3:
+          c.speedx = -Math.abs(c.speedx);
+          c.speedy = -Math.abs(c.speedy);
+      }
+      c.explosion = true;
+  }
 }
 
 class MainCircle {
