@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import io from 'socket.io-client';
 import videos from '../sketches/videos';
 import P5Wrapper from 'react-p5-wrapper';
+import Fullscreen from 'react-fullscreen-crossbrowser';
 
 class TabletPage extends Component {
 
@@ -25,7 +26,19 @@ class TabletPage extends Component {
     }
     render() {
         return (
-            <P5Wrapper sketch={videos} video_name={"video1.mp4"} isplaying={this.state.playing}/>
+            <div>
+                <button onClick={() => this.setState({isFullscreenEnabled: true})}>
+                    Go Fullscreen
+                </button>
+
+                <Fullscreen
+                    enabled={this.state.isFullscreenEnabled}
+                    onChange={isFullscreenEnabled => this.setState({isFullscreenEnabled})}>
+                        <div className='full-screenable-node'>
+                            <P5Wrapper sketch={videos} video_name={"video1.mp4"} isplaying={this.state.playing}/>
+                        </div>
+                </Fullscreen>
+            </div>
         );
     }
 }
