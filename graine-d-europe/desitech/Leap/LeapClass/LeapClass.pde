@@ -54,6 +54,8 @@ int tmpTestTimeExplosionStop = 100;
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
 
+String theme = getTheme();
+
 Leap leap = new Leap();
 LinkedList<Vector> positionList = new LinkedList<Vector>();
 
@@ -159,10 +161,7 @@ class Circle {
     this.speedy = this.baseSpeedy >= 0 ? this.baseSpeedy + (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) : this.baseSpeedy - (speedProgressionCoef * ((speedCoef / speedProgressionCoef) / coefSpeedY)) ;
     //this.speedy = this.baseSpeedy;
     
-    this.rgb = new int[3];
-    this.rgb[0] = (int) (Math.random() * (255));
-    this.rgb[1] = (int) (Math.random() * (255));
-    this.rgb[2] = (int) (Math.random() * (255));
+    this.rgb = getColorRGB(theme);
     this.full = full;
     this.hover = false;
     this.hoverReached = true;
