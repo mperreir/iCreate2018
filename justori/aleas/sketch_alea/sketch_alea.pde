@@ -21,74 +21,25 @@ import processing.video.*;
 
 import deadpixel.keystone.*;
 
-Keystone ks; // the keystone object
-CornerPinSurface surface; // this is the surface
-CornerPinSurface surface2; // this is the surface
-Surface surf;
-Movie mov; // this will hold the movie
-Movie mov2;
-boolean isPlaying = false;
-PGraphics offscreen;
-PGraphics offscreen2;// the offsceen buffer
+Keystone ks;
+SurfaceMovie surf2;
+Movie mov;
 
 void setup() {
-  // Keystone will only work with P3D or OPENGL renderers, 
-  // since it relies on texture mapping to deform
-  //size(800, 600, P3D);
-  
+  // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
   fullScreen(P3D);
-
-  ks = new Keystone(this); // init the keystoen object
-  surface = ks.createCornerPinSurface(200, 120, 20); // create the surface
-  surface2 = ks.createCornerPinSurface(160, 120, 20); // create the surface
-  surf = new Surface(ks, 500, 500, 20);
-  mov = new Movie(this, "stepteen2.mov" ); // load the video
-  mov2 = new Movie(this, "step.mov" );
-  mov.frameRate(25); // set the framerate
-  mov2.frameRate(25); // set the framerate
-  
-  // We need an offscreen buffer to draw the surface we
-  // want projected
-  // note that we're matching the resolution of the
-  // CornerPinSurface.
-  // (The offscreen buffer can be P2D or P3D)
-  offscreen = createGraphics(500, 500, P3D);
-  offscreen2 = createGraphics(500, 500, P3D);
-  mov.play();// we need to start the movie once
-  mov.jump(0);// go to the first frame
-  mov.pause(); // and hold it until we hit p
-  mov2.play();// we need to start the movie once
-  mov2.jump(0);// go to the first frame
-  mov2.pause(); // and hold it until we hit p
+  // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
+  ks = new Keystone(this);
+  //On charge les vidéo que l'on veut utiliser
+  mov = new Movie(this, "stepteen2.mov" );
+  //On charge une surface qui sert a la projection d'une vidéo
+  surf2 = new SurfaceMovie(ks, 500, 500, 20, mov);
 }
 
 void draw() {
-
-  // Draw the scene, offscreen
-  offscreen.beginDraw(); // start writing into the buffer
-  offscreen.background(255);
-  offscreen.image(mov, 0, 0); // <-- here we add the current frame to the buffer
-  offscreen.endDraw(); // we are done 'recording'
-  
-  offscreen2.beginDraw(); // start writing into the buffer
-  offscreen2.background(255);
-  offscreen2.image(mov2, 0, 0); // <-- here we add the current frame to the buffer
-  offscreen2.endDraw(); // we are done 'recording'
-
-  // most likely, you'll want a black background to minimize
-  // bleeding around your projection area
+  //On veut un fond noir et éclairer uniquement les cubes
   background(0);
-  // this is for resetting the video after it was played. 
-  if (mov.time() == mov.duration()) {
-    mov.jump(0);
-  }
-  if (mov2.time() == mov2.duration()) {
-    mov2.jump(0);
-  }
-  
-  surf.draw();
-  surface.render(offscreen);// add everything to the surface
-  surface2.render(offscreen2);
+  surf2.draw();
 }
 
 void keyPressed() {
@@ -110,14 +61,10 @@ void keyPressed() {
     break;
   case 'p':
     // play/pause the movie on keypress
-    if (isPlaying == false) {
-      mov.play();
-      mov2.play();
-      isPlaying = true;
+    if (!surf2.isPlaying()) {
+      surf2.play();
     } else {
-      mov.pause();
-      mov2.pause();
-      isPlaying = false;
+      surf2.pause();
     }
     break;
   }
