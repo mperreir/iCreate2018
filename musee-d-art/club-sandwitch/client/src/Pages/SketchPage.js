@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import ReactAudioPlayer from 'react-audio-player';
 import P5Wrapper from 'react-p5-wrapper';
 
-import sketch from '../sketches/sketch';
+import fftAnalysis from '../sketches/fftAnalysis';
 
 class SoundPlayerPage extends Component {
 
@@ -26,7 +26,7 @@ class SoundPlayerPage extends Component {
                     autoPlay
                     loop
                 />
-                <P5Wrapper sketch={sketch} />
+                <P5Wrapper sketch={fftAnalysis} />
                 <p>Sound Player Page</p>
             </div>
         );
