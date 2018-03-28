@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import io from 'socket.io-client';
+import socketIOClient from 'socket.io-client';
 import videos from '../sketches/videos';
 import P5Wrapper from 'react-p5-wrapper';
 import Fullscreen from 'react-fullscreen-crossbrowser';
@@ -12,8 +12,11 @@ class TabletPage extends Component {
         super();
         this.state = {
             name: 'Laouen',
-            playing: true,
-            socket: null
+            playing: false,
+            socket: null,
+            playIntro: false,
+            isFullscreenEnabled: false,
+            video_name: "video/1PSSTEHTOI.mp4"
         }
 
         /*this.socket.on('connect', () => {
@@ -23,8 +26,7 @@ class TabletPage extends Component {
         });
 
         this.socket.on('update', () => this.setState({playing: !this.state.playing}));
-        this.socket.on('playVideo', () => this.setState({playing: true}));
-        this.socket.on('pauseVideo', () => this.setState({playing: false}));*/
+        this.socket.on('playVideo', () => this.setState({playing: true}));*/
 
     }
 
@@ -32,13 +34,26 @@ class TabletPage extends Component {
         this.initSocket()
     }
 
-    initSocket = () => {
-        const socket = io(socketUrl)
+    initSocket() {
+        const socket = socketIOClient(socketUrl)
         socket.on('connect', () => {
             console.log("Tablet connected")
+            socket.emit('connect-tablet', socket.id)
         })
+        socket.on('play-intro', (id) => {
+            console.log('start playing intro ' + id)
+            if(id === 1) {
+                this.setState({playing: !this.state.playing})
+            } else {
+                this.setState({video_name: './video/2APPARITIONFORMULEMAGIQUE.mp4'})
+            }
+            
+        })
+        
         this.setState({socket})
+        
     }
+
     render() {
         return (
             <div>
@@ -50,11 +65,11 @@ class TabletPage extends Component {
                     enabled={this.state.isFullscreenEnabled}
                     onChange={isFullscreenEnabled => this.setState({isFullscreenEnabled})}>
                         <div className='full-screenable-node'>
-                            <P5Wrapper sketch={videos} video_name={"3-stop-motion.mp4"} isplaying={this.state.playing}/>
+                            <P5Wrapper sketch={videos} video_name={this.state.video_name} isplaying={this.state.playing}/>
                         </div>
                 </Fullscreen>
             </div>
-        );
+        )
     }
 }
 

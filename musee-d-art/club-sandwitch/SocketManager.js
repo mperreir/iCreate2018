@@ -4,7 +4,6 @@ module.exports = function(socket) {
     console.log("Socket id:" + socket.id);
     socket.on('update', () => {
         console.log('emiting');
-        io.emit('update');
     });
     socket.on('connect-tablet', (msg) => {
       console.log('tablet connected! ' + msg);
@@ -12,8 +11,12 @@ module.exports = function(socket) {
     socket.on('connect-sound-player', (msg) => {
         console.log('soundPlayer connected! ' + msg);
     });
-    socket.on('lauch-quest', () => {
-        console.log('lauch-quest');
-        io.emit('update');
+    socket.on('play', () => {
+        console.log('launch-quest');
+        socket.emit('play');
+    });
+
+    socket.on('control-co', () => {
+        console.log('connexion du controleur event');
     });
 };
