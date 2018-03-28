@@ -49,14 +49,14 @@ void setup(){
     mov=new Movie(this,"stepteen2.mov");
     //On charge une surface qui sert a la projection d'une vidéo
 
-    osc=new OscP5(this,12000);
+    osc=new OscP5(this,12000); //listen on port 12000
 
     ks=new Keystone(this); // init the keystoen object
-    surface=ks.createCornerPinSurface(200,120,20); // create the surface
-    surface2=ks.createCornerPinSurface(160,120,20); // create the surface
+    // surface=ks.createCornerPinSurface(200,120,20); // create the surface
+    // surface2=ks.createCornerPinSurface(160,120,20); // create the surface
     surf=new Surface(ks,500,500,20);
-    offscreenMobile=createGraphics(500,500,P3D);
-    surfaceMobile=ks.createCornerPinSurface(400,400,20);
+    // offscreenMobile=createGraphics(500,500,P3D);
+    // surfaceMobile=ks.createCornerPinSurface(400,400,20);
 
     osc.plug(this,"changeGravX","/accelerometer/gravity/x");
     osc.plug(this,"changeGravY","/accelerometer/gravity/y");
