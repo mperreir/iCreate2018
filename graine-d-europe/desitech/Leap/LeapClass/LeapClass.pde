@@ -78,8 +78,9 @@ void draw(){
   if (poing) {
     ell.clear();
   }
-  
+  fill(255, 0, 0);
   for(Vector e : ell) {
+    
     ellipse(e.getX(), e.getZ(), 10, 10);
   }
 }
