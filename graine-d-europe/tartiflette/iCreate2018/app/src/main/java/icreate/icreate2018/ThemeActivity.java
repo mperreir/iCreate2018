@@ -66,9 +66,9 @@ public class ThemeActivity extends AppCompatActivity implements SensorEventListe
 
         //Gestion de la lecture audio des question
         Button play_bt = findViewById(R.id.play);
-        mediaPlayer_1 = MediaPlayer.create(this, R.raw.citoyennete_europeene);
-        mediaPlayer_2 = MediaPlayer.create(this, R.raw.etre_citoyen_europeen);
-        mediaPlayer_3 = MediaPlayer.create(this, R.raw.role_citoyen_europeen);
+        mediaPlayer_1 = MediaPlayer.create(this, R.raw.q_citoyennete_europeene);
+        mediaPlayer_2 = MediaPlayer.create(this, R.raw.q_etre_citoyen_europeen);
+        mediaPlayer_3 = MediaPlayer.create(this, R.raw.q_role_citoyen_europeen);
 
         //Ordre dans lequel les questions sont lues
         mediaPlayer_1.setNextMediaPlayer(mediaPlayer_2);
