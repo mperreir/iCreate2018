@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import io from 'socket.io-client';
+import videos from '../sketches/videos';
+import P5Wrapper from 'react-p5-wrapper';
 
 class TabletPage extends Component {
-    
+
     state = {
-        name: 'Laouen'
+        name: 'Laouen',
+        playing: true
     }
     constructor() {
         super();
@@ -14,16 +17,15 @@ class TabletPage extends Component {
             const idSocket = this.socket.id;
             this.socket.emit('connect-tablet', idSocket);
         });
-        
-        this.socket.on('update', () => this.setState({name: 'Felix'}));
-      
+
+        this.socket.on('update', () => this.setState({playing: true}));
+        this.socket.on('playVideo', () => this.setState({playing: true}));
+        this.socket.on('pauseVideo', () => this.setState({playing: false}));
+
     }
     render() {
         return (
-            <div>
-                <p>Tablet Page</p>
-                <p>{this.state.name}</p>
-            </div>
+            <P5Wrapper sketch={videos} video_name={"video1.mp4"} isplaying={this.state.playing}/>
         );
     }
 }
