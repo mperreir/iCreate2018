@@ -14,7 +14,7 @@ class TabletPage extends Component {
         super();
         this.socket = io();//SocketIOClient('http://localhost:5000');
         this.socket.on('connect', () => {
-            console.log(this.socket.id); // 'G5p5...'
+            console.log(this.socket.id);
             const idSocket = this.socket.id;
             this.socket.emit('connect-tablet', idSocket);
         });
@@ -35,7 +35,7 @@ class TabletPage extends Component {
                     enabled={this.state.isFullscreenEnabled}
                     onChange={isFullscreenEnabled => this.setState({isFullscreenEnabled})}>
                         <div className='full-screenable-node'>
-                            <P5Wrapper sketch={videos} video_name={"video1.mp4"} isplaying={this.state.playing}/>
+                            <P5Wrapper sketch={videos} video_name={"3-stop-motion.mp4"} isplaying={this.state.playing}/>
                         </div>
                 </Fullscreen>
             </div>

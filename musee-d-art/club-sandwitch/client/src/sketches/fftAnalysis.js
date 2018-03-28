@@ -2,12 +2,10 @@ import "p5/lib/addons/p5.sound";
 import p5 from "p5";
 
 let mic;
-let loop;
 let res;
-let min;
 
 let son;
-let son2;
+//let son2;
 let fft;
 let freqChien = [191, 184, 149, 67, 23, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 let freqGrenouille = [201, 229, 232, 203, 142, 113, 89, 43, 5, 8, 23, 8, 0, 0, 0, 0];
@@ -28,7 +26,6 @@ export default function sketch(p) {
         son.loop();
         mic = new p5.AudioIn();
         mic.start();
-        loop = true;
         console.log(freqChien.length);
         fft = new p5.FFT(0.99, 16);
         fft.setInput(mic);

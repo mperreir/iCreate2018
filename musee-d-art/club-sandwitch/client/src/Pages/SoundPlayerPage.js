@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import io from 'socket.io-client';
-import ReactAudioPlayer from 'react-audio-player';
 import P5Wrapper from 'react-p5-wrapper';
 import audio from '../sketches/audio';
-import sketch from '../sketches/sketch';
 
 class SoundPlayerPage extends Component {
 
@@ -25,7 +23,9 @@ class SoundPlayerPage extends Component {
   }
 
   render() {
-    return (<P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={this.state.arg}/>);
+    return (
+      <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={this.state.arg}/>
+    );
   }
 }
 

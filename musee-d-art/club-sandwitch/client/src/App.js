@@ -5,6 +5,7 @@ import SoundPlayerPage from './Pages/SoundPlayerPage';
 import TabletPage from './Pages/TabletPage';
 import LandingPage from './Pages/LandingPage';
 import SketchPage from './Pages/SketchPage';
+import controlPage from './Pages/controlPage';
 
 import 'whatwg-fetch';
 import './App.css';
@@ -35,6 +36,7 @@ class App extends Component {
         <Route path='/tablet' component={TabletPage}/>
         <Route path='/soundplayer' component={SoundPlayerPage}/>
         <Route path='/sketch' component={SketchPage}/>
+        <Route path='/control' component={controlPage}/>
       </Switch>
     );
   }
