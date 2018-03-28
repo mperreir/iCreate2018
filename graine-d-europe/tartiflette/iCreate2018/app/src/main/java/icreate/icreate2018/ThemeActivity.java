@@ -20,19 +20,14 @@ public class ThemeActivity extends AppCompatActivity implements SensorEventListe
     // L'accéléromètre
     Sensor accelerometer;
 
-    TextView
+    TextView txt_x;
+    TextView txt_y;
+    TextView txt_z;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme);
-
-        Intent intent = getIntent();
-        if(intent != null) {
-            String theme_name = intent.getStringExtra(MainActivity.EXTRA_THEME_NAME);
-
-            getSupportActionBar().setTitle(theme_name);
-        }
 
         // Gérer les capteurs&#160;:
         // Instancier le gestionnaire des capteurs, le SensorManager
@@ -40,6 +35,10 @@ public class ThemeActivity extends AppCompatActivity implements SensorEventListe
         // Instancier l'accéléromètre
         accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         // Faire d'autres trucs
+
+        txt_x = findViewById(R.id.x);
+        txt_y = findViewById(R.id.y);
+        txt_z = findViewById(R.id.z);
     }
 
     @Override
@@ -68,12 +67,10 @@ public class ThemeActivity extends AppCompatActivity implements SensorEventListe
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        // Récupérer les valeurs du capteur
-        float x, y, z;
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-            x = event.values[0];
-            y = event.values[1];
-            z = event.values[2];
+            txt_x.setText(""+event.values[0]);
+            txt_y.setText(""+event.values[1]);
+            txt_z.setText(""+event.values[2]);
         }
     }
 }
