@@ -22,7 +22,7 @@ import processing.video.*;
 import deadpixel.keystone.*;
 
 Keystone ks;
-SurfaceMovie surf2;
+Surface surf;
 Movie mov;
 
 void setup() {
@@ -33,13 +33,13 @@ void setup() {
   //On charge les vidéo que l'on veut utiliser
   mov = new Movie(this, "stepteen2.mov" );
   //On charge une surface qui sert a la projection d'une vidéo
-  surf2 = new SurfaceMovie(ks, 500, 500, 20, mov);
+  surf = new Surface(ks, 500, 500, 20);
 }
 
 void draw() {
   //On veut un fond noir et éclairer uniquement les cubes
   background(0);
-  surf2.draw();
+  surf.draw();
 }
 
 void keyPressed() {
@@ -61,10 +61,8 @@ void keyPressed() {
     break;
   case 'p':
     // play/pause the movie on keypress
-    if (!surf2.isPlaying()) {
-      surf2.play();
+    if (true) {
     } else {
-      surf2.pause();
     }
     break;
   }
