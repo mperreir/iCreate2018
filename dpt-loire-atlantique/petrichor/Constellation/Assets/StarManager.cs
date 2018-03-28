@@ -5,13 +5,15 @@ using System.IO;
 
 public class StarManager : MonoBehaviour {
 
-	List<GameObject> stars;
+	private List<GameObject> stars;
+	public int initialDisplayLimit = -1;
 
 	// Use this for initialization
 	void Start ()
 	{
 		stars = new List<GameObject>();
-		GameObject prefab = Resources.Load("Star/StarPrefab", typeof(GameObject)) as GameObject;
+		//GameObject prefab = Resources.Load("Star/StarPrefab", typeof(GameObject)) as GameObject;
+		GameObject prefab = Resources.Load("StarSprite/StarSpritePrefab", typeof(GameObject)) as GameObject;
 		GameObject star;
 		StreamReader dataFile = new StreamReader("Assets/Resources/soldats_memorial_virtuel.csv");
 		string rawLine = dataFile.ReadLine();
@@ -26,7 +28,7 @@ public class StarManager : MonoBehaviour {
 		int width = 0;
 		bool firstLine = true;
 		int i = 0;
-		while (rawLine != null && i < 5000)
+		while (rawLine != null)
 		{
 			dataLine = rawLine.Split(';');
 			if (firstLine)
@@ -69,11 +71,16 @@ public class StarManager : MonoBehaviour {
 				star.GetComponent<StarScript>().naissance = naissance;
 				star.GetComponent<StarScript>().volontaire = volontaire;
 				star.transform.position = new Vector3(10-Random.value*20, 5-Random.value*10, Random.value*20);
+				if (i > this.initialDisplayLimit && this.initialDisplayLimit != -1)
+				{
+					star.SetActive(false);
+				}
 				this.stars.Add(star);
 				rawLine = dataFile.ReadLine();
 				i++;
 			}
 		}
+		dataFile.Close();
 	}
 	
 	// Update is called once per frame
