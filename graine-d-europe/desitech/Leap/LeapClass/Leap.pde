@@ -1,4 +1,4 @@
-
+import com.leapmotion.leap.*;
 public class Leap {
   
   private Controller controller;
