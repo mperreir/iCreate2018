@@ -24,96 +24,97 @@ import oscP5.*;
 import netP5.*;
 
 Keystone ks;
-        Surface surf;
-        Movie mov;
+Surface surf;
+Movie mov;
 
-        PGraphics offscreenMobile;
-        CornerPinSurface surfaceMobile;
+PGraphics offscreenMobile;
+CornerPinSurface surfaceMobile;
 
-        OscP5 osc;
-        NetAddress remote;
+OscP5 osc;
+NetAddress remote;
 
-        int gravX=50;
-        int gravY=50;
+int gravX=50;
+int gravY=50;
 
-        void setup(){
-        // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
-        // Keystone will only work with P3D or OPENGL renderers,
-        // since it relies on texture mapping to deform
-        //size(800, 600, P3D);
+void setup(){
+    // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
+    // Keystone will only work with P3D or OPENGL renderers,
+    // since it relies on texture mapping to deform
+    //size(800, 600, P3D);
 
-        fullScreen(P3D);
-        // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
-        ks=new Keystone(this);
-        //On charge les vidéo que l'on veut utiliser
-        mov=new Movie(this,"stepteen2.mov");
-        //On charge une surface qui sert a la projection d'une vidéo
+    fullScreen(P3D);
+    // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
+    ks=new Keystone(this);
+    //On charge les vidéo que l'on veut utiliser
+    mov=new Movie(this,"stepteen2.mov");
+    //On charge une surface qui sert a la projection d'une vidéo
 
-        osc=new OscP5(this,12000);
+    osc=new OscP5(this,12000);
 
-        ks=new Keystone(this); // init the keystoen object
-        surface=ks.createCornerPinSurface(200,120,20); // create the surface
-        surface2=ks.createCornerPinSurface(160,120,20); // create the surface
-        surf=new Surface(ks,500,500,20);
-        offscreenMobile=createGraphics(500,500,P3D);
-        surfaceMobile=ks.createCornerPinSurface(400,400,20);
+    ks=new Keystone(this); // init the keystoen object
+    surface=ks.createCornerPinSurface(200,120,20); // create the surface
+    surface2=ks.createCornerPinSurface(160,120,20); // create the surface
+    surf=new Surface(ks,500,500,20);
+    offscreenMobile=createGraphics(500,500,P3D);
+    surfaceMobile=ks.createCornerPinSurface(400,400,20);
 
-        osc.plug(this,"changeGravX","/accelerometer/gravity/x");
-        osc.plug(this,"changeGravY","/accelerometer/gravity/y");
+    osc.plug(this,"changeGravX","/accelerometer/gravity/x");
+    osc.plug(this,"changeGravY","/accelerometer/gravity/y");
 
-        }
+}
 
 
-        void draw(){
-        //On veut un fond noir et éclairer uniquement les cubes
-        background(0);
-        surf.draw();
-        }
+void draw(){
+    //On veut un fond noir et éclairer uniquement les cubes
+    background(0);
+    surf.draw();
+}
 
-        void keyPressed(){
-        switch(key){
+void keyPressed(){
+    switch(key){
         case'c':
-        // enter/leave calibration mode, where surfaces can be warped
-        // and moved
-        ks.toggleCalibration();
-        break;
+            // enter/leave calibration mode, where surfaces can be warped
+            // and moved
+            ks.toggleCalibration();
+            break;
 
         case'l':
-        // loads the saved layout
-        ks.load();
-        break;
+            // loads the saved layout
+            ks.load();
+            break;
 
         case's':
-        // saves the layout
-        ks.save();
-        break;
+            // saves the layout
+            ks.save();
+            break;
+
         case'p':
-        // play/pause the movie on keypress
-        if(true){
-        }else{
-        }
-        break;
-        }
-        }
+            // play/pause the movie on keypress
+            if (true){
+            } else {
+            }
+            break;
+    }
+}
 
-        void movieEvent(Movie m){
-        m.read();
-        }
+void movieEvent(Movie m){
+    m.read();
+}
 
-        void oscEvent(OscMessage themsg){
-        if(!themsg.isPlugged()){
+void oscEvent(OscMessage themsg){
+    if(!themsg.isPlugged()){
         println("### received an osc message.");
         println("### addrpattern\t"+themsg.addrPattern());
 
         // println(themsg.arguments());
-        }
-        }
+    }
+}
 
-        void changeGravX(float gravity){
-        println("@@@ gravity X event");
-        gravX=Math.round(gravity+25)*100;
-        }
-        void changeGravY(float gravity){
-        println("@@@ gravity Y event "+gravity);
-        gravY=Math.round(gravity+25)*100;
-        }
+void changeGravX(float gravity){
+    println("@@@ gravity X event");
+    gravX=Math.round(gravity+25)*100;
+}
+void changeGravY(float gravity){
+    println("@@@ gravity Y event "+gravity);
+    gravY=Math.round(gravity+25)*100;
+}
