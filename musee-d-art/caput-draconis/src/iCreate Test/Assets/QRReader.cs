@@ -12,10 +12,13 @@ public class QRReader : MonoBehaviour
     public string decodedResult;
     WebCamTexture webCamTexture;
     BarcodeReader barcodeReader;
+    //Webcam Feed
     public RawImage rawimage;
+    //Final display
     public Image tableau;
-    public Sprite kandinsky;
-    public Sprite kandinsky2;
+    //Array of paintings
+    Sprite[] sprites;
+    //Association of sprites with their names
     Dictionary<string, Sprite> dict = new Dictionary<string, Sprite>();
 
     void Start()
@@ -33,11 +36,10 @@ public class QRReader : MonoBehaviour
             }
         };
 
-
         WebCamDevice[] devices = WebCamTexture.devices;
 
-        for(int i = 0; i < devices.Length; i++)
-            Debug.Log(devices[i].name);
+        foreach (WebCamDevice wc in devices)
+            Debug.Log(wc.name);
 
         webCamTexture = new WebCamTexture(devices[1].name, 1280, 720);
 
@@ -46,8 +48,11 @@ public class QRReader : MonoBehaviour
 
         webCamTexture.Play();
 
-        dict.Add("kandinsky", kandinsky);
-        dict.Add("kandinsky2", kandinsky2);
+        //Loading of all exisiting sprites
+        sprites = Resources.LoadAll<Sprite>("Sprites/");
+        //Adding in the dictionnary, with the name (string) in key
+        foreach (Sprite s in sprites)
+            dict.Add(s.name, s);
     }
 
     void Update()
@@ -67,8 +72,10 @@ public class QRReader : MonoBehaviour
                             webCamTexture.height);
 
         if (result != null)
-        {
+        {   
+            //QR Code result
             decodedResult = result.Text;
+            //Displaying the right painting
             tableau.sprite = dict[result.Text];
         }
     }
