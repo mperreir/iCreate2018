@@ -1,10 +1,10 @@
 class Circle {
   float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius, sizeCurrentCoef, sizeExpansionCoef, sizeProgressionCoef;
   int[] rgb;
-  String col;
+  String col, audioName;
   boolean full, hover, hoverReached, reachSize, explosion, mainCircle;
 
-  Circle (boolean full) {  
+  Circle (boolean full, String audioName) {  
     this.xpos = Math.floor(Math.random()*2) == 1 ? (float) (Math.random() * (width)) - width : (float) (Math.random() * (width)) + width;
     this.ypos = (float) (Math.random() * ((height - border) - border)) + border;
     this.baseSize = full ? (float) (Math.random() * (175 - 150)) + 150 : (float) (Math.random() * (90 - 50)) + 50;
@@ -30,6 +30,8 @@ class Circle {
     this.sizeCurrentCoef = sizeCurrentCoef_f;
     this.sizeExpansionCoef = sizeExpansionCoef_f;
     this.sizeProgressionCoef = sizeProgressionCoef_f;
+    
+    this.audioName = audioName;
   }
 
   void update() {
@@ -137,5 +139,9 @@ class Circle {
     }
 
     ellipse(this.xpos, this.ypos, this.size, this.size);
+  }
+  
+  String getAudioName() {
+    return this.audioName;
   }
 }
