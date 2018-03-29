@@ -74,7 +74,8 @@ void circleActions(Vector v) {
     }
   }
   checkSpeed();
-  
+  if (leap.actionPoing())
+    System.out.println("TRUE");
   drawCircles();
 }
 
