@@ -88,7 +88,7 @@ class Timer {
   Timer (int t, int[] rgb) {  
     this.totalTime = t;
     this.actualTime = t;
-    this.rgb = rgb;
+    this.rgb = getColorTimer(theme);
   } 
   
   void update() {
