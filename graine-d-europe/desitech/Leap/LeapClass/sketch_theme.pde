@@ -84,10 +84,6 @@ int[] getColorRGB(String theme) {
         break;
     }
   }
-  
-  if (rand == 1) {
-    System.out.println(rgb[0]);
-  }
 
   return rgb;
 }

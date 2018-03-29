@@ -34,7 +34,7 @@ class MainCircle {
 
     this.isGrowing = true;
     this.time = time;
-    timer = new Timer(time, rgb);
+    timer = new Timer(time);
     
     
     //Calcul of the speed to center the circle
@@ -149,7 +149,7 @@ class Timer {
   float actualTime;
   int[] rgb;
   
-  Timer (float t, int[] rgb) {
+  Timer (float t) {
     this.totalTime = t;
     this.actualTime = t;
     this.rgb = getColorTimer(theme);
