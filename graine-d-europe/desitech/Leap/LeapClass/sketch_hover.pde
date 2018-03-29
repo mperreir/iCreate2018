@@ -21,7 +21,7 @@ void detectionHover(int index) {
         g_hover = true;
         Circle c = listCirclesFull[index];
         c.mainCircle = true;
-        mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size);
+        mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size, index);
       }
     } else {
       noHover();
