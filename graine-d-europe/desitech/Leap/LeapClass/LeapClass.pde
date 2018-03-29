@@ -19,12 +19,15 @@ boolean reach = true;
 // Check if the speedCoef is higher or not that our current speed (in others words, check if we are accelerating or deccelelerating)
 boolean higher = true;
 
+int entropyCoef = 1500;
+int sizeTickList = 10;
+
 boolean explosion = false;
 
 final int waitSlow = 180;
 int timerSlow = 0;
 
-final int waitExplosion = 90;
+final int waitExplosion = 45;
 int timerExplosion = 0;
 
 final int waitAppear = 30;
@@ -56,7 +59,7 @@ int tmpTestTimeExplosionStop = 100;
 
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
-MainCircle mc;
+MainCircle mc = null;
 
 String theme = getTheme();
 
@@ -93,7 +96,7 @@ void initCircles() {
 }
 
 void draw() {
-  background(0, 35, 70);
+  background(15, 24, 34);
   
   timerAppear++;
   
@@ -134,10 +137,14 @@ void draw() {
   
   drawCircles();
   
+  if (mc != null) {
+    mc.update();
+  }
+  
   if (v != null) {
     positionList.add(v);
   }
-  if(positionList.size() >= 30 || (positionList.size() > 0 && tmpTestCurrent % 2 == 0)){
+  if(positionList.size() >= sizeTickList || (positionList.size() > 0 && tmpTestCurrent % 2 == 0)){
       positionList.remove(0);
   }
   
@@ -366,10 +373,10 @@ void detectionHover(int index) {
     if (index != -1) {
       circleHover(index);
       
-      //check if the user select the circle
+      //check if the user selct the circle
       if(leap.actionPoing()) {
-          Circle c = listCirclesFull[index];
-          mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size);
+        Circle c = listCirclesFull[index];
+        mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size);
       }
     } else {
       noHover();
@@ -383,7 +390,7 @@ void detectionExplosion(float entropy) {
       explosion();
     }
   } else {
-    if (entropy > 1000 && !explosion) {
+    if (entropy > entropyCoef && !explosion) {
       explosion();
       explosion = true;
     }
