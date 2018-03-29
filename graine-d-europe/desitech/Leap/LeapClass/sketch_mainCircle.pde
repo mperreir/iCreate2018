@@ -1,4 +1,6 @@
 class MainCircle {
+  int indexCircle;
+  
   float xpos, ypos;
   float speedX, speedY;
   //change nbFrames to adapt the speed of the circle (time to go to the middle)
@@ -19,7 +21,9 @@ class MainCircle {
   float finalPosX, finalPosY;
   float finalSpeedX, finalSpeedY;
   
-  MainCircle (float x, float y, int[] rgb, float size) {
+  MainCircle (float x, float y, int[] rgb, float size, int indexCircle) {
+    this.indexCircle = indexCircle;
+    
     this.xpos = x;
     this.ypos = y;
     this.rgb = rgb;
@@ -86,8 +90,7 @@ class MainCircle {
         isPlaying = false;
         isClosing = true;
         
-        //TODO : récupérer finalPosX et finalPosY and launch mcClosing
-        
+        mcClosing();
       }
     } else if (isClosing) {
        xpos += finalSpeedX;
@@ -106,7 +109,11 @@ class MainCircle {
   } 
 }
 
-void mcClosing(float destX, float destY) {
+void mcClosing() {
+  Circle dest = listCirclesFull[mc.indexCircle];
+  float destX = dest.xpos;
+  float destY = dest.ypos;
+  
   // spped of closing
   mc.nbFrames = 50;
     
