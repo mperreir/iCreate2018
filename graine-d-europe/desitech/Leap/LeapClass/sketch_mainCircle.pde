@@ -110,6 +110,9 @@ class MainCircle {
          //TODO : relaunch other circle
        }
       
+      fill(rgb[0], rgb[1], rgb[2], 255);
+      ellipse(width/2, height/2, size, size);
+      noFill();
       
     }
     
