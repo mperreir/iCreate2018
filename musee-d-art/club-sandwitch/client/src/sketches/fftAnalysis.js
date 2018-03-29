@@ -3,6 +3,8 @@ import p5 from "p5";
 
 let mic;
 let res;
+let writingbool = false;
+let writer;
 
 let son;
 //let son2;
@@ -27,8 +29,22 @@ export default function sketch(p) {
         mic = new p5.AudioIn();
         mic.start();
         console.log(freqChien.length);
-        fft = new p5.FFT(0.99, 16);
+        fft = new p5.FFT(0.2, 16);
         fft.setInput(mic);
+        p.createButton('record')
+        .position(10, 10)
+        .mousePressed(function() {
+            writer = p.createWriter('sound.txt');
+            writingbool = true;
+        })
+        p.createButton('save')
+        .position(100, 10)
+        .mousePressed(function() {
+            if(writingbool) {
+                writer.close();
+                writer.clear();
+            }            
+        })
     };
 
     p.diff = function(spc) {
@@ -51,6 +67,9 @@ export default function sketch(p) {
         //console.log(spectrum);
         res = p.diff(spectrum);
         console.log(res, animaux[p.argMin(res)]);
+        if(writingbool){
+            writer.print(spectrum);
+        }
         p.noStroke();
         p.fill(0,255,0); // spectrum is green
         for (var i = 0; i< spectrum.length; i++){
