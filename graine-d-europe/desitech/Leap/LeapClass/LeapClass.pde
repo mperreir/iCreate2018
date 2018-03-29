@@ -4,6 +4,7 @@ void setup() {
   fullScreen();
   frameRate(30);
   initCircles();
+  audio = new AudioFiles();
 }
 
 void initCircles() {
@@ -21,11 +22,11 @@ void initCircles() {
   timerAppear = 0;
   
   for (int i = 0; i < nbCircle; i++) {
-    listCircles[i] = new Circle(false);
+    listCircles[i] = new Circle(false, null);
   }
 
   for (int i = 0; i < nbCircleFull; i++) {
-    listCirclesFull[i] = new Circle(true);
+    listCirclesFull[i] = new Circle(true, audio.getMusicAtCatByIndex(theme, i));
   }
 }
 

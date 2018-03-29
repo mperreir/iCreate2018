@@ -44,6 +44,9 @@ boolean g_hover = false;
 // Explosion
 boolean explosion = false;
 
+// Sound
+AudioFiles audio;
+
 // Tests
 // Test var for accelerating/deccelerating every x frames
 boolean enableTest = false;

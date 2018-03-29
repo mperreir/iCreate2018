@@ -1,21 +1,7 @@
 String getTheme() {
-  int rand = (int) (Math.random() * (6));
-  String theme = "";
-   
-   switch (rand) {
-     case 0: theme = "citoyen";
-             break;
-     case 1: theme = "culture";
-             break; 
-     case 2: theme = "deputes";
-             break;
-     case 3: theme = "environnement";
-             break; 
-     case 4: theme = "education";
-             break; 
-     case 5: theme = "histoire";
-             break; 
-   }
+  int rand = (int) (Math.random() * (audio.getNbCat()));
+  
+  String theme = audio.getCatIndex(rand);
   
   return theme;
 }
