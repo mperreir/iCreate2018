@@ -1,10 +1,19 @@
 public class Coordinate {
+  public int id;
   public float latitude;
   public float longitude;
   public float x;
   public float y;
 
-  public Coordinate(float latitude, float longitude) {
+  public Coordinate(int id, float latitude, float longitude) {
+    this.id = id;
+    this.latitude = latitude;
+    this.longitude = longitude;
+    this.convertToXY();
+  }
+  
+    public Coordinate(float latitude, float longitude) {
+    this.id = -1;
     this.latitude = latitude;
     this.longitude = longitude;
     this.convertToXY();
