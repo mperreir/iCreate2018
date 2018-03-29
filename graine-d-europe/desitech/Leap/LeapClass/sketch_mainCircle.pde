@@ -49,7 +49,7 @@ class MainCircle {
          isCentered = true;
        }
        
-      fill(255, 255, 255, 255);
+      fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(xpos, ypos, size, size);
       noFill();
     }
@@ -60,12 +60,12 @@ class MainCircle {
       if (size >= 500) {
         isGrowing = false;
       }
-      fill(255, 255, 255, 255);
+      fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
       noFill();
       
     } else {
-      fill(255, 255, 255, 255);
+      fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
       noFill();
       
