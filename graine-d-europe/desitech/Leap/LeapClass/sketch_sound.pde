@@ -23,9 +23,12 @@ class AudioFiles {
     }
   }
   
-  float play(PApplet pa,String theme, String video) {
-    this.play = new SoundFile(pa, theme + "/" + video);
+  void play() {
     this.play.play();
+  }
+  
+  float getDuration(PApplet pa,String theme, String video) {
+    this.play = new SoundFile(pa, theme + "/" + video);
     return this.play.duration();
   }
   

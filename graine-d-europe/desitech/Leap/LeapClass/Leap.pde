@@ -67,7 +67,6 @@ public class Leap {
      for (Gesture g : frame.gestures()) {
        if (g.type() == Gesture.Type.TYPE_SWIPE) {
          SwipeGesture swipe = new SwipeGesture(g);
-         System.out.println(swipe.speed());
          if (swipe.direction().getY() < 0 && swipe.speed() >= 150) {
             ret = true;
             break;
