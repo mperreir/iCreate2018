@@ -134,9 +134,13 @@ public class StarManager : MonoBehaviour {
 		int i, num;
 		this.criteria = criteria;
 		GalaxyScript galaxy;
+		for (i = 0; i < this.stars.Count; i++)
+		{
+			this.stars[i].FreeStar(this.starsObject);
+		}
 		for (i = 0; i < this.galaxies.Count; i++)
 		{
-			Destroy(this.galaxies[i]);
+			Destroy(this.galaxies[i].gameObject);
 		}
 		this.galaxies.Clear();
 		if (criteria == "all")
@@ -246,7 +250,7 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.volontaires.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils y habitaient", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "ils étaient volontaire", this.galaxyDensity));
 			for (i = 0; i < this.volontaires.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.volontaires[i], this.galaxyDensity));
@@ -267,8 +271,9 @@ public class StarManager : MonoBehaviour {
 		else if (criteria == "age")
 		{
 
-			num = this.stars.Count / this.ages.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils y habitaient", this.galaxyDensity));
+			num = 0;
+			
+			this.galaxies.Add(CreateGalaxy(num, "ils avais", this.galaxyDensity));
 			for (i = 0; i < this.ages.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.ages[i], this.galaxyDensity));
@@ -287,8 +292,14 @@ public class StarManager : MonoBehaviour {
 			}
 		}
 	}
+	
+	// Update is called once per frame
+	void Update ()
+	{
+		
+	}
 
-	GalaxyScript FindGalaxy(string tag)
+	private GalaxyScript FindGalaxy(string tag)
 	{
 		int i;
 		for (i = 0; i < galaxies.Count; i++)
@@ -301,23 +312,60 @@ public class StarManager : MonoBehaviour {
 		return null;
 	}
 
-	GalaxyScript CreateGalaxy(int num, string tag, float density)
+	private GalaxyScript CreateGalaxy(int num, string tag, float density)
 	{
 		GalaxyScript galaxy = Instantiate((Resources.Load("Galaxy/GalaxyPrefab", typeof(GameObject)) as GameObject).GetComponent<GalaxyScript>());
 		galaxy.name = tag;
 		galaxy.galaxyTag = tag;
-		galaxy.radius = Mathf.Sqrt(num/density);
+		galaxy.radius = Mathf.Pow(num / density, 1/3F);
 		galaxy.transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
-		galaxy.rotator = new Vector3(1 - Random.value* 2, 1 - Random.value* 2, 1 - Random.value* 2);
+		galaxy.rotator = new Vector3(1 - Random.value * 2, 1 - Random.value * 2, 1 - Random.value * 2);
 		galaxy.name = tag;
 		galaxy.transform.SetParent(this.galaxiesObject.transform);
 		galaxy.speed = this.galaxyMinSpeed + Random.value * (this.galaxyMaxSpeed - this.galaxyMinSpeed);
 		this.galaxies.Add(galaxy);
 		return galaxy;
 	}
-	// Update is called once per frame
-	void Update ()
+
+	public void NextCriteria()
 	{
-		
+		string criteria = "all";
+		if (this.criteria == "age")
+		{
+			criteria = "grade";
+		}
+		else if (this.criteria == "grade")
+		{
+			criteria = "profession";
+		}
+		else if (this.criteria == "naissance")
+		{
+			criteria = "volontaire";
+		}
+		else if (this.criteria == "profession")
+		{
+			criteria = "residence";
+		}
+		else if (this.criteria == "residence")
+		{
+			criteria = "naissance";
+		}
+		else if (this.criteria == "volontaire")
+		{
+			criteria = "age";
+		}
+		this.ChangeCriteria(criteria);
+	}
+
+	public void Scint()
+	{
+	}
+
+	public void ResetStars()
+	{
+	}
+
+	public void SpawnStars(int num)
+	{
 	}
 }
