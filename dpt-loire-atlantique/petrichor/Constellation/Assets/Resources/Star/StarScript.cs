@@ -19,15 +19,9 @@ public class StarScript : MonoBehaviour {
 	// Use this for initialization
 	void Start()
 	{
-	}
 
-	public void MoveTo(GalaxyScript galaxy)
-	{
-		this.galaxy = galaxy;
-		this.galaxyDistance = Random.value*galaxy.radius;
-		this.attached = false;
 	}
-
+	
 	// Update is called once per frame
 	void Update()
 	{
@@ -47,5 +41,19 @@ public class StarScript : MonoBehaviour {
 				this.transform.transform.position = Vector3.MoveTowards(this.transform.position, this.galaxy.transform.position, this.joinSpeed * Time.deltaTime);
 			}
 		}
+	}
+
+	public void MoveTo(GalaxyScript galaxy)
+	{
+		this.galaxy = galaxy;
+		this.galaxyDistance = Random.value * galaxy.radius;
+		this.attached = false;
+	}
+
+	public void FreeStar(GameObject newParent)
+	{
+		this.galaxy = null;
+		this.transform.SetParent(newParent.transform);
+		this.attached = false;
 	}
 }

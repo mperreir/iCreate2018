@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GalaxyScript : MonoBehaviour {
 
-	public string galaxyName = "";
 	public string galaxyTag = "";
 	public float radius = 5;
 	public float speed;
