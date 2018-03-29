@@ -20,12 +20,15 @@ public class Leap {
     Return true if the fist is close, false otherwise
   */
   public boolean actionPoing() {
-    Frame frame = this.controller.frame();
+    Frame frameNow = this.controller.frame();
+    Frame previousFrame = this.controller.frame(5);
     final float SEUIL = 0.9;
+    final float DIFFSEUIL = 0.4;
     boolean ret = false;
-    if (frame.hands().count() == 1) {
-      Hand hand = frame.hands().get(0);
-      if (hand.grabStrength() >= SEUIL) {
+    if (frameNow.hands().count() == 1 && previousFrame.hands().count() == 1) {
+      Hand handNow = frameNow.hands().get(0);
+      Hand previousHand = previousFrame.hands().get(0);
+      if (handNow.grabStrength() >= SEUIL && handNow.grabStrength() - previousHand.grabStrength() >= DIFFSEUIL) {
         ret = true;
       }
     }
@@ -76,10 +79,15 @@ public class Leap {
   }
    
   private float estimateEntropy() {
-    Frame frame = this.controller.frame();
-    Hand hand = frame.hands().get(0);
-    Vector velocity = hand.palmVelocity();    
-    return (float) (Math.pow(velocity.getX(), 2) + Math.pow(velocity.getY(), 2) + Math.pow(velocity.getZ(), 2)) / 1000;
+    int sizeHistory = 5;
+    float average = 0;
+    for (int i = 0 ; i < sizeHistory ; i++ ) {
+      Frame frame = this.controller.frame(i);
+      Hand hand = frame.hands().get(0);
+      Vector velocity = hand.palmVelocity();   
+      average += (float) (Math.pow(velocity.getX(), 2) + Math.pow(velocity.getY(), 2) + Math.pow(velocity.getZ(), 2)) / 1000;
+    } 
+    return average / sizeHistory;
   }
    
   private float smoothNormalize(float x, float axis){
