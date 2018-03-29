@@ -4,18 +4,18 @@ import ReactAudioPlayer from 'react-audio-player';
 import P5Wrapper from 'react-p5-wrapper';
 
 import fftAnalysis from '../sketches/fftAnalysis';
-
+const socketUrl = "http://serversocket2018v2.herokuapp.com"
 class SoundPlayerPage extends Component {
 
     constructor() {
         super();
-        this.socket = io();//SocketIOClient('http://localhost:5000');
+        this.socket = io(socketUrl);//SocketIOClient('http://localhost:5000');
         this.socket.on('connect', () => {
             console.log(this.socket.id); // 'G5p5...'
             const idSocket = this.socket.id;
             this.socket.emit('connect-tablet', idSocket);
         });
-        this.socket.on('update', () => this.setState({name: 'Felix'}));  
+        this.socket.on('update', () => this.setState({name: 'Felix'}));
     }
 
     render() {

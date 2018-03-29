@@ -4,7 +4,7 @@ import videos from '../sketches/videos';
 import P5Wrapper from 'react-p5-wrapper';
 import Fullscreen from 'react-fullscreen-crossbrowser';
 
-const socketUrl = "http://localhost:5000"
+const socketUrl = "http://serversocket2018v2.herokuapp.com"
 
 class TabletPage extends Component {
 
@@ -47,11 +47,11 @@ class TabletPage extends Component {
             } else {
                 this.setState({video_name: './video/2APPARITIONFORMULEMAGIQUE.mp4'})
             }
-            
+
         })
-        
+
         this.setState({socket})
-        
+
     }
 
     render() {
