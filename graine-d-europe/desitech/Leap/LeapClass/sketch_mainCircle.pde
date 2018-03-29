@@ -3,20 +3,28 @@ class MainCircle {
   float speedX, speedY;
   //change nbFrames to adapt the speed of the circle (time to go to the middle)
   int nbFrames;
-  boolean isCentered;
+  boolean isCentered = false;
   
   float size;
-  boolean isGrowing;
+  boolean isGrowing = false;
 
   int time;
   Timer timer;
   int[] rgb;
+  boolean isPlaying = false;
+  
+  float speedClosing, speedMinimize;
+  float sizeClosed;
+  boolean isClosing = false;
+  float finalPosX, finalPosY;
+  float finalSpeedX, finalSpeedY;
   
   MainCircle (float x, float y, int[] rgb, float size) {
     this.xpos = x;
     this.ypos = y;
     this.rgb = rgb;
     this.size = size;
+    this.sizeClosed = size;
 
     this.isGrowing = true;
     this.time = 300;
@@ -47,6 +55,7 @@ class MainCircle {
          xpos = width/2;
          ypos = height/2;
          isCentered = true;
+         isGrowing = true;
        }
        
       fill(rgb[0], rgb[1], rgb[2], 255);
@@ -59,12 +68,13 @@ class MainCircle {
       //change the value of the test to adapt the size of the main circle
       if (size >= 500) {
         isGrowing = false;
+        isPlaying = true;
       }
       fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
       noFill();
       
-    } else {
+    } else if (isPlaying) {
       fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
       noFill();
@@ -72,10 +82,45 @@ class MainCircle {
       if (time > 0 ) {
         time--;
         timer.update();
+      } else {
+        isPlaying = false;
+        isClosing = true;
+        
+        //TODO : récupérer finalPosX et finalPosY and launch mcClosing
+        
       }
+    } else if (isClosing) {
+       xpos += finalSpeedX;
+       ypos += finalSpeedY;
+       size -= speedMinimize;
+       nbFrames--;  
+      
+      if(nbFrames == 0) {
+         mc = null;
+         //TODO : relaunch other circle
+       }
+      
+      
     }
     
   } 
+}
+
+void mcClosing(float destX, float destY) {
+  // spped of closing
+  mc.nbFrames = 50;
+    
+  mc.finalSpeedX = abs(width/2 - destX) / mc.nbFrames;
+  if (width/2 - destX < 0) {
+      mc.finalSpeedX *= -1;
+    }
+  mc.finalSpeedY = abs(height/2 - destY) / mc.nbFrames;
+  if (height/2 - destY < 0) {
+    mc.finalSpeedY *= -1;
+  }  
+  
+  mc.speedMinimize = (mc.size - mc.sizeClosed) / 50;
+  
 }
 
 // The timer around the center circle
