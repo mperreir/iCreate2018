@@ -16,7 +16,8 @@ class TabletPage extends Component {
             socket: null,
             playIntro: false,
             isFullscreenEnabled: false,
-            video_name: "video/1PSSTEHTOI.mp4"
+            video_name: "video/1PSSTEHTOI.mp4",
+            id_current_video: 1
         }
 
         /*this.socket.on('connect', () => {
@@ -42,12 +43,45 @@ class TabletPage extends Component {
         })
         socket.on('play-intro', (id) => {
             console.log('start playing intro ' + id)
-            if(id === 1) {
+            let vname;
+            if(id === this.state.id_current_video){
                 this.setState({playing: !this.state.playing})
             } else {
-                this.setState({video_name: './video/2APPARITIONFORMULEMAGIQUE.mp4'})
+                switch(id){
+                    case 1:
+                        vname = "1PSSTEHTOI.mp4";
+                        break;
+                    case 2:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        break;
+                    case 3:
+                        vname = "3MORTMOLLET.mp4";
+                        break;
+                    case 4:
+                        vname = "5ENFANTCHERCHESON.mp4";
+                        break;
+                    case 5:
+                        vname = "6CHIENREVIENS.mp4";
+                        break;
+                    case 6:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        break;
+                    case 7:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        break;
+                    case 8:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        break;
+                    case 9:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        break;
+                    default:
+                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                }
+                this.setState({video_name: './video/'+vname})
+                this.setState({playing: true})
+                this.setState({id_current_video: id})
             }
-
         })
 
         this.setState({socket})
