@@ -10,7 +10,7 @@ class MainCircle {
   float size;
   boolean isGrowing = false;
 
-  int time;
+  float time;
   Timer timer;
   int[] rgb;
   boolean isPlaying = false;
@@ -21,7 +21,9 @@ class MainCircle {
   float finalPosX, finalPosY;
   float finalSpeedX, finalSpeedY;
   
-  MainCircle (float x, float y, int[] rgb, float size, int indexCircle) {
+  boolean audioStarted = false;
+  
+  MainCircle (float x, float y, int[] rgb, float size, int indexCircle, float time) {
     this.indexCircle = indexCircle;
     
     this.xpos = x;
@@ -31,7 +33,7 @@ class MainCircle {
     this.sizeClosed = size;
 
     this.isGrowing = true;
-    this.time = 300;
+    this.time = time;
     timer = new Timer(time, rgb);
     
     
@@ -79,6 +81,10 @@ class MainCircle {
       noFill();
       
     } else if (isPlaying) {
+      if (!audioStarted) {
+        audio.play();
+        audioStarted = true;
+      }
       fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
       noFill();
@@ -93,6 +99,7 @@ class MainCircle {
         mcClosing();
       }
     } else if (isClosing) {
+       audioStarted = false;
        xpos += finalSpeedX;
        ypos += finalSpeedY;
        size -= speedMinimize;
@@ -133,11 +140,11 @@ void mcClosing() {
 // The timer around the center circle
 // update : make it decrease automatically
 class Timer {
-  int totalTime;
-  int actualTime;
+  float totalTime;
+  float actualTime;
   int[] rgb;
   
-  Timer (int t, int[] rgb) {  
+  Timer (float t, int[] rgb) {
     this.totalTime = t;
     this.actualTime = t;
     this.rgb = getColorTimer(theme);
@@ -155,7 +162,6 @@ class Timer {
     // "-HALF_PI" make it begin at the top of the circle (without it, it would start at the right of the circle)
     arc(width/2, height/2, 495, 495, -HALF_PI, (float) radiant - HALF_PI);  
     noStroke();
-    System.out.println("radiant : " + (float) radiant);
     
     actualTime--;
  } 

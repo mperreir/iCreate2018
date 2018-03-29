@@ -3,13 +3,13 @@ import java.util.LinkedList;
 void setup() {
   fullScreen();
   frameRate(30);
-  initCircles();
   audio = new AudioFiles();
+  initCircles();
 }
 
 void initCircles() {
   theme = getTheme();
-  listCircles = null;
+  nbCircleFull = audio.getNbMusicsForCat(theme);
   listCirclesFull = null;
   listCircles = new Circle[nbCircle];
   listCirclesFull = new Circle[nbCircleFull];
@@ -28,6 +28,7 @@ void initCircles() {
   for (int i = 0; i < nbCircleFull; i++) {
     listCirclesFull[i] = new Circle(true, audio.getMusicAtCatByIndex(theme, i));
   }
+  
 }
 
 void draw() {

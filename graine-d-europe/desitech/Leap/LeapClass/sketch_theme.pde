@@ -10,10 +10,8 @@ String getTheme() {
 
 int[] getColorRGB(String theme) {
   int rand = (int) (Math.random() * (3));
-  System.out.println(rand);
   int[] rgb = new int[3];
-  
-  if (theme == "citoyen") {
+  if (theme.equals("citoyen")) {
     switch (rand) {
       case 0:
         rgb = citoyen1;
@@ -25,7 +23,7 @@ int[] getColorRGB(String theme) {
         rgb = citoyen3;
         break;
     }
-  } else if (theme == "culture") {
+  } else if (theme.equals("culture")) {
     switch (rand) {
       case 0:
         rgb = culture1;
@@ -37,7 +35,7 @@ int[] getColorRGB(String theme) {
         rgb = culture3;
         break;
     }
-  } else if (theme == "deputes") {
+  } else if (theme.equals("deputes")) {
     switch (rand) {
       case 0:
         rgb = deputes1;
@@ -49,7 +47,7 @@ int[] getColorRGB(String theme) {
         rgb = deputes1;
         break;
     }
-  } else if (theme == "environnement") {
+  } else if (theme.equals("environnement")) {
     switch (rand) {
       case 0:
         rgb = environnement1;
@@ -61,7 +59,7 @@ int[] getColorRGB(String theme) {
         rgb = environnement3;
         break;
     }
-  } else if (theme == "education") {
+  } else if (theme.equals("education")) {
     switch (rand) {
       case 0:
         rgb = education1;
@@ -73,7 +71,7 @@ int[] getColorRGB(String theme) {
         rgb = education3;
         break;
     }
-  } else if (theme == "histoire") {
+  } else if (theme.equals("histoire")) {
     switch (rand) {
       case 0:
         rgb = histoire1;
@@ -97,17 +95,17 @@ int[] getColorRGB(String theme) {
 int[] getColorTimer(String theme) {
     int[] rgb = new int[3];
 
-    if (theme == "citoyen") {
+    if (theme.equals("citoyen")) {
         rgb = citoyen4;
-  } else if (theme == "culture") {
+  } else if (theme.equals("culture")) {
         rgb = culture4;
-  } else if (theme == "deputes") {
+  } else if (theme.equals("deputes")) {
         rgb = deputes4;
-  } else if (theme == "environnement") {
+  } else if (theme.equals("environnement")) {
         rgb = environnement4;
-  } else if (theme == "education") {
+  } else if (theme.equals("education")) {
         rgb = education4;
-  } else if (theme == "histoire") {
+  } else if (theme.equals("histoire")) {
         rgb = histoire4;
   }
 

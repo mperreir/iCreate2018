@@ -1,12 +1,13 @@
 // Initialization
+AudioFiles audio;
 final int nbCircle = 40;
-final int nbCircleFull = 5;
+int nbCircleFull;
 final int border = 50;
 final int sizeTickList = 10;
 Circle[] listCircles = new Circle[nbCircle];
-Circle[] listCirclesFull = new Circle[nbCircleFull];
+Circle[] listCirclesFull;
 MainCircle mc = null;
-String theme = getTheme();
+String theme;
 Leap leap = new Leap();
 LinkedList<Vector> positionList = new LinkedList<Vector>();
 
@@ -43,9 +44,6 @@ boolean g_hover = false;
 
 // Explosion
 boolean explosion = false;
-
-// Sound
-AudioFiles audio;
 
 // Tests
 // Test var for accelerating/deccelerating every x frames
