@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 203598439}
   - component: {fileID: 203598437}
   - component: {fileID: 203598441}
-  - component: {fileID: 203598438}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -139,17 +138,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203598436}
   m_Enabled: 1
---- !u!114 &203598438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 203598436}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea43ff84bae7c6d479c3078352dcb9e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!20 &203598439
 Camera:
   m_ObjectHideFlags: 0
@@ -206,7 +194,7 @@ Skybox:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203598436}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: b71d40ff17f09784f8e954e4531ff21a, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: 871d766ef14e1a5438415a0a72a380fc, type: 2}
 --- !u!1 &519155613
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,17 +219,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 519155613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98844f8ff94c83843a27943eea2a3d9b, type: 3}
+  m_Script: {fileID: 11500000, guid: bc1fa98db2c5cc94ab5044728a34f046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  criteria: all
-  galaxyDensity: 15
+  criteria: profession
+  galaxyDensity: 50
   galaxyMinSpeed: 10
   galaxyMaxSpeed: 25
   initialDisplayLimit: 5000
   joinspeed: 2
-  minx: -10
-  maxx: 10
+  minx: -20
+  maxx: 20
   miny: -10
   maxy: 10
   minz: 0
