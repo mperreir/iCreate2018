@@ -44,11 +44,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 38;
         rgb[2] = 73;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 98;
         rgb[1] = 19;
         rgb[2] = 46;
-        break;
+        break;*/
     }
   } else if (theme == "culture") {
     switch (rand) {
@@ -67,11 +67,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 57;
         rgb[2] = 134;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 48;
         rgb[1] = 39;
         rgb[2] = 88;
-        break;
+        break;*/
     }
   } else if (theme == "deputes") {
     switch (rand) {
@@ -90,11 +90,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 125;
         rgb[2] = 162;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 17;
         rgb[1] = 78;
         rgb[2] = 102;
-        break;
+        break;*/
     }
   } else if (theme == "environnement") {
     switch (rand) {
@@ -113,11 +113,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 133;
         rgb[2] = 66;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 54;
         rgb[1] = 98;
         rgb[2] = 52;
-        break;
+        break;*/
     }
   } else if (theme == "education") {
     switch (rand) {
@@ -136,11 +136,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 90;
         rgb[2] = 46;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 153;
         rgb[1] = 69;
         rgb[2] = 38;
-        break;
+        break;*/
     }
   } else if (theme == "histoire") {
     switch (rand) {
@@ -159,11 +159,11 @@ int[] getColorRGB(String theme) {
         rgb[1] = 163;
         rgb[2] = 52;
         break;
-      case 3:
+      /*case 3:
         rgb[0] = 187;
         rgb[1] = 140;
         rgb[2] = 54;
-        break;
+        break;*/
     }
   }
   
@@ -172,4 +172,37 @@ int[] getColorRGB(String theme) {
   }
 
   return rgb;
+}
+
+int[] getColorTimer(String theme) {
+    int[] rgb = new int[3];
+
+    if (theme == "citoyen") {
+        rgb[0] = 98;
+        rgb[1] = 19;
+        rgb[2] = 46;
+  } else if (theme == "culture") {
+        rgb[0] = 48;
+        rgb[1] = 39;
+        rgb[2] = 88;
+  } else if (theme == "deputes") {
+        rgb[0] = 17;
+        rgb[1] = 78;
+        rgb[2] = 102;
+  } else if (theme == "environnement") {
+        rgb[0] = 54;
+        rgb[1] = 98;
+        rgb[2] = 52;
+  } else if (theme == "education") {
+        rgb[0] = 153;
+        rgb[1] = 69;
+        rgb[2] = 38;
+  } else if (theme == "histoire") {
+        rgb[0] = 187;
+        rgb[1] = 140;
+        rgb[2] = 54;
+  }
+
+  return rgb;
+
 }
