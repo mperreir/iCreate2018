@@ -18,11 +18,6 @@ void setPos(int pos) {
   } else if(diff < -stepsSpecs / 2) {
     diff += stepsSpecs;
   }
-  Serial.print("pos(");
-  Serial.print(pos);
-  Serial.print(") ; diff(");
-  Serial.print(diff);
-  Serial.println(")");
   if(diff >= 0)
     myMotor->step(diff, FORWARD, SINGLE);
   else
@@ -41,31 +36,27 @@ void loop() {
   received = Serial.read();
   switch(received) {
     case('a') : 
-      Serial.print("a : ");
       setPos(visA);
-      Serial.flush();
+      while(Serial.available()>1){Serial.read();};
       break;
     case('b') : 
-      Serial.print("b : ");
       setPos(visB);
-      Serial.flush();
+      while(Serial.available()>1){Serial.read();};
       break;
     case('c') : 
-      Serial.print("c : ");
       setPos(visC);
-      Serial.flush();
+      while(Serial.available()>1){Serial.read();};
       break;
     case('d') : 
-      Serial.print("d : ");
       setPos(visD);
-      Serial.flush();
+      while(Serial.available()>1){Serial.read();};
       break;
     case('z') : 
-      Serial.print("z : ");
-      setPos(zero);
-      Serial.flush();
+      setPos((old_pos+stepsSpecs/5)%stepsSpecs);
+      while(Serial.available()>1){Serial.read();};
       break;
     default :
+      while(Serial.available()>1){Serial.read();};
       delay(100);
       break;
   }

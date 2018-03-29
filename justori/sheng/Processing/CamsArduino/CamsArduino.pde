@@ -63,7 +63,7 @@ void setup() {
   ocv3 = new OpenCV(this, 640/2, 480/2);
   ocv3.loadCascade(OpenCV.CASCADE_FRONTALFACE); 
   cam3.start();
-  cam4 = new Capture(this, 640/2, 480/2, cameras[4]);
+  cam4 = new Capture(this, 640/2, 480/2, cameras[64]);
   ocv4 = new OpenCV(this, 640/2, 480/2);
   ocv4.loadCascade(OpenCV.CASCADE_FRONTALFACE); 
   cam4.start();
