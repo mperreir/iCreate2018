@@ -20,12 +20,15 @@ public class Leap {
     Return true if the fist is close, false otherwise
   */
   public boolean actionPoing() {
-    Frame frame = this.controller.frame();
+    Frame frameNow = this.controller.frame();
+    Frame previousFrame = this.controller.frame(5);
     final float SEUIL = 0.9;
+    final float DIFFSEUIL = 0.4;
     boolean ret = false;
-    if (frame.hands().count() == 1) {
-      Hand hand = frame.hands().get(0);
-      if (hand.grabStrength() >= SEUIL) {
+    if (frameNow.hands().count() == 1 && previousFrame.hands().count() == 1) {
+      Hand handNow = frameNow.hands().get(0);
+      Hand previousHand = previousFrame.hands().get(0);
+      if (handNow.grabStrength() >= SEUIL && handNow.grabStrength() - previousHand.grabStrength() >= DIFFSEUIL) {
         ret = true;
       }
     }
