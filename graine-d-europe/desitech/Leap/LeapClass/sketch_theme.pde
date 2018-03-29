@@ -6,8 +6,6 @@ String getTheme() {
   return theme;
 }
 
-
-
 int[] getColorRGB(String theme) {
   int rand = (int) (Math.random() * (3));
   int[] rgb = new int[3];

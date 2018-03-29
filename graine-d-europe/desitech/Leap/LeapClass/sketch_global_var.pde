@@ -1,5 +1,6 @@
 // Initialization
 AudioFiles audio;
+PFont font;
 final int nbCircle = 40;
 int nbCircleFull;
 final int border = 50;
@@ -15,9 +16,11 @@ LinkedList<Vector> positionList = new LinkedList<Vector>();
 final int waitSlow = 180;
 final int waitExplosion = 45;
 final int waitAppear = 30;
+final int waitText = 90;
 int timerSlow = 0;
 int timerExplosion = 0;
 int timerAppear = 0;
+int timerText = 0;
 
 // Swipe
 final int entropyCoef = 1500;
@@ -44,6 +47,12 @@ boolean g_hover = false;
 
 // Explosion
 boolean explosion = false;
+
+// Text
+boolean write = false;
+int opacity_text = 0;
+boolean fading_higher = true;
+int fading_time = 5;
 
 // Tests
 // Test var for accelerating/deccelerating every x frames

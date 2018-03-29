@@ -15,10 +15,12 @@ class AudioFiles {
     this.musics = new HashMap<String, ArrayList<String>>();
     
     for (String dname : directoriesNames) {
-      this.musics.put(dname, new ArrayList<String>());
-      String[] filesNames = listFileNames(path + "/data/" + dname + "/");
-      for (String aname : filesNames) {
-        this.musics.get(dname).add(aname);
+      if (!dname.equals("DK_Bocadillo.otf")) {
+        this.musics.put(dname, new ArrayList<String>());
+        String[] filesNames = listFileNames(path + "/data/" + dname + "/");
+        for (String aname : filesNames) {
+          this.musics.get(dname).add(aname);
+        }
       }
     }
   }

@@ -3,6 +3,7 @@ import java.util.LinkedList;
 void setup() {
   fullScreen();
   frameRate(30);
+  font = getFont();
   audio = new AudioFiles();
   initCircles();
 }
@@ -14,6 +15,9 @@ void initCircles() {
   listCircles = new Circle[nbCircle];
   listCirclesFull = new Circle[nbCircleFull];
 
+  write = true;
+  timerText = 0;
+  fading_higher = true;
   explosion = false; 
   speedProgressionCoef = 1;
   speedCoef = 50;
@@ -43,6 +47,13 @@ void draw() {
 
 void circleActions(Vector v) {
   timerAppear++;
+  if (write) {
+    writeText(theme);
+    timerText++;
+    if (timerText > waitText) {
+      write = false;
+    }
+  }
   
   if (explosion) {
     timerExplosion++;
