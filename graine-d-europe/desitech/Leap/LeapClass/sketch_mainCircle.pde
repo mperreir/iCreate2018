@@ -100,6 +100,8 @@ class MainCircle {
       }
     } else if (isClosing) {
        audioStarted = false;
+       g_hover = false;
+       listCirclesFull[indexCircle].mainCircle = false;
        xpos += finalSpeedX;
        ypos += finalSpeedY;
        size -= speedMinimize;
