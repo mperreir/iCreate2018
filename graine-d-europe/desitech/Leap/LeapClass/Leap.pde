@@ -79,10 +79,15 @@ public class Leap {
   }
    
   private float estimateEntropy() {
-    Frame frame = this.controller.frame();
-    Hand hand = frame.hands().get(0);
-    Vector velocity = hand.palmVelocity();    
-    return (float) (Math.pow(velocity.getX(), 2) + Math.pow(velocity.getY(), 2) + Math.pow(velocity.getZ(), 2)) / 1000;
+    int sizeHistory = 5;
+    float average = 0;
+    for (int i = 0 ; i < sizeHistory ; i++ ) {
+      Frame frame = this.controller.frame(i);
+      Hand hand = frame.hands().get(0);
+      Vector velocity = hand.palmVelocity();   
+      average += (float) (Math.pow(velocity.getX(), 2) + Math.pow(velocity.getY(), 2) + Math.pow(velocity.getZ(), 2)) / 1000;
+    } 
+    return average / sizeHistory;
   }
    
   private float smoothNormalize(float x, float axis){
