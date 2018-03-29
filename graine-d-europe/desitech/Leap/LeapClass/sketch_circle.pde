@@ -2,7 +2,7 @@ class Circle {
   float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius, sizeCurrentCoef, sizeExpansionCoef, sizeProgressionCoef;
   int[] rgb;
   String col;
-  boolean full, hover, hoverReached, reachSize, explosion;
+  boolean full, hover, hoverReached, reachSize, explosion, mainCircle;
 
   Circle (boolean full) {  
     this.xpos = Math.floor(Math.random()*2) == 1 ? (float) (Math.random() * (width)) - width : (float) (Math.random() * (width)) + width;
@@ -25,6 +25,7 @@ class Circle {
     this.hoverReached = true;
     this.reachSize = true;
     this.explosion = false;
+    this.mainCircle = false;
     
     this.sizeCurrentCoef = sizeCurrentCoef_f;
     this.sizeExpansionCoef = sizeExpansionCoef_f;
@@ -45,8 +46,12 @@ class Circle {
       this.xpos = (this.xpos + this.speedx);
       this.ypos = (this.ypos + this.speedy);
     }
-
-    this.representation();
+  
+    if (!mainCircle) {
+      this.representation();
+    } else {
+      this.invisible();
+    }
   }
   
   private void representation() {
@@ -123,5 +128,14 @@ class Circle {
       if (this.ypos < border) {
         this.ypos = height - border;
       }
+  }
+  
+  private void invisible() {
+    if (this.full) {
+      fill(this.rgb[0], this.rgb[1], this.rgb[2], 0);
+      noStroke();
+    }
+
+    ellipse(this.xpos, this.ypos, this.size, this.size);
   }
 }

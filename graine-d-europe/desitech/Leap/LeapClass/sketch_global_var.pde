@@ -39,6 +39,7 @@ final float sizeProgressionCoef_f = 5;
 final float sizeExpansionCoef_f = 1;
 final float sizeCurrentCoef_f = 1;
 final float sizeTopCoef_f = 100;
+boolean g_hover = false;
 
 // Explosion
 boolean explosion = false;
