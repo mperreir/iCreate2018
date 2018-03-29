@@ -49,40 +49,44 @@ void circleActions(Vector v) {
   tmpTestCurrent++;
   tmpTestCurrentSize++;
   
-  if (timerAppear > waitAppear) {
-    boolean toReplaceByLeap = leap.countHands() > 0;
-    detectionHand(toReplaceByLeap);
-    
-    if (!explosion) {
-      if (Math.abs(currentSpeedCoef - 1) < 2.1) {
-        float entropy = leap.getEntropy();
-        detectionExplosion(entropy);
-        
-        if (!explosion) {
-          if (v != null) {
-              int xToReplace = (int)v.getX();
-              int yToReplace = (int)v.getZ();
-              int detectedHover = checkIfHover(xToReplace, yToReplace);
-              detectionHover(detectedHover);
+  if (!g_hover) {
+    if (timerAppear > waitAppear) {
+      boolean toReplaceByLeap = leap.countHands() > 0;
+      detectionHand(toReplaceByLeap);
+      
+      if (!explosion) {
+        if (Math.abs(currentSpeedCoef - 1) < 2.1) {
+          float entropy = leap.getEntropy();
+          detectionExplosion(entropy);
+          
+          if (!explosion) {
+            if (v != null) {
+                int xToReplace = (int)v.getX();
+                int yToReplace = (int)v.getZ();
+                int detectedHover = checkIfHover(xToReplace, yToReplace);
+                detectionHover(detectedHover);
+            }
           }
         }
-      }
-    } else {
-      if (waitExplosion <= timerExplosion) {
-        initCircles();
+      } else {
+        if (waitExplosion <= timerExplosion) {
+          initCircles();
+        }
       }
     }
+  } else {
+    detectionHand(true);
   }
   checkSpeed();
   
   drawCircles();
-}
-
-void vectorActions(Vector v) {
+  
   if (mc != null) {
     mc.update();
   }
-  
+}
+
+void vectorActions(Vector v) {
   if (v != null) {
     positionList.add(v);
   }

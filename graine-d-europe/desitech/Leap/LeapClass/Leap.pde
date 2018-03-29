@@ -23,7 +23,7 @@ public class Leap {
     Frame frameNow = this.controller.frame();
     Frame previousFrame = this.controller.frame(5);
     final float SEUIL = 0.9;
-    final float DIFFSEUIL = 0.4;
+    final float DIFFSEUIL = 0.3;
     boolean ret = false;
     if (frameNow.hands().count() == 1 && previousFrame.hands().count() == 1) {
       Hand handNow = frameNow.hands().get(0);
