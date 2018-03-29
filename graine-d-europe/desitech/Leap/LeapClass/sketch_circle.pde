@@ -62,7 +62,7 @@ class Circle {
       noStroke();
     } else {
       fill(0, 0, 0, 0);
-      stroke(this.rgb[0], this.rgb[1], this.rgb[2]);
+      stroke(this.rgb[0], this.rgb[1], this.rgb[2], 150);
       strokeWeight(4);
     }
 
