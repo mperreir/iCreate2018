@@ -56,7 +56,7 @@ int tmpTestTimeExplosionStop = 100;
 
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
-MainCircle mc;
+MainCircle mc = null;
 
 String theme = getTheme();
 
@@ -133,6 +133,10 @@ void draw() {
   checkSpeed();
   
   drawCircles();
+  
+  if (mc != null) {
+    mc.update();
+  }
   
   if (v != null) {
     positionList.add(v);
