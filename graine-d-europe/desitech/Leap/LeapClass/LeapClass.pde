@@ -56,6 +56,7 @@ int tmpTestTimeExplosionStop = 100;
 
 Circle[] listCircles = new Circle[nbCircle];
 Circle[] listCirclesFull = new Circle[nbCircleFull];
+MainCircle mc;
 
 String theme = getTheme();
 
@@ -364,6 +365,12 @@ void detectionHover(int index) {
   } else {
     if (index != -1) {
       circleHover(index);
+      
+      //check if the user select the circle
+      if(leap.actionPoing()) {
+          Circle c = listCirclesFull[index];
+          mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size);
+      }
     } else {
       noHover();
     }
