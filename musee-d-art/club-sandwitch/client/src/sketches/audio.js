@@ -11,7 +11,8 @@ export default function sketch(p) {
   }
 
   p.setup = function() {
-    mySound.play();
+    //mySound.play();
+    //mySound.loop();
   }
 
   p.myCustomRedrawAccordingToNewPropsHandler = function(props) {
@@ -19,16 +20,16 @@ export default function sketch(p) {
       if (mySound.isLoaded()) {
         switch (props.nomFct) {
           case "play":
-            mySound.play();
+            mySound.loop();
             break;
           case "pause":
-            mySound.pause();
+            mySound.stop();
             break;
           case "stop":
             mySound.stop();
             break;
           default:
-          
+
         }
       }
     } else {
