@@ -46,6 +46,10 @@ class Circle {
       this.ypos = (this.ypos + this.speedy);
     }
 
+    this.representation();
+  }
+  
+  private void representation() {
     if (this.full) {
       fill(this.rgb[0], this.rgb[1], this.rgb[2], 255);
       noStroke();
