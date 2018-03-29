@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import socketIOClient from 'socket.io-client';
 
-const socketUrl = "http://localhost:5000"
+const socketUrl = "http://serversocket2018v2.herokuapp.com"
 
 /*this.socket = io();//SocketIOClient('http://localhost:5000');
         this.socket.on('connect', () => {
