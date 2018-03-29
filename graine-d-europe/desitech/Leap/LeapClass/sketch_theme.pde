@@ -23,147 +23,81 @@ String getTheme() {
 
 
 int[] getColorRGB(String theme) {
-  int rand = (int) (Math.random() * (4));
+  int rand = (int) (Math.random() * (3));
   System.out.println(rand);
   int[] rgb = new int[3];
   
   if (theme == "citoyen") {
     switch (rand) {
       case 0:
-        rgb[0] = 230;
-        rgb[1] = 106;
-        rgb[2] = 146;
+        rgb = citoyen1;
         break;
       case 1:
-        rgb[0] = 209;
-        rgb[1] = 59;
-        rgb[2] = 103;
+        rgb = citoyen2;
         break;
       case 2:
-        rgb[0] = 152;
-        rgb[1] = 38;
-        rgb[2] = 73;
+        rgb = citoyen3;
         break;
-      /*case 3:
-        rgb[0] = 98;
-        rgb[1] = 19;
-        rgb[2] = 46;
-        break;*/
     }
   } else if (theme == "culture") {
     switch (rand) {
       case 0:
-        rgb[0] = 101;
-        rgb[1] = 97;
-        rgb[2] = 152;
+        rgb = culture1;
         break;
       case 1:
-        rgb[0] = 80;
-        rgb[1] = 65;
-        rgb[2] = 145;
+        rgb = culture2;
         break;
       case 2:
-        rgb[0] = 72;
-        rgb[1] = 57;
-        rgb[2] = 134;
+        rgb = culture3;
         break;
-      /*case 3:
-        rgb[0] = 48;
-        rgb[1] = 39;
-        rgb[2] = 88;
-        break;*/
     }
   } else if (theme == "deputes") {
     switch (rand) {
       case 0:
-        rgb[0] = 91;
-        rgb[1] = 193;
-        rgb[2] = 224;
+        rgb = deputes1;
         break;
       case 1:
-        rgb[0] = 59;
-        rgb[1] = 170;
-        rgb[2] = 216;
+        rgb = deputes1;
         break;
       case 2:
-        rgb[0] = 29;
-        rgb[1] = 125;
-        rgb[2] = 162;
+        rgb = deputes1;
         break;
-      /*case 3:
-        rgb[0] = 17;
-        rgb[1] = 78;
-        rgb[2] = 102;
-        break;*/
     }
   } else if (theme == "environnement") {
     switch (rand) {
       case 0:
-        rgb[0] = 143;
-        rgb[1] = 196;
-        rgb[2] = 118;
+        rgb = environnement1;
         break;
       case 1:
-        rgb[0] = 94;
-        rgb[1] = 171;
-        rgb[2] = 85;
+        rgb = environnement2;
         break;
       case 2:
-        rgb[0] = 77;
-        rgb[1] = 133;
-        rgb[2] = 66;
+        rgb = environnement3;
         break;
-      /*case 3:
-        rgb[0] = 54;
-        rgb[1] = 98;
-        rgb[2] = 52;
-        break;*/
     }
   } else if (theme == "education") {
     switch (rand) {
       case 0:
-        rgb[0] = 235;
-        rgb[1] = 141;
-        rgb[2] = 77;
+        rgb = education1;
         break;
       case 1:
-        rgb[0] = 233;
-        rgb[1] = 124;
-        rgb[2] = 49;
+        rgb = education2;
         break;
       case 2:
-        rgb[0] = 179;
-        rgb[1] = 90;
-        rgb[2] = 46;
+        rgb = education3;
         break;
-      /*case 3:
-        rgb[0] = 153;
-        rgb[1] = 69;
-        rgb[2] = 38;
-        break;*/
     }
   } else if (theme == "histoire") {
     switch (rand) {
       case 0:
-        rgb[0] = 286;
-        rgb[1] = 188;
-        rgb[2] = 87;
+        rgb = histoire1;
         break;
       case 1:
-        rgb[0] = 238;
-        rgb[1] = 176;
-        rgb[2] = 52;
+        rgb = histoire2;
         break;
       case 2:
-        rgb[0] = 232;
-        rgb[1] = 163;
-        rgb[2] = 52;
+        rgb = histoire3;
         break;
-      /*case 3:
-        rgb[0] = 187;
-        rgb[1] = 140;
-        rgb[2] = 54;
-        break;*/
     }
   }
   
@@ -178,29 +112,17 @@ int[] getColorTimer(String theme) {
     int[] rgb = new int[3];
 
     if (theme == "citoyen") {
-        rgb[0] = 98;
-        rgb[1] = 19;
-        rgb[2] = 46;
+        rgb = citoyen4;
   } else if (theme == "culture") {
-        rgb[0] = 48;
-        rgb[1] = 39;
-        rgb[2] = 88;
+        rgb = culture4;
   } else if (theme == "deputes") {
-        rgb[0] = 17;
-        rgb[1] = 78;
-        rgb[2] = 102;
+        rgb = deputes4;
   } else if (theme == "environnement") {
-        rgb[0] = 54;
-        rgb[1] = 98;
-        rgb[2] = 52;
+        rgb = environnement4;
   } else if (theme == "education") {
-        rgb[0] = 153;
-        rgb[1] = 69;
-        rgb[2] = 38;
+        rgb = education4;
   } else if (theme == "histoire") {
-        rgb[0] = 187;
-        rgb[1] = 140;
-        rgb[2] = 54;
+        rgb = histoire4;
   }
 
   return rgb;
