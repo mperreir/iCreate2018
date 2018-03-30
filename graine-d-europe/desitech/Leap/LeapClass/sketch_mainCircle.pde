@@ -24,6 +24,7 @@ class MainCircle {
   float finalSpeedX, finalSpeedY;
   
   boolean audioStarted = false;
+  int coef = 5;
   
   MainCircle (float x, float y, int[] rgb, float size, int indexCircle, float time, String question) {
     this.indexCircle = indexCircle;
@@ -58,7 +59,7 @@ class MainCircle {
        xpos += speedX;
        ypos += speedY;
        nbFrames--;
-       
+       size += 3;
        //check if the circle is centerded
        if(nbFrames == 0) {
          xpos = width/2;
@@ -90,6 +91,12 @@ class MainCircle {
       }
       fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
+      
+      if (size > 600 || size < 400) {
+         coef = -coef;
+      }
+      size += coef;
+      
       noFill();
       
       writeCentralText(this.question);
