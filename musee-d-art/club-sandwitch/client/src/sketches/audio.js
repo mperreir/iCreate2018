@@ -11,7 +11,6 @@ export default function sketch(p) {
   }
 
   p.setup = function() {
-    //mySound.play();
     //mySound.loop();
   }
 
