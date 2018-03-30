@@ -24,7 +24,7 @@ class MainCircle {
   float finalSpeedX, finalSpeedY;
   
   boolean audioStarted = false;
-  int coef = 5;
+  int moveSpeedCoef = 5;
   
   MainCircle (float x, float y, int[] rgb, float size, int indexCircle, float time, String question) {
     this.indexCircle = indexCircle;
@@ -91,11 +91,11 @@ class MainCircle {
       }
       fill(rgb[0], rgb[1], rgb[2], 255);
       ellipse(width/2, height/2, size, size);
-      
-      if (size > 600 || size < 400) {
-         coef = -coef;
+      // To add effect to move the circle while audio is playing 
+      if (size > 550 || size < 450) {
+         moveSpeedCoef = -moveSpeedCoef;
       }
-      size += coef;
+      // size += moveSpeedCoef; activate this
       
       noFill();
       
