@@ -1,6 +1,8 @@
 class MainCircle {
   int indexCircle;
   
+  String question;
+  
   float xpos, ypos;
   float speedX, speedY;
   //change nbFrames to adapt the speed of the circle (time to go to the middle)
@@ -23,7 +25,7 @@ class MainCircle {
   
   boolean audioStarted = false;
   
-  MainCircle (float x, float y, int[] rgb, float size, int indexCircle, float time) {
+  MainCircle (float x, float y, int[] rgb, float size, int indexCircle, float time, String question) {
     this.indexCircle = indexCircle;
     
     this.xpos = x;
@@ -36,6 +38,7 @@ class MainCircle {
     this.time = time;
     timer = new Timer(time);
     
+    this.question = question;
     
     //Calcul of the speed to center the circle
     //nbFrames = number of frames to go to the middle
@@ -89,7 +92,7 @@ class MainCircle {
       ellipse(width/2, height/2, size, size);
       noFill();
       
-      writeCentralText("Mais qui va être élu ?");
+      writeCentralText(this.question);
       
       if (time > 0 ) {
         time--;
