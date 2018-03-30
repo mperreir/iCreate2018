@@ -22,11 +22,11 @@ void writeCentralText(String text) {
   
   int nbChar = text.length();
   
-  textFont(createFont("DK_Bocadillo.otf", 2000/nbChar));
+  textFont(createFont("DK_Bocadillo.otf", 3500/nbChar));
   
   int[] rgb = getColorTimer(theme);
   
   fill(rgb[0], rgb[1], rgb[2], 255);
-  text(text, width/2 - 200, height/2 - 200, 400, 400);
+  text(text, width/2 - 350, height/2 - 350, 700, 700);
   textAlign(CENTER, CENTER);
 }
