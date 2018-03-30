@@ -5,6 +5,7 @@ import P5Wrapper from 'react-p5-wrapper';
 
 import fftAnalysis from '../sketches/fftAnalysis';
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
+//const socketUrl = "http://localhost:5000/"
 class SoundPlayerPage extends Component {
 
     constructor() {
