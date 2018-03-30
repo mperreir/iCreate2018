@@ -89,6 +89,7 @@ void circleActions(Vector v) {
     }
   } else {
     detectionHand(true);
+    checkSwipeDown();
   }
   checkSpeed();
   

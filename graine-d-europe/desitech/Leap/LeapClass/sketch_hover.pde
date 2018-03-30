@@ -17,11 +17,11 @@ void detectionHover(int index) {
     if (index != -1) {
       circleHover(index);
       //check if the user select the circle
-      if(leap.actionPoing()) {
+      if (leap.actionPoing()) {
         g_hover = true;
         Circle c = listCirclesFull[index];
         c.mainCircle = true;
-        mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size, index, audio.getDuration(this, theme, c.getAudioName())*30 + 30);
+        mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size, index, audio.getDuration(this, theme, c.getAudioName())*30 + 30, c.getAudioName());
       }
     } else {
       noHover();
@@ -56,8 +56,6 @@ int checkIfHover(int x_coord, int y_coord) {
 
 void checkSwipeDown() {
   if (mc != null && mc.isPlaying && leap.isSwipingDown()) {
-    System.out.println("TESTETSTETSTETSS");
-
     mcClosing();
   }
 }
