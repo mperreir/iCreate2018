@@ -89,6 +89,8 @@ class MainCircle {
       ellipse(width/2, height/2, size, size);
       noFill();
       
+      writeCentralText("Comment on devient ?");
+      
       if (time > 0 ) {
         time--;
         timer.update();

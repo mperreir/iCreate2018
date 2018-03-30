@@ -16,3 +16,16 @@ void writeText(String text) {
 PFont getFont() {
   return createFont(PFont.list()[0], 200);
 }
+
+void writeCentralText(String text) {
+  
+  int nbChar = text.length();
+  
+  textFont(createFont(PFont.list()[0], 2000/nbChar));
+  
+  int[] rgb = getColorTimer(theme);
+  
+  fill(rgb[0], rgb[1], rgb[2], 255);
+  text(text, width/2 - 200, height/2 - 200, 400, 400);
+  textAlign(CENTER, CENTER);
+}
