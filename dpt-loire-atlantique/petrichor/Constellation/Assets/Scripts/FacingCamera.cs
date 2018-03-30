@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class FacingCamera : MonoBehaviour {
 
+	public Vector3 up = new Vector3(0, 1, 0);
+	public bool useup = false;
+	public bool flip = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +15,18 @@ public class FacingCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.LookAt(Camera.main.transform.position);
+		Vector3 targetpos = Camera.main.transform.position;
+		if (flip)
+		{
+			targetpos = 2 * this.transform.position - targetpos;
+		}
+		if (this.useup)
+		{
+			this.transform.LookAt(targetpos, this.up);
+		}
+		else
+		{
+			this.transform.LookAt(targetpos);
+		}
 	}
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.UI;
 
 public class StarManager : MonoBehaviour {
 
@@ -15,12 +16,12 @@ public class StarManager : MonoBehaviour {
 	private List<string> ages;
 	private GameObject starsObject;
 	private GameObject galaxiesObject;
+	private int ActiveGalaxyIndex;
 
 	public string criteria = "all";
 	public float galaxyDensity = 200;
 	public float galaxyMinSpeed = 10;
 	public float galaxyMaxSpeed = 25;
-	public int initialDisplayLimit = -1;
 	public float joinspeed = 2;
 	public float minx = -10;
 	public float maxx = 10;
@@ -32,6 +33,7 @@ public class StarManager : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
+		this.ActiveGalaxyIndex = 0;
 		this.residences = new List<string>();
 		this.professions = new List<string>();
 		this.volontaires = new List<string>();
@@ -48,16 +50,11 @@ public class StarManager : MonoBehaviour {
 		this.galaxiesObject.name = "galaxies";
 		this.galaxiesObject.transform.SetParent(this.transform);
 		StarScript star;
-		StreamReader dataFile = new StreamReader("Assets/Data/Soldats.csv");
+		StreamReader dataFile = new StreamReader("Data/Soldats.csv");
 		string rawLine = dataFile.ReadLine();
 		string[] dataLine;
-		string residence;
-		string grade;
-		string profession;
-		string naissance;
-		string volontaire;
-		int age;
-		int num;
+		string residence, grade, profession, naissance, volontaire;
+		int age, num, anaissance;
 		int width = 0;
 		bool firstLine = true;
 		int i = 0;
@@ -75,7 +72,7 @@ public class StarManager : MonoBehaviour {
 				num = 0;
 				System.Int32.TryParse(dataLine[0], out num);
 				System.Int32.TryParse(dataLine[11], out age);
-				if (age != 0 && !this.ages.Contains(age.ToString()))
+				if (age >= 16 && !this.ages.Contains(age.ToString()))
 				{
 					this.ages.Add(age.ToString());
 				}
@@ -100,7 +97,24 @@ public class StarManager : MonoBehaviour {
 					this.professions.Add(profession);
 				}
 				naissance = dataLine[1].ToLower();
-				if (naissance != "" && naissance.Split('/').Length == 3 && !this.naissances.Contains(naissance.Split('/')[2]))
+				if (naissance.Split('/').Length != 3 || naissance.Split('/')[2].Length != 4)
+				{
+					naissance = "";
+				}
+				else if (naissance.Split('/').Length == 3)
+				{
+					anaissance = 0;
+					System.Int32.TryParse(naissance.Split('/')[2], out anaissance);
+					if (anaissance >= 1902 || anaissance < 1860)
+					{
+						naissance = "";
+					}
+				}
+				else
+				{
+					naissance = "";
+				}
+				if (naissance != "" && !this.naissances.Contains(naissance.Split('/')[2]))
 				{
 					this.naissances.Add(naissance.Split('/')[2]);
 				}
@@ -116,10 +130,7 @@ public class StarManager : MonoBehaviour {
 				star.volontaire = volontaire;
 				star.joinSpeed = this.joinspeed;
 				star.transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
-				if (i > this.initialDisplayLimit && this.initialDisplayLimit != -1)
-				{
-					star.gameObject.SetActive(false);
-				}
+				star.gameObject.SetActive(false);
 				this.stars.Add(star);
 				i++;
 			}
@@ -145,7 +156,8 @@ public class StarManager : MonoBehaviour {
 		this.galaxies.Clear();
 		if (criteria == "all")
 		{
-			this.galaxies.Add(CreateGalaxy(this.stars.Count, "ils sont morts", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(this.stars.Count, "Ils sont morts pendant la guerre", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.stars.Count; i++)
 			{
 				this.stars[i].MoveTo(this.galaxies[0]);
@@ -162,10 +174,12 @@ public class StarManager : MonoBehaviour {
 		{
 			
 			num = this.stars.Count / this.residences.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils y habitaient", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.residences.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.residences[i], this.galaxyDensity));
+				this.galaxies[i+1].GetComponentInChildren<Text>().text = this.residences[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -184,10 +198,12 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.professions.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils etaient", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.professions.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.professions[i], this.galaxyDensity));
+				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.professions[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -206,10 +222,12 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.grades.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils etaient", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.grades.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.grades[i], this.galaxyDensity));
+				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.grades[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -228,14 +246,23 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.naissances.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils sont nées en", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.naissances.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.naissances[i], this.galaxyDensity));
+				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.residences[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
-				galaxy = this.FindGalaxy(stars[i].naissance);
+				if (stars[i].naissance != "")
+				{
+					galaxy = this.FindGalaxy(stars[i].naissance.Split('/')[2]);
+				}
+				else
+				{
+					galaxy = null;
+				}
 				if (galaxy == null)
 				{
 					stars[i].MoveTo(this.galaxies[0]);
@@ -250,10 +277,19 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.volontaires.Count;
-			this.galaxies.Add(CreateGalaxy(num, "ils étaient volontaire", this.galaxyDensity));
+			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.volontaires.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.volontaires[i], this.galaxyDensity));
+				if (this.volontaires[i] == "oui")
+				{
+					this.galaxies[i].GetComponentInChildren<Text>().text = "volontaire";
+				}
+				else
+				{
+					this.galaxies[i].GetComponentInChildren<Text>().text = "non volontaire";
+				}
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -271,12 +307,14 @@ public class StarManager : MonoBehaviour {
 		else if (criteria == "age")
 		{
 
-			num = 0;
-			
-			this.galaxies.Add(CreateGalaxy(num, "ils avais", this.galaxyDensity));
+			num = this.stars.Count / this.volontaires.Count;
+
+			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
+			this.galaxies[0].GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.ages.Count; i++)
 			{
 				this.galaxies.Add(this.CreateGalaxy(num, this.ages[i], this.galaxyDensity));
+				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.ages[i] + " ans";
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -290,6 +328,10 @@ public class StarManager : MonoBehaviour {
 					stars[i].MoveTo(galaxy);
 				}
 			}
+		}
+		for (i = 0; i < this.galaxies.Count; i++)
+		{
+			this.galaxies[i].transform.GetChild(0).gameObject.SetActive(false);
 		}
 	}
 	
@@ -330,6 +372,10 @@ public class StarManager : MonoBehaviour {
 	public void NextCriteria()
 	{
 		string criteria = "all";
+		if (this.criteria == "none" || this.criteria == "all")
+		{
+			criteria = "profession";
+		}
 		if (this.criteria == "age")
 		{
 			criteria = "grade";
@@ -355,6 +401,7 @@ public class StarManager : MonoBehaviour {
 			criteria = "age";
 		}
 		this.ChangeCriteria(criteria);
+		this.ActiveGalaxyIndex = Random.Range(0, this.galaxies.Count);
 	}
 
 	public void Scint()
@@ -363,9 +410,38 @@ public class StarManager : MonoBehaviour {
 
 	public void ResetStars()
 	{
+		int i;
+		this.ChangeCriteria("all");
+		for (i = 0; i < this.stars.Count; i++)
+		{
+			this.stars[i].gameObject.SetActive(false);
+		}	
 	}
 
 	public void SpawnStars(int num)
 	{
+		int i, n;
+		for (i = 0; i < num; i++)
+		{
+			n = Random.Range(0, this.stars.Count - 1);
+			this.stars[n].transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
+			if (this.stars[n].galaxy != null)
+			{
+				this.stars[n].MoveTo(this.stars[n].galaxy);
+			}
+			this.stars[n].gameObject.SetActive(true);
+		}
+	}
+
+	public GameObject NextGalaxy()
+	{
+		if (this.galaxies.Count == 0)
+		{
+			return null;
+		}
+		this.galaxies[this.ActiveGalaxyIndex].transform.GetChild(0).gameObject.SetActive(false);
+		this.ActiveGalaxyIndex = (this.ActiveGalaxyIndex + 1) % this.galaxies.Count;
+		this.galaxies[this.ActiveGalaxyIndex].transform.GetChild(0).gameObject.SetActive(true);
+		return this.galaxies[this.ActiveGalaxyIndex].gameObject;
 	}
 }

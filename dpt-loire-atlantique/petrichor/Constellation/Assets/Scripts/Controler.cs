@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Controler : MonoBehaviour {
 
+	private float NextChangeTime;
+
 	public CameraScript cam;
 	public StarManager SM;
 	public int StarsPerKey = 100;
+	public float CameraChangeTime = 5;
+	public float CameraInitTime = 10;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		this.NextChangeTime = Time.time + this.CameraInitTime;
 	}
 	
 	// Update is called once per frame
@@ -31,6 +36,11 @@ public class Controler : MonoBehaviour {
 		{
 			this.ReturnAction();
 		}
+		if (Time.time > this.NextChangeTime)
+		{
+			this.NextChangeTime = Time.time + this.CameraChangeTime;
+			this.cam.MoveTo(this.SM.NextGalaxy());
+		}
 	}
 
 	public void KeyAction()
@@ -41,6 +51,8 @@ public class Controler : MonoBehaviour {
 	public void TabAction()
 	{
 		this.SM.NextCriteria();
+		this.cam.Free();
+		this.NextChangeTime = Time.time + this.CameraInitTime;
 	}
 
 	public void DingAction()
@@ -51,5 +63,7 @@ public class Controler : MonoBehaviour {
 	public void ReturnAction()
 	{
 		this.SM.ResetStars();
+		this.cam.Free();
+		this.NextChangeTime = Time.time + this.CameraInitTime;
 	}
 }
