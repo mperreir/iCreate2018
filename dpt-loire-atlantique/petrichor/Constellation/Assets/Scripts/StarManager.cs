@@ -259,7 +259,7 @@ public class StarManager : MonoBehaviour {
 			{
 				currentGalaxy = this.CreateGalaxy(num, this.naissances[i], this.galaxyDensity);
 				this.galaxies.Add(currentGalaxy);
-				currentGalaxy.GetComponentInChildren<Text>().text = this.naissances[i];
+				currentGalaxy.GetComponentInChildren<Text>().text = "né en " + this.naissances[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
