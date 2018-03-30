@@ -26,7 +26,7 @@ public class VideoController : MonoBehaviour
         // Video clip from Url
         videoPlayer.source = VideoSource.Url;
         // videoPlayer.url = "http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4";
-        videoPlayer.url = "https://www.youtube.com/embed/Wsl6qH2ZlE4?list=RDWsl6qH2ZlE4&amp;ecver=2";
+        videoPlayer.url = "192.168.137.18:8080";
 
         //Set Audio Output to AudioSource
         videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
