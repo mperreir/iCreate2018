@@ -53,3 +53,11 @@ int checkIfHover(int x_coord, int y_coord) {
   }
   return -1;
 }
+
+void checkSwipeDown() {
+  if (mc != null && mc.isPlaying && leap.isSwipingDown()) {
+    System.out.println("TESTETSTETSTETSS");
+
+    mcClosing();
+  }
+}

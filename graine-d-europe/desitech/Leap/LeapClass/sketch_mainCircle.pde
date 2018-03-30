@@ -89,15 +89,12 @@ class MainCircle {
       ellipse(width/2, height/2, size, size);
       noFill();
       
-      writeCentralText("Mais qui va être élu ?");
+      writeCentralText("Quels sont les avantages d'être citoyen européen et qu'est-ce que cela nous apporte ?");
       
       if (time > 0 ) {
         time--;
         timer.update();
       } else {
-        isPlaying = false;
-        isClosing = true;
-        
         mcClosing();
       }
     } else if (isClosing) {
@@ -124,6 +121,11 @@ class MainCircle {
 }
 
 void mcClosing() {
+  audio.play.stop();
+  
+  mc.isPlaying = false;
+  mc.isClosing = true;
+  
   Circle dest = listCirclesFull[mc.indexCircle];
   float destX = dest.xpos;
   float destY = dest.ypos;
