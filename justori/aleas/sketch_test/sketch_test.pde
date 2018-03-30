@@ -18,22 +18,28 @@ OscP5 osc;
 NetAddress remote;
 
 private SketchMapper sketchMapper;
+private TestSketch testSketch1;
 
 public void setup() {
   size(800, 600, P3D);
-  
+
   //On crée le controleur osc qui va nous permettre d'envoyer/recevoir des messages
-  
+
   osc = new OscP5(this, 12000);
-  
+
   osc.plug(this, "test", "/accelerometer/linear/y");
+  osc.plug(this, "light", "/light");
 
   //create our SketchMapper
   sketchMapper = new SketchMapper(this);
 
+  testSketch1 = new TestSketch(this, width/2, height/ 2);
+
   //create a sketch and add it to the SketchMapper
-  sketchMapper.addSketch(new TestSketch(this, width / 2, height / 2));
-  
+  sketchMapper.addSketch(testSketch1);
+
+
+
 }
 
 public void draw() {
@@ -46,10 +52,16 @@ public void test(float yaccel) {
   println("acceleration y = " + yaccel);
 }
 
+public void light(float lightLevel) {
+    println("@@@ light event");
+    if (lightLevel < 255) testSketch1.couleur[0] = Math.round(lightLevel);
+}
+
 void oscEvent(OscMessage themsg) {
   if(themsg.isPlugged()==false){
     println("### received an osc message.");
     println("### addrpattern\t"+themsg.addrPattern());
-    println("### typetag\t"+themsg.typetag());
+
+    println(themsg.arguments());
   }
 }

@@ -22,6 +22,7 @@ import processing.video.*;
 import deadpixel.keystone.*;
 import oscP5.*;
 import netP5.*;
+import java.util.Calendar;
 
 Keystone ks;
 Surface surf;
@@ -35,6 +36,29 @@ NetAddress remote;
 
 int gravX=50;
 int gravY=50;
+
+float[] gravity = {10.0,10.0,10.0};
+
+long lastRotationDate = 0;
+// long prevRotationDate = 0;
+
+float rotation = 0.0;
+float rotationVitesseInstant = 0.0;
+
+boolean ascendant = false;
+boolean descendant = false;
+
+float rotationMin = 0.0;
+float preRotationMin = 0.0;
+
+float rotationMax = 0.0;
+float preRotationMax = 0.0;
+
+float rotationAmplitude = 0.0;
+
+long dateMin = 0;
+long dateMax = 0;
+long demiPeriode = 0;
 
 void setup(){
     // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
@@ -58,8 +82,10 @@ void setup(){
     // offscreenMobile=createGraphics(500,500,P3D);
     // surfaceMobile=ks.createCornerPinSurface(400,400,20);
 
-    osc.plug(this,"changeGravX","/accelerometer/gravity/x");
-    osc.plug(this,"changeGravY","/accelerometer/gravity/y");
+
+    osc.plug(this,"rotationR1","/rotation_vector/r1");
+
+
 
 }
 
@@ -103,18 +129,74 @@ void movieEvent(Movie m){
 
 void oscEvent(OscMessage themsg){
     if(!themsg.isPlugged()){
-        println("### received an osc message.");
-        println("### addrpattern\t"+themsg.addrPattern());
+        // println("### received an osc message.");
+        // println("### addrpattern\t"+themsg.addrPattern());
 
         // println(themsg.arguments());
     }
 }
 
-void changeGravX(float gravity){
-    println("@@@ gravity X event");
-    gravX=Math.round(gravity+25)*100;
+
+
+void rotationR1(float rotationValue) {
+    long currentTime = Calendar.getInstance().getTimeInMillis();
+    long deltaTemps = currentTime - this.lastRotationDate;
+
+    boolean wasAscendant = estAscendant();
+    boolean wasDescendant = estDescendant();
+
+    long prevRotationDate = this.lastRotationDate;
+    this.lastRotationDate = currentTime;
+
+    this.rotationVitesseInstant = rotationValue - this.rotation;
+    // rotationVitesseInstantCorrige = rotationVitesseInstant / deltaTemps;
+    this.rotation = rotationValue;
+
+
+    println("@@@ rotation r1 event @@@");
+    println("t : " + deltaTemps);
+    println("dt : " + this.rotationVitesseInstant);
+
+    boolean change = false;
+
+    if (estDescendant()) {
+        this.rotationMin = rotationValue;
+        this.preRotationMax = this.rotationMax;
+        if (wasAscendant) {
+            this.dateMax = lastRotationDate;
+            change = true;
+        }
+
+    }
+    if (estAscendant()) {
+        this.rotationMax = rotationValue;
+        this.preRotationMin = rotationMin;
+        if (wasDescendant) {
+            this.dateMin = lastRotationDate;
+            change = true;
+        }
+    }
+    this.rotationAmplitude = this.preRotationMax - this.preRotationMin;
+    this.demiPeriode = Math.abs(dateMax - dateMin);
+
+    println("Minimum : " + this.rotationMin);
+    println("Maximum : " + this.rotationMax);
+    println("Amplitude : " + this.rotationAmplitude);
+    println("Periode : " + (2 * this.demiPeriode));
+    println("Frequence : " + (1000/(2.0*this.demiPeriode)));
+
+    if (change) newAmplitude();
 }
-void changeGravY(float gravity){
-    println("@@@ gravity Y event "+gravity);
-    gravY=Math.round(gravity+25)*100;
+
+private void newAmplitude() {
+    println("CHANGE");
+
+}
+
+private boolean estDescendant() {
+    return rotationVitesseInstant < -0.006;
+}
+
+private boolean estAscendant() {
+    return rotationVitesseInstant > 0.006;
 }
