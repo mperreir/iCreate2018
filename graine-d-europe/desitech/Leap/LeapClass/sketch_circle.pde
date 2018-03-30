@@ -40,16 +40,15 @@ class Circle {
     this.hoverEffects();
 
     // If the circle reaches a top or bottom border, we make it bounce
-    if (!this.explosion) {
-      this.positionChange();
-    } else {
-      this.speedx += this.speedx >= 0 ? 1 : -1; 
-      this.speedy += this.speedy >= 0 ? 1 : -1; 
-      this.xpos = (this.xpos + this.speedx);
-      this.ypos = (this.ypos + this.speedy);
-    }
-  
     if (!mainCircle) {
+      if (!this.explosion) {
+        this.positionChange();
+      } else {
+        this.speedx += this.speedx >= 0 ? 1 : -1; 
+        this.speedy += this.speedy >= 0 ? 1 : -1; 
+        this.xpos = (this.xpos + this.speedx);
+        this.ypos = (this.ypos + this.speedy);
+      }
       this.representation();
     } else {
       this.invisible();
