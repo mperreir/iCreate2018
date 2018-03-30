@@ -22,7 +22,7 @@ void writeCentralText(String text) {
   
   int nbChar = text.length();
   
-  textFont(createFont(PFont.list()[0], 2000/nbChar));
+  textFont(createFont("DK_Bocadillo.otf", 2000/nbChar));
   
   int[] rgb = getColorTimer(theme);
   

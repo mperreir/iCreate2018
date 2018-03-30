@@ -89,7 +89,7 @@ class MainCircle {
       ellipse(width/2, height/2, size, size);
       noFill();
       
-      writeCentralText("Comment on devient ?");
+      writeCentralText("Mais qui va être élu ?");
       
       if (time > 0 ) {
         time--;
