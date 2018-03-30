@@ -59,6 +59,13 @@ int fading_time = 5;
 // Swipe
 boolean swipe = false;
 
+// Sound Vrac
+boolean vrac = false;
+float coefAmp = 0;
+boolean coefAmpReach = false;
+boolean coefAmpHigher = true;
+float coefAmpProgression = 0.01;
+
 // Tests
 // Test var for accelerating/deccelerating every x frames
 boolean enableTest = false;

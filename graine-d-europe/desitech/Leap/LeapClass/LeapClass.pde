@@ -25,6 +25,16 @@ void initCircles() {
   timerExplosion = 0;
   timerAppear = 0;
   
+  if (vrac) {
+    audio.play.stop();
+  }
+  vrac = true;
+  coefAmp = 0;
+  coefAmpReach = false;
+  coefAmpHigher = true;
+  audio.playing = false;
+  audio.playVrac(this);
+  
   for (int i = 0; i < nbCircle; i++) {
     listCircles[i] = new Circle(false, null);
   }
@@ -102,6 +112,8 @@ void circleActions(Vector v) {
   checkSpeed();
   
   drawCircles();
+  
+  audio.changeAmp();
   
   if (mc != null) {
     mc.update();

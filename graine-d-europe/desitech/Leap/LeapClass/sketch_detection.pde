@@ -18,11 +18,22 @@ void detectionHand(boolean detected) {
     }
   } else {
     if (detected) {
+      if (vrac) {
+        coefAmpReach = false;
+        coefAmpHigher = false;
+        vrac = false;
+      }
       handMovements(true);
       reach = false;
     } else {
       handMovements(false);
       reach = false;
+      if (!vrac) {
+        vrac = true;
+        coefAmpHigher = true;
+        coefAmpReach = false;
+        audio.playVrac(this);
+      }
     }
   }
 }
