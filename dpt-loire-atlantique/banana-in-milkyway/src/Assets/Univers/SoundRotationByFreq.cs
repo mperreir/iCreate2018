@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundRotation : MonoBehaviour {
+public class SoundRotationByFreq : MonoBehaviour {
 
 	public float radius, frequency;
 	public int beginAngle;
