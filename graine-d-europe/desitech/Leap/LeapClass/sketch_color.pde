@@ -19,7 +19,7 @@ final int[] environnement3 = {77, 133, 66};
 final int[] environnement4 = {54, 98, 52};
 
 final int[] education1 = {235, 141, 77};
-final int[] education2 = {233, 124,4985};
+final int[] education2 = {233, 124,49};
 final int[] education3 = {179, 90, 46};
 final int[] education4 = {153, 69, 38};
 

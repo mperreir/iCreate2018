@@ -101,7 +101,6 @@ class MainCircle {
     } else if (isClosing) {
        audioStarted = false;
        g_hover = false;
-       listCirclesFull[indexCircle].mainCircle = false;
        xpos += finalSpeedX;
        ypos += finalSpeedY;
        size -= speedMinimize;
@@ -109,11 +108,12 @@ class MainCircle {
       
       if(nbFrames == 0) {
          mc = null;
-         //TODO : relaunch other circle
+         listCirclesFull[indexCircle].mainCircle = false;
+         noHover();
        }
       
       fill(rgb[0], rgb[1], rgb[2], 255);
-      ellipse(width/2, height/2, size, size);
+      ellipse(xpos, ypos, size, size);
       noFill();
       
     }
@@ -130,11 +130,11 @@ void mcClosing() {
   mc.nbFrames = 50;
     
   mc.finalSpeedX = abs(width/2 - destX) / mc.nbFrames;
-  if (width/2 - destX < 0) {
+  if (width/2 - destX > 0) {
       mc.finalSpeedX *= -1;
     }
   mc.finalSpeedY = abs(height/2 - destY) / mc.nbFrames;
-  if (height/2 - destY < 0) {
+  if (height/2 - destY > 0) {
     mc.finalSpeedY *= -1;
   }  
   
