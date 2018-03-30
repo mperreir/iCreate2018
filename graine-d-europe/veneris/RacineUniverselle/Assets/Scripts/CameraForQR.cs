@@ -5,7 +5,7 @@ using ZXing;
 using ZXing.QrCode;
 
 
-public class Camera : MonoBehaviour {
+public class CameraForQR : MonoBehaviour {
 
     private WebCamTexture camTexture;
     private Rect screenRect;
@@ -22,10 +22,11 @@ public class Camera : MonoBehaviour {
         }
     }
 
-    void OnGUI()
+    public string EvalQR()
     {
         // drawing the camera on screen
-        GUI.DrawTexture(screenRect, camTexture, ScaleMode.ScaleToFit);
+        // GUI.DrawTexture(screenRect, camTexture, ScaleMode.ScaleToFit);
+
         // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
         try
         {
@@ -33,12 +34,12 @@ public class Camera : MonoBehaviour {
             // decode the current frame
             var result = reader.Decode(camTexture.GetPixels32(), camTexture.width, camTexture.height);
             if (result != null)
-            {
-                Debug.Log("Coucou");
-                Debug.Log("DECODED TEXT FROM QR:" +result.Text);
-            }
+                return result.Text;
         }
-        catch (System.Exception ex) { Debug.LogWarning(ex.Message); }
+        catch (System.Exception ex) {
+            Debug.LogWarning(ex.Message);
+        }
+        return null;
     }
 
 }
