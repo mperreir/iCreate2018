@@ -1,6 +1,5 @@
 import "p5/lib/addons/p5.dom";
 
-let button;
 let vid;
 let video_name;
 let playing = false;
@@ -10,16 +9,13 @@ export default function sketch(p) {
   p.setup = function() {
     p.createCanvas(0, 0);
     vid = p.createVideo([video_name]);
-    button.mousePressed(p.toggleVid);
   };
 
   p.toggleVid = function() {
     if (playing) {
       vid.pause();
-      button.html('play');
     } else {
       vid.play();
-      button.html('pause');
     }
     playing = !playing;
     console.log("playing " + playing);
