@@ -97,7 +97,7 @@ class TabletPage extends Component {
                     enabled={this.state.isFullscreenEnabled}
                     onChange={isFullscreenEnabled => this.setState({isFullscreenEnabled})}>
                         <div className='full-screenable-node'>
-                            <P5Wrapper sketch={videos} video_name={this.state.video_name} isplaying={this.state.playing}/>
+                            <P5Wrapper socket={this.state.socket} sketch={videos} video_name={this.state.video_name} isplaying={this.state.playing}/>
                         </div>
                 </Fullscreen>
             </div>
