@@ -76,7 +76,7 @@ class MainCircle {
       //change size to adapt the growing speed
       size += 6;
       //change the value of the test to adapt the size of the main circle
-      if (size >= 500) {
+      if (size >= 800) {
         isGrowing = false;
         isPlaying = true;
       }
@@ -180,7 +180,7 @@ class Timer {
     strokeWeight(40);
     strokeCap(SQUARE);
     // "-HALF_PI" make it begin at the top of the circle (without it, it would start at the right of the circle)
-    arc(width/2, height/2, 495, 495, 3 * HALF_PI - (float) radiant, 3 * HALF_PI); 
+    arc(width/2, height/2, 790, 790, 3 * HALF_PI - (float) radiant, 3 * HALF_PI); 
     noStroke();
     
     actualTime--;
