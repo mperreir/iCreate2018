@@ -41,7 +41,5 @@ export default function sketch(p) {
       }else{
           video_name = props.video_name;
       }
-
  }
-
 }
