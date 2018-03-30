@@ -4,6 +4,7 @@ import java.util.Iterator;
 
 class AudioFiles {
   
+  boolean playing = false;
   SoundFile play;
   HashMap<String, ArrayList<String>> musics;
   
@@ -15,7 +16,7 @@ class AudioFiles {
     this.musics = new HashMap<String, ArrayList<String>>();
     
     for (String dname : directoriesNames) {
-      if (!dname.equals("DK_Bocadillo.otf")) {
+      if (!dname.equals("DK_Bocadillo.otf") && !dname.equals("vrac.mp3")) {
         this.musics.put(dname, new ArrayList<String>());
         String[] filesNames = listFileNames(path + "/data/" + dname + "/");
         for (String aname : filesNames) {
@@ -23,6 +24,35 @@ class AudioFiles {
           this.musics.get(dname).add(aname);
         }
       }
+    }
+  }
+  
+  void changeAmp() {
+    System.out.println("coefAmpReach : " + coefAmpReach + "; coefAmp : " + coefAmp + "; coefAmpHigher : " + coefAmpHigher);
+    if (!coefAmpReach && coefAmp < 1 && coefAmpHigher) {
+      coefAmp += coefAmpProgression;
+      this.play.amp(coefAmp);
+      if ((coefAmp - 1) > 0.001) {
+        coefAmpReach = true;
+        coefAmpHigher = false;
+      }
+    } else if (!coefAmpReach && coefAmp > 0 && !coefAmpHigher) {
+      coefAmp -= coefAmpProgression;
+      this.play.amp(coefAmp);
+      if ((coefAmp - 0) < 0.001) {
+        coefAmpReach = true;
+        coefAmpHigher = true;
+        this.play.stop();
+        this.playing = false;
+      }
+    }
+  }
+  
+  void playVrac(PApplet pa) {
+    if (!this.playing) {
+      this.play = new SoundFile(pa, "vrac.mp3");
+      this.play.loop();
+      this.playing = true;
     }
   }
   
