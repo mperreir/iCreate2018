@@ -16,7 +16,7 @@ class TabletPage extends Component {
             socket: null,
             playIntro: false,
             isFullscreenEnabled: false,
-            video_name: "video/1PSSTEHTOI.mp4"
+            video_name: "video/1TABLEAUPSSTEHTOI!.mp4"
         }
 
         /*this.socket.on('connect', () => {
