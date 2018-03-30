@@ -17,10 +17,12 @@ final int waitSlow = 180;
 final int waitExplosion = 45;
 final int waitAppear = 30;
 final int waitText = 90;
+final int waitSwipe = 50;
 int timerSlow = 0;
 int timerExplosion = 0;
 int timerAppear = 0;
 int timerText = 0;
+int timerSwipe = 0;
 
 // Swipe
 final int entropyCoef = 1500;
@@ -53,6 +55,9 @@ boolean write = false;
 int opacity_text = 0;
 boolean fading_higher = true;
 int fading_time = 5;
+
+// Swipe
+boolean swipe = false;
 
 // Tests
 // Test var for accelerating/deccelerating every x frames
