@@ -5,6 +5,7 @@ using ZXing.Common;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QRReader : MonoBehaviour
 {
@@ -41,7 +42,7 @@ public class QRReader : MonoBehaviour
         foreach (WebCamDevice wc in devices)
             Debug.Log(wc.name);
 
-        webCamTexture = new WebCamTexture(devices[1].name, 1280, 720);
+        webCamTexture = new WebCamTexture(devices[0].name, 1280, 720);
 
         rawimage.texture = webCamTexture;
         rawimage.material.mainTexture = webCamTexture;
@@ -53,12 +54,16 @@ public class QRReader : MonoBehaviour
         //Adding in the dictionnary, with the name (string) in key
         foreach (Sprite s in sprites)
             dict.Add(s.name, s);
+
+        tableau.sprite = dict["kandinsky"];
     }
 
     void Update()
     {
         if (webCamTexture != null && webCamTexture.isPlaying)
             DecodeQR();
+        if (Input.GetKey("escape"))
+            Application.Quit();
     }
 
     void DecodeQR()
@@ -72,10 +77,10 @@ public class QRReader : MonoBehaviour
                             webCamTexture.height);
 
         if (result != null)
-        {   
+        {
             //QR Code result
             decodedResult = result.Text;
-            //Displaying the right painting
+            //Displaying the right paintings
             tableau.sprite = dict[result.Text];
         }
     }

@@ -4,3 +4,17 @@ musee-d-art/caput-draconis/src/iCreate Test/Library/
 musee-d-art/caput-draconis/src/iCreate Test/ProjectSettings/
 
 musee-d-art/caput-draconis/src/iCreate Test/Temp/
+
+musee-d-art/caput-draconis/src/iCreate Test/\.vs/
+
+musee-d-art/caput-draconis/src/iCreate Test/obj/
+
+musee-d-art/caput-draconis/src/iCreate Test/test_Data/
+
+*.meta
+
+musee-d-art/caput-draconis/src/iCreate Test/UnityPlayer\.dll
+
+musee-d-art/caput-draconis/src/iCreate Test/iCreate Test\.csproj
+
+musee-d-art/caput-draconis/src/iCreate Test/test\.exe
