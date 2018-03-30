@@ -97,6 +97,8 @@ void circleActions(Vector v) {
   if (mc != null) {
     mc.update();
   }
+  
+  checkSwipeDown();
 }
 
 void vectorActions(Vector v) {
