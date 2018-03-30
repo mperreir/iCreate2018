@@ -58,21 +58,6 @@ class TabletPage extends Component {
                     case 3:
                         vname = "3.mp4";
                         break;
-                    case 4:
-                        vname = "4.mp4";
-                        break;
-                    case 5:
-                        vname = "5.mp4";
-                        break;
-                    case 6:
-                        vname = "6.mp4";
-                        break;
-                    case 7:
-                        vname = "7.mp4";
-                        break;
-                    case 8:
-                        vname = "8.mp4";
-                        break;
                     default:
                         vname = "1.mp4";
                 }
