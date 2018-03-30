@@ -13,6 +13,7 @@ public class CameraMove : MonoBehaviour {
     private Vector3 wantedPosition;
 
     public CameraForQR QR;
+    public UIController uicontroller;
 
     // Use this for initialization
     void Start () {
@@ -34,6 +35,12 @@ public class CameraMove : MonoBehaviour {
         {
             transform.position = Vector3.Slerp(transform.position, wantedPosition, cameraSpeed * Time.deltaTime);
             transform.LookAt(center.transform.position);
+        }
+
+        // Launch the webcam
+        if (Vector3.Distance(transform.position, wantedPosition) < 1)
+        {
+            uicontroller.popWebCam();
         }
     }
     

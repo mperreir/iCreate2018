@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class UIController : MonoBehaviour {
 
-    public GameObject myCamera;
+    public rawimg1 myraw;
 
 	// Use this for initialization
 	void Start () {
@@ -15,4 +15,10 @@ public class NewBehaviourScript : MonoBehaviour {
 	void Update () {
 
 	}
+
+    public void popWebCam()
+    {
+        myraw.transform.position += new Vector3(673, 319, 0);
+    }
+
 }
