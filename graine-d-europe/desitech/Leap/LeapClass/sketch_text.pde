@@ -14,5 +14,5 @@ void writeText(String text) {
 }
 
 PFont getFont() {
-  return createFont(PFont.list()[0], 200);
+  return createFont("DK_Bocadillo.otf", 200);
 }
