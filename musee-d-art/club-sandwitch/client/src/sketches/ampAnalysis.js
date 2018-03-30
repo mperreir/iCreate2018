@@ -3,15 +3,10 @@ import p5 from "p5";
 
 let mic;
 let amp;
-let res;
-let writingbool = false;
-let writer;
 
 let son;
 //let son2;
 let fft;
-
-let animaux = ['Grenouille', 'Coq_Poule', 'Chien', 'Vache'];
 
 export default function sketch(p) {
     p.preload = function() {

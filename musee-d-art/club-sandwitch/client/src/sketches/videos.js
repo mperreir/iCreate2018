@@ -4,7 +4,6 @@ let button;
 let vid;
 let video_name;
 let playing = false;
-let source;
 
 
 export default function sketch(p) {
@@ -29,7 +28,7 @@ export default function sketch(p) {
 
   p.myCustomRedrawAccordingToNewPropsHandler = function (props) {
       if(vid){
-          if(video_name != props.video_name){
+          if(video_name !== props.video_name){
              console.log("chgt video");
              video_name = props.video_name;
              console.log(video_name);

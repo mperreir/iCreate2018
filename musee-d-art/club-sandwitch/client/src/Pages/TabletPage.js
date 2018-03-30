@@ -17,7 +17,7 @@ class TabletPage extends Component {
             socket: null,
             playIntro: false,
             isFullscreenEnabled: false,
-            video_name: "video/1TABLEAUPSSTEHTOI!.mp4",
+            video_name: "video/1.mp4",
             id_current_video: 1
         }
 
@@ -50,34 +50,31 @@ class TabletPage extends Component {
             } else {
                 switch(id){
                     case 1:
-                        vname = "1PSSTEHTOI.mp4";
+                        vname = "1.mp4";
                         break;
                     case 2:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        vname = "2.mp4";
                         break;
                     case 3:
-                        vname = "3MORTMOLLET.mp4";
+                        vname = "3.mp4";
                         break;
                     case 4:
-                        vname = "5ENFANTCHERCHESON.mp4";
+                        vname = "4.mp4";
                         break;
                     case 5:
-                        vname = "6CHIENREVIENS.mp4";
+                        vname = "5.mp4";
                         break;
                     case 6:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        vname = "6.mp4";
                         break;
                     case 7:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        vname = "7.mp4";
                         break;
                     case 8:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
-                        break;
-                    case 9:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        vname = "8.mp4";
                         break;
                     default:
-                        vname = "2APPARITIONFORMULEMAGIQUE.mp4";
+                        vname = "1.mp4";
                 }
                 this.setState({video_name: './video/'+vname})
                 this.setState({playing: true})

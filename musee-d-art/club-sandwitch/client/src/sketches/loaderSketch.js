@@ -1,4 +1,6 @@
-import {p5, fill, noFill, background, millis} from "p5";
+import "p5/lib/addons/p5.sound";
+import p5 from "p5";
+
 
 let marge = 5
 let wTab = 768;
@@ -45,3 +47,4 @@ export default function sketch(p) {
       default:
     };
   }
+}
