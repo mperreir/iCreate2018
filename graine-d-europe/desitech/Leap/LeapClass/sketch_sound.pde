@@ -28,7 +28,6 @@ class AudioFiles {
   }
   
   void changeAmp() {
-    System.out.println("coefAmpReach : " + coefAmpReach + "; coefAmp : " + coefAmp + "; coefAmpHigher : " + coefAmpHigher);
     if (!coefAmpReach && coefAmp < 1 && coefAmpHigher) {
       coefAmp += coefAmpProgression;
       this.play.amp(coefAmp);
