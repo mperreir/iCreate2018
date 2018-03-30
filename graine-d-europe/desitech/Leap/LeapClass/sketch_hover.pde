@@ -16,7 +16,7 @@ void detectionHover(int index) {
   } else {
     if (index != -1) {
       circleHover(index);
-      //check if the user selct the circle
+      //check if the user select the circle
       if(leap.actionPoing()) {
         g_hover = true;
         Circle c = listCirclesFull[index];

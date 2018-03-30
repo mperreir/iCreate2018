@@ -8,13 +8,14 @@ void writeText(String text) {
     fading_higher = false;
   }
   textFont(font);
-  fill(0, 0, 0, opacity_text);
+  int[] darkest = getBrighestColor();
+  fill(darkest[0], darkest[1], darkest[2], opacity_text);
   text(text, width/2, height/2);
   textAlign(CENTER, CENTER);
 }
 
 PFont getFont() {
-  return createFont(PFont.list()[0], 200);
+  return createFont("DK_Bocadillo.otf", 150);
 }
 
 void writeCentralText(String text) {

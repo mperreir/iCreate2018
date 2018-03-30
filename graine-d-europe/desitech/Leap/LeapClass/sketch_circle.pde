@@ -87,6 +87,7 @@ class Circle {
       if (this.full && this.hover) {
         if ((this.sizeCurrentCoef - this.sizeExpansionCoef) < -this.sizeProgressionCoef) {
           this.size += this.sizeProgressionCoef;
+          this.radius = this.size / 2;
           this.speedx = 0;
           this.speedy = 0;
         }
