@@ -38,12 +38,12 @@ public class CameraScript : MonoBehaviour {
 		}
 	}
 
-	void MoveTo(GameObject target)
+	public void MoveTo(GameObject target)
 	{
 		this.target = target;
 	}
 
-	void Free()
+	public void Free()
 	{
 		this.target = null;
 	}

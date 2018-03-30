@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  RotationSpeed: 0.5
+  RotationSpeed: 15
   TargetDistance: 10
   up: {x: 0, y: 1, z: 0}
 --- !u!20 &203598439
@@ -183,7 +183,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -197,7 +197,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203598436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 519155615}
   - component: {fileID: 519155614}
   m_Layer: 0
-  m_Name: starManagerObject
+  m_Name: StarManagerObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,18 +238,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc1fa98db2c5cc94ab5044728a34f046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  criteria: profession
+  criteria: all
   galaxyDensity: 40
   galaxyMinSpeed: 20
   galaxyMaxSpeed: 30
-  initialDisplayLimit: 5000
-  joinspeed: 2
-  minx: -25
-  maxx: 25
-  miny: -15
-  maxy: 15
+  joinspeed: 4
+  minx: -35
+  maxx: 35
+  miny: -20
+  maxy: 20
   minz: 0
-  maxz: 40
+  maxz: 80
 --- !u!4 &519155615
 Transform:
   m_ObjectHideFlags: 0
@@ -293,6 +292,8 @@ MonoBehaviour:
   cam: {fileID: 203598438}
   SM: {fileID: 519155614}
   StarsPerKey: 100
+  CameraChangeTime: 10
+  CameraInitTime: 15
 --- !u!4 &630410266
 Transform:
   m_ObjectHideFlags: 0

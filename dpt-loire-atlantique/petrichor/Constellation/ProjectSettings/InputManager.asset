@@ -10,7 +10,7 @@ InputManager:
     descriptiveName: touche clavier
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: a
+    positiveButton: space
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -26,7 +26,7 @@ InputManager:
     descriptiveName: touche tabulation
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: z
+    positiveButton: tab
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -42,7 +42,7 @@ InputManager:
     descriptiveName: Son de fin de ligne
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: e
+    positiveButton: enter
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -58,7 +58,7 @@ InputManager:
     descriptiveName: Retour chariot
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: r
+    positiveButton: backspace
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
