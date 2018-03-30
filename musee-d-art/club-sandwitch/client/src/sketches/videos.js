@@ -10,7 +10,6 @@ export default function sketch(p) {
   p.setup = function() {
     p.createCanvas(0, 0);
     vid = p.createVideo([video_name]);
-    button = p.createButton('play');
     button.mousePressed(p.toggleVid);
   };
 
