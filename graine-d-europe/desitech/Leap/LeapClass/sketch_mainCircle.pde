@@ -165,7 +165,8 @@ class Timer {
     
     noFill();
     stroke(this.rgb[0], this.rgb[1], this.rgb[2]);
-    strokeWeight(20);
+    strokeWeight(40);
+    strokeCap(SQUARE);
     // "-HALF_PI" make it begin at the top of the circle (without it, it would start at the right of the circle)
     arc(width/2, height/2, 495, 495, 3 * HALF_PI - (float) radiant, 3 * HALF_PI); 
     noStroke();
