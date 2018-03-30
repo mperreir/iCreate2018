@@ -6,6 +6,23 @@ String getTheme() {
   return theme;
 }
 
+int[] getBrighestColor() {
+  if (theme.equals("citoyen")) {
+    return citoyen1;
+  } else if (theme.equals("culture")) {
+    return culture1;
+  } else if (theme.equals("deputes")) {
+    return deputes1;
+  } else if (theme.equals("environnement")) {
+    return environnement1;
+  } else if (theme.equals("education")) {
+    return education1;
+  } else if (theme.equals("histoire")) {
+    return histoire1;
+  }
+  return new int[3];
+}
+
 int[] getColorRGB(String theme) {
   int rand = (int) (Math.random() * (3));
   int[] rgb = new int[3];
