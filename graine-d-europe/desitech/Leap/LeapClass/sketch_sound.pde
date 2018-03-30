@@ -19,6 +19,7 @@ class AudioFiles {
         this.musics.put(dname, new ArrayList<String>());
         String[] filesNames = listFileNames(path + "/data/" + dname + "/");
         for (String aname : filesNames) {
+          aname = aname.split("\\.")[0] += " ?";
           this.musics.get(dname).add(aname);
         }
       }
@@ -30,7 +31,9 @@ class AudioFiles {
   }
   
   float getDuration(PApplet pa,String theme, String video) {
-    this.play = new SoundFile(pa, theme + "/" + video);
+    video = video.substring(0,video.length() - 2);
+    System.out.println(theme + "/" + video + ".mp3");
+    this.play = new SoundFile(pa, theme + "/" + video + ".mp3");
     return this.play.duration();
   }
   
