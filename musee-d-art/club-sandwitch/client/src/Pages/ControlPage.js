@@ -54,26 +54,6 @@ class ControlPage extends Component {
     console.log('playIntro');
     this.state.socket.emit('play-intro', 3);
   }
-  play4() {
-    console.log('playIntro');
-    this.state.socket.emit('play-intro', 4);
-  }
-  play5() {
-    console.log('playIntro');
-    this.state.socket.emit('play-intro', 5);
-  }
-  play6() {
-    console.log('playIntro');
-    this.state.socket.emit('play-intro', 6);
-  }
-  play7() {
-    console.log('playIntro');
-    this.state.socket.emit('play-intro', 7);
-  }
-  play8() {
-    console.log('playIntro');
-    this.state.socket.emit('play-intro', 8);
-  }
 
   pauseMobile() {
     console.log('pauseMobile');
@@ -90,11 +70,6 @@ class ControlPage extends Component {
       <button onClick={this.play1.bind(this)}>Play 1</button>
       <button onClick={this.play2.bind(this)}>Play 2</button>
       <button onClick={this.play3.bind(this)}>Play 3</button>
-      <button onClick={this.play4.bind(this)}>Play 4</button>
-      <button onClick={this.play5.bind(this)}>Play 5</button>
-      <button onClick={this.play6.bind(this)}>Play 6</button>
-      <button onClick={this.play7.bind(this)}>Play 7</button>
-      <button onClick={this.play8.bind(this)}>Play 8</button>
       <button onClick={this.playMobile.bind(this)}>Play sound mobile</button>
       <button onClick={this.pauseMobile.bind(this)}>Pause sound mobile</button>
     </div>);
