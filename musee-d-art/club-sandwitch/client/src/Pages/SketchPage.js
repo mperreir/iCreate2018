@@ -4,6 +4,7 @@ import ReactAudioPlayer from 'react-audio-player';
 import P5Wrapper from 'react-p5-wrapper';
 
 import fftAnalysis from '../sketches/fftAnalysis';
+import ampAnalysis from '../sketches/ampAnalysis';
 const socketUrl = "http://serversocket2018v2.herokuapp.com"
 class SoundPlayerPage extends Component {
 
@@ -26,7 +27,7 @@ class SoundPlayerPage extends Component {
                     autoPlay
                     loop
                 />
-                <P5Wrapper sketch={fftAnalysis} />
+                <P5Wrapper sketch={ampAnalysis} />
                 <p>Sound Player Page</p>
             </div>
         );
