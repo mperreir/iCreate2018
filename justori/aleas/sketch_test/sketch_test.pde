@@ -13,6 +13,7 @@ import com.sun.media.jai.util.*;
 import ixagon.surface.mapper.*;
 import oscP5.*;
 import netP5.*;
+import processing.video.*;
 
 OscP5 osc;
 NetAddress remote;
@@ -30,9 +31,15 @@ public void setup() {
 
   //create our SketchMapper
   sketchMapper = new SketchMapper(this);
+  
+  println("loadvid");
+  Movie mov = new Movie(this, "stepteen2.mov");
+  println("video chargee");
 
   //create a sketch and add it to the SketchMapper
-  sketchMapper.addSketch(new TestSketch(this, width / 2, height / 2));
+  //sketchMapper.addSketch(new TestSketch(this, width / 2, height / 2));
+  sketchMapper.addSketch(new videoSketch(this, width / 2, height / 2, mov));
+  sketchMapper.addSketch(new test(this, width / 2, height / 2));
   
 }
 
