@@ -22,6 +22,7 @@ void detectionHover(int index) {
         Circle c = listCirclesFull[index];
         c.mainCircle = true;
         mc = new MainCircle(c.xpos, c.ypos, c.rgb, c.size, index, audio.getDuration(this, theme, c.getAudioName())*30 + 30, c.getAudioName());
+        
       }
     } else {
       noHover();
