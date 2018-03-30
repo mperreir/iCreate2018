@@ -10,17 +10,17 @@ String getTheme() {
 }
 
 int[] getBrighestColor() {
-  if (theme.equals("citoyen")) {
+  if (theme.equals("Citoyen")) {
     return citoyen1;
-  } else if (theme.equals("culture")) {
+  } else if (theme.equals("Culture")) {
     return culture1;
-  } else if (theme.equals("deputes")) {
+  } else if (theme.equals("Députés")) {
     return deputes1;
-  } else if (theme.equals("environnement")) {
+  } else if (theme.equals("Environnement")) {
     return environnement1;
-  } else if (theme.equals("education")) {
+  } else if (theme.equals("Éducation")) {
     return education1;
-  } else if (theme.equals("histoire")) {
+  } else if (theme.equals("Histoire")) {
     return histoire1;
   }
   return new int[3];
@@ -29,7 +29,7 @@ int[] getBrighestColor() {
 int[] getColorRGB(String theme) {
   int rand = (int) (Math.random() * (3));
   int[] rgb = new int[3];
-  if (theme.equals("citoyen")) {
+  if (theme.equals("Citoyen")) {
     switch (rand) {
       case 0:
         rgb = citoyen1;
@@ -41,7 +41,7 @@ int[] getColorRGB(String theme) {
         rgb = citoyen3;
         break;
     }
-  } else if (theme.equals("culture")) {
+  } else if (theme.equals("Culture")) {
     switch (rand) {
       case 0:
         rgb = culture1;
@@ -53,7 +53,7 @@ int[] getColorRGB(String theme) {
         rgb = culture3;
         break;
     }
-  } else if (theme.equals("deputes")) {
+  } else if (theme.equals("Députés")) {
     switch (rand) {
       case 0:
         rgb = deputes1;
@@ -65,7 +65,7 @@ int[] getColorRGB(String theme) {
         rgb = deputes1;
         break;
     }
-  } else if (theme.equals("environnement")) {
+  } else if (theme.equals("Environnement")) {
     switch (rand) {
       case 0:
         rgb = environnement1;
@@ -77,7 +77,7 @@ int[] getColorRGB(String theme) {
         rgb = environnement3;
         break;
     }
-  } else if (theme.equals("education")) {
+  } else if (theme.equals("Éducation")) {
     switch (rand) {
       case 0:
         rgb = education1;
@@ -89,7 +89,7 @@ int[] getColorRGB(String theme) {
         rgb = education3;
         break;
     }
-  } else if (theme.equals("histoire")) {
+  } else if (theme.equals("Histoire")) {
     switch (rand) {
       case 0:
         rgb = histoire1;
@@ -109,17 +109,17 @@ int[] getColorRGB(String theme) {
 int[] getColorTimer(String theme) {
     int[] rgb = new int[3];
 
-    if (theme.equals("citoyen")) {
+    if (theme.equals("Citoyen")) {
         rgb = citoyen4;
-  } else if (theme.equals("culture")) {
+  } else if (theme.equals("Culture")) {
         rgb = culture4;
-  } else if (theme.equals("deputes")) {
+  } else if (theme.equals("Députés")) {
         rgb = deputes4;
-  } else if (theme.equals("environnement")) {
+  } else if (theme.equals("Environnement")) {
         rgb = environnement4;
-  } else if (theme.equals("education")) {
+  } else if (theme.equals("Éducation")) {
         rgb = education4;
-  } else if (theme.equals("histoire")) {
+  } else if (theme.equals("Histoire")) {
         rgb = histoire4;
   }
 
