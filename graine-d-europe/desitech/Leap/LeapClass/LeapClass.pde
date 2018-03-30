@@ -62,7 +62,8 @@ void circleActions(Vector v) {
   tmpTestCurrent++;
   tmpTestCurrentSize++;
   
-  if (!g_hover) {
+  
+  if (!g_hover && !swipe) {
     if (timerAppear > waitAppear) {
       boolean toReplaceByLeap = leap.countHands() > 0;
       detectionHand(toReplaceByLeap);
@@ -87,10 +88,17 @@ void circleActions(Vector v) {
         }
       }
     }
-  } else {
+  } else if (!swipe) {
     detectionHand(true);
     checkSwipeDown();
+  } else if (swipe) {
+    detectionHand(true);
+    timerSwipe++;
+    if (timerSwipe >= waitSwipe) {
+      swipe = false;
+    }
   }
+  
   checkSpeed();
   
   drawCircles();

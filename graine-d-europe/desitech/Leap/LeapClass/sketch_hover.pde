@@ -57,5 +57,6 @@ int checkIfHover(int x_coord, int y_coord) {
 void checkSwipeDown() {
   if (mc != null && mc.isPlaying && leap.isSwipingDown()) {
     mcClosing();
+    swipe = true;
   }
 }
