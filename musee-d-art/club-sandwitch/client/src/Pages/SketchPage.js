@@ -4,8 +4,12 @@ import ReactAudioPlayer from 'react-audio-player';
 import P5Wrapper from 'react-p5-wrapper';
 
 import fftAnalysis from '../sketches/fftAnalysis';
+
 import ampAnalysis from '../sketches/ampAnalysis';
-const socketUrl = "http://serversocket2018v2.herokuapp.com"
+
+import loaderSketch from '../sketches/loaderSketch';
+const socketUrl = "https://serversocket2018v2.herokuapp.com
+
 class SoundPlayerPage extends Component {
 
     constructor() {
