@@ -5,6 +5,10 @@ let vid;
 let video_name;
 let playing = false;
 
+let mic;
+let amp;
+let amplitude;
+let socket;
 
 export default function sketch(p) {
   p.setup = function() {
@@ -12,6 +16,10 @@ export default function sketch(p) {
     vid = p.createVideo([video_name]);
     button = p.createButton('play');
     button.mousePressed(p.toggleVid);
+    mic = new p5.AudioIn();
+    mic.start();
+    amp = new p5.Amplitude(0.99);
+    amp.setInput(mic);
   };
 
   p.toggleVid = function() {
@@ -39,6 +47,23 @@ export default function sketch(p) {
           p.toggleVid();
       }else{
           video_name = props.video_name;
+          socket = props.socket;
       }
  }
+
+  p.draw = function() {
+    amplitude = amp.getLevel();
+    if(amplitude > 0.5) {
+      console.log('chien ' + amplitude);
+    } else if (amplitude > 0.4 && video_name === '1.mp4') {
+      console.log('Presto ' + amplitude);
+      socket.emit('playIntro',2);
+    } else if (amplitude > 0.4 && video === '2.mp4') {
+      console.log('vache - coq - poule ' + amplitude);
+      socket.emit('playIntro',3);
+    } else {
+      console.log('bruit de fond');
+    }
+
+  }
 }
