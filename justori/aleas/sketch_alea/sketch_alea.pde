@@ -22,8 +22,12 @@ import processing.video.*;
 import deadpixel.keystone.*;
 
 Keystone ks;
-Surface surf;
-Movie mov;
+collectionSurface surfaces;
+ArrayList<Movie> lesFilms;
+ArrayList<OffScreen> lesContenus;
+VideoFrame frame;
+OffScreen frame2;
+int y;
 
 void setup() {
   // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
@@ -31,15 +35,31 @@ void setup() {
   // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
   ks = new Keystone(this);
   //On charge les vidéo que l'on veut utiliser
-  mov = new Movie(this, "stepteen2.mov" );
+  String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4", "portion_14.mp4"};
+  lesFilms = creerMovie(fichierFilm);
+  lesContenus = new ArrayList<OffScreen>();
+  for(int i = 0; i < lesFilms.size(); i++){
+    lesContenus.add(new VideoFrame(600,600,lesFilms.get(i)));
+  }
   //On charge une surface qui sert a la projection d'une vidéo
-  surf = new Surface(ks, 500, 500, 20);
+  surfaces = new collectionSurface();
+  for(int i = 0; i < 4; i++){
+    surfaces.add(new Surface(ks, 600,600,20, i));
+  }
+  Helper.setOffScreens(lesContenus);
+  Helper.setupOffScreen(surfaces.getSurface(0),0);
+  Helper.setupOffScreen(surfaces.getSurface(1),1);
+  Helper.setupOffScreen(surfaces.getSurface(2),2);
+  Helper.setupOffScreen(surfaces.getSurface(3),3);
+  y = 0;
 }
 
 void draw() {
   //On veut un fond noir et éclairer uniquement les cubes
   background(0);
-  surf.draw();
+  surfaces.draw();
+  println(y);
+  y++;
 }
 
 void keyPressed() {
@@ -59,10 +79,17 @@ void keyPressed() {
     // saves the layout
     ks.save();
     break;
+  case 't':
+    for(int i = 0; i < surfaces.getSize(); i++){
+      surfaces.getSurface(i).setOffScreenBuffer(new OffScreen(500,500));
+    }
+    break;
   case 'p':
     // play/pause the movie on keypress
-    if (true) {
+    if (!frame.isPlaying()) {
+      frame.play();
     } else {
+      frame.pause();
     }
     break;
   }
@@ -70,4 +97,14 @@ void keyPressed() {
 
 void movieEvent(Movie m) {
   m.read();
+}
+
+// Permet de créer une liste de films a partir d'une liste de nom de fichiers.
+// Les fichiers doivent être dans le dossier data
+ArrayList<Movie> creerMovie(String[] liste){
+  ArrayList<Movie> movies = new ArrayList<Movie>();
+  for(int i = 0; i < liste.length; i++){
+    movies.add(new Movie(this, liste[i]));
+  }
+  return movies;
 }
