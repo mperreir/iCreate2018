@@ -144,7 +144,7 @@ public class StarManager : MonoBehaviour {
 	{
 		int i, num;
 		this.criteria = criteria;
-		GalaxyScript galaxy;
+		GalaxyScript galaxy, rootGalaxy, currentGalaxy;
 		for (i = 0; i < this.stars.Count; i++)
 		{
 			this.stars[i].FreeStar(this.starsObject);
@@ -174,19 +174,21 @@ public class StarManager : MonoBehaviour {
 		{
 			
 			num = this.stars.Count / this.residences.Count;
-			this.galaxies.Add(CreateGalaxy(num, "", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.residences.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.residences[i], this.galaxyDensity));
-				this.galaxies[i+1].GetComponentInChildren<Text>().text = this.residences[i];
+				currentGalaxy = this.CreateGalaxy(num, this.residences[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
+				currentGalaxy.GetComponentInChildren<Text>().text = this.residences[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
 				galaxy = this.FindGalaxy(stars[i].residence);
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -198,19 +200,21 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.professions.Count;
-			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.professions.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.professions[i], this.galaxyDensity));
-				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.professions[i];
+				currentGalaxy = this.CreateGalaxy(num, this.professions[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
+				currentGalaxy.GetComponentInChildren<Text>().text = this.professions[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
 				galaxy = this.FindGalaxy(stars[i].profession);
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -222,19 +226,21 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.grades.Count;
-			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.grades.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.grades[i], this.galaxyDensity));
-				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.grades[i];
+				currentGalaxy = this.CreateGalaxy(num, this.grades[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
+				currentGalaxy.GetComponentInChildren<Text>().text = this.grades[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
 				galaxy = this.FindGalaxy(stars[i].grade);
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -246,12 +252,14 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.naissances.Count;
-			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.naissances.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.naissances[i], this.galaxyDensity));
-				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.residences[i];
+				currentGalaxy = this.CreateGalaxy(num, this.naissances[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
+				currentGalaxy.GetComponentInChildren<Text>().text = this.naissances[i];
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
@@ -265,7 +273,7 @@ public class StarManager : MonoBehaviour {
 				}
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -277,18 +285,20 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.volontaires.Count;
-			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.volontaires.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.volontaires[i], this.galaxyDensity));
+				currentGalaxy = this.CreateGalaxy(num, this.volontaires[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
 				if (this.volontaires[i] == "oui")
 				{
-					this.galaxies[i].GetComponentInChildren<Text>().text = "volontaire";
+					currentGalaxy.GetComponentInChildren<Text>().text = "volontaire";
 				}
 				else
 				{
-					this.galaxies[i].GetComponentInChildren<Text>().text = "non volontaire";
+					currentGalaxy.GetComponentInChildren<Text>().text = "mobilisé";
 				}
 			}
 			for (i = 0; i < this.stars.Count; i++)
@@ -296,7 +306,7 @@ public class StarManager : MonoBehaviour {
 				galaxy = this.FindGalaxy(stars[i].volontaire);
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -308,20 +318,21 @@ public class StarManager : MonoBehaviour {
 		{
 
 			num = this.stars.Count / this.volontaires.Count;
-
-			this.galaxies.Add(CreateGalaxy(num, "On ne sait pas", this.galaxyDensity));
-			this.galaxies[0].GetComponentInChildren<Text>().text = "";
+			rootGalaxy = CreateGalaxy(num, "On ne sait pas", this.galaxyDensity);
+			this.galaxies.Add(rootGalaxy);
+			rootGalaxy.GetComponentInChildren<Text>().text = "";
 			for (i = 0; i < this.ages.Count; i++)
 			{
-				this.galaxies.Add(this.CreateGalaxy(num, this.ages[i], this.galaxyDensity));
-				this.galaxies[i + 1].GetComponentInChildren<Text>().text = this.ages[i] + " ans";
+				currentGalaxy = this.CreateGalaxy(num, this.ages[i], this.galaxyDensity);
+				this.galaxies.Add(currentGalaxy);
+				currentGalaxy.GetComponentInChildren<Text>().text = this.ages[i] + " ans";
 			}
 			for (i = 0; i < this.stars.Count; i++)
 			{
 				galaxy = this.FindGalaxy(stars[i].age.ToString());
 				if (galaxy == null)
 				{
-					stars[i].MoveTo(this.galaxies[0]);
+					stars[i].MoveTo(rootGalaxy);
 				}
 				else
 				{
@@ -401,7 +412,7 @@ public class StarManager : MonoBehaviour {
 			criteria = "age";
 		}
 		this.ChangeCriteria(criteria);
-		this.ActiveGalaxyIndex = Random.Range(0, this.galaxies.Count);
+		this.ActiveGalaxyIndex = Random.Range(0, this.galaxies.Count - 1);
 	}
 
 	public void Scint()
