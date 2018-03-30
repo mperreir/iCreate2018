@@ -1,9 +1,12 @@
 String getTheme() {
+  String themeRet = "";
+  do {
   int rand = (int) (Math.random() * (audio.getNbCat()));
   
-  String theme = audio.getCatIndex(rand);
+  themeRet = audio.getCatIndex(rand);
+  } while (theme == themeRet);
   
-  return theme;
+  return themeRet;
 }
 
 int[] getBrighestColor() {
