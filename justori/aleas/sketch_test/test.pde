@@ -19,22 +19,20 @@
  *
  */
 
-public class TestSketch extends AbstractSketch {
+public class test extends AbstractSketch {
 
-    public int[] couleur = {255,0,0};
-
-    public TestSketch(final PApplet parent, final int width, final int height) {
+    public test(final PApplet parent, final int width, final int height) {
         super(parent, width, height);
     }
 
     @Override
     public void draw() {
         graphics.beginDraw();
-        graphics.background(couleur[0], couleur[1], couleur[2]);
-        // graphics.fill(couleur[0], couleur[1], couleur[2]);
-        // for (int i = 0; i < 100; i++) {
-        // graphics.ellipse(parent.random(graphics.width), parent.random(graphics.height), 25, 25);
-        // }
+        graphics.background(255);
+        graphics.fill(125,45,88);
+        for (int i = 0; i < 100; i++) {
+            graphics.ellipse(parent.random(graphics.width), parent.random(graphics.height), 25, 25);
+        }
         graphics.endDraw();
     }
 
