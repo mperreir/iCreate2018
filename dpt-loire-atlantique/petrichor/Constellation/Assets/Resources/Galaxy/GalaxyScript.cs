@@ -6,7 +6,7 @@ public class GalaxyScript : MonoBehaviour {
 
 	public string galaxyTag = "";
 	public float radius = 5;
-	public float speed;
+	public float speed = 20;
 	public Vector3 rotator = new Vector3(0, 1, 2);
 
 	// Use this for initialization
