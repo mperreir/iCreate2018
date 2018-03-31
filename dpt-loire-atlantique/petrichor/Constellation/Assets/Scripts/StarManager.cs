@@ -50,7 +50,7 @@ public class StarManager : MonoBehaviour {
 		this.galaxiesObject.name = "galaxies";
 		this.galaxiesObject.transform.SetParent(this.transform);
 		StarScript star;
-		StreamReader dataFile = new StreamReader("Data/Soldats.csv");
+		StreamReader dataFile = new StreamReader(Application.streamingAssetsPath + "/Soldats.csv");
 		string rawLine = dataFile.ReadLine();
 		string[] dataLine;
 		string residence, grade, profession, naissance, volontaire;
