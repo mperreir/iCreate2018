@@ -36,7 +36,7 @@ clips = [doigt1, doigt2, doigt3, doigt4, doigt5, main1, main2, main3, main4, mai
 # writing the results file
 outputFile = open("fftResults.csv","w");
 for sig in clips :
-	res = fft.fft(sig)[:512]
+	res = fft.fft(sig)[-512:]
 	l = len(res)
 	print(l)
 	for i in range (l) :
