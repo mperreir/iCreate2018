@@ -54,6 +54,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1135966286acd43bb6d6538635f26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  up: {x: 0, y: 1, z: 0}
+  useup: 0
+  flip: 0
 --- !u!114 &114647141499859256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -67,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num: 0
   age: 0
-  galaxyDistance: 0
+  galaxyPosition: {x: 0, y: 0, z: 0}
   joinSpeed: 1
   residence: 
   grade: 
@@ -76,6 +79,10 @@ MonoBehaviour:
   volontaire: 
   galaxy: {fileID: 0}
   attached: 0
+  ScintProb: 0.1
+  ScintProbActive: 0.5
+  ScintTime: 0.2
+  ScintActive: 0
 --- !u!122 &122481010701401180
 Halo:
   m_ObjectHideFlags: 1
@@ -85,7 +92,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278387459
+    rgba: 4278650631
   m_Size: 1
 --- !u!212 &212995260536604406
 SpriteRenderer:
