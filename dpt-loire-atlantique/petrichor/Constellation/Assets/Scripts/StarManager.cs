@@ -415,8 +415,22 @@ public class StarManager : MonoBehaviour {
 		this.ActiveGalaxyIndex = Random.Range(0, this.galaxies.Count - 1);
 	}
 
+	private void DeScint()
+	{
+		int i;
+		for (i = 0; i < this.stars.Count; i++)
+		{
+			this.stars[i].ScintActive = false;
+		}
+	}
+
 	public void Scint()
 	{
+		int i;
+		for (i = 0; i < this.stars.Count; i++)
+		{
+			this.stars[i].ScintActive = true;
+		}
 	}
 
 	public void ResetStars()
@@ -426,7 +440,8 @@ public class StarManager : MonoBehaviour {
 		for (i = 0; i < this.stars.Count; i++)
 		{
 			this.stars[i].gameObject.SetActive(false);
-		}	
+		}
+		this.DeScint();
 	}
 
 	public void SpawnStars(int num)
@@ -438,6 +453,7 @@ public class StarManager : MonoBehaviour {
 			this.stars[n].transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
 			if (this.stars[n].galaxy != null)
 			{
+				this.stars[n].transform.SetParent(this.starsObject.transform);
 				this.stars[n].MoveTo(this.stars[n].galaxy);
 			}
 			this.stars[n].gameObject.SetActive(true);
