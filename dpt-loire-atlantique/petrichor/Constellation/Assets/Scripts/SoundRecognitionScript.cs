@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class SoundRecognitionScript : MonoBehaviour
 {
     // Fields
-    AudioSource[] clips;    // List of all the AudioClips loaded in the scene
-    float[][] spectrums;    // Spectrums of the clips
+    float[][] spectrums;    // Spectrums of the prerocorded clips (computed with a python script)
     float[] means;          // Means of the values of all the spectrums
     float[] vars;           // Variances of the values of the spectrums
     string[] devices;       // List of all the microphones
@@ -17,15 +17,14 @@ public class SoundRecognitionScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        clips = new AudioSource[15];
-        spectrums = new float[15][];
+        /*spectrums = new float[15][];
         means = new float[15];
         vars = new float[15];
-        GetClips();
-        GetClipsSpectrum();
-        AnalyseClips();
+        GetSpectrums();
+        AnalyseClips();*/
 
         devices = Microphone.devices;
+        print(devices[0]);
         mic = GetComponent<AudioSource>();
         mic.clip = Microphone.Start(devices[0], true, 10000, 44100);
         mic.Play();
@@ -34,52 +33,23 @@ public class SoundRecognitionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //AudioSource a = GetComponent<AudioSource>();
-        //a.clip = Microphone.Start("Microphone (Realtek High Definition Audio)", false, 1, 44100);
-        //Recognize(a);
-
-        Recognize(mic);
+        //Recognize(mic);
     }
 
-    // Getting one of the prerecorded clips
-    AudioSource GetClip(string fileName)
+    // Load prerecorded clips spectrums from a file
+    void GetSpectrums()
     {
-        AudioClip ac = Resources.Load(fileName) as AudioClip;
-        AudioSource a = gameObject.AddComponent<AudioSource>();
-        a.volume = 0;
-        a.clip = ac;
-        return a;
-    }
-
-    void GetClips()
-    {
-        clips[0] = GetClip("Sounds/doigt1");
-        clips[1] = GetClip("Sounds/doigt2");
-        clips[2] = GetClip("Sounds/doigt3");
-        clips[3] = GetClip("Sounds/doigt4");
-        clips[4] = GetClip("Sounds/doigt5");
-        clips[5] = GetClip("Sounds/main1");
-        clips[6] = GetClip("Sounds/main2");
-        clips[7] = GetClip("Sounds/main3");
-        clips[8] = GetClip("Sounds/main4");
-        clips[9] = GetClip("Sounds/main5");
-        clips[10] = GetClip("Sounds/prout1");
-        clips[11] = GetClip("Sounds/prout2");
-        clips[12] = GetClip("Sounds/prout3");
-        clips[13] = GetClip("Sounds/prout4");
-        clips[14] = GetClip("Sounds/prout5");
-    }
-
-    // Computing spectrums of the prerecorded clips
-    void GetClipsSpectrum()
-    {
-        int l = clips.Length;
-        for (int i = 0; i < l; i++)
+        StreamReader dataFile = new StreamReader(Application.streamingAssetsPath + "/fftResults.csv");
+        for (int i=0; i<15; i++)
         {
-            spectrums[i] = new float[256];
-            clips[i].Play();
-            clips[i].clip.GetData(spectrums[i], 0);
-
+            string line = dataFile.ReadLine();
+            string[] elts = line.Split(';');
+            float[] res = new float[elts.Length];
+            for (int j=0; j<elts.Length-1; j++)
+            {
+                res[j] = float.Parse(elts[j]);
+            }
+            spectrums[i] = res;
         }
     }
 
@@ -131,20 +101,20 @@ public class SoundRecognitionScript : MonoBehaviour
     void Recognize(AudioSource a)
     {
         // Analyse signal
-        float[] spec = new float[8192];
+        float[] spec = new float[512];
         a.GetSpectrumData(spec, 0, FFTWindow.Rectangular);
         float m = Mean(spec);
         float v = Var(spec);
 
         // Comparison with prerecorded sounds
-        float[] dists = new float[clips.Length];
-        for (int i = 0; i < clips.Length; i++)
+        float[] dists = new float[spectrums.Length];
+        for (int i = 0; i < spectrums.Length; i++)
         {
-            dists[i] = Dist(m * 1000000, v * 1000000, means[i] * 1000000, vars[i] * 1000000);
+            dists[i] = Dist(m, v, means[i], vars[i]);
         }
         float min = float.PositiveInfinity;
         int minId = 0;
-        for (int i = 0; i < clips.Length; i++)
+        for (int i = 0; i < spectrums.Length; i++)
         {
             if (dists[i] < min)
             {
@@ -161,24 +131,22 @@ public class SoundRecognitionScript : MonoBehaviour
             case 2:
             case 3:
             case 4:
-                if (min < 15)
-                {
-                    controler.KeyAction();
-                }
+                print("Doigt " + min + " " + (minId));
+                controler.KeyAction();
                 break;
             case 5:
             case 6:
             case 7:
             case 8:
             case 9:
-                if (min < 15) print("Main " + min + " " + (minId - 5));
+                print("Main " + min + " " + (minId - 5));
                 break;
             case 10:
             case 11:
             case 12:
             case 13:
             case 14:
-                if (min < 15) print("Prout " + min + " " + (minId - 10));
+                print("Prout " + min + " " + (minId - 10));
                 break;
             default:
                 break;
@@ -186,6 +154,17 @@ public class SoundRecognitionScript : MonoBehaviour
     }
 
     void PrintTab(float[] t)
+    {
+        int l = t.Length;
+        string res = "";
+        for (int i = 0; i < l; i++)
+        {
+            res += "[" + t[i] + "]";
+        }
+        print(res);
+    }
+
+    void PrintTab(string[] t)
     {
         int l = t.Length;
         string res = "";
