@@ -42,7 +42,7 @@ InputManager:
     descriptiveName: Son de fin de ligne
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: enter
+    positiveButton: return
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0

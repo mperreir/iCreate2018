@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class StarScript : MonoBehaviour {
 
+	private bool Scint = false;
+	private float ScintTo = 0;
+
 	public int num = 0;
 	public int age = 0;
 	public Vector3 galaxyPosition = new Vector3();
@@ -15,6 +18,10 @@ public class StarScript : MonoBehaviour {
 	public string volontaire = null;
 	public GalaxyScript galaxy = null;
 	public bool attached = false;
+	public float ScintProb = 0.1F;
+	public float ScintProbActive = 0.5F;
+	public float ScintTime = 0.2F;
+	public bool ScintActive = false;
 
 	// Use this for initialization
 	void Start()
@@ -40,6 +47,35 @@ public class StarScript : MonoBehaviour {
 			else
 			{
 				this.transform.transform.position = Vector3.MoveTowards(this.transform.position, this.galaxy.transform.position - this.galaxyPosition, this.joinSpeed * Time.deltaTime);
+			}
+		}
+		if (this.Scint)
+		{
+			if (Time.time > this.ScintTo)
+			{
+				this.Scint = false;
+				this.GetComponent<SpriteRenderer>().enabled = true;
+			}
+		}
+		else
+		{
+			if (this.ScintActive)
+			{
+				if (Random.value < this.ScintProbActive * Time.deltaTime)
+				{
+					this.Scint = true;
+					this.GetComponent<SpriteRenderer>().enabled = false;
+					this.ScintTo = Time.time + this.ScintTime;
+				}
+			}
+			else
+			{
+				if (Random.value < this.ScintProb * Time.deltaTime)
+				{
+					this.Scint = true;
+					this.GetComponent<SpriteRenderer>().enabled = false;
+					this.ScintTo = Time.time + this.ScintTime;
+				}
 			}
 		}
 	}
