@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "matricule": 6398,
+    "dateNaissance": "01/1859",
+    "xNaissance": "0.15884662073",
+    "yNaissance": "0.29710614232",
+    "dateDeces": "01/1914",
+    "xDeces": "0.48394122496",
+    "yDeces": "0.13220949063"
+  },
+  {
+    "id": 2,
+    "matricule": 7621,
+    "dateNaissance": "10/1898",
+    "xNaissance": "0.09831667849",
+    "yNaissance": "0.28687662921",
+    "dateDeces": "10/1918",
+    "xDeces": "0.36209944713",
+    "yDeces": "0.2800222734"
+  }
+]
