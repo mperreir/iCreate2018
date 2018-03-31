@@ -6,22 +6,22 @@ public class StarScript : MonoBehaviour {
 
 	private bool Scint = false;
 	private float ScintTo = 0;
+	private Vector3 galaxyPosition = new Vector3();
+	private bool attached = false;
 
 	public int num = 0;
 	public int age = 0;
-	public Vector3 galaxyPosition = new Vector3();
-	public float joinSpeed = 2;
 	public string residence = null;
 	public string grade = null;
 	public string profession = null;
 	public string naissance = null;
 	public string volontaire = null;
-	public GalaxyScript galaxy = null;
-	public bool attached = false;
+	public float joinSpeed = 2;
 	public float ScintProb = 0.1F;
 	public float ScintProbActive = 0.5F;
 	public float ScintTime = 0.2F;
 	public bool ScintActive = false;
+	public GalaxyScript galaxy = null;
 
 	// Use this for initialization
 	void Start()

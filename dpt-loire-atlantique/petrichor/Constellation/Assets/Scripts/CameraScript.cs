@@ -7,7 +7,6 @@ public class CameraScript : MonoBehaviour {
 	private Vector3 InitPos;
 	private Quaternion InitRot;
 	private GameObject target;
-	private bool done;
 
 	public float Speed = 5;
 	public float RotationSpeed = 0.5F;
