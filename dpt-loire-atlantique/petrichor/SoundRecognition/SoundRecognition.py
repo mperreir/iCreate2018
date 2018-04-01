@@ -22,24 +22,30 @@ def importWav(filename) :
 (main5r, main5) = importWav("main5")
 
 # import of mouth sounds
-(prout1r, prout1) = importWav("prout1")
-(prout2r, prout2) = importWav("prout2")
-(prout3r, prout3) = importWav("prout3")
-(prout4r, prout4) = importWav("prout4")
-(prout5r, prout5) = importWav("prout5")
+(cloc1r, cloc1) = importWav("cloc1")
+(cloc2r, cloc2) = importWav("cloc2")
+(cloc3r, cloc3) = importWav("cloc3")
+(cloc4r, cloc4) = importWav("cloc4")
+(cloc5r, cloc5) = importWav("cloc5")
+
+#import of silence
+(blancr, blanc) = importWav("blanc")
 
 # list of all the imported sound datas
-clips = [doigt1, doigt2, doigt3, doigt4, doigt5, main1, main2, main3, main4, main5, prout1, prout2, prout3, prout4, prout5]
+clips = [doigt1, doigt2, doigt3, doigt4, doigt5, main1, main2, main3, main4, main5, cloc1, cloc2, cloc3, cloc4, cloc5, blanc]
 
 
 
 # writing the results file
 outputFile = open("fftResults.csv","w");
 for sig in clips :
-	res = fft.fft(sig)[-512:]
-	l = len(res)
-	print(l)
-	for i in range (l) :
+	spec = fft.fft(sig)
+	l = len(spec)
+	res = []
+	jump = int(l/256)
+	for i in range (256) :
+		res.append(spec[i*jump])
+	for i in range (len(res)) :
 		val = np.sqrt(np.real(res[i][0])**2 + np.real(res[i][1])**2)
 		outputFile.write(str(val) + ";")
 	outputFile.write("\n");
