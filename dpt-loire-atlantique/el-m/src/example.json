@@ -14,9 +14,89 @@
     "matricule": 7621,
     "dateNaissance": "10/1898",
     "xNaissance": "0.09831667849",
-    "yNaissance": "0.28687662921",
+    "yNaissance": "0.2956",
     "dateDeces": "10/1918",
     "xDeces": "0.36209944713",
     "yDeces": "0.2800222734"
+  },
+  {
+    "id": 3,
+    "matricule": 7421,
+    "dateNaissance": "10/1899",
+    "xNaissance": "0.12",
+    "yNaissance": "0.31",
+    "dateDeces": "10/1918",
+    "xDeces": "0.36",
+    "yDeces": "0.28"
+  },
+  {
+    "id": 4,
+    "matricule": 5432,
+    "dateNaissance": "01/1867",
+    "xNaissance": "0.15",
+    "yNaissance": "0.32",
+    "dateDeces": "01/1914",
+    "xDeces": "0.5",
+    "yDeces": "0.33"
+  },
+  {
+    "id": 5,
+    "matricule": 1234,
+    "dateNaissance": "09/1878",
+    "xNaissance": "0.12",
+    "yNaissance": "0.30",
+    "dateDeces": "09/1918",
+    "xDeces": "0.42",
+    "yDeces": "0.31"
+  },
+  {
+    "id": 6,
+    "matricule": 9738,
+    "dateNaissance": "06/1890",
+    "xNaissance": "0.234",
+    "yNaissance": "0.234",
+    "dateDeces": "06/1918",
+    "xDeces": "0.9",
+    "yDeces": "0.7"
+  },
+  {
+    "id": 7,
+    "matricule": 7542,
+    "dateNaissance": "03/1866",
+    "xNaissance": "0.19831667849",
+    "yNaissance": "0.28687662921",
+    "dateDeces": "03/1917",
+    "xDeces": "0.45",
+    "yDeces": "0.23"
+  },
+  {
+    "id": 8,
+    "matricule": 2534,
+    "dateNaissance": "11/1880",
+    "xNaissance": "0.123",
+    "yNaissance": "0.2868",
+    "dateDeces": "11/1914",
+    "xDeces": "0.36209",
+    "yDeces": "0.2"
+  },
+  {
+    "id": 9,
+    "matricule": 3344,
+    "dateNaissance": "04/1875",
+    "xNaissance": "0.15685",
+    "yNaissance": "0.295",
+    "dateDeces": "04/1916",
+    "xDeces": "0.89",
+    "yDeces": "0.56"
+  },
+  {
+    "id": 10,
+    "matricule": 9879,
+    "dateNaissance": "09/1869",
+    "xNaissance": "0.19",
+    "yNaissance": "0.375",
+    "dateDeces": "09/1917",
+    "xDeces": "0.3456",
+    "yDeces": "0.374654356"
   }
 ]
