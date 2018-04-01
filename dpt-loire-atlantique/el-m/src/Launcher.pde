@@ -1,5 +1,6 @@
 PImage img; // image de fond d'ecran
 int smallPoint, largePoint;
+
 SoldiersList allSoldiers; // liste de tous les soldats
 SoldiersList displayedSoldiers_birth; // liste des soldats dont il faut afficher le lieu de naissance
 SoldiersList displayedSoldiers_death; // liste des soldats dont il faut afficher le lieu de mort
@@ -31,9 +32,9 @@ void setup() {
   noStroke();
   background(255);
   
-  formerDate = new Date(1850, 1, 0, 0, 0);
-  currentDate = new Date(1851, 1, 0, 0, 0);
-  warDate = new Date(1914, 1, 0, 0, 0);
+  formerDate = new Date(1850, 0, 0, 0, 0); // janvier 1850
+  currentDate = new Date(1851, 0, 0, 0, 0); // janvier 1851
+  warDate = new Date(1914, 0, 0, 0, 0); // janvier 1914
   iteratorBeforeWar = 1; // 1 an
   iteratorDuringWar = 1; // 1 mois
   
@@ -42,7 +43,6 @@ void setup() {
   displayedSoldiers_death = new SoldiersList();
   allSoldiers.initialize(); // remplissage de la liste de tous les soldats
   System.out.println("Nombre de soldats au total : " + allSoldiers.getSize());
-  System.out.println("Liste de soldats au total : " + allSoldiers.toString());
   
   //for(int i = 0; i < 10 ; i++){
   //  coords.add(new Coordinate(random(img.width), random(img.height)));
@@ -81,6 +81,9 @@ void draw() {
     }
   }
   
+  // affichage de la période
+  drawDate();
+  
   // Affichage des lieux de naissance
   for (Soldier s : displayedSoldiers_birth.list) {
     fill(51, 204, 255, 63);
@@ -92,6 +95,7 @@ void draw() {
   for (Soldier s : displayedSoldiers_death.list) {
     fill(255, 0, 0, 63);
     ellipse(s.xDeces*img.width, s.yDeces*img.height, 15, 15);
+    drawArrow(s.xNaissance*img.width, s.yNaissance*img.height, s.xDeces*img.width, s.yDeces*img.height);
   }
   
   //delay(int(random(20)));
@@ -105,21 +109,16 @@ void addCoordinate(){
 /**
 * Itère la date courante
 */
-public void nextDate(){
+void nextDate(){
+  formerDate.setYear(currentDate.getYear());
+  formerDate.setMonth(currentDate.getMonth());
   // avant la guerre
-  if(currentDate.compareTo(warDate) < 0){
-    formerDate.setYear(currentDate.getYear());
-    currentDate.setYear(currentDate.getYear()+iteratorBeforeWar);
-  }
+  if(currentDate.compareTo(warDate) < 0) currentDate.setYear(currentDate.getYear()+iteratorBeforeWar);
   // pendant la guerre
   else{
-    formerDate.setYear(currentDate.getYear());
-    formerDate.setMonth(currentDate.getMonth());
-    int currentMonth = (currentDate.getMonth()+iteratorDuringWar)%12;
-    if(currentMonth == 0) currentDate.setMonth(12);
-    else currentDate.setMonth(currentMonth);
+    currentDate.setMonth((currentDate.getMonth()+iteratorDuringWar)%12);
     // on change d'année
-    if (formerDate.getMonth()+iteratorDuringWar > 12) currentDate.setYear(currentDate.getYear()+iteratorBeforeWar);
+    if (currentDate.getMonth() < formerDate.getMonth()) currentDate.setYear(currentDate.getYear()+1);
   }
 }
 
@@ -127,7 +126,7 @@ public void nextDate(){
 /*
 * MaJ les listes des soldats en fonction de la période de temps
 */
-public void UpdateSoldiersLists(){
+void UpdateSoldiersLists(){
   for (Soldier s : allSoldiers.list) {
     // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
     if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
@@ -145,95 +144,96 @@ public void UpdateSoldiersLists(){
 /**
 * renvoie la date courante
 */
-public String getFormerDate(){
+String getFormerDate(){
   String ret = "";
   
   // on affiche le mois pendant la guerre
   if(formerDate.getYear() >= 1914){
     switch(formerDate.getMonth()) {
-      case 1: 
+      case 0: 
         ret+="Jan. ";
         break;
-      case 2: 
+      case 1: 
         ret+="Fev. ";
         break;
-      case 3: 
+      case 2: 
         ret+="Mars ";
         break;
-      case 4: 
+      case 3: 
         ret+="Avr. ";
         break;
-      case 5: 
+      case 4: 
         ret+="Mai ";
         break;
-      case 6: 
+      case 5: 
         ret+="Juin ";
         break;
-      case 7: 
+      case 6: 
         ret+="Juil. ";
         break;
-      case 8: 
+      case 7: 
         ret+="Août ";
         break;
-      case 9: 
+      case 8: 
         ret+="Sept. ";
         break;
-      case 10: 
+      case 9: 
         ret+="Oct. ";
         break;
-      case 11: 
+      case 10: 
         ret+="Nov. ";
         break;
-      case 12: 
+      case 11: 
         ret+="Déc. ";
         break;
     }
   }
+  
   ret+=formerDate.getYear();
   
   return ret;
 }
   
-  public String getCurrentDate(){
+String getCurrentDate(){
   String ret = "";
   
   // on affiche le mois pendant la guerre
   if(currentDate.getYear() >= 1914){
     switch(currentDate.getMonth()) {
-      case 1: 
+      case 0: 
         ret+="Jan. ";
         break;
-      case 2: 
+      case 1: 
         ret+="Fev. ";
         break;
-      case 3: 
+      case 2: 
         ret+="Mars ";
         break;
-      case 4: 
+      case 3: 
         ret+="Avr. ";
         break;
-      case 5: 
+      case 4: 
         ret+="Mai ";
         break;
-      case 6: 
+      case 5: 
         ret+="Juin ";
         break;
-      case 7: 
+      case 6: 
         ret+="Juil. ";
         break;
-      case 8: 
+      case 7: 
         ret+="Août ";
         break;
-      case 9: 
+      case 8: 
         ret+="Sept. ";
         break;
-      case 10: 
+      case 9: 
         ret+="Oct. ";
         break;
-      case 11: 
+      case 10: 
         ret+="Nov. ";
         break;
-      case 12: 
+      case 11: 
         ret+="Déc. ";
         break;
     }
@@ -242,4 +242,30 @@ public String getFormerDate(){
   ret+=currentDate.getYear();
   
   return ret;
+}
+
+/**
+* dessine une flèche de (x1, y1) vers (x2, y2)
+*/
+void drawArrow(float x1, float y1, float x2, float y2) {
+  pushStyle();
+  stroke(0, 102, 153);
+  line(x1, y1, x2, y2);
+  pushMatrix();
+  translate(x2, y2);
+  float a = atan2(x1-x2, y2-y1);
+  rotate(a);
+  line(0, 0, -10, -10);
+  line(0, 0, 10, -10);
+  popMatrix();
+  popStyle();
+}
+
+/**
+* affiche la période de temps
+*/
+void drawDate(){
+  textSize(32);
+  fill(102, 102, 102);
+  text(getCurrentDate(), 10, img.height-10); 
 }
