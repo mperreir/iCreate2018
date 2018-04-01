@@ -1,14 +1,20 @@
 import java.util.ArrayList;
 
-public class SoldiersList {
+class SoldiersList {
 
-  public ArrayList<Soldier> list;
+  ArrayList<Soldier> list;
 
-  public SoldiersList() {
+  /**
+  * constructeur
+  */
+  SoldiersList() {
     this.list = new ArrayList<Soldier>();
   }
 
-  public void initialize() {
+  /**
+  * remplissage de la liste à partir du json
+  */
+  void initialize() {
     JSONArray values = loadJSONArray("example.json");
     for (int i = 0; i < values.size(); i++) {
       JSONObject soldier = values.getJSONObject(i); 
@@ -30,11 +36,14 @@ public class SoldiersList {
     } 
   }
 
-  public int getSize(){
+  /**
+  * renvoie le nombre de soldat dans la liste
+  */
+  int getSize(){
     return this.list.size();
   }
 
-  public String toString() {
+  String toString() {
     String str = "";
     for(Soldier s : this.list){
       str+=s.toString()+"\n";
