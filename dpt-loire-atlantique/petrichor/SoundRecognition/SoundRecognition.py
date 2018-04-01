@@ -1,52 +1,53 @@
-import numpy.fft as fft
-import numpy as np
-import scipy.io.wavfile as wav
+from pyAudioAnalysis import audioTrainTest as at
+import pyaudio
+import wave
 
-# import a wav audio file
-def importWav(filename) :
-	file = "testMaison/" + filename + ".wav"
-	return wav.read(file)
+def printReco(reco) :
+	if (reco[0] == 1.0) :
+		print("cloc")
+	if (reco[1] == 1.0) :
+		print("main")
+	if (reco[2] == 1.0) :
+		print("doigt")
 
-# import of finger sounds
-(doigt1r, doigt1) = importWav("doigt1")
-(doigt2r, doigt2) = importWav("doigt2")
-(doigt3r, doigt3) = importWav("doigt3")
-(doigt4r, doigt4) = importWav("doigt4")
-(doigt5r, doigt5) = importWav("doigt5")
+# at.featureAndTrain(["testMaison/cloc", "testMaison/main", "testMaison/doigt"], 1.0, 1.0, at.shortTermWindow, at.shortTermStep, "knn", "knnTypeWriterSounds", False);
 
-# import of hand sounds
-(main1r, main1) = importWav("main1")
-(main2r, main2) = importWav("main2")
-(main3r, main3) = importWav("main3")
-(main4r, main4) = importWav("main4")
-(main5r, main5) = importWav("main5")
+def recordAudio() :
+	FORMAT = pyaudio.paInt16
+	CHANNELS = 2
+	RATE = 44100
+	CHUNK = 1024
+	RECORD_SECONDS = 1
+	WAVE_OUTPUT_FILENAME = "records/file.wav"
+	 
+	audio = pyaudio.PyAudio()
+	 
+	# start Recording
+	stream = audio.open(format=FORMAT, channels=CHANNELS,
+					rate=RATE, input=True,
+					frames_per_buffer=CHUNK)
+	print ("recording...")
+	frames = []
+	 
+	for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+		data = stream.read(CHUNK)
+		frames.append(data)
+	print ("finished recording")
+	 
+	 
+	# stop Recording
+	stream.stop_stream()
+	stream.close()
+	audio.terminate()
+	 
+	waveFile = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
+	waveFile.setnchannels(CHANNELS)
+	waveFile.setsampwidth(audio.get_sample_size(FORMAT))
+	waveFile.setframerate(RATE)
+	waveFile.writeframes(b''.join(frames))
+	waveFile.close()
 
-# import of mouth sounds
-(cloc1r, cloc1) = importWav("cloc1")
-(cloc2r, cloc2) = importWav("cloc2")
-(cloc3r, cloc3) = importWav("cloc3")
-(cloc4r, cloc4) = importWav("cloc4")
-(cloc5r, cloc5) = importWav("cloc5")
-
-#import of silence
-(blancr, blanc) = importWav("blanc")
-
-# list of all the imported sound datas
-clips = [doigt1, doigt2, doigt3, doigt4, doigt5, main1, main2, main3, main4, main5, cloc1, cloc2, cloc3, cloc4, cloc5, blanc]
-
-
-
-# writing the results file
-outputFile = open("fftResults.csv","w");
-for sig in clips :
-	spec = fft.fft(sig)
-	l = len(spec)
-	res = []
-	jump = int(l/256)
-	for i in range (256) :
-		res.append(spec[i*jump])
-	for i in range (len(res)) :
-		val = np.sqrt(np.real(res[i][0])**2 + np.real(res[i][1])**2)
-		outputFile.write(str(val) + ";")
-	outputFile.write("\n");
-outputFile.close();
+while (True) :
+	recordAudio()
+	(_, reco, _) = at.fileClassification("trecords/file.wav", "knnTypeWriterSounds", "knn")
+	printReco(reco)
