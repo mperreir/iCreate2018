@@ -10,7 +10,7 @@ def printReco(reco) :
 	if (reco[2] == 1.0) :
 		print("doigt")
 
-# at.featureAndTrain(["testMaison/cloc", "testMaison/main", "testMaison/doigt"], 1.0, 1.0, at.shortTermWindow, at.shortTermStep, "knn", "knnTypeWriterSounds", False);
+at.featureAndTrain(["testMaison/cloc", "testMaison/main", "testMaison/doigt", "testMaison/blanc"], 1.0, 1.0, at.shortTermWindow, at.shortTermStep, "knn", "knnTypeWriterSounds", False);
 
 def recordAudio() :
 	FORMAT = pyaudio.paInt16
