@@ -63,6 +63,8 @@ void draw() {
   drawBirths();
   // affiche les lieux de mort
   drawDeaths();
+  // affichage des matricules des soldats morts
+  drawMatricules();
   
   //delay(100);
 }
@@ -219,4 +221,21 @@ void drawMatricules(float x1, float y1, float x2, float y2) {
   line(0, 0, 10, -10);
   popMatrix();
   popStyle();
+}
+
+/**
+* affichage des matricules des soldats morts
+*/
+void drawMatricules(){
+  int y = 10;
+  for (Soldier s : displayedSoldiers_death.list) {
+    textSize(10);
+    fill(102, 102, 102);
+    text(s.matricule, img.width-30, y); 
+    pushStyle();
+    stroke(102, 102, 102);
+    line(img.width-30, y-5, img.width-5, y-5);
+    popStyle();
+    y+=10;
+  }
 }
