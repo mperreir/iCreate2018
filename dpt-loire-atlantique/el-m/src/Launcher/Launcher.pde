@@ -11,9 +11,9 @@ Date warDate; // date de début de la guerre (1914)
 int iteratorBeforeWar; // itérateur avant la guerre (en années)
 int iteratorDuringWar; // itérateur durant la guerre (en mois)
 
-int time_animation = millis(); //stocke le temps pour décider quand dessiner
-int delay_death = 300; // Délai entre l'affichage des points pour les naissances
-int delay_birth = 100; // Délai entre l'affichage des points pour les morts
+int timeAnimation = millis(); //stocke le temps pour décider quand dessiner
+int delayDeath = 300; // Délai entre l'affichage des points pour les naissances
+int delayBirth = 100; // Délai entre l'affichage des points pour les morts
 
 
 // dans un vrai repère :
@@ -27,7 +27,7 @@ int delay_birth = 100; // Délai entre l'affichage des points pour les morts
 
 
 void setup() {
-   /* start oscP5, listening for incoming messages at port 12000 */
+  // Commence à écouter les messages OSC sur le port 12000
   oscP5 = new OscP5(this,12000);
   
   size(745, 439);
@@ -49,12 +49,12 @@ void setup() {
   System.out.println("Nombre de soldats au total : " + allSoldiers.getSize());  
 }
 
-void change_year(){
+void changeYear(){
   nextDate();
   println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
   // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
   UpdateSoldiersLists();
-  time_animation = millis();
+  timeAnimation = millis();
 }
 
 void draw() { 
@@ -64,7 +64,7 @@ void draw() {
   rect(50,50,50,50);
   
   /*
-  //Only to test without phone
+  // Pour tester sans téléphone
   if(mousePressed){
     if(mouseX>50 && mouseX <50+50 && mouseY>50 && mouseY <50+50){
       // on passe à la période de temps suivante
@@ -76,20 +76,17 @@ void draw() {
   }
   */
   
-  //Update movment record
-  if (millis() > sensor_time + sensor_delay){
-    isRolling = isRolling();
-  }
   
   int year = currentDate.getYear();
-  //Draw points on the map for births
-  if ((millis() > (time_animation + delay_birth)) && isRolling && (year < 1914)){
-     change_year();
+  
+  // Change d'année avec un délai pour les naissances
+  if ((millis() > (timeAnimation + delayBirth)) && (year < 1914) && isRolling()){
+     changeYear();
   }
   
-  //Draw points for deaths
-  if ((millis() > (time_animation + delay_death)) && isRolling && (year >= 1913) && (year < 1919)){
-      change_year();
+  // Chande de période avec un délai pour les morts
+  if ((millis() > (timeAnimation + delayDeath)) && (year >= 1913) && (year < 1919) && isRolling()){
+      changeYear();
   }
   
   // affichage de la période

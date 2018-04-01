@@ -1,72 +1,38 @@
  import oscP5.*;
  
 /*
-Adjust these variables to get better results depending on the movement type
---------------------------------------------------------------------------------
+Varaibles d'ajustement pour détecter au mieux le mouvement
+-----------------------------------------------------------------------
 treshold:
-Defines acceleration's treshold for which you consider the crank handle was
-pushed to avoid considering small changes
+Définit un seuil (pour la vitesse angulaire) à partir duquel la manivelle 
+est considérée comme tournant (ignorer les micro mouvements)
 
-sensor_delay
-Defines how frequently you analyze sensor movements detection (in ms)
 */
-double treshold = 3;
-double sensor_delay = 300;
+double treshold = 40;
  
 OscP5 oscP5;
-int sensor_time = millis();
-double last_x = 0, last_z = 0, new_x, new_z;
-boolean moving = false;
-boolean isRolling = false;
-ArrayList<Boolean> record_directions = new ArrayList<Boolean>();
+ArrayList<Double> recordSpeeds = new ArrayList<Double>();
 
 
-/* incoming osc message are forwarded to the oscEvent method. */
-void oscEvent(OscMessage theOscMessage) {
-  //Update record of acceleration on x and z axis
-  new_x = (Float) theOscMessage.arguments()[0];
-  //println(new_x);
-  new_z = (Float) theOscMessage.arguments()[2];
+/* Traitement des messages OSC reçus (envoyés par le téléphone) */
+synchronized void oscEvent(OscMessage theOscMessage) {
 
-  double change = new_x - last_x;
-  if(change > 2){
-    record_directions.add(true);
-  }
-  else if(change < -2){
-     record_directions.add(false);
-  }
+  // On enregistre la vitesse angulaire sur l'axe y convetie en dégrés
+  double speedY = (Float) theOscMessage.arguments()[1] * 57.3;
+  // La vitesse est positive si on tourne dans le bon sens
+  recordSpeeds.add(new Double(speedY));
 }
 
-boolean isRolling(){
-    /* Check if the crank handle is turning,
-    and that it is in the right direction
-    */
-    if(last_z != 0){
-      double change_z = Math.abs(new_z-last_z);
-      if(change_z > 1){
-        moving = true;
-      }
-      else{
-        moving = false;
-      }
-      
-      int cpt = 0;
-      for(Boolean b : record_directions){
-        if(b){
-          cpt++;
-        }
-        else{
-          cpt--;
-        }
-      }
-      record_directions.clear();
-    }
-    
-    //Reset entries
-    sensor_time = millis();
-    last_x = new_x;
-    last_z = new_z;
-    
-    return moving;
-    //return (moving && (cpt >= 0));
+/* On sa base sur la moyenne des mouvements enregistrés entre les affichages */
+synchronized boolean isRolling(){
+  double total = 0.0;
+  
+  for(double record : recordSpeeds){
+    total += record; 
+  }
+  
+  double averageSpeed = total / recordSpeeds.size();
+  recordSpeeds.removeAll(recordSpeeds);
+  
+  return averageSpeed > treshold;
 }
