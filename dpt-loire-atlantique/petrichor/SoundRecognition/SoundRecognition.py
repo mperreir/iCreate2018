@@ -49,5 +49,5 @@ def recordAudio() :
 
 while (True) :
 	recordAudio()
-	(_, reco, _) = at.fileClassification("trecords/file.wav", "knnTypeWriterSounds", "knn")
+	(_, reco, _) = at.fileClassification("records/file.wav", "knnTypeWriterSounds", "knn")
 	printReco(reco)
