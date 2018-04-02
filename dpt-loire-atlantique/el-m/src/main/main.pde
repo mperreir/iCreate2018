@@ -2,7 +2,7 @@ PImage img; // image de fond d'ecran
 
 /*
 Variables d'ajustement pour détecter au mieux le mouvement
------------------------------------------------------------------------
+--------------------------------------------------------  ---------------
 treshold:
 Définit un seuil (pour la vitesse angulaire) à partir duquel la manivelle 
 est considérée comme tournant (ignorer les micro mouvements)
@@ -28,23 +28,32 @@ final int delayBirth = 50; // Délai entre l'affichage des points pour les morts
 final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."};
 
 
-// dans un vrai repère :
+// map1 : dans un vrai repère :
 // -9.3 --> longitude gauche
 // 37.1 --> longitude droite
 // 29.7 --> latitude bas
-// 56.39 --> latitude haut
-
+// 65.458 --> latitude haut
 // x total = 13.20
 // y total = 26.7
+
+// map2 : dans un vrai repère :
+// -16 --> longitude gauche
+// 28.43 --> longitude droite
+// 35.30 --> latitude bas
+// 56.39 --> latitude haut
+// 47.7 --> latitude centre
+// 5.76 --> longitude centre
+// x total = 37.26 --> 18.2476753606 à -19.0107904607
+// y total = 21.1 --> -8.69 à 12.4
 
 
 void setup() {
   // Commence à écouter les messages OSC sur le port 12000
   oscP5 = new OscP5(this,12000);
-  
-  size(745, 439);
-  img = loadImage("map.PNG");  
-  imageMode(CENTER);
+  fullScreen();
+  //size(745, 439);
+  img = loadImage("map1.PNG");  
+  imageMode(CORNER);
   noStroke();
   background(255);
   
@@ -62,7 +71,8 @@ void setup() {
 }
 
 void draw() { 
-  background(img);
+  //background(img);
+  image(img,0,0,width,height);
   
   
   // #################### pour tester sans le téléphone ####################
