@@ -36,13 +36,6 @@ class SoldiersList {
     } 
   }
 
-  /**
-  * renvoie le nombre de soldat dans la liste
-  */
-  int getSize(){
-    return this.list.size();
-  }
-
   String toString() {
     String str = "";
     for(Soldier s : this.list){
