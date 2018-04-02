@@ -1,15 +1,5 @@
  import oscP5.*;
  
-/*
-Variables d'ajustement pour détecter au mieux le mouvement
------------------------------------------------------------------------
-treshold:
-Définit un seuil (pour la vitesse angulaire) à partir duquel la manivelle 
-est considérée comme tournant (ignorer les micro mouvements)
-
-*/
-double treshold = 40;
- 
 OscP5 oscP5;
 ArrayList<Double> recordSpeeds = new ArrayList<Double>();
 
@@ -23,7 +13,7 @@ synchronized void oscEvent(OscMessage theOscMessage) {
 }
 
 /* On sa base sur la moyenne des mouvements enregistrés entre les affichages */
-synchronized int isRolling(){
+synchronized double isRolling(){
   double total = 0.0;
   
   for(double record : recordSpeeds){
@@ -33,6 +23,5 @@ synchronized int isRolling(){
   double averageSpeed = total / recordSpeeds.size();
   recordSpeeds.removeAll(recordSpeeds);
   
-  // 1 si avance, -1 si recule, 0 sinon
-  return averageSpeed > treshold ? 1 : averageSpeed < -treshold ? -1 : 0; 
+  return averageSpeed; 
 }
