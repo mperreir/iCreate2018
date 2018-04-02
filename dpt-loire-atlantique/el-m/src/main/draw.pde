@@ -7,7 +7,7 @@ Date endDate = new Date(1920, 0, 0, 0, 0);
 void drawBirths(){
   for (Soldier s : displayedSoldiers_birth.list) {
     fill(51, 204, 255, 63);
-    ellipse(s.xNaissance*img.width, s.yNaissance*img.height, 15, 15);
+    ellipse(s.xNaissance*width, s.yNaissance*height, 30, 30);
   }
 }
 
@@ -17,9 +17,9 @@ void drawBirths(){
 void drawDeaths(){
   for (Soldier s : displayedSoldiers_death.list) {
     fill(255, 0, 0, 63);
-    ellipse(s.xDeces*img.width, s.yDeces*img.height, 15, 15);
+    ellipse(s.xDeces*width, s.yDeces*height, 30, 30);
     // affiche une flèche partant du lieu de naissance vers le lieu de décès
-    drawArrow(s.xNaissance*img.width, s.yNaissance*img.height, s.xDeces*img.width, s.yDeces*img.height);
+    drawArrow(s.xNaissance*width, s.yNaissance*height, s.xDeces*width, s.yDeces*height);
   }
 }
 
@@ -48,10 +48,10 @@ void drawMatricules(){
   for (Soldier s : displayedSoldiers_death.list) {
     textSize(10);
     fill(102, 102, 102);
-    text(s.matricule, img.width-30, y); 
+    text(s.matricule, width-30, y); 
     pushStyle();
     stroke(102, 102, 102);
-    line(img.width-30, y-5, img.width-5, y-5);
+    line(width-30, y-5, width-5, y-5);
     popStyle();
     y+=10;
   }
@@ -63,9 +63,9 @@ void drawMatricules(){
 void drawTimeline(){
   int interval = endDate.getYear() - startDate.getYear();
   fill(0, 0, 0, 63);
-  float x = ((float(formerDate.getYear()-startDate.getYear())/interval) + (float(formerDate.getMonth())/11)*(1.0/interval))*img.width;
-  rect(0, img.height-15, x, 15);
-  triangle(x-8, img.height-25, x, img.height-15, x+8, img.height-25);
+  float x = ((float(formerDate.getYear()-startDate.getYear())/interval) + (float(formerDate.getMonth())/11)*(1.0/interval))*width;
+  rect(0, height-15, x, 15);
+  triangle(x-8, height-25, x, height-15, x+8, height-25);
   drawDate(x);
 }
 
@@ -75,7 +75,7 @@ void drawTimeline(){
 void drawDate(float x){
   textSize(32);
   float textWidth = textWidth(getDateAsString(currentDate));
-  x = x + textWidth/2 > img.width ? x-textWidth : x - textWidth/2 < 0 ? x : x-textWidth/2;
+  x = x + textWidth/2 > width ? x-textWidth : x - textWidth/2 < 0 ? x : x-textWidth/2;
   fill(102, 102, 102);
-  text(getDateAsString(currentDate), x, img.height-30); 
+  text(getDateAsString(currentDate), x, height-30); 
 }
