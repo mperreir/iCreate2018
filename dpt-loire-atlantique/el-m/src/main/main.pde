@@ -1,5 +1,15 @@
 PImage img; // image de fond d'ecran
 
+/*
+Variables d'ajustement pour détecter au mieux le mouvement
+-----------------------------------------------------------------------
+treshold:
+Définit un seuil (pour la vitesse angulaire) à partir duquel la manivelle 
+est considérée comme tournant (ignorer les micro mouvements)
+
+*/
+double treshold = 30;
+
 SoldiersList allSoldiers; // liste de tous les soldats
 SoldiersList displayedSoldiers_birth; // liste des soldats dont il faut afficher le lieu de naissance
 SoldiersList displayedSoldiers_death; // liste des soldats dont il faut afficher le lieu de mort
@@ -12,11 +22,10 @@ int iteratorBeforeWar; // itérateur avant la guerre (en années)
 int iteratorDuringWar; // itérateur durant la guerre (en mois)
 
 int timeAnimation = millis(); //stocke le temps pour décider quand dessiner
-int delayDeath = 300; // Délai entre l'affichage des points pour les naissances
-int delayBirth = 100; // Délai entre l'affichage des points pour les morts
+final int delayDeath = 150; // Délai entre l'affichage des points pour les naissances
+final int delayBirth = 50; // Délai entre l'affichage des points pour les morts
 
-String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."};
-boolean forward = true; // true si on avance, false si on recule
+final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."};
 
 
 // dans un vrai repère :
@@ -61,23 +70,22 @@ void draw() {
   rect(70,165,30,30);
   fill(255, 0, 0, 63);
   rect(25,165,30,30);
-  forward = true;
+
   if(mousePressed){
     // clic carré vert pour avancer le temps
     if(mouseX>70 && mouseX <70+30 && mouseY>165 && mouseY <165+30){
       // on passe à la période de temps suivante
-      setPeriodOfTime();
+      setPeriodOfTime(true);
       //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
       // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
+      updateSoldiersLists(true);
     }
     // clic carré rouge pour reculer le temps
     else if(mouseX>25 && mouseX <25+30 && mouseY>165 && mouseY <165+30){
-      forward = false;
       // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
+      updateSoldiersLists(false);
       // on repasse à la période de temps précédente
-      setPeriodOfTime();
+      setPeriodOfTime(false);
       //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     }
   }
@@ -85,50 +93,16 @@ void draw() {
   
   
   int year = currentDate.getYear();
-  int rollValue = isRolling();
+  double angularSpeed = isRolling();
   
   // Change d'année avec un délai pour les naissances
-  if ((millis() > (timeAnimation + delayBirth)) && (year < 1914) && rollValue!=0){
-    // si on avance
-    if(rollValue == 1){
-      forward = true;
-      // on passe à la période de temps suivante
-      setPeriodOfTime();
-      // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
-    }
-    // si on recule
-    else{
-      forward = false;
-      // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
-      // on passe à la période de temps précédente
-      setPeriodOfTime();
-    }
-    //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
-    timeAnimation = millis();
+  if (year < 1914){
+    move(delayBirth, angularSpeed);
   }
   
   // Chande de période avec un délai pour les morts
-  if ((millis() > (timeAnimation + delayDeath)) && (year >= 1913) && (year < 1919) && rollValue!=0){
-    // si on avance
-    if(rollValue == 1){
-      forward = true;
-      // on passe à la période de temps suivante
-      setPeriodOfTime();
-      // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
-    }
-    // si on recule
-    else {
-      forward = false;
-      // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-      updateSoldiersLists();
-      // on passe à la période de temps précédente
-      setPeriodOfTime();
-    }
-    //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
-    timeAnimation = millis();
+  if (year < 1919){
+    move(delayDeath, angularSpeed);
   }
   
   // affichage de la période
@@ -144,12 +118,56 @@ void draw() {
 
 }
 
+void move(int delay, double angularSpeed){
+  
+    int rollValue = angularSpeed >= 0 ? 1 : -1;
+    boolean rolling = false;
+  
+    // Vitesse rapide (délai entre les animations)
+    if(millis() > (timeAnimation + delay) && Math.abs(angularSpeed) > 3*treshold){
+        rolling = true;
+    }
+    
+    // Vitesse moyenne
+    if(millis() > (timeAnimation + 2*delay) && Math.abs(angularSpeed) > 2*treshold){
+        rolling = true;
+    }
+    
+    // Vitesse lente
+    if(millis() > (timeAnimation + 3*delay) && Math.abs(angularSpeed) > treshold){
+        rolling = true;
+    }
+    
+    if(rollValue == 1 && rolling){
+        moveForward();
+    }
+    else if (rolling){
+        moveBackward();
+    }
+}
+
+// Met à jour les infos quand on avance
+void moveForward(){
+    // on passe à la période de temps suivante
+    setPeriodOfTime(true);
+    // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
+    updateSoldiersLists(true);
+}
+
+// Met à jour les infos quand on recule
+void moveBackward(){
+    // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
+    updateSoldiersLists(false);
+    // on passe à la période de temps précédente
+    setPeriodOfTime(false);
+}
+
 /**
 * avance ou recule la période de temps
 */
-void setPeriodOfTime(){
+void setPeriodOfTime(boolean forward){
   // on avance la date courante
-  if(forward){
+  if(forward && currentDate.getYear() < 1919){
     formerDate.setYear(currentDate.getYear());
     formerDate.setMonth(currentDate.getMonth());
     // avant la guerre
@@ -162,7 +180,7 @@ void setPeriodOfTime(){
     }
   }
   // on recule la date courante
-  else{
+  else if(!forward && currentDate.getYear() > 1849){
     currentDate.setYear(formerDate.getYear());
     currentDate.setMonth(formerDate  .getMonth());
     // avant la guerre
@@ -174,13 +192,13 @@ void setPeriodOfTime(){
       if (currentDate.compareTo(formerDate) < 0) formerDate.setYear(currentDate.getYear()-1);
     }
   }
+  timeAnimation = millis();
 }
-
 
 /*
 * MaJ les listes des soldats en fonction de la période de temps
 */
-void updateSoldiersLists(){
+void updateSoldiersLists(boolean forward){
   // si on avance
   if(forward){
     for (Soldier s : allSoldiers.list) {
