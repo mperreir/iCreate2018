@@ -49,39 +49,40 @@ void setup() {
   displayedSoldiers_birth = new SoldiersList();
   displayedSoldiers_death = new SoldiersList();
   allSoldiers.initialize(); // remplissage de la liste de tous les soldats
-  System.out.println("Nombre de soldats au total : " + allSoldiers.getSize());   
+  System.out.println("Nombre de soldats au total : " + allSoldiers.list.size());   
 }
 
 void draw() { 
   background(img);
   
+  
+  // #################### pour tester sans le téléphone ####################
   fill(51, 204, 51, 63);
   rect(70,165,30,30);
   fill(255, 0, 0, 63);
   rect(25,165,30,30);
-  /*forward = true;
+  forward = true;
   if(mousePressed){
     // clic carré vert pour avancer le temps
     if(mouseX>70 && mouseX <70+30 && mouseY>165 && mouseY <165+30){
-      println("avance");
       // on passe à la période de temps suivante
       setPeriodOfTime();
-      println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
+      //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
       // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
       updateSoldiersLists();
     }
     // clic carré rouge pour reculer le temps
     else if(mouseX>25 && mouseX <25+30 && mouseY>165 && mouseY <165+30){
-      println("recule");
       forward = false;
       // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
       updateSoldiersLists();
       // on repasse à la période de temps précédente
       setPeriodOfTime();
-      println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
-      
+      //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     }
-  }*/
+  }
+  // #######################################################################
+  
   
   int year = currentDate.getYear();
   int rollValue = isRolling();
@@ -104,7 +105,7 @@ void draw() {
       // on passe à la période de temps précédente
       setPeriodOfTime();
     }
-    println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
+    //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     timeAnimation = millis();
   }
   
@@ -126,18 +127,20 @@ void draw() {
       // on passe à la période de temps précédente
       setPeriodOfTime();
     }
-    println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
+    //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     timeAnimation = millis();
   }
   
   // affichage de la période
-  drawDate();
+  //drawDate();
   // affiche les lieux de naissance
   drawBirths();
   // affiche les lieux de mort
   drawDeaths();
   // affichage des matricules des soldats morts
   drawMatricules();
+  // affichage de la frise chronologique  
+  drawTimeline();
 
 }
 
@@ -221,77 +224,4 @@ String getDateAsString(Date d){
   if(d.getYear() >= 1914) ret+=months[d.getMonth()]+" ";
   ret+=d.getYear();
   return ret;
-}
-
-void changeYear(){
-  setPeriodOfTime();
-  println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
-  // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-  updateSoldiersLists();
-  timeAnimation = millis();
-}
-
-/**
-* affiche la période de temps
-*/
-void drawDate(){
-  textSize(32);
-  fill(102, 102, 102);
-  text(getDateAsString(currentDate), 10, img.height-10); 
-}
-
-/**
-* affiche les lieux de naissance
-*/
-void drawBirths(){
-  for (Soldier s : displayedSoldiers_birth.list) {
-    fill(51, 204, 255, 63);
-    ellipse(s.xNaissance*img.width, s.yNaissance*img.height, 15, 15);
-  }
-}
-
-/**
-* affiche les lieux de mort
-*/
-void drawDeaths(){
-  for (Soldier s : displayedSoldiers_death.list) {
-    fill(255, 0, 0, 63);
-    ellipse(s.xDeces*img.width, s.yDeces*img.height, 15, 15);
-    // affiche une flèche partant du lieu de naissance vers le lieu de décès
-    drawArrow(s.xNaissance*img.width, s.yNaissance*img.height, s.xDeces*img.width, s.yDeces*img.height);
-  }
-}
-
-/**
-* dessine une flèche de (x1, y1) vers (x2, y2)
-*/
-void drawArrow(float x1, float y1, float x2, float y2) {
-  pushStyle();
-  stroke(0, 102, 153);
-  line(x1, y1, x2, y2);
-  pushMatrix();
-  translate(x2, y2);
-  float a = atan2(x1-x2, y2-y1);
-  rotate(a);
-  line(0, 0, -10, -10);
-  line(0, 0, 10, -10);
-  popMatrix();
-  popStyle();
-}
-
-/**
-* affichage des matricules des soldats morts
-*/
-void drawMatricules(){
-  int y = 10;
-  for (Soldier s : displayedSoldiers_death.list) {
-    textSize(10);
-    fill(102, 102, 102);
-    text(s.matricule, img.width-30, y); 
-    pushStyle();
-    stroke(102, 102, 102);
-    line(img.width-30, y-5, img.width-5, y-5);
-    popStyle();
-    y+=10;
-  }
 }
