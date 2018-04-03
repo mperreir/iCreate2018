@@ -444,7 +444,12 @@ public class StarManager : MonoBehaviour {
 		this.DeScint();
 	}
 
-	public void SpawnStars(int num)
+    public void SpawnStars(int num)
+    {
+        ActivateStars(num);
+    }
+
+	public void ActivateStars(int num)
 	{
 		int i, n;
 		for (i = 0; i < num; i++)
