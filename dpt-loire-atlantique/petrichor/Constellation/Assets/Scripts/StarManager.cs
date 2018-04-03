@@ -17,6 +17,7 @@ public class StarManager : MonoBehaviour {
 	private GameObject starsObject;
 	private GameObject galaxiesObject;
 	private int ActiveGalaxyIndex;
+	private static readonly System.Random random = new System.Random();
 
 	public string criteria = "all";
 	public float galaxyDensity = 200;
@@ -446,7 +447,7 @@ public class StarManager : MonoBehaviour {
 
     public void SpawnStars(int num)
     {
-        ActivateStars(num);
+        this.ActivateStars(num);
     }
 
 	public void ActivateStars(int num)
@@ -454,7 +455,7 @@ public class StarManager : MonoBehaviour {
 		int i, n;
 		for (i = 0; i < num; i++)
 		{
-			n = Random.Range(0, this.stars.Count - 1);
+			n = random.Next(0, this.stars.Count - 1);
 			this.stars[n].transform.position = new Vector3(this.minx + Random.value * (this.maxx - minx), this.miny + Random.value * (this.maxy - miny), this.minz + Random.value * (this.maxz - minz));
 			if (this.stars[n].galaxy != null)
 			{

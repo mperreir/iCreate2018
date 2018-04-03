@@ -4,15 +4,17 @@ import wave
 
 def printReco(reco) :
 	if (reco[0] == 1.0) :
-		print("cloc")
+		print("charriot")
 	if (reco[1] == 1.0) :
-		print("main")
+		print("clavier")
 	if (reco[2] == 1.0) :
-		print("doigt")
+		print("ding")
 	if (reco[3] == 1.0) :
+		print ("tab")
+	if (reco[4] == 1.0) :
 		print ("blanc")
 
-# at.featureAndTrain(["testMaison/cloc", "testMaison/main", "testMaison/doigt", "testMaison/blanc"], 1.0, 1.0, at.shortTermWindow, at.shortTermStep, "knn", "knnTypeWriterSounds", False);
+at.featureAndTrain(["machineAEcrire/charriot", "machineAEcrire/clavier", "machineAEcrire/ding", "machineAEcrire/tab", "testMaison/blanc"], 1.0, 1.0, at.shortTermWindow, at.shortTermStep, "knn", "knnTypeWriterSounds", False);
 
 def recordAudio() :
 	FORMAT = pyaudio.paInt16
@@ -49,13 +51,13 @@ def recordAudio() :
 	waveFile.writeframes(b''.join(frames))
 	waveFile.close()
 
-#while (True) :
-# recordAudio()
-(_, reco1, _) = at.fileClassification("testMaison/unknown/unknown-blanc.wav", "knnTypeWriterSounds", "knn")
-(_, reco2, _) = at.fileClassification("testMaison/unknown/unknown-doigt_short.wav", "knnTypeWriterSounds", "knn")
-(_, reco3, _) = at.fileClassification("testMaison/unknown/unknown-main_short.wav", "knnTypeWriterSounds", "knn")
-(_, reco4, _) = at.fileClassification("testMaison/unknown/unknown-cloc_short.wav", "knnTypeWriterSounds", "knn")
-printReco(reco1)
-printReco(reco2)
-printReco(reco3)
-printReco(reco4)
+while (True) :
+	recordAudio()
+	(_, reco1, _) = at.fileClassification("testMaison/unknown/unknown-blanc.wav", "knnTypeWriterSounds", "knn")
+	#(_, reco2, _) = at.fileClassification("records/file.wav", "knnTypeWriterSounds", "knn")
+	#(_, reco3, _) = at.fileClassification("testMaison/unknown/unknown-main_short.wav", "knnTypeWriterSounds", "knn")
+	#(_, reco4, _) = at.fileClassification("testMaison/unknown/unknown-cloc_short.wav", "knnTypeWriterSounds", "knn")
+	printReco(reco1)
+#printReco(reco2)
+#printReco(reco3)
+#printReco(reco4)
