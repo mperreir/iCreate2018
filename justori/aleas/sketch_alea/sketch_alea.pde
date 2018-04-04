@@ -59,7 +59,7 @@ void setup() {
   // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
   ks = new Keystone(this);
   //On charge les vidéo que l'on veut utiliser
-  String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4", "portion_14.mp4"};
+  String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4"};
   lesFilms = creerMovie(fichierFilm);
   lesContenus = new ArrayList<OffScreen>();
   for(int i = 0; i < lesFilms.size(); i++){
@@ -67,7 +67,7 @@ void setup() {
   }
   //On charge une surface qui sert a la projection d'une vidéo
   surfaces = new collectionSurface();
-  for(int i = 0; i < 4; i++){
+  for(int i = 0; i < 7; i++){
     surfaces.add(new Surface(ks, 600,600,20, i));
   }
   Helper.setOffScreens(lesContenus);
