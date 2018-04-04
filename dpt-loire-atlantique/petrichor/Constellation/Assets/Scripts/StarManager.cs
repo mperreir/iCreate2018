@@ -30,6 +30,10 @@ public class StarManager : MonoBehaviour {
 	public float maxy = 10;
 	public float minz = 0;
 	public float maxz = 20;
+	public int numStars;
+	public bool starsWaiting;
+	public bool noStars;
+	public bool nextcriteria;
 
 	// Use this for initialization
 	void Start ()
@@ -139,6 +143,10 @@ public class StarManager : MonoBehaviour {
 		}
 		dataFile.Close();
 		this.ChangeCriteria(this.criteria);
+		this.numStars = 0;
+		this.starsWaiting = false;
+		this.noStars = false;
+		this.nextcriteria = false;
 	}
 
 	void ChangeCriteria(string criteria)
@@ -350,7 +358,18 @@ public class StarManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		
+		if (starsWaiting) {
+			SpawnStars(numStars);
+			starsWaiting = false;
+		}
+		if (noStars) {
+			ResetStars();
+			noStars = false;
+		}
+		if (nextcriteria) {
+			NextCriteria();
+			this.nextcriteria = false;
+		}
 	}
 
 	private GalaxyScript FindGalaxy(string tag)

@@ -31,7 +31,7 @@ public class UDPReceive : MonoBehaviour
     }
 
     // Method called on destruction of the MonoBehavior
-    void OnDestroy()
+    void OnDisable()
     {
         dontStop = false;
         receiveThread.Abort();
@@ -56,23 +56,17 @@ public class UDPReceive : MonoBehaviour
                 IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, 0);    // EndPoint of the network
                 byte[] data = client.Receive(ref anyIP);                // Array filled with received data
                 string text = Encoding.UTF8.GetString(data);
-
-                if (text == "main")
-                {
-                    print("main");
-                    CommandStars();
-                }
+		
+		print(text);
+                if (text == "clavier") controller.KeyAction();
+		if (text == "charriot") controller.ReturnAction();
+		if (text == "tab") controller.TabAction();
+		if (text == "Ding") controller.DingAction();
             }
             catch (Exception err)
             {
                 print(err);
             }
         }
-    }
-
-    // Command the controller to make stars appear
-    void CommandStars()
-    {
-        controller.KeyAction();
     }
 }

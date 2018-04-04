@@ -11,11 +11,13 @@ public class Controler : MonoBehaviour {
 	public int StarsPerKey = 100;
 	public float CameraChangeTime = 5;
 	public float CameraInitTime = 10;
+	public bool changeTime;
 
 	// Use this for initialization
 	void Start ()
 	{
 		this.NextChangeTime = Time.time + this.CameraInitTime;
+		this.changeTime = false;
 	}
 	
 	// Update is called once per frame
@@ -41,18 +43,23 @@ public class Controler : MonoBehaviour {
 			this.NextChangeTime = Time.time + this.CameraChangeTime;
 			this.cam.MoveTo(this.SM.NextGalaxy());
 		}
+		if (changeTime) {
+			this.NextChangeTime = Time.time + this.CameraInitTime;
+			this.changeTime = false;
+		}
 	}
 
 	public void KeyAction()
 	{
-		this.SM.SpawnStars(this.StarsPerKey);
+		this.SM.numStars = this.StarsPerKey;
+		this.SM.starsWaiting = true;
 	}
 
 	public void TabAction()
 	{
-		this.SM.NextCriteria();
+		this.SM.nextcriteria = true;
 		this.cam.Free();
-		this.NextChangeTime = Time.time + this.CameraInitTime;
+		this.changeTime = true;
 	}
 
 	public void DingAction()
@@ -62,8 +69,8 @@ public class Controler : MonoBehaviour {
 
 	public void ReturnAction()
 	{
-		this.SM.ResetStars();
+		this.SM.noStars = true;
 		this.cam.Free();
-		this.NextChangeTime = Time.time + this.CameraInitTime;
+		this.changeTime = true;
 	}
 }
