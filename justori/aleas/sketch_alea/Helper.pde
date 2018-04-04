@@ -98,4 +98,30 @@ static class Helper {
     lesImages = LesImages;
     lesImagesDisplayed = new ArrayList<OffScreen>();
   }
+  
+  static void freeOffScreen(OffScreen off){
+    boolean fin = false;
+    int i = 0;
+    while(i < offScreensPlayed.size() && !fin){
+        if(offScreensPlayed.get(i) == off){
+          offScreensPlayed.remove(i);
+          fin = true;
+        }
+        i++;
+      }
+      offScreens.add(off);
+  }
+  
+  static void freeImage(OffScreen off){
+    boolean fin = false;
+    int i = 0;
+     while(i < lesImagesDisplayed.size() && !fin){
+      if(lesImagesDisplayed.get(i) == off){
+        lesImagesDisplayed.remove(i);
+        fin = true;
+      }
+      i++;
+    }
+    lesImages.add(off);
+  }
 }
