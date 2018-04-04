@@ -1,3 +1,7 @@
+/**
+* Write a text during the transition (the theme)
+* @param text The text to write
+*/
 void writeText(String text) {
   if (fading_higher && timerText < (waitText / fading_time)) {
     opacity_text += (255 / (waitText / fading_time));
@@ -14,10 +18,18 @@ void writeText(String text) {
   textAlign(CENTER, CENTER);
 }
 
+/**
+* Create a new font
+* @return The new font
+*/
 PFont getFont() {
   return createFont("DK_Bocadillo.otf", 150);
 }
 
+/**
+* Write a text in the main circle
+* @param text The text to write
+*/
 void writeCentralText(String text) {
   
   int nbChar = text.length();

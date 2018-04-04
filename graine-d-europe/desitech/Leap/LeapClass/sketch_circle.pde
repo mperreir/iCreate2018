@@ -1,3 +1,6 @@
+/**
+* Circle class
+*/
 class Circle {
   float xpos, ypos, baseSize, size, baseSpeedx, baseSpeedy, speedx, speedy, radius, sizeCurrentCoef, sizeExpansionCoef, sizeProgressionCoef;
   int[] rgb;
@@ -34,6 +37,10 @@ class Circle {
     this.audioName = audioName;
   }
 
+  /**
+  * Function that will be called at every frame
+  * Change the variables of the circle
+  */
   void update() {
     this.changeSpeed();
 
@@ -55,6 +62,9 @@ class Circle {
     }
   }
   
+  /**
+  * Choose if the circle will be drawn fully or with border only
+  */
   private void representation() {
     if (this.full) {
       fill(this.rgb[0], this.rgb[1], this.rgb[2], 255);
@@ -68,8 +78,10 @@ class Circle {
     ellipse(this.xpos, this.ypos, this.size, this.size);
   }
   
-  // Change the speed of the circle based on the coef
-  // We need to check if the speed is negative or positive
+  /**
+  * Change the speed of the circle based on the coef
+  * We need to check if the speed is negative or positive
+  */
   private void changeSpeed() {
     if (!reach) {
       if (higher) {
@@ -82,6 +94,9 @@ class Circle {
     }
   }
   
+  /**
+  * Change the circle based on if the hover is on or not
+  */
   private void hoverEffects() {
     if (!reachSize) {
       if (this.full && this.hover) {
@@ -111,6 +126,9 @@ class Circle {
     }
   }
   
+  /**
+  * Change the position at every frame
+  */
   private void positionChange() {
     if (timerAppear < waitAppear) {
         this.xpos = (this.xpos + this.speedx) % (width*2);
@@ -132,6 +150,9 @@ class Circle {
       }
   }
   
+  /**
+  * Set the circle invisible
+  */
   private void invisible() {
     if (this.full) {
       fill(this.rgb[0], this.rgb[1], this.rgb[2], 0);
@@ -141,6 +162,10 @@ class Circle {
     ellipse(this.xpos, this.ypos, this.size, this.size);
   }
   
+  /**
+  * Returns the audio name linked to the circle
+  * @return The audio name
+  */
   String getAudioName() {
     return this.audioName;
   }

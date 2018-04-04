@@ -1,5 +1,8 @@
 import java.util.LinkedList;
 
+/**
+* First function that is called at the beginning
+*/
 void setup() {
   fullScreen();
   frameRate(30);
@@ -8,6 +11,11 @@ void setup() {
   initCircles();
 }
 
+
+/**
+* Initialize anything related to circles
+* Used at launch or when a theme is changed
+*/
 void initCircles() {
   theme = getTheme();
   nbCircleFull = audio.getNbMusicsForCat(theme);
@@ -45,6 +53,9 @@ void initCircles() {
   
 }
 
+/**
+* This function is executed at every frame
+*/
 void draw() {
   background(15, 24, 34);
   
@@ -55,6 +66,10 @@ void draw() {
   vectorActions(v);
 }
 
+/*
+* Contains everything related to the circles for the drawing generation
+* @param v The vector containing the coordinates of the hand
+*/
 void circleActions(Vector v) {
   timerAppear++;
   if (write) {
@@ -122,6 +137,10 @@ void circleActions(Vector v) {
   checkSwipeDown();
 }
 
+/*
+* Contains everything related to the leap motion for the drawing generation
+* @param v The vector containing the coordinates of the hand
+*/
 void vectorActions(Vector v) {
   if (v != null) {
     positionList.add(v);
@@ -139,11 +158,16 @@ void vectorActions(Vector v) {
   }
 }
 
+/**
+* Change the speed of the coefficient for the circles max speed
+*/
 void setSpeedCoef(int newCoef) {
   speedCoef = newCoef;
 }
 
-// Check the current speed to the speed coefficient
+/**
+* Check the current speed to the speed coefficient
+*/
 void checkSpeed() {
   if (!reach) {
     if ((currentSpeedCoef - speedCoef) < -speedProgressionCoef) {
@@ -158,7 +182,9 @@ void checkSpeed() {
   }
 }
 
-// Draw the circles at each update
+/**
+* Update the circles at every frame (change speed for example)
+*/
 void drawCircles() {
     for (Circle c : listCircles) {
     c.update();

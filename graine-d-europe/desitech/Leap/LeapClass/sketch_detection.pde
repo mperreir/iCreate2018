@@ -1,4 +1,7 @@
-// Check if hand movements are begin detected
+/**
+* Check if hand movements are begin detected
+* @param detected True if the hand has been detected, false otherwise
+*/
 void handMovements(boolean detected) {
   if (detected) {
     setSpeedCoef(1);
@@ -7,6 +10,10 @@ void handMovements(boolean detected) {
   }
 }
 
+/**
+* Change variables based on if the hand has been just detected or not detected
+* @param detected True if the hand has been detected, false otherwise
+*/
 void detectionHand(boolean detected) {
   if (enableTest) {
     if (tmpTestCurrent > tmpTestTime && tmpTestCurrent < (tmpTestTime + 300)) {
