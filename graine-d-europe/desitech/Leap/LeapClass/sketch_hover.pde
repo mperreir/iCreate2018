@@ -1,3 +1,6 @@
+/**
+* Does the "no hover" state for every non hovered circles
+*/
 void noHover() {
   for (Circle c : listCirclesFull) {
     c.hover = false;
@@ -30,6 +33,10 @@ void detectionHover(int index) {
   }
 }
 
+/**
+* Does the effects when a circle is being hovered
+* @param index The index of the circle which is being hovered
+*/
 void circleHover(int index) {
   listCirclesFull[index].hover = true;
   listCirclesFull[index].hoverReached = false;
@@ -45,6 +52,12 @@ void circleHover(int index) {
   }
 }
 
+/**
+* Check if a circle is being hovered or not
+* @param x_coord The coordinate x of the hand
+* @param y_coord The coordinate y of the hand
+* @The index of the detected circle being hovered, -1 if none
+*/
 int checkIfHover(int x_coord, int y_coord) {
   for (int i = 0; i < listCirclesFull.length; i++) {
     //(x - center_x)^2 + (y - center_y)^2 < radius^2
@@ -55,6 +68,9 @@ int checkIfHover(int x_coord, int y_coord) {
   return -1;
 }
 
+/**
+* Does the effect when you swipe down
+*/
 void checkSwipeDown() {
   if (mc != null && mc.isPlaying && leap.isSwipingDown()) {
     mcClosing();

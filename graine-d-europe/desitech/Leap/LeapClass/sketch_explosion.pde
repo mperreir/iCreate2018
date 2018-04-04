@@ -1,3 +1,7 @@
+/*
+* Check if an explosion has been detected
+* @param entropy The entropy of the movements of the hand, if it's too high then it will be detected as an explosion
+*/
 void detectionExplosion(float entropy) {
   if (enableTestExplosion) {
     if (tmpTestCurrentExplosion == tmpTestTimeExplosion) {
@@ -11,6 +15,9 @@ void detectionExplosion(float entropy) {
   }
 }
 
+/**
+* Does the effects of an explosion
+*/
 void explosion() {
   int[] corner1 = {0, 0};
   int[] corner2 = {height, 0};

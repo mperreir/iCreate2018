@@ -2,6 +2,9 @@ import processing.sound.*;
 import java.util.Map;
 import java.util.Iterator;
 
+/**
+* Audio class
+*/
 class AudioFiles {
   
   boolean playing = false;
@@ -27,6 +30,9 @@ class AudioFiles {
     }
   }
   
+  /**
+  * Change the amplitude of the audio (fading ish)
+  */
   void changeAmp() {
     if (!coefAmpReach && coefAmp < 1 && coefAmpHigher) {
       coefAmp += coefAmpProgression;
@@ -47,6 +53,10 @@ class AudioFiles {
     }
   }
   
+  /**
+  * Plays the brouhaha
+  * @param pa The parent applet in order to play sound file
+  */
   void playVrac(PApplet pa) {
     if (!this.playing) {
       this.play = new SoundFile(pa, "vrac.mp3");
@@ -55,10 +65,20 @@ class AudioFiles {
     }
   }
   
+  /**
+  * Play the current selected audio file
+  */
   void play() {
     this.play.play();
   }
   
+  /**
+  * Get the duration of the audio file
+  * @param pa The parent application in order to create a sound file
+  * @param theme The current selected theme
+  * @param video The video go the the duration
+  * @return The duration of the audio file
+  */
   float getDuration(PApplet pa,String theme, String video) {
     video = video.substring(0,video.length() - 2);
     System.out.println(theme + "/" + video + ".mp3");
