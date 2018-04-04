@@ -1,28 +1,11 @@
 import processing.video.*;
 
-/**
- * This is a simple example of how to use the Keystone library.
- *
- * To use this example in the real world, you need a projector
- * and a surface you want to project your Processing sketch onto.
- *
- * Simply drag the corners of the CornerPinSurface so that they
- * match the physical surface's corners. The result will be an
- * undistorted projection, regardless of projector position or
- * orientation.
- *
- * You can also create more than one Surface object, and project
- * onto multiple flat surfaces using a single projector.
- *
- * This extra flexbility can comes at the sacrifice of more or
- * less pixel resolution, depending on your projector and how
- * many surfaces you want to map.
- */
-
 import deadpixel.keystone.*;
 import oscP5.*;
 import netP5.*;
 import java.util.Calendar;
+
+import ddf.minim.*;
 
 Keystone ks;
 collectionSurface surfaces;
@@ -35,8 +18,6 @@ int y;
 OscP5 osc;
 NetAddress remote;
 
-
-float[] gravity = {10.0,10.0,10.0};
 
 long lastRotationDate = 0;
 // long prevRotationDate = 0;
@@ -59,6 +40,18 @@ long dateMin = 0;
 long dateMax = 0;
 long demiPeriode = 0;
 
+
+float vitesse = 0;
+int change = 0;
+
+Minim minim;
+AudioPlayer voix;
+
+boolean sonDemarre = true;
+boolean sonPause = true;
+
+boolean[] ambiancesPause;
+AudioPlayer[] ambiances;
 
 void setup() {
   // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
@@ -85,14 +78,27 @@ void setup() {
   y = 0;
 
   osc=new OscP5(this,12000); //listen on port 12000
-  osc.plug(this,"rotationR1","/rotation_vector/r1");
+  osc.plug(this,"pitch","/orientation/pitch");
+
+  minim = new Minim(this);
+  voix = minim.loadFile("sonVideoCorrige.mp3");
+
+  this.ambiances = new AudioPlayer[1];
+
+
+  this.ambiances[0] = this.minim.loadFile("vent.mp3");
+  this.ambiances[0].play();
+  this.ambiances[0].loop();
+  // this.ambiances[0].setVolume(0);
+  this.ambiances[0].setGain(-80);
+
 }
 
 void draw() {
   //On veut un fond noir et éclairer uniquement les cubes
   background(0);
   surfaces.draw();
-  println(y);
+  // println(y);
   y++;
 }
 
@@ -139,14 +145,14 @@ void oscEvent(OscMessage themsg){
     if(!themsg.isPlugged()){
         // println("### received an osc message.");
         // println("### addrpattern\t"+themsg.addrPattern());
-
+        //
         // println(themsg.arguments());
     }
 }
 
 
 
-void rotationR1(float rotationValue) {
+void pitch(float rotationValue) {
     long currentTime = Calendar.getInstance().getTimeInMillis();
     long deltaTemps = currentTime - this.lastRotationDate;
 
@@ -161,18 +167,14 @@ void rotationR1(float rotationValue) {
     this.rotation = rotationValue;
 
 
-    println("@@@ rotation r1 event @@@");
-    println("t : " + deltaTemps);
-    println("dt : " + this.rotationVitesseInstant);
-
-    boolean change = false;
+    this.change += 1;
 
     if (estDescendant()) {
         this.rotationMin = rotationValue;
         this.preRotationMax = this.rotationMax;
         if (wasAscendant) {
             this.dateMax = lastRotationDate;
-            change = true;
+            change = 0;
         }
 
     }
@@ -181,32 +183,87 @@ void rotationR1(float rotationValue) {
         this.preRotationMin = rotationMin;
         if (wasDescendant) {
             this.dateMin = lastRotationDate;
-            change = true;
+            change = 0;
         }
     }
     this.rotationAmplitude = this.preRotationMax - this.preRotationMin;
     this.demiPeriode = Math.abs(dateMax - dateMin);
 
-    println("Minimum : " + this.rotationMin);
-    println("Maximum : " + this.rotationMax);
-    println("Amplitude : " + this.rotationAmplitude);
-    println("Periode : " + (2 * this.demiPeriode));
-    println("Frequence : " + (1000/(2.0*this.demiPeriode)));
+    // println("@@@ compass pitch event @@@");
+    // println("t : " + deltaTemps);
+    // println("dt : " + this.rotationVitesseInstant);
+    // println("Minimum : " + this.rotationMin);
+    // println("Maximum : " + this.rotationMax);
+    // println("Amplitude : " + this.rotationAmplitude);
+    // println("Periode : " + (2 * this.demiPeriode));
+    // println("Frequence : " + (1000/(2.0*this.demiPeriode)));
 
-    if (change) newAmplitude();
+    if (this.change == 0) newAmplitude(0.02);
+    if (this.change > 3) newAmplitude(-0.03);
 }
 
-private void newAmplitude() {
-    println("CHANGE");
+private void newAmplitude(float add) {
+    // println("CHANGE");
+
+    // float add = this.rotationAmplitude - 0.1;
+
+    this.vitesse += add;
+
+    if (this.vitesse < 0) {
+        this.vitesse = 0.0;
+        // this.sonPause = true;
+    }
+    if (this.vitesse > 1) this.vitesse = 1.0;
+
+    // if (this.vitesse > 0) this.sonPause = false;
+
+    // println(rotationAmplitude);
+    println(vitesse);
+
+    verifSon();
 
 }
+
+private void verifSon() {
+    if (this.sonDemarre) {
+        if (this.vitesse > 0) {
+            if (!this.voix.isPlaying()) {
+                // println("PLAY");
+                this.voix.play();
+            }
+
+        } else {
+            if (this.voix.isPlaying()){
+                // println("PAUSE");
+
+                this.voix.pause();
+            }
+
+        }
+    }
+    final int nbAmbiances = this.ambiances.length;
+    float taille = 1;
+    float morceau = taille / (nbAmbiances + 1);
+
+
+    for (int i = 0; i < nbAmbiances; i++) {
+        if (this.vitesse > 0.5) {
+            this.ambiances[i].setGain(-10);
+        } else {
+            this.ambiances[i].setGain(-80);
+        }
+
+    }
+}
+
+
 
 private boolean estDescendant() {
-    return rotationVitesseInstant < -0.006;
+    return rotationVitesseInstant < -2;
 }
 
 private boolean estAscendant() {
-    return rotationVitesseInstant > 0.006;
+    return rotationVitesseInstant > 2;
 }
 
 // Permet de créer une liste de films a partir d'une liste de nom de fichiers.
