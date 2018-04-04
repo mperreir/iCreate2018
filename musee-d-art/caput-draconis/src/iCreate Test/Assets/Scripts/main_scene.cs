@@ -7,9 +7,10 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class QRReader : MonoBehaviour
+public class main_scene : MonoBehaviour
 {
 
+    private string scene_name = "main_scene";
     public string decodedResult;
     WebCamTexture webCamTexture;
     BarcodeReader barcodeReader;
@@ -17,10 +18,6 @@ public class QRReader : MonoBehaviour
     public RawImage rawimage;
     //Final display
     public Image tableau;
-    //Array of paintings
-    Sprite[] sprites;
-    //Association of sprites with their names
-    Dictionary<string, Sprite> dict = new Dictionary<string, Sprite>();
 
     void Start()
     {
@@ -42,20 +39,17 @@ public class QRReader : MonoBehaviour
         foreach (WebCamDevice wc in devices)
             Debug.Log(wc.name);
 
-        webCamTexture = new WebCamTexture(devices[0].name, 1280, 720);
+        int i = 0;
+
+        if(devices.Length > 1)
+            i = 1;
+
+        webCamTexture = new WebCamTexture(devices[i].name, 1280, 720);
 
         rawimage.texture = webCamTexture;
         rawimage.material.mainTexture = webCamTexture;
 
         webCamTexture.Play();
-
-        //Loading of all exisiting sprites
-        sprites = Resources.LoadAll<Sprite>("Sprites/");
-        //Adding in the dictionnary, with the name (string) in key
-        foreach (Sprite s in sprites)
-            dict.Add(s.name, s);
-
-        tableau.sprite = dict["kandinsky"];
     }
 
     void Update()
@@ -64,6 +58,9 @@ public class QRReader : MonoBehaviour
             DecodeQR();
         if (Input.GetKey("escape"))
             Application.Quit();
+        if (Input.GetKey("r"))
+            SceneManager.LoadScene(scene_name, LoadSceneMode.Single);
+
     }
 
     void DecodeQR()
@@ -80,8 +77,8 @@ public class QRReader : MonoBehaviour
         {
             //QR Code result
             decodedResult = result.Text;
-            //Displaying the right paintings
-            tableau.sprite = dict[result.Text];
+            //Displaying the right scene
+            SceneManager.LoadScene(result.Text, LoadSceneMode.Single);
         }
     }
 
