@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import socketIOClient from 'socket.io-client';
-import videos from '../sketches/videos';
-import P5Wrapper from 'react-p5-wrapper';
-import Fullscreen from 'react-fullscreen-crossbrowser';
+import React, { Component } from 'react'
+import socketIOClient from 'socket.io-client'
+import videos from '../sketches/videos'
+import P5Wrapper from 'react-p5-wrapper'
+import Fullscreen from 'react-fullscreen-crossbrowser'
 
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
-//const socketUrl = "http://localhost:5000/"
 
 class TabletPage extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props)
         this.state = {
             name: 'Laouen',
             playing: false,
@@ -62,6 +61,7 @@ class TabletPage extends Component {
     }
 
     render() {
+
         return (
             <div>
                 <button onClick={() => this.setState({isFullscreenEnabled: true})}>
@@ -80,4 +80,4 @@ class TabletPage extends Component {
     }
 }
 
-export default TabletPage;
+export default TabletPage
