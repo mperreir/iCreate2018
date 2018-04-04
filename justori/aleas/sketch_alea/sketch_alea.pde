@@ -10,7 +10,11 @@ import ddf.minim.*;
 Keystone ks;
 collectionSurface surfaces;
 ArrayList<Movie> lesFilms;
+ArrayList<Movie> laBouche; //ça fait pas trop de sens qu'elle soit dans un array
+ArrayList<Movie> lOeuil;
+ArrayList<PImage> lesSrcImage;
 ArrayList<OffScreen> lesContenus;
+ArrayList<OffScreen> lesImages;
 VideoFrame frame;
 OffScreen frame2;
 int y;
@@ -62,29 +66,39 @@ boolean e6 = false;
 boolean e7 = false;
 boolean e8 = false;
 
+boolean hasReset = true;
+
 void setup() {
   // On veut un rendu en 3D pour le fonctionnement de keystone et en plein écran pour la projection
   fullScreen(P3D);
   // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
   ks = new Keystone(this);
   //On charge les vidéo que l'on veut utiliser
-  // String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4"};
-  // lesFilms = creerMovie(fichierFilm);
-  // lesContenus = new ArrayList<OffScreen>();
-  // for(int i = 0; i < lesFilms.size(); i++){
-  //   lesContenus.add(new VideoFrame(600,600,lesFilms.get(i)));
-  // }
-  // //On charge une surface qui sert a la projection d'une vidéo
-  // surfaces = new collectionSurface();
-  // for(int i = 0; i < 7; i++){
-  //   surfaces.add(new Surface(ks, 600,600,20, i));
-  // }
-  // Helper.setOffScreens(lesContenus);
-  // Helper.setupOffScreen(surfaces.getSurface(0),0);
-  // Helper.setupOffScreen(surfaces.getSurface(1),1);
-  // Helper.setupOffScreen(surfaces.getSurface(2),2);
-  // Helper.setupOffScreen(surfaces.getSurface(3),3);
-  // y = 0;
+   String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4"};
+   lesFilms = creerMovie(fichierFilm);
+   String[] bouche = {"bouche.mp4"};
+   laBouche = creerMovie(bouche);
+   String[] oeuil = {"oeuil.mp4"};
+   lOeuil = creerMovie(oeuil);
+   laBouche.get(0).volume(100);
+   String[] fichierImage = {"img_1.jpg", "img_2.png", "img_3.jpg", "img_4.jpg", "img_5.jpg", "img_6.jpg", "img_7.jpg"};
+   lesSrcImage = creerImage(fichierImage);
+   lesContenus = new ArrayList<OffScreen>();
+   for(int i = 0; i < lesFilms.size(); i++){
+     lesContenus.add(new VideoFrame(600,600,lesFilms.get(i)));
+   }
+   lesImages = new ArrayList<OffScreen>();
+   for(int i = 0; i < lesSrcImage.size();i++){
+     lesImages.add(new ImageFrame(600,600,lesSrcImage.get(i)));
+   }
+   
+  //On charge une surface qui sert a la projection d'une vidéo
+   surfaces = new collectionSurface();
+   for(int i = 0; i < 7; i++){
+     surfaces.add(new Surface(ks, 600,600,20, i));
+   }
+   Helper.setOffScreens(lesContenus);
+   Helper.setImages(lesImages);
 
   osc=new OscP5(this,12000); //listen on port 12000
   osc.plug(this,"pitch","/orientation/pitch");
@@ -106,7 +120,7 @@ void setup() {
 void draw() {
   //On veut un fond noir et éclairer uniquement les cubes
   background(0);
-  // surfaces.draw();
+  surfaces.draw();
   // println(y);
   // y++;
 }
@@ -238,64 +252,67 @@ private void verifSon() {
     if (this.vitesse > 0) {
         if (!this.isPlaying) {
             // println("PLAY");
-            this.voix.play();
+            //this.voix.play();
             this.isPlaying = true;
-            // VIDEO BOUCHE PLAY
+            if(hasReset){
+              surfaces.getSurface(0).setOffScreenBuffer(new VideoFrame(600,600,laBouche.get(0)));
+            }
+            surfaces.play();
         }
 
     } else {
         if (this.isPlaying){
             // println("PAUSE");
 
-            this.voix.pause();
+            //this.voix.pause();
             this.isPlaying = false;
-            // PAUSE DE TOUT
+            surfaces.pause();
             this.ambiances[0].setGain(-80);
-
-            e1 = false;
-            e2 = false;
-            e3 = false;
-            e4 = false;
-            e5 = false;
-            e6 = false;
-            e7 = false;
-            e8 = false;
+            hasReset = false;
 
             }
         if (this.change > 4*8) {
             //INACTIVIF DEPUIS 8s
             println("INACTIF");
             reset();
+            surfaces.reset();
+            hasReset = true;
+            e1 = false;
         }
 
     }
     if ((this.vitesse > 1.0/8) && !e1) {
         println("e1");
+        Helper.setupOffScreen(surfaces.getSurface(1),0);
+        this.ambiances[0].shiftGain(-80, -10, 2000);
         e1 = true;
     }
     if ((this.vitesse > 2.0/8) && !e2) {
         println("e2");
+        Helper.setupImage(surfaces.getSurface(2),0);
         e2 = true;
-        this.ambiances[0].shiftGain(-80, -10, 2000);
-
     }
     if ((this.vitesse > 3.0/8) && !e3) {
         println("e3");
+        surfaces.getSurface(3).setOffScreenBuffer(new VideoFrame(600,600,lOeuil.get(0)));
         e3 = true;
 
     }
     if ((this.vitesse > 4.0/8) && !e4) {
         println("e4");
+        Helper.setupOffScreen(surfaces.getSurface(4),0);
         e4 = true;
 
     }
     if ((this.vitesse > 5.0/8) && !e5) {
         println("e5");
+        
         e5 = true;
 
     }
     if ((this.vitesse > 7.0/8) && !e6) {
         println("e6");
+        Helper.setupImage(surfaces.getSurface(6),0);
         e6 = true;
     }
 
@@ -332,6 +349,15 @@ ArrayList<Movie> creerMovie(String[] liste){
     movies.add(new Movie(this, liste[i]));
   }
   return movies;
+}
+
+// Permet de créer une liste de PImage a partir d'une liste de noms de fichier
+ArrayList<PImage> creerImage(String[] liste){
+  ArrayList<PImage> imgs = new ArrayList<PImage>();
+  for(int i = 0; i < liste.length; i++){
+    imgs.add(loadImage(liste[i]));
+  }
+  return imgs;
 }
 
 void reset() {

@@ -15,7 +15,7 @@ class OffScreen {
   
   void draw(){
     offScreen.beginDraw();
-    offScreen.background(255,25,48);
+    offScreen.background(0);
     offScreen.endDraw();
   }
   
@@ -44,5 +44,8 @@ class OffScreen {
   
   Surface getSurface(){
     return surface;
+  }
+  
+  void free(){
   }
 }

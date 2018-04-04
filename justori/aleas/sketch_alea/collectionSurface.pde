@@ -27,4 +27,22 @@ class collectionSurface{
   int getSize(){
     return surfaces.size();
   }
+  
+  void play(){
+    for(Surface surf: surfaces){
+      surf.play();
+    }
+  }
+  
+  void pause(){
+    for(Surface surf: surfaces){
+      surf.pause();
+    }
+  }
+  
+  void reset(){
+    for(Surface surf: surfaces){
+      surf.reset();
+    }
+  }
 }

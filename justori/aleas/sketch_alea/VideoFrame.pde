@@ -50,4 +50,9 @@ class VideoFrame extends OffScreen {
   void movieEvent(Movie m) {
     m.read();
   }
+  
+  @Override
+  void free(){
+    Helper.freeOffScreen(this);
+  }
 }
