@@ -17,7 +17,7 @@ class TabletPage extends Component {
             socket: null,
             playIntro: false,
             isFullscreenEnabled: false,
-            video_name: "video/1.mp4",
+            video_name: "./video/1.mp4",
             id_current_video: 1
         }
 
