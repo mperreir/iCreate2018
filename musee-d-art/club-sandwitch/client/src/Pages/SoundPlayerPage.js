@@ -17,15 +17,6 @@ class SoundPlayerPage extends Component {
       arg: "/Grenouille.mp3",
       socket: null
     }
-    /*this.socket = io();
-    this.socket.on('connect', () => {
-      console.log(this.socket.id); // 'G5p5...'
-      const idSocket = this.socket.id;
-      this.socket.emit('connect-tablet', idSocket);
-    });
-    this.socket.on('update', () => this.setState({nomFct: "play"}));
-    this.socket.on('stopSong', () => this.setState({nomFct: "stop"}));
-    this.socket.on('pauseSong', () => this.setState({nomFct: "pause"}));*/
   }
 
   componentWillMount() {
