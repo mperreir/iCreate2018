@@ -15,7 +15,7 @@ class SoldiersList {
   * remplissage de la liste à partir du json
   */
   void initialize() {
-    JSONArray values = loadJSONArray("example.json");
+    JSONArray values = loadJSONArray("converted.json");
     for (int i = 0; i < values.size(); i++) {
       JSONObject soldier = values.getJSONObject(i); 
 

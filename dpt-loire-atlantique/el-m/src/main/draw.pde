@@ -6,8 +6,8 @@ Date endDate = new Date(1920, 0, 0, 0, 0);
 */
 void drawBirths(){
   for (Soldier s : displayedSoldiers_birth.list) {
-    fill(51, 204, 255, 63);
-    ellipse(s.xNaissance*width, s.yNaissance*height, 30, 30);
+    fill(0, 0, 255, 63);
+    ellipse(s.xNaissance*width, s.yNaissance*height, 20, 20);
   }
 }
 
@@ -16,8 +16,8 @@ void drawBirths(){
 */
 void drawDeaths(){
   for (Soldier s : displayedSoldiers_death.list) {
-    fill(255, 0, 0, 63);
-    ellipse(s.xDeces*width, s.yDeces*height, 30, 30);
+    fill(255, 0, 0, 255);
+    ellipse(s.xDeces*width, s.yDeces*height, 20, 20);
     // affiche une flèche partant du lieu de naissance vers le lieu de décès
     drawArrow(s.xNaissance*width, s.yNaissance*height, s.xDeces*width, s.yDeces*height);
   }
@@ -28,7 +28,7 @@ void drawDeaths(){
 */
 void drawArrow(float x1, float y1, float x2, float y2) {
   pushStyle();
-  stroke(0, 102, 153);
+  stroke(0, 0, 0, 63);
   line(x1, y1, x2, y2);
   pushMatrix();
   translate(x2, y2);

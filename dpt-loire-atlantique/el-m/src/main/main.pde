@@ -78,7 +78,6 @@ void draw() {
   //background(img);
   image(img,0,0,width,height);
   
-  
   // #################### pour tester sans le téléphone ####################
   fill(51, 204, 51, 63);
   rect(70,165,30,30);
@@ -100,6 +99,8 @@ void draw() {
       updateSoldiersLists(false);
       // on repasse à la période de temps précédente
       setPeriodOfTime(false);
+      // ajoute les naissances et les décès dans l'intervalle de temps
+      addPointsInMeantime();
       //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     }
   }
@@ -185,6 +186,8 @@ void moveBackward(){
     updateSoldiersLists(false);
     // on passe à la période de temps précédente
     setPeriodOfTime(false);
+    // ajoute les naissances et les décès dans l'intervalle de temps
+    addPointsInMeantime();
 }
 
 /**
@@ -226,21 +229,18 @@ void setPeriodOfTime(boolean forward){
 void updateSoldiersLists(boolean forward){
   // si on avance
   if(forward){
-    for (Soldier s : allSoldiers.list) {
-      // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
-      if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
-        //println("----> Naissance");
-        displayedSoldiers_birth.list.add(s);
-      }
-      // si la date de décès est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
-      if(s.dateDeces.compareTo(formerDate) > 0 && s.dateDeces.compareTo(currentDate) <= 0){
-        //println("----> Deces");
-        displayedSoldiers_death.list.add(s);
-      }
+    // suppression des points de naissance et de décès des soldats morts précédemment
+    for (int i = displayedSoldiers_death.list.size()-1; i >= 0; i--) {
+      Soldier tmp = displayedSoldiers_death.list.get(i);
+      displayedSoldiers_birth.list.remove(tmp);
+      displayedSoldiers_death.list.remove(tmp);
     }
+    // ajoute les naissances et les décès dans l'intervalle de temps
+    addPointsInMeantime();
   }
   // si on recule
   else {
+    // suppression des naissances et des décès sur la période précédente
     for (int i = displayedSoldiers_birth.list.size()-1; i >= 0; i--) {
       Soldier tmp = displayedSoldiers_birth.list.get(i);
       // si la date de naissance est dans l'intervalle de temps, on supprime le soldat de la liste des soldats à afficher
@@ -254,6 +254,24 @@ void updateSoldiersLists(boolean forward){
       if(tmp.dateDeces.compareTo(formerDate) > 0 && tmp.dateDeces.compareTo(currentDate) <= 0){
         displayedSoldiers_death.list.remove(tmp);
       }
+    }
+  }
+}
+
+/**
+* ajoute les naissances et les décès dans l'intervalle de temps
+*/
+void addPointsInMeantime(){
+  for (Soldier s : allSoldiers.list) {
+    // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+    if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
+      //println("----> Naissance");
+      displayedSoldiers_birth.list.add(s);
+    }
+    // si la date de décès est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+    if(s.dateDeces.compareTo(formerDate) > 0 && s.dateDeces.compareTo(currentDate) <= 0){
+      //println("----> Deces");
+      displayedSoldiers_death.list.add(s);
     }
   }
 }
