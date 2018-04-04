@@ -20,16 +20,6 @@ class TabletPage extends Component {
             video_name: "./video/1.mp4",
             id_current_video: 1
         }
-
-        /*this.socket.on('connect', () => {
-            console.log(this.socket.id);
-            const idSocket = this.socket.id;
-            this.socket.emit('connect-tablet', idSocket);
-        });
-
-        this.socket.on('update', () => this.setState({playing: !this.state.playing}));
-        this.socket.on('playVideo', () => this.setState({playing: true}));*/
-
     }
 
     componentWillMount() {

@@ -4,18 +4,6 @@ import socketIOClient from 'socket.io-client';
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
 //const socketUrl = "http://localhost:5000/"
 
-/*this.socket = io();//SocketIOClient('http://localhost:5000');
-        this.socket.on('connect', () => {
-            console.log(this.socket.id);
-            const idSocket = this.socket.id;
-            this.socket.emit('connect-tablet', idSocket);
-        });
-
-        this.socket.on('update', () => this.setState({playing: !this.state.playing}));
-        this.socket.on('playVideo', () => this.setState({playing: true}));
-        this.socket.on('pauseVideo', () => this.setState({playing: false}));
-        */
-
 class ControlPage extends Component {
 
   constructor(props) {
