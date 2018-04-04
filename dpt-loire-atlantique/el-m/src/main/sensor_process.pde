@@ -25,3 +25,7 @@ synchronized double isRolling(){
   
   return averageSpeed; 
 }
+
+synchronized void resetSensor(){
+   recordSpeeds.clear(); 
+}

@@ -24,6 +24,7 @@ int iteratorDuringWar; // itérateur durant la guerre (en mois)
 int timeAnimation = millis(); //stocke le temps pour décider quand dessiner
 final int delayDeath = 150; // Délai entre l'affichage des points pour les naissances
 final int delayBirth = 50; // Délai entre l'affichage des points pour les morts
+final int delayReset = 15000; // Délai de retour à zéro si l'utilisateur est inactif
 
 final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."};
 
@@ -46,6 +47,10 @@ final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil."
 // x total = 37.26 --> 18.2476753606 à -19.0107904607
 // y total = 21.1 --> -8.69 à 12.4
 
+void initDates(){
+  formerDate = new Date(1850, 0, 0, 0, 0); // janvier 1850
+  currentDate = new Date(1851, 0, 0, 0, 0); // janvier 1851
+}
 
 void setup() {
   // Commence à écouter les messages OSC sur le port 12000
@@ -56,9 +61,8 @@ void setup() {
   imageMode(CORNER);
   noStroke();
   background(255);
-  
-  formerDate = new Date(1850, 0, 0, 0, 0); // janvier 1850
-  currentDate = new Date(1851, 0, 0, 0, 0); // janvier 1851
+ 
+  initDates();
   warDate = new Date(1914, 0, 0, 0, 0); // janvier 1914
   iteratorBeforeWar = 1; // 1 an
   iteratorDuringWar = 1; // 1 mois
@@ -101,6 +105,7 @@ void draw() {
   }
   // #######################################################################
   
+  checkActivity();
   
   int year = currentDate.getYear();
   double angularSpeed = isRolling();
@@ -126,6 +131,16 @@ void draw() {
   // affichage de la frise chronologique  
   drawTimeline();
 
+}
+
+void checkActivity(){
+    if(millis() > (timeAnimation + delayReset)){
+      displayedSoldiers_birth.list.clear();
+      displayedSoldiers_death.list.clear();
+      initDates();
+      resetSensor();
+      timeAnimation = millis();
+    }
 }
 
 void move(int delay, double angularSpeed){
