@@ -9000,16 +9000,6 @@
 		"yNaissance": "0.3214388389513111"
 	},
 	{
-		"id": 2052,
-		"matricule": null,
-		"dateNaissance": "04/1872",
-		"dateDeces": "04/1918",
-		"xDeces": "0.30164688616824065",
-		"yDeces": "0.277614531835206",
-		"xNaissance": "0.16448679542116718",
-		"yNaissance": "0.3091286142322097"
-	},
-	{
 		"id": 2056,
 		"matricule": 122,
 		"dateNaissance": "02/1886",
