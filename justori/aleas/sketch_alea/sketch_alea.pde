@@ -48,6 +48,7 @@ long demiPeriode = 0;
 float vitesse = 0;
 float vitesseMax = 0;
 int change = 0;
+int afk = 0;
 
 Minim minim;
 AudioPlayer voix;
@@ -91,7 +92,7 @@ void setup() {
    for(int i = 0; i < lesSrcImage.size();i++){
      lesImages.add(new ImageFrame(600,600,lesSrcImage.get(i)));
    }
-   
+
   //On charge une surface qui sert a la projection d'une vidéo
    surfaces = new collectionSurface();
    for(int i = 0; i < 7; i++){
@@ -234,10 +235,13 @@ private void newAmplitude(float add) {
 
     if (this.vitesse < 0) {
         this.vitesse = 0.0;
+        this.afk++;
     }
-    if (this.vitesse > 1) this.vitesse = 1.0;
+    if (this.vitesse > 1) {
+      this.vitesse = 1.0;
 
-    // if (this.vitesse > 0) this.sonPause = false;
+    }
+    if (this.vitesse > 0) this.afk = 0;
 
     // println(rotationAmplitude);
     println(vitesse);
@@ -271,8 +275,8 @@ private void verifSon() {
             hasReset = false;
 
             }
-        if (this.change > 4*8) {
-            //INACTIVIF DEPUIS 8s
+        if (this.afk > (4*8)) {
+            //INACTIF DEPUIS 4s
             println("INACTIF");
             reset();
             surfaces.reset();
@@ -306,7 +310,7 @@ private void verifSon() {
     }
     if ((this.vitesse > 5.0/8) && !e5) {
         println("e5");
-        
+
         e5 = true;
 
     }
