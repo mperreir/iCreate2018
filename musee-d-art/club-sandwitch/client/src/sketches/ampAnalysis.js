@@ -21,7 +21,7 @@ export default function sketch(p) {
         mic = new p5.AudioIn();
         mic.start();
         fft = new p5.FFT(0.2, 16);
-        amp = new p5.Amplitude(0.99);
+        amp = new p5.Amplitude(0.2);
         fft.setInput(mic);
         amp.setInput(mic);
     };
