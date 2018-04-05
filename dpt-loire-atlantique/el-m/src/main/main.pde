@@ -13,6 +13,7 @@ double treshold = 30;
 SoldiersList allSoldiers; // liste de tous les soldats
 SoldiersList displayedSoldiers_birth; // liste des soldats dont il faut afficher le lieu de naissance
 SoldiersList displayedSoldiers_death; // liste des soldats dont il faut afficher le lieu de mort
+SoldiersList matricules; // liste des soldats dont il faut afficher le matricule
 
 Date formerDate; // ancienne date
 Date currentDate; // date courante
@@ -70,6 +71,7 @@ void setup() {
   allSoldiers = new SoldiersList();
   displayedSoldiers_birth = new SoldiersList();
   displayedSoldiers_death = new SoldiersList();
+  matricules = new SoldiersList();
   allSoldiers.initialize(); // remplissage de la liste de tous les soldats
   System.out.println("Nombre de soldats au total : " + allSoldiers.list.size());   
 }
@@ -232,6 +234,7 @@ void updateSoldiersLists(boolean forward){
     // suppression des points de naissance et de décès des soldats morts précédemment
     for (int i = displayedSoldiers_death.list.size()-1; i >= 0; i--) {
       Soldier tmp = displayedSoldiers_death.list.get(i);
+      matricules.list.add(tmp);
       displayedSoldiers_birth.list.remove(tmp);
       displayedSoldiers_death.list.remove(tmp);
     }
@@ -253,6 +256,7 @@ void updateSoldiersLists(boolean forward){
       // si la date de décès est dans l'intervalle de temps, on supprime le soldat de la liste des soldats à afficher
       if(tmp.dateDeces.compareTo(formerDate) > 0 && tmp.dateDeces.compareTo(currentDate) <= 0){
         displayedSoldiers_death.list.remove(tmp);
+        matricules.list.remove(tmp);
       }
     }
   }

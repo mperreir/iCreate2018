@@ -45,7 +45,7 @@ void drawArrow(float x1, float y1, float x2, float y2) {
 */
 void drawMatricules(){
   int y = 10;
-  for (Soldier s : displayedSoldiers_death.list) {
+  for (Soldier s : matricules.list) {
     textSize(10);
     fill(102, 102, 102);
     text(s.matricule, width-30, y); 
