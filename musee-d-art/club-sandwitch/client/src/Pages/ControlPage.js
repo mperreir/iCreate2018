@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import socketIOClient from 'socket.io-client'
 
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
@@ -9,7 +9,7 @@ class ControlPage extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: 'df',
+      name: 'control-on',
       socket: null
     }
   }
@@ -25,23 +25,23 @@ class ControlPage extends Component {
       socket.emit('control-co');
     })
     socket.on('connect-tablet', () => {
-      console.log("Tablet connectée");
+      console.log("Tablet connectée")
     })
     this.setState({socket})
   }
 
   play1() {
-    console.log('playIntro')
+    console.log('playIntro 1')
     this.state.socket.emit('play-intro', 1)
   }
 
   play2() {
-    console.log('playIntro')
+    console.log('playIntro 2')
     this.state.socket.emit('play-intro', 2)
   }
 
   play3() {
-    console.log('playIntro')
+    console.log('playIntro 3')
     this.state.socket.emit('play-intro', 3)
   }
 

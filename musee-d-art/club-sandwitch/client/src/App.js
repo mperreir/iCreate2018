@@ -11,9 +11,7 @@ import 'whatwg-fetch';
 import './App.css';
 
 /*
-
-
-
+Main Component with all the routes pointing to the differents parts of the App
 */
 
 class App extends Component {
@@ -32,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

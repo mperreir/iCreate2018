@@ -14,7 +14,6 @@ let mic;
 let amp;
 let amplitude;
 let socket;
-let button;
 
 export default function sketch(p) {
   p.setup = function() {
