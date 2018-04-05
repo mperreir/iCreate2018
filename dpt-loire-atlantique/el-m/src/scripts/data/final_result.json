@@ -1,0 +1,3272 @@
+[
+	{
+		"id": 35,
+		"matricule": 78,
+		"dateNaissance": "03/1878",
+		"dateDeces": "03/1915",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111",
+		"xDeces": "0.25771298437768586",
+		"yDeces": "0.2477438951310863"
+	},
+	{
+		"id": 56,
+		"matricule": 3013,
+		"dateNaissance": "06/1884",
+		"dateDeces": "06/1917",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.18792411121434144",
+		"yDeces": "0.38797580524344577"
+	},
+	{
+		"id": 206,
+		"matricule": 343,
+		"dateNaissance": "10/1888",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.25317785677741034",
+		"yDeces": "0.22540633333333332"
+	},
+	{
+		"id": 207,
+		"matricule": 4,
+		"dateNaissance": "10/1897",
+		"dateDeces": "10/1917",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.2985426967575946",
+		"yDeces": "0.3324794906367041"
+	},
+	{
+		"id": 269,
+		"matricule": 1500,
+		"dateNaissance": "10/1885",
+		"dateDeces": "10/1918",
+		"xDeces": "0.2533769517392877",
+		"yDeces": "0.24952588014981286",
+		"xNaissance": "0.19149094368985986",
+		"yNaissance": "0.30446363670411986"
+	},
+	{
+		"id": 278,
+		"matricule": 1999,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.22960495725053526",
+		"yDeces": "0.21047409737827733"
+	},
+	{
+		"id": 288,
+		"matricule": 1993,
+		"dateNaissance": "05/1881",
+		"dateDeces": "05/1915",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.09831667849247977",
+		"yDeces": "0.2868766292134832"
+	},
+	{
+		"id": 310,
+		"matricule": 1925,
+		"dateNaissance": "03/1876",
+		"dateDeces": "03/1916",
+		"xDeces": "0.2564506486044571",
+		"yDeces": "0.23161617977528098",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 322,
+		"matricule": 1700,
+		"dateNaissance": "07/1880",
+		"dateDeces": "07/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 361,
+		"matricule": 2639,
+		"dateNaissance": "05/1888",
+		"dateDeces": "05/1916",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 362,
+		"matricule": 287,
+		"dateNaissance": "06/1880",
+		"dateDeces": "06/1914",
+		"xDeces": "0.22932105563747202",
+		"yDeces": "0.2113038202247191",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 365,
+		"matricule": 3704,
+		"dateNaissance": "09/1881",
+		"dateDeces": "09/1916",
+		"xDeces": "0.2573433967073045",
+		"yDeces": "0.23048535955056182",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 371,
+		"matricule": 2628,
+		"dateNaissance": "05/1890",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 489,
+		"matricule": 3044,
+		"dateNaissance": "10/1895",
+		"dateDeces": "10/1918",
+		"xDeces": "0.24579246182098574",
+		"yDeces": "0.24196220973782773",
+		"xNaissance": "0.18252619567112",
+		"yNaissance": "0.4199329962546817"
+	},
+	{
+		"id": 515,
+		"matricule": 2653,
+		"dateNaissance": "10/1884",
+		"dateDeces": "10/1914",
+		"xDeces": "0.25644267359786466",
+		"yDeces": "0.2226802247191017",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 583,
+		"matricule": 1067,
+		"dateNaissance": "07/1881",
+		"dateDeces": "07/1914",
+		"xDeces": "0.2548770720334033",
+		"yDeces": "0.2156928089887642",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 616,
+		"matricule": 1065,
+		"dateNaissance": "11/1894",
+		"dateDeces": "11/1914",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.23908261458515911",
+		"yNaissance": "0.37317535580524347"
+	},
+	{
+		"id": 630,
+		"matricule": 1809,
+		"dateNaissance": "10/1880",
+		"dateDeces": "10/1915",
+		"xDeces": "0.2548700755816738",
+		"yDeces": "0.28479144943820234",
+		"xNaissance": "0.11797157798327645",
+		"yNaissance": "0.2911766292134837"
+	},
+	{
+		"id": 724,
+		"matricule": 3641,
+		"dateNaissance": "10/1887",
+		"dateDeces": "10/1917",
+		"xDeces": "0.275319923729608",
+		"yDeces": "0.24644333333333346",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 813,
+		"matricule": 707,
+		"dateNaissance": "01/1894",
+		"dateDeces": "01/1915",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524"
+	},
+	{
+		"id": 963,
+		"matricule": 931,
+		"dateNaissance": "04/1897",
+		"dateDeces": "04/1917",
+		"xDeces": "0.3128760079844813",
+		"yDeces": "0.2551867415730338",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 973,
+		"matricule": 29,
+		"dateNaissance": "05/1888",
+		"dateDeces": "05/1916",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111",
+		"xDeces": "0.27406661911249347",
+		"yDeces": "0.24743591760299638"
+	},
+	{
+		"id": 1022,
+		"matricule": 1321,
+		"dateNaissance": "04/1892",
+		"dateDeces": "04/1915",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.2398577054758813",
+		"yDeces": "0.24795735205992564"
+	},
+	{
+		"id": 1023,
+		"matricule": 2650,
+		"dateNaissance": "01/1894",
+		"dateDeces": "01/1915",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599"
+	},
+	{
+		"id": 1215,
+		"matricule": 1460,
+		"dateNaissance": "09/1889",
+		"dateDeces": "09/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 1234,
+		"matricule": 453,
+		"dateNaissance": "06/1889",
+		"dateDeces": "06/1914",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648"
+	},
+	{
+		"id": 1242,
+		"matricule": 934,
+		"dateNaissance": "03/1895",
+		"dateDeces": "03/1918",
+		"xDeces": "0.25341527487907534",
+		"yDeces": "0.23729842696629228",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 1286,
+		"matricule": 620,
+		"dateNaissance": "06/1887",
+		"dateDeces": "06/1917",
+		"xDeces": "0.26939337301966504",
+		"yDeces": "0.24681284644194773",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 1387,
+		"matricule": 122,
+		"dateNaissance": "04/1884",
+		"dateDeces": "04/1914",
+		"xDeces": "0.19697703694110785",
+		"yDeces": "0.28528629213483153",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111"
+	},
+	{
+		"id": 1700,
+		"matricule": 174,
+		"dateNaissance": "06/1887",
+		"dateDeces": "06/1914",
+		"xDeces": "0.25287631531192745",
+		"yDeces": "0.22698981273408236",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 1850,
+		"matricule": 1217,
+		"dateNaissance": "08/1894",
+		"dateDeces": "08/1916",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143",
+		"xDeces": "0.17604689078803132",
+		"yDeces": "0.33672632958801507"
+	},
+	{
+		"id": 2007,
+		"matricule": 530,
+		"dateNaissance": "11/1889",
+		"dateDeces": "11/1917",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.27906201236351397",
+		"yDeces": "0.24894872659176032"
+	},
+	{
+		"id": 2051,
+		"matricule": 439,
+		"dateNaissance": "11/1894",
+		"dateDeces": "11/1917",
+		"xDeces": "0.24639584650895768",
+		"yDeces": "0.26733112359550576",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111"
+	},
+	{
+		"id": 2436,
+		"matricule": 966,
+		"dateNaissance": "08/1880",
+		"dateDeces": "08/1914",
+		"xDeces": "0.34637566117668134",
+		"yDeces": "0.29911142322097395",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459"
+	},
+	{
+		"id": 2599,
+		"matricule": 222,
+		"dateNaissance": "08/1882",
+		"dateDeces": "08/1918",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.268401907267646",
+		"yDeces": "0.2526717602996257"
+	},
+	{
+		"id": 2634,
+		"matricule": 1685,
+		"dateNaissance": "01/1883",
+		"dateDeces": "01/1917",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.21159216334690067",
+		"yDeces": "0.42246996254681635"
+	},
+	{
+		"id": 2730,
+		"matricule": 206,
+		"dateNaissance": "04/1890",
+		"dateDeces": "04/1914",
+		"xDeces": "0.25644267359786466",
+		"yDeces": "0.2226802247191017",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 2774,
+		"matricule": 3747,
+		"dateNaissance": "03/1881",
+		"dateDeces": "03/1917",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.27382334045868656",
+		"yDeces": "0.2473833782771534"
+	},
+	{
+		"id": 2775,
+		"matricule": 1708,
+		"dateNaissance": "01/1892",
+		"dateDeces": "01/1915",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459"
+	},
+	{
+		"id": 2855,
+		"matricule": 1889,
+		"dateNaissance": "03/1888",
+		"dateDeces": "03/1914",
+		"xDeces": "0.29367692107318083",
+		"yDeces": "0.24613516853932588",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 2857,
+		"matricule": 1889,
+		"dateNaissance": "03/1888",
+		"dateDeces": "03/1915",
+		"xDeces": "0.29367692107318083",
+		"yDeces": "0.24613516853932588",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 2959,
+		"matricule": 663,
+		"dateNaissance": "04/1889",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 3005,
+		"matricule": 2742,
+		"dateNaissance": "12/1895",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.2565423008288693",
+		"yDeces": "0.19300577902621746"
+	},
+	{
+		"id": 3062,
+		"matricule": 1056,
+		"dateNaissance": "11/1889",
+		"dateDeces": "11/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 3185,
+		"matricule": 510,
+		"dateNaissance": "06/1894",
+		"dateDeces": "06/1916",
+		"xDeces": "0.25816331360129796",
+		"yDeces": "0.22623803745318366",
+		"xNaissance": "0.2776519234276058",
+		"yNaissance": "0.22785662921348293"
+	},
+	{
+		"id": 3294,
+		"matricule": 1787,
+		"dateNaissance": "11/1878",
+		"dateDeces": "11/1916",
+		"xDeces": "0.21159216334690067",
+		"yDeces": "0.42246996254681635",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 3295,
+		"matricule": 663,
+		"dateNaissance": "06/1881",
+		"dateDeces": "06/1918",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852",
+		"xDeces": "0.4735180142102457",
+		"yDeces": "0.19558632958801497"
+	},
+	{
+		"id": 3336,
+		"matricule": 1415,
+		"dateNaissance": "04/1887",
+		"dateDeces": "04/1915",
+		"xDeces": "0.26680681111123566",
+		"yDeces": "0.47879030337078654",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 3398,
+		"matricule": 483,
+		"dateNaissance": "03/1876",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.16487455532954343",
+		"yNaissance": "0.33611337078651704",
+		"xDeces": "0.34424620293665326",
+		"yDeces": "0.32081853932584287"
+	},
+	{
+		"id": 3400,
+		"matricule": 715,
+		"dateNaissance": "04/1894",
+		"dateDeces": "04/1916",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524",
+		"xDeces": "0.2564506486044571",
+		"yDeces": "0.23161617977528098"
+	},
+	{
+		"id": 3433,
+		"matricule": 11,
+		"dateNaissance": "03/1893",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979",
+		"xDeces": "0.3132481864543016",
+		"yDeces": "0.23717225842696632"
+	},
+	{
+		"id": 3521,
+		"matricule": 1021,
+		"dateNaissance": "10/1890",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.16199639484898543",
+		"yNaissance": "0.3182107116104871",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066"
+	},
+	{
+		"id": 3526,
+		"matricule": 513,
+		"dateNaissance": "08/1879",
+		"dateDeces": "08/1914",
+		"xDeces": "0.2513352422812559",
+		"yDeces": "0.21624558052434462",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 3579,
+		"matricule": 518,
+		"dateNaissance": "07/1882",
+		"dateDeces": "07/1915",
+		"xDeces": "0.24753148529231833",
+		"yDeces": "0.33577710112359604",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 3740,
+		"matricule": 1214,
+		"dateNaissance": "12/1890",
+		"dateDeces": "12/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 3932,
+		"matricule": 2641,
+		"dateNaissance": "03/1889",
+		"dateDeces": "03/1914",
+		"xDeces": "0.19837742438926664",
+		"yDeces": "0.3895738951310861",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 4006,
+		"matricule": 503,
+		"dateNaissance": "06/1879",
+		"dateDeces": "06/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 4062,
+		"matricule": 1283,
+		"dateNaissance": "02/1893",
+		"dateDeces": "02/1914",
+		"xNaissance": "0.16487455532954343",
+		"yNaissance": "0.33611337078651704",
+		"xDeces": "0.3132481864543016",
+		"yDeces": "0.23717225842696632"
+	},
+	{
+		"id": 4136,
+		"matricule": 519,
+		"dateNaissance": "03/1887",
+		"dateDeces": "03/1914",
+		"xDeces": "0.24955183682053267",
+		"yDeces": "0.21616636704119868",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115"
+	},
+	{
+		"id": 4155,
+		"matricule": 2328,
+		"dateNaissance": "02/1891",
+		"dateDeces": "02/1915",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.28920042270380303",
+		"yDeces": "0.26512417228464424"
+	},
+	{
+		"id": 4158,
+		"matricule": 1820,
+		"dateNaissance": "07/1892",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 4161,
+		"matricule": 1960,
+		"dateNaissance": "01/1890",
+		"dateDeces": "01/1914",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.2188730857169638",
+		"yDeces": "0.4498168913857678"
+	},
+	{
+		"id": 4181,
+		"matricule": 2231,
+		"dateNaissance": "09/1887",
+		"dateDeces": "09/1915",
+		"xDeces": "0.24002500171552665",
+		"yDeces": "0.21759494382022487",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 4182,
+		"matricule": 367,
+		"dateNaissance": "09/1880",
+		"dateDeces": "09/1917",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.27057731663349704",
+		"yDeces": "0.24977558052434468"
+	},
+	{
+		"id": 4309,
+		"matricule": 943,
+		"dateNaissance": "09/1895",
+		"dateDeces": "09/1915",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.19781277452385504",
+		"yDeces": "0.2608693632958801"
+	},
+	{
+		"id": 4380,
+		"matricule": 1379,
+		"dateNaissance": "01/1898",
+		"dateDeces": "01/1918",
+		"xDeces": "0.26842876364119794",
+		"yDeces": "0.24617595505617978",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 4381,
+		"matricule": 2312,
+		"dateNaissance": "08/1882",
+		"dateDeces": "08/1914",
+		"xDeces": "0.24437543462934214",
+		"yDeces": "0.23007472659176031",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 4547,
+		"matricule": 2709,
+		"dateNaissance": "11/1884",
+		"dateDeces": "11/1915",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.3016090156639623",
+		"yDeces": "0.2559212359550567"
+	},
+	{
+		"id": 4651,
+		"matricule": 567,
+		"dateNaissance": "05/1890",
+		"dateDeces": "05/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 4672,
+		"matricule": 1133,
+		"dateNaissance": "03/1878",
+		"dateDeces": "03/1914",
+		"xDeces": "0.24955183682053267",
+		"yDeces": "0.21616636704119868",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115"
+	},
+	{
+		"id": 4771,
+		"matricule": 1207,
+		"dateNaissance": "07/1887",
+		"dateDeces": "07/1915",
+		"xDeces": "0.30583197564132236",
+		"yDeces": "0.25625655805243447",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 4827,
+		"matricule": 1288,
+		"dateNaissance": "12/1888",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 4936,
+		"matricule": 1594,
+		"dateNaissance": "03/1892",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648"
+	},
+	{
+		"id": 4965,
+		"matricule": 3374,
+		"dateNaissance": "04/1892",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 5227,
+		"matricule": 1383,
+		"dateNaissance": "09/1898",
+		"dateDeces": "09/1917",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364",
+		"xDeces": "0.27382334045868656",
+		"yDeces": "0.2473833782771534"
+	},
+	{
+		"id": 5232,
+		"matricule": 1728,
+		"dateNaissance": "03/1886",
+		"dateDeces": "03/1916",
+		"xDeces": "0.256567450119929",
+		"yDeces": "0.23099760299625466",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 5261,
+		"matricule": 664,
+		"dateNaissance": "07/1894",
+		"dateDeces": "07/1914",
+		"xDeces": "0.2536000493156013",
+		"yDeces": "0.22885028838951327",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 5340,
+		"matricule": 264,
+		"dateNaissance": "10/1897",
+		"dateDeces": "10/1916",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028",
+		"xDeces": "0.3057817740525263",
+		"yDeces": "0.2972379026217229"
+	},
+	{
+		"id": 5469,
+		"matricule": 1515,
+		"dateNaissance": "05/1895",
+		"dateDeces": "05/1916",
+		"xDeces": "0.2573433967073045",
+		"yDeces": "0.23048535955056182",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 5479,
+		"matricule": 193,
+		"dateNaissance": "10/1885",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115",
+		"xDeces": "0.28271003687236523",
+		"yDeces": "0.291050014981274"
+	},
+	{
+		"id": 5482,
+		"matricule": 1140,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1915",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115",
+		"xDeces": "0.24753148529231833",
+		"yDeces": "0.33577710112359604"
+	},
+	{
+		"id": 5621,
+		"matricule": 1171,
+		"dateNaissance": "01/1888",
+		"dateDeces": "01/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648"
+	},
+	{
+		"id": 5622,
+		"matricule": 1725,
+		"dateNaissance": "09/1888",
+		"dateDeces": "09/1914",
+		"xDeces": "0.24437543462934214",
+		"yDeces": "0.23007472659176031",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 5647,
+		"matricule": 2590,
+		"dateNaissance": "01/1885",
+		"dateDeces": "01/1917",
+		"xDeces": "0.25531571895006105",
+		"yDeces": "0.21533247191011295",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 5657,
+		"matricule": 3644,
+		"dateNaissance": "09/1887",
+		"dateDeces": "09/1916",
+		"xDeces": "0.2735632668720773",
+		"yDeces": "0.24796168539325852",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 5699,
+		"matricule": 1368,
+		"dateNaissance": "10/1892",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 5706,
+		"matricule": 633,
+		"dateNaissance": "01/1889",
+		"dateDeces": "01/1914",
+		"xDeces": "0.25287631531192745",
+		"yDeces": "0.22698981273408236",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 5768,
+		"matricule": 2391,
+		"dateNaissance": "01/1886",
+		"dateDeces": "01/1918",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.26483399708853406",
+		"yDeces": "0.2859514232209738"
+	},
+	{
+		"id": 5931,
+		"matricule": 1074,
+		"dateNaissance": "02/1883",
+		"dateDeces": "02/1915",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.2514434868301948",
+		"yDeces": "0.2033071910112365"
+	},
+	{
+		"id": 5934,
+		"matricule": 1935,
+		"dateNaissance": "02/1889",
+		"dateDeces": "02/1915",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.262684431054857",
+		"yDeces": "0.2487022846441953"
+	},
+	{
+		"id": 5959,
+		"matricule": 1681,
+		"dateNaissance": "09/1880",
+		"dateDeces": "09/1914",
+		"xDeces": "0.2544163106390054",
+		"yDeces": "0.21128329588015",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 5975,
+		"matricule": 1120,
+		"dateNaissance": "07/1881",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.22380499144928667",
+		"yDeces": "0.3170002958801504"
+	},
+	{
+		"id": 6097,
+		"matricule": 1147,
+		"dateNaissance": "09/1889",
+		"dateDeces": "09/1914",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 6305,
+		"matricule": 314,
+		"dateNaissance": "12/1892",
+		"dateDeces": "12/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 6319,
+		"matricule": 1441,
+		"dateNaissance": "08/1887",
+		"dateDeces": "08/1917",
+		"xDeces": "0.2811844418207047",
+		"yDeces": "0.29425865168539383",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 6417,
+		"matricule": 961,
+		"dateNaissance": "12/1894",
+		"dateDeces": "12/1915",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 6446,
+		"matricule": 2671,
+		"dateNaissance": "08/1890",
+		"dateDeces": "08/1914",
+		"xDeces": "0.2570411827547793",
+		"yDeces": "0.19478552434456936",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 6489,
+		"matricule": 1719,
+		"dateNaissance": "11/1892",
+		"dateDeces": "11/1916",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.27280020961968104",
+		"yDeces": "0.24752726966292132"
+	},
+	{
+		"id": 6540,
+		"matricule": 1466,
+		"dateNaissance": "10/1889",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066"
+	},
+	{
+		"id": 6567,
+		"matricule": 2299,
+		"dateNaissance": "11/1890",
+		"dateDeces": "11/1915",
+		"xDeces": "0.26680681111123566",
+		"yDeces": "0.47879030337078654",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 6568,
+		"matricule": 2267,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1914",
+		"xDeces": "0.304305380480727",
+		"yDeces": "0.23428224344569304",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 6572,
+		"matricule": 1831,
+		"dateNaissance": "07/1892",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 6603,
+		"matricule": 1483,
+		"dateNaissance": "04/1886",
+		"dateDeces": "04/1918",
+		"xDeces": "0.26801386931174265",
+		"yDeces": "0.2479300374531837",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 6738,
+		"matricule": 3453,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1914",
+		"xDeces": "0.2522657746720941",
+		"yDeces": "0.223448913857678",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 6758,
+		"matricule": 793,
+		"dateNaissance": "06/1881",
+		"dateDeces": "06/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 6797,
+		"matricule": 2987,
+		"dateNaissance": "12/1897",
+		"dateDeces": "12/1916",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.27280020961968104",
+		"yDeces": "0.24752726966292132"
+	},
+	{
+		"id": 6802,
+		"matricule": 3769,
+		"dateNaissance": "03/1894",
+		"dateDeces": "03/1914",
+		"xDeces": "0.2534697635727665",
+		"yDeces": "0.21189367041198498",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103"
+	},
+	{
+		"id": 7264,
+		"matricule": 700,
+		"dateNaissance": "09/1888",
+		"dateDeces": "09/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 7288,
+		"matricule": 1025,
+		"dateNaissance": "04/1894",
+		"dateDeces": "04/1914",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 7395,
+		"matricule": 116,
+		"dateNaissance": "12/1892",
+		"dateDeces": "12/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 7439,
+		"matricule": 1612,
+		"dateNaissance": "07/1892",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 7444,
+		"matricule": 664,
+		"dateNaissance": "04/1889",
+		"dateDeces": "04/1914",
+		"xDeces": "0.1818982199425498",
+		"yDeces": "0.4202798801498127",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 7593,
+		"matricule": 264,
+		"dateNaissance": "08/1887",
+		"dateDeces": "08/1916",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.27906201236351397",
+		"yDeces": "0.24894872659176032"
+	},
+	{
+		"id": 7747,
+		"matricule": 81,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1915",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 7750,
+		"matricule": 636,
+		"dateNaissance": "07/1896",
+		"dateDeces": "07/1915",
+		"xDeces": "0.23962808779282663",
+		"yDeces": "0.24717375280898934",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 7776,
+		"matricule": 3288,
+		"dateNaissance": "11/1891",
+		"dateDeces": "11/1914",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 7822,
+		"matricule": 437,
+		"dateNaissance": "04/1890",
+		"dateDeces": "04/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.18311579221931573",
+		"yNaissance": "0.32130480898876457"
+	},
+	{
+		"id": 7866,
+		"matricule": 1578,
+		"dateNaissance": "01/1888",
+		"dateDeces": "01/1914",
+		"xDeces": "0.24845035046405245",
+		"yDeces": "0.18660331835206",
+		"xNaissance": "0.15447934762156945",
+		"yNaissance": "0.34476299625468176"
+	},
+	{
+		"id": 7888,
+		"matricule": 1617,
+		"dateNaissance": "03/1872",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.16830643560566683",
+		"yNaissance": "0.3191832209737828",
+		"xDeces": "0.2513352422812559",
+		"yDeces": "0.21624558052434462"
+	},
+	{
+		"id": 7979,
+		"matricule": 1363,
+		"dateNaissance": "11/1889",
+		"dateDeces": "11/1914",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566",
+		"xDeces": "0.2785916162989894",
+		"yDeces": "0.2720119850187266"
+	},
+	{
+		"id": 7980,
+		"matricule": 300,
+		"dateNaissance": "10/1870",
+		"dateDeces": "10/1916",
+		"xDeces": "0.15577616990979276",
+		"yDeces": "0.332101722846442",
+		"xNaissance": "0.15577616990979276",
+		"yNaissance": "0.332101722846442"
+	},
+	{
+		"id": 8067,
+		"matricule": 3035,
+		"dateNaissance": "11/1884",
+		"dateDeces": "11/1916",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.21060071914895345",
+		"yNaissance": "0.24437067415730346"
+	},
+	{
+		"id": 8072,
+		"matricule": 1424,
+		"dateNaissance": "09/1873",
+		"dateDeces": "09/1916",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.34969336953410124",
+		"yDeces": "0.3087219475655436"
+	},
+	{
+		"id": 8081,
+		"matricule": 574,
+		"dateNaissance": "02/1898",
+		"dateDeces": "02/1918",
+		"xDeces": "0.15315778125883778",
+		"yDeces": "0.33460569288389524",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524"
+	},
+	{
+		"id": 8112,
+		"matricule": 1335,
+		"dateNaissance": "10/1876",
+		"dateDeces": "10/1914",
+		"xDeces": "0.23460111351569995",
+		"yDeces": "0.22264168539325863",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509"
+	},
+	{
+		"id": 8180,
+		"matricule": 2509,
+		"dateNaissance": "06/1890",
+		"dateDeces": "06/1916",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.25718732367288266",
+		"yDeces": "0.22821775280898932"
+	},
+	{
+		"id": 8238,
+		"matricule": 2119,
+		"dateNaissance": "03/1886",
+		"dateDeces": "03/1915",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626",
+		"xDeces": "0.30278024237539003",
+		"yDeces": "0.2578027453183521"
+	},
+	{
+		"id": 8239,
+		"matricule": 3067,
+		"dateNaissance": "09/1893",
+		"dateDeces": "09/1915",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 8311,
+		"matricule": 1394,
+		"dateNaissance": "12/1895",
+		"dateDeces": "12/1916",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566",
+		"xDeces": "0.27229659873040246",
+		"yDeces": "0.24649052434456947"
+	},
+	{
+		"id": 8390,
+		"matricule": 720,
+		"dateNaissance": "11/1888",
+		"dateDeces": "11/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 8406,
+		"matricule": 1410,
+		"dateNaissance": "05/1877",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.2513352422812559",
+		"yDeces": "0.21624558052434462"
+	},
+	{
+		"id": 8547,
+		"matricule": 2767,
+		"dateNaissance": "05/1895",
+		"dateDeces": "05/1915",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.2536309233681501",
+		"yDeces": "0.21730400749063689"
+	},
+	{
+		"id": 8561,
+		"matricule": 2010,
+		"dateNaissance": "03/1877",
+		"dateDeces": "03/1915",
+		"xDeces": "0.23996253370442855",
+		"yDeces": "0.24775476029962568",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 8721,
+		"matricule": 788,
+		"dateNaissance": "08/1897",
+		"dateDeces": "08/1916",
+		"xDeces": "0.2667677422005613",
+		"yDeces": "0.2355629588014982",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 8733,
+		"matricule": 2680,
+		"dateNaissance": "03/1880",
+		"dateDeces": "03/1917",
+		"xDeces": "0.15290501665800021",
+		"yDeces": "0.3373444194756555",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 8895,
+		"matricule": 1416,
+		"dateNaissance": "11/1880",
+		"dateDeces": "11/1914",
+		"xDeces": "0.2544163106390054",
+		"yDeces": "0.21128329588015",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946"
+	},
+	{
+		"id": 8897,
+		"matricule": 1360,
+		"dateNaissance": "04/1886",
+		"dateDeces": "04/1914",
+		"xDeces": "0.26680681111123566",
+		"yDeces": "0.47879030337078654",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 8920,
+		"matricule": 2686,
+		"dateNaissance": "10/1894",
+		"dateDeces": "10/1917",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.26972877593205813",
+		"yDeces": "0.3534448314606743"
+	},
+	{
+		"id": 9017,
+		"matricule": 139,
+		"dateNaissance": "01/1895",
+		"dateDeces": "01/1918",
+		"xDeces": "0.21395780679568271",
+		"yDeces": "0.2875695543071163",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111"
+	},
+	{
+		"id": 9044,
+		"matricule": 532,
+		"dateNaissance": "04/1890",
+		"dateDeces": "04/1917",
+		"xDeces": "0.23962808779282663",
+		"yDeces": "0.24717375280898934",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 9134,
+		"matricule": 1434,
+		"dateNaissance": "12/1891",
+		"dateDeces": "12/1914",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 9164,
+		"matricule": 1834,
+		"dateNaissance": "05/1889",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.21159216334690067",
+		"yDeces": "0.42246996254681635"
+	},
+	{
+		"id": 9370,
+		"matricule": 1187,
+		"dateNaissance": "05/1892",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.16487455532954343",
+		"yNaissance": "0.33611337078651704",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 9439,
+		"matricule": 3951,
+		"dateNaissance": "02/1893",
+		"dateDeces": "02/1914",
+		"xDeces": "0.2444514191989109",
+		"yDeces": "0.23005961423220983",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 9576,
+		"matricule": 460,
+		"dateNaissance": "09/1879",
+		"dateDeces": "09/1914",
+		"xDeces": "0.16566056551307567",
+		"yDeces": "0.275773670411985",
+		"xNaissance": "0.16830643560566683",
+		"yNaissance": "0.3191832209737828"
+	},
+	{
+		"id": 9667,
+		"matricule": 39,
+		"dateNaissance": "08/1895",
+		"dateDeces": "08/1915",
+		"xNaissance": "0.1712592356817088",
+		"yNaissance": "0.3247097003745319",
+		"xDeces": "0.3061909156001991",
+		"yDeces": "0.27252415730337076"
+	},
+	{
+		"id": 9803,
+		"matricule": 440,
+		"dateNaissance": "03/1893",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111",
+		"xDeces": "0.24845035046405245",
+		"yDeces": "0.18660331835206"
+	},
+	{
+		"id": 9814,
+		"matricule": 1408,
+		"dateNaissance": "03/1893",
+		"dateDeces": "03/1914",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 9828,
+		"matricule": 456,
+		"dateNaissance": "05/1889",
+		"dateDeces": "05/1916",
+		"xNaissance": "0.16830643560566683",
+		"yNaissance": "0.3191832209737828",
+		"xDeces": "0.27406661911249347",
+		"yDeces": "0.24743591760299638"
+	},
+	{
+		"id": 10010,
+		"matricule": 943,
+		"dateNaissance": "03/1881",
+		"dateDeces": "03/1914",
+		"xDeces": "0.2513352422812559",
+		"yDeces": "0.21624558052434462",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 10076,
+		"matricule": 1981,
+		"dateNaissance": "02/1887",
+		"dateDeces": "02/1914",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626",
+		"xDeces": "0.18858273252229862",
+		"yDeces": "0.3882454082397005"
+	},
+	{
+		"id": 10129,
+		"matricule": 1644,
+		"dateNaissance": "12/1889",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 10408,
+		"matricule": 554,
+		"dateNaissance": "06/1882",
+		"dateDeces": "06/1914",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143",
+		"xDeces": "0.2236271380252386",
+		"yDeces": "0.29886258426966306"
+	},
+	{
+		"id": 10455,
+		"matricule": 1184,
+		"dateNaissance": "03/1880",
+		"dateDeces": "03/1915",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.24478022225449692",
+		"yDeces": "0.26755573782771536"
+	},
+	{
+		"id": 10581,
+		"matricule": 1471,
+		"dateNaissance": "07/1897",
+		"dateDeces": "07/1916",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.27906201236351397",
+		"yDeces": "0.24894872659176032"
+	},
+	{
+		"id": 10670,
+		"matricule": 2495,
+		"dateNaissance": "10/1881",
+		"dateDeces": "10/1915",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614"
+	},
+	{
+		"id": 10672,
+		"matricule": 849,
+		"dateNaissance": "07/1884",
+		"dateDeces": "07/1916",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.27382334045868656",
+		"yDeces": "0.2473833782771534"
+	},
+	{
+		"id": 10703,
+		"matricule": 1112,
+		"dateNaissance": "05/1890",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.2487101718680208",
+		"yDeces": "0.18677816479400727"
+	},
+	{
+		"id": 10799,
+		"matricule": 199,
+		"dateNaissance": "05/1873",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.23761579533208504",
+		"yDeces": "0.22268940074906368"
+	},
+	{
+		"id": 10805,
+		"matricule": 371,
+		"dateNaissance": "10/1893",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 10873,
+		"matricule": 422,
+		"dateNaissance": "05/1882",
+		"dateDeces": "05/1915",
+		"xDeces": "0.2446383274885522",
+		"yDeces": "0.22992430711610506",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 10970,
+		"matricule": 2797,
+		"dateNaissance": "09/1880",
+		"dateDeces": "09/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 10988,
+		"matricule": 1660,
+		"dateNaissance": "07/1891",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122",
+		"xDeces": "0.24688719959756295",
+		"yDeces": "0.2693558988764045"
+	},
+	{
+		"id": 11032,
+		"matricule": 335,
+		"dateNaissance": "06/1891",
+		"dateDeces": "06/1914",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.28920042270380303",
+		"yDeces": "0.26512417228464424"
+	},
+	{
+		"id": 11045,
+		"matricule": 2100,
+		"dateNaissance": "02/1879",
+		"dateDeces": "02/1915",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.3061909156001991",
+		"yDeces": "0.27252415730337076"
+	},
+	{
+		"id": 11132,
+		"matricule": 373,
+		"dateNaissance": "10/1893",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 11193,
+		"matricule": 2586,
+		"dateNaissance": "01/1885",
+		"dateDeces": "01/1918",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.29692074638303945",
+		"yDeces": "0.24876273408239719"
+	},
+	{
+		"id": 11284,
+		"matricule": 1138,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1914",
+		"xDeces": "0.24955183682053267",
+		"yDeces": "0.21616636704119868",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 11312,
+		"matricule": 3083,
+		"dateNaissance": "11/1893",
+		"dateDeces": "11/1915",
+		"xDeces": "0.2564506486044571",
+		"yDeces": "0.23161617977528098",
+		"xNaissance": "0.15383479465632294",
+		"yNaissance": "0.3269522097378277"
+	},
+	{
+		"id": 11347,
+		"matricule": 1187,
+		"dateNaissance": "12/1889",
+		"dateDeces": "12/1914",
+		"xDeces": "0.16664651342269565",
+		"yDeces": "0.24877913857677902",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 11418,
+		"matricule": 164,
+		"dateNaissance": "10/1891",
+		"dateDeces": "10/1914",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028",
+		"xDeces": "0.2602501572858288",
+		"yDeces": "0.24479662921348372"
+	},
+	{
+		"id": 11480,
+		"matricule": 2598,
+		"dateNaissance": "02/1885",
+		"dateDeces": "02/1918",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.3536157795332845",
+		"yDeces": "0.29852588389513113"
+	},
+	{
+		"id": 11536,
+		"matricule": 3958,
+		"dateNaissance": "02/1893",
+		"dateDeces": "02/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 11848,
+		"matricule": 708,
+		"dateNaissance": "04/1881",
+		"dateDeces": "04/1915",
+		"xDeces": "0.24437543462934214",
+		"yDeces": "0.23007472659176031",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 11901,
+		"matricule": 2201,
+		"dateNaissance": "01/1890",
+		"dateDeces": "01/1915",
+		"xDeces": "0.34293469370385676",
+		"yDeces": "0.2570502247191011",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 12157,
+		"matricule": 673,
+		"dateNaissance": "05/1893",
+		"dateDeces": "05/1914",
+		"xDeces": "0.2762379763128326",
+		"yDeces": "0.2731166666666663",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 12327,
+		"matricule": 1874,
+		"dateNaissance": "05/1883",
+		"dateDeces": "05/1914",
+		"xDeces": "0.21159216334690067",
+		"yDeces": "0.42246996254681635",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 12477,
+		"matricule": 733,
+		"dateNaissance": "03/1881",
+		"dateDeces": "03/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 12527,
+		"matricule": 2299,
+		"dateNaissance": "01/1883",
+		"dateDeces": "01/1914",
+		"xDeces": "0.27369498380528434",
+		"yDeces": "0.27332764044943825",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 12919,
+		"matricule": 261,
+		"dateNaissance": "04/1880",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 12920,
+		"matricule": 190,
+		"dateNaissance": "12/1893",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.30097860216986344",
+		"yDeces": "0.24052325842696648"
+	},
+	{
+		"id": 12944,
+		"matricule": 1466,
+		"dateNaissance": "09/1891",
+		"dateDeces": "09/1914",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 13021,
+		"matricule": 1702,
+		"dateNaissance": "04/1885",
+		"dateDeces": "04/1915",
+		"xDeces": "0.2446383274885522",
+		"yDeces": "0.22992430711610506",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 13134,
+		"matricule": 387,
+		"dateNaissance": "12/1893",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346"
+	},
+	{
+		"id": 13145,
+		"matricule": 1314,
+		"dateNaissance": "05/1889",
+		"dateDeces": "05/1915",
+		"xDeces": "0.3322996021083958",
+		"yDeces": "0.3888099475655433",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 13146,
+		"matricule": 523,
+		"dateNaissance": "04/1874",
+		"dateDeces": "04/1915",
+		"xDeces": "0.2494216717805004",
+		"yDeces": "0.22622685393258435",
+		"xNaissance": "0.16921345250409325",
+		"yNaissance": "0.33844269662921367"
+	},
+	{
+		"id": 13163,
+		"matricule": 1602,
+		"dateNaissance": "06/1894",
+		"dateDeces": "06/1914",
+		"xNaissance": "0.16487455532954343",
+		"yNaissance": "0.33611337078651704",
+		"xDeces": "0.28920042270380303",
+		"yDeces": "0.26512417228464424"
+	},
+	{
+		"id": 13236,
+		"matricule": 2652,
+		"dateNaissance": "05/1885",
+		"dateDeces": "05/1916",
+		"xDeces": "0.30805023450205393",
+		"yDeces": "0.39173970037453193",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 13349,
+		"matricule": 1484,
+		"dateNaissance": "03/1897",
+		"dateDeces": "03/1918",
+		"xDeces": "0.2536309233681501",
+		"yDeces": "0.21730400749063689",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 13374,
+		"matricule": 1390,
+		"dateNaissance": "10/1892",
+		"dateDeces": "10/1918",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946",
+		"xDeces": "0.23962808779282663",
+		"yDeces": "0.24717375280898934"
+	},
+	{
+		"id": 13379,
+		"matricule": 669,
+		"dateNaissance": "11/1884",
+		"dateDeces": "11/1914",
+		"xDeces": "0.2444514191989109",
+		"yDeces": "0.23005961423220983",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 13397,
+		"matricule": 2418,
+		"dateNaissance": "07/1893",
+		"dateDeces": "07/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 13494,
+		"matricule": 2421,
+		"dateNaissance": "06/1881",
+		"dateDeces": "06/1917",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.26801386931174265",
+		"yDeces": "0.2479300374531837"
+	},
+	{
+		"id": 13533,
+		"matricule": 193,
+		"dateNaissance": "12/1893",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.25107545105298823",
+		"yDeces": "0.22282337078651687"
+	},
+	{
+		"id": 13723,
+		"matricule": 2671,
+		"dateNaissance": "04/1878",
+		"dateDeces": "04/1915",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 13871,
+		"matricule": 2104,
+		"dateNaissance": "12/1887",
+		"dateDeces": "12/1917",
+		"xDeces": "0.2636564334799761",
+		"yDeces": "0.24981041198501874",
+		"xNaissance": "0.15383479465632294",
+		"yNaissance": "0.3269522097378277"
+	},
+	{
+		"id": 14066,
+		"matricule": 152,
+		"dateNaissance": "08/1895",
+		"dateDeces": "08/1914",
+		"xNaissance": "0.18311579221931573",
+		"yNaissance": "0.32130480898876457",
+		"xDeces": "0.25800251806972907",
+		"yDeces": "0.19533694756554332"
+	},
+	{
+		"id": 14754,
+		"matricule": 3384,
+		"dateNaissance": "03/1879",
+		"dateDeces": "03/1916",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.25533272295736054",
+		"yDeces": "0.23337895131086156"
+	},
+	{
+		"id": 14783,
+		"matricule": 388,
+		"dateNaissance": "12/1889",
+		"dateDeces": "12/1914",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 14855,
+		"matricule": 3423,
+		"dateNaissance": "06/1892",
+		"dateDeces": "06/1918",
+		"xDeces": "0.24807051167708905",
+		"yDeces": "0.23964112359550582",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 14884,
+		"matricule": 61,
+		"dateNaissance": "11/1897",
+		"dateDeces": "11/1917",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.2519075847949185",
+		"yDeces": "0.19141556179775282"
+	},
+	{
+		"id": 14892,
+		"matricule": 1715,
+		"dateNaissance": "09/1896",
+		"dateDeces": "09/1915",
+		"xDeces": "0.2573433967073045",
+		"yDeces": "0.23048535955056182",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 14916,
+		"matricule": 26,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1915",
+		"xDeces": "0.25069075397822493",
+		"yDeces": "0.2134807865168541",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 15094,
+		"matricule": 1765,
+		"dateNaissance": "02/1880",
+		"dateDeces": "02/1917",
+		"xDeces": "0.2810805511942838",
+		"yDeces": "0.25067415730337095",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 15187,
+		"matricule": 1241,
+		"dateNaissance": "07/1888",
+		"dateDeces": "07/1914",
+		"xDeces": "0.21159216334690067",
+		"yDeces": "0.42246996254681635",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 15228,
+		"matricule": 3373,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1915",
+		"xDeces": "0.18311579221931573",
+		"yDeces": "0.32130480898876457",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 15268,
+		"matricule": 3106,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1914",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 15336,
+		"matricule": 1640,
+		"dateNaissance": "12/1889",
+		"dateDeces": "12/1917",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.2708941399359368",
+		"yDeces": "0.24608280898876422"
+	},
+	{
+		"id": 15337,
+		"matricule": 2151,
+		"dateNaissance": "04/1891",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.25800251806972907",
+		"yDeces": "0.19533694756554332"
+	},
+	{
+		"id": 15382,
+		"matricule": 3024,
+		"dateNaissance": "08/1896",
+		"dateDeces": "08/1915",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.2573433967073045",
+		"yDeces": "0.23048535955056182"
+	},
+	{
+		"id": 15391,
+		"matricule": 3523,
+		"dateNaissance": "02/1887",
+		"dateDeces": "02/1915",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.24694049635107973",
+		"yDeces": "0.2727882846441949"
+	},
+	{
+		"id": 15393,
+		"matricule": 3485,
+		"dateNaissance": "10/1886",
+		"dateDeces": "10/1918",
+		"xDeces": "0.1415682430297971",
+		"yDeces": "0.3285527715355805",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 15402,
+		"matricule": 3439,
+		"dateNaissance": "04/1888",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.16664651342269565",
+		"yDeces": "0.24877913857677902"
+	},
+	{
+		"id": 15407,
+		"matricule": 3496,
+		"dateNaissance": "12/1886",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.3016090156639623",
+		"yDeces": "0.2559212359550567"
+	},
+	{
+		"id": 15545,
+		"matricule": 2734,
+		"dateNaissance": "06/1874",
+		"dateDeces": "06/1915",
+		"xDeces": "0.24067768056586886",
+		"yDeces": "0.22131397003745373",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 15576,
+		"matricule": 973,
+		"dateNaissance": "05/1881",
+		"dateDeces": "05/1916",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364",
+		"xDeces": "0.1818982199425498",
+		"yDeces": "0.4202798801498127"
+	},
+	{
+		"id": 15619,
+		"matricule": 2692,
+		"dateNaissance": "09/1885",
+		"dateDeces": "09/1916",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 15783,
+		"matricule": 32,
+		"dateNaissance": "07/1893",
+		"dateDeces": "07/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 15826,
+		"matricule": 984,
+		"dateNaissance": "08/1894",
+		"dateDeces": "08/1915",
+		"xDeces": "0.26680681111123566",
+		"yDeces": "0.47879030337078654",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 15860,
+		"matricule": 3351,
+		"dateNaissance": "01/1889",
+		"dateDeces": "01/1915",
+		"xDeces": "0.304123255039634",
+		"yDeces": "0.30951752808988775",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 15930,
+		"matricule": 2279,
+		"dateNaissance": "02/1895",
+		"dateDeces": "02/1918",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.30583197564132236",
+		"yDeces": "0.25625655805243447"
+	},
+	{
+		"id": 16053,
+		"matricule": 1256,
+		"dateNaissance": "06/1890",
+		"dateDeces": "06/1916",
+		"xDeces": "0.25611925474943215",
+		"yDeces": "0.2304421722846443",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 16119,
+		"matricule": 2532,
+		"dateNaissance": "03/1874",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364",
+		"xDeces": "0.3016090156639623",
+		"yDeces": "0.2559212359550567"
+	},
+	{
+		"id": 16229,
+		"matricule": 1082,
+		"dateNaissance": "07/1880",
+		"dateDeces": "07/1915",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.24753148529231833",
+		"yDeces": "0.33577710112359604"
+	},
+	{
+		"id": 16310,
+		"matricule": 674,
+		"dateNaissance": "05/1897",
+		"dateDeces": "05/1918",
+		"xDeces": "0.27812016408494317",
+		"yDeces": "0.25925647940074925",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 16361,
+		"matricule": 324,
+		"dateNaissance": "09/1884",
+		"dateDeces": "09/1914",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524",
+		"xDeces": "0.28905187204046434",
+		"yDeces": "0.26566734082397014"
+	},
+	{
+		"id": 16369,
+		"matricule": 1130,
+		"dateNaissance": "12/1885",
+		"dateDeces": "12/1917",
+		"xDeces": "0.4475372920713432",
+		"yDeces": "0.2114635917602996",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 16384,
+		"matricule": 3970,
+		"dateNaissance": "06/1893",
+		"dateDeces": "06/1915",
+		"xDeces": "0.2444514191989109",
+		"yDeces": "0.23005961423220983",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 16388,
+		"matricule": 1453,
+		"dateNaissance": "08/1891",
+		"dateDeces": "08/1915",
+		"xDeces": "0.2544163106390054",
+		"yDeces": "0.21128329588015",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 16933,
+		"matricule": 1385,
+		"dateNaissance": "10/1888",
+		"dateDeces": "10/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 17031,
+		"matricule": 946,
+		"dateNaissance": "12/1892",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425"
+	},
+	{
+		"id": 17298,
+		"matricule": 1314,
+		"dateNaissance": "11/1896",
+		"dateDeces": "11/1916",
+		"xDeces": "0.3128760079844813",
+		"yDeces": "0.2551867415730338",
+		"xNaissance": "0.1569683471790796",
+		"yNaissance": "0.3211505992509364"
+	},
+	{
+		"id": 17460,
+		"matricule": 2028,
+		"dateNaissance": "11/1894",
+		"dateDeces": "11/1914",
+		"xDeces": "0.26680681111123566",
+		"yDeces": "0.47879030337078654",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 17634,
+		"matricule": 1132,
+		"dateNaissance": "07/1892",
+		"dateDeces": "07/1914",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 17772,
+		"matricule": 67,
+		"dateNaissance": "07/1897",
+		"dateDeces": "07/1918",
+		"xDeces": "0.24145414445096924",
+		"yDeces": "0.250647902621723",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509"
+	},
+	{
+		"id": 17776,
+		"matricule": 2450,
+		"dateNaissance": "11/1892",
+		"dateDeces": "11/1914",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 17808,
+		"matricule": 932,
+		"dateNaissance": "02/1896",
+		"dateDeces": "02/1915",
+		"xDeces": "0.34728502531353456",
+		"yDeces": "0.30068239700374544",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 18331,
+		"matricule": 3705,
+		"dateNaissance": "08/1891",
+		"dateDeces": "08/1914",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.2602501572858288",
+		"yDeces": "0.24479662921348372"
+	},
+	{
+		"id": 18334,
+		"matricule": 1968,
+		"dateNaissance": "12/1889",
+		"dateDeces": "12/1914",
+		"xDeces": "0.19682634164761792",
+		"yDeces": "0.2855341161048691",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 18336,
+		"matricule": 2524,
+		"dateNaissance": "11/1877",
+		"dateDeces": "11/1917",
+		"xDeces": "0.1415682430297971",
+		"yDeces": "0.3285527715355805",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 18454,
+		"matricule": 1134,
+		"dateNaissance": "02/1892",
+		"dateDeces": "02/1914",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566",
+		"xDeces": "0.159636861979579",
+		"yDeces": "0.23992407116104886"
+	},
+	{
+		"id": 18580,
+		"matricule": 2007,
+		"dateNaissance": "10/1895",
+		"dateDeces": "10/1915",
+		"xDeces": "0.2564506486044571",
+		"yDeces": "0.23161617977528098",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 18622,
+		"matricule": 1488,
+		"dateNaissance": "07/1889",
+		"dateDeces": "07/1918",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.2475069028733488",
+		"yDeces": "0.4166165805243447"
+	},
+	{
+		"id": 18726,
+		"matricule": 3486,
+		"dateNaissance": "04/1885",
+		"dateDeces": "04/1915",
+		"xDeces": "0.24961123984261063",
+		"yDeces": "0.22387456928838956",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 18916,
+		"matricule": 183,
+		"dateNaissance": "11/1891",
+		"dateDeces": "11/1914",
+		"xDeces": "0.25287631531192745",
+		"yDeces": "0.22698981273408236",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 18988,
+		"matricule": 3115,
+		"dateNaissance": "08/1880",
+		"dateDeces": "08/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 19112,
+		"matricule": 484,
+		"dateNaissance": "07/1889",
+		"dateDeces": "07/1914",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.16664651342269565",
+		"yDeces": "0.24877913857677902"
+	},
+	{
+		"id": 19230,
+		"matricule": 1528,
+		"dateNaissance": "08/1895",
+		"dateDeces": "08/1915",
+		"xDeces": "0.24437543462934214",
+		"yDeces": "0.23007472659176031",
+		"xNaissance": "0.1634097168956743",
+		"yNaissance": "0.3308888764044946"
+	},
+	{
+		"id": 19288,
+		"matricule": 1057,
+		"dateNaissance": "07/1881",
+		"dateDeces": "07/1914",
+		"xDeces": "0.3016090156639623",
+		"yDeces": "0.2559212359550567",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 19307,
+		"matricule": 1492,
+		"dateNaissance": "08/1891",
+		"dateDeces": "08/1915",
+		"xDeces": "0.3322996021083958",
+		"yDeces": "0.3888099475655433",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 19324,
+		"matricule": 3132,
+		"dateNaissance": "05/1893",
+		"dateDeces": "05/1914",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 19330,
+		"matricule": 1285,
+		"dateNaissance": "03/1881",
+		"dateDeces": "03/1917",
+		"xDeces": "0.27912037001310613",
+		"yDeces": "0.24914669662921363",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 19643,
+		"matricule": 1529,
+		"dateNaissance": "03/1898",
+		"dateDeces": "03/1918",
+		"xDeces": "0.2683501990492262",
+		"yDeces": "0.2623225880149813",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 19910,
+		"matricule": 1395,
+		"dateNaissance": "01/1891",
+		"dateDeces": "01/1917",
+		"xDeces": "0.18311579221931573",
+		"yDeces": "0.32130480898876457",
+		"xNaissance": "0.16741058371646994",
+		"yNaissance": "0.33571344943820225"
+	},
+	{
+		"id": 19979,
+		"matricule": 1688,
+		"dateNaissance": "03/1883",
+		"dateDeces": "03/1914",
+		"xDeces": "0.25287631531192745",
+		"yDeces": "0.22698981273408236",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 20235,
+		"matricule": 1537,
+		"dateNaissance": "06/1895",
+		"dateDeces": "06/1914",
+		"xDeces": "0.18311579221931573",
+		"yDeces": "0.32130480898876457",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 20273,
+		"matricule": 422,
+		"dateNaissance": "08/1893",
+		"dateDeces": "08/1916",
+		"xDeces": "0.27906201236351397",
+		"yDeces": "0.24894872659176032",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115"
+	},
+	{
+		"id": 20291,
+		"matricule": 1641,
+		"dateNaissance": "04/1894",
+		"dateDeces": "04/1916",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.3016090156639623",
+		"yDeces": "0.2559212359550567"
+	},
+	{
+		"id": 20397,
+		"matricule": 3118,
+		"dateNaissance": "08/1883",
+		"dateDeces": "08/1915",
+		"xDeces": "0.1415682430297971",
+		"yDeces": "0.3285527715355805",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 20442,
+		"matricule": 2825,
+		"dateNaissance": "01/1882",
+		"dateDeces": "01/1918",
+		"xDeces": "0.13616918512076648",
+		"yDeces": "0.3113529962546818",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805"
+	},
+	{
+		"id": 20446,
+		"matricule": 2338,
+		"dateNaissance": "12/1871",
+		"dateDeces": "12/1914",
+		"xNaissance": "0.1415682430297971",
+		"yNaissance": "0.3285527715355805",
+		"xDeces": "0.29766681902680103",
+		"yDeces": "0.254497191011236"
+	},
+	{
+		"id": 20860,
+		"matricule": 1709,
+		"dateNaissance": "11/1881",
+		"dateDeces": "11/1914",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566",
+		"xDeces": "0.2711435636556343",
+		"yDeces": "0.25126213483146126"
+	},
+	{
+		"id": 21250,
+		"matricule": 1816,
+		"dateNaissance": "04/1876",
+		"dateDeces": "04/1915",
+		"xDeces": "0.2548770720334033",
+		"yDeces": "0.2156928089887642",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 21443,
+		"matricule": 175,
+		"dateNaissance": "06/1895",
+		"dateDeces": "06/1916",
+		"xDeces": "0.2558060309769949",
+		"yDeces": "0.23254943820224727",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111"
+	},
+	{
+		"id": 21475,
+		"matricule": 1725,
+		"dateNaissance": "03/1886",
+		"dateDeces": "03/1916",
+		"xDeces": "0.256567450119929",
+		"yDeces": "0.23099760299625466",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 21545,
+		"matricule": 1917,
+		"dateNaissance": "05/1875",
+		"dateDeces": "05/1914",
+		"xDeces": "0.30632719337501413",
+		"yDeces": "0.27207640823970036",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 21597,
+		"matricule": 1475,
+		"dateNaissance": "11/1897",
+		"dateDeces": "11/1917",
+		"xDeces": "0.23962808779282663",
+		"yDeces": "0.24717375280898934",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 21822,
+		"matricule": 3375,
+		"dateNaissance": "08/1891",
+		"dateDeces": "08/1914",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.16023568798135007",
+		"yDeces": "0.24015277902621718"
+	},
+	{
+		"id": 21874,
+		"matricule": 256,
+		"dateNaissance": "12/1884",
+		"dateDeces": "12/1914",
+		"xDeces": "0.2548770720334033",
+		"yDeces": "0.2156928089887642",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 21898,
+		"matricule": 233,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1915",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.2785916162989894",
+		"yDeces": "0.2720119850187266"
+	},
+	{
+		"id": 21899,
+		"matricule": 1566,
+		"dateNaissance": "06/1893",
+		"dateDeces": "06/1916",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.27406661911249347",
+		"yDeces": "0.24743591760299638"
+	},
+	{
+		"id": 21908,
+		"matricule": 3150,
+		"dateNaissance": "11/1893",
+		"dateDeces": "11/1914",
+		"xDeces": "0.2762379763128326",
+		"yDeces": "0.2731166666666663",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 22041,
+		"matricule": 915,
+		"dateNaissance": "02/1894",
+		"dateDeces": "02/1918",
+		"xDeces": "0.2929014723848655",
+		"yDeces": "0.261671797752809",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 22088,
+		"matricule": 2480,
+		"dateNaissance": "08/1892",
+		"dateDeces": "08/1915",
+		"xDeces": "0.25334973541273553",
+		"yDeces": "0.21074166292134888",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 22205,
+		"matricule": 2083,
+		"dateNaissance": "05/1875",
+		"dateDeces": "05/1917",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599",
+		"xDeces": "0.3073235325026834",
+		"yDeces": "0.36801901498127343"
+	},
+	{
+		"id": 22356,
+		"matricule": 1644,
+		"dateNaissance": "04/1882",
+		"dateDeces": "04/1916",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.16481099021618706",
+		"yDeces": "0.3280272134831461"
+	},
+	{
+		"id": 22564,
+		"matricule": 1461,
+		"dateNaissance": "05/1893",
+		"dateDeces": "05/1915",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566",
+		"xDeces": "0.1793312571516732",
+		"yDeces": "0.33108213483146076"
+	},
+	{
+		"id": 22566,
+		"matricule": 985,
+		"dateNaissance": "06/1897",
+		"dateDeces": "06/1915",
+		"xDeces": "0.1696301573755858",
+		"yDeces": "0.3252635205992509",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 22754,
+		"matricule": 1551,
+		"dateNaissance": "02/1890",
+		"dateDeces": "02/1914",
+		"xDeces": "0.24437543462934214",
+		"yDeces": "0.23007472659176031",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 22768,
+		"matricule": 2823,
+		"dateNaissance": "02/1880",
+		"dateDeces": "02/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.152179700585451",
+		"yNaissance": "0.3333056554307122"
+	},
+	{
+		"id": 22769,
+		"matricule": 245,
+		"dateNaissance": "05/1884",
+		"dateDeces": "05/1915",
+		"xDeces": "0.290217880511092",
+		"yDeces": "0.2564113483146068",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 22884,
+		"matricule": 2683,
+		"dateNaissance": "09/1888",
+		"dateDeces": "09/1914",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 22898,
+		"matricule": 197,
+		"dateNaissance": "12/1885",
+		"dateDeces": "12/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 22975,
+		"matricule": 706,
+		"dateNaissance": "02/1881",
+		"dateDeces": "02/1918",
+		"xDeces": "0.3062698918749437",
+		"yDeces": "0.27248002621722844",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 23011,
+		"matricule": 1462,
+		"dateNaissance": "10/1893",
+		"dateDeces": "10/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 23042,
+		"matricule": 1212,
+		"dateNaissance": "05/1882",
+		"dateDeces": "05/1917",
+		"xDeces": "0.275319923729608",
+		"yDeces": "0.24644333333333346",
+		"xNaissance": "0.16296303031020848",
+		"yNaissance": "0.3278561423220979"
+	},
+	{
+		"id": 23113,
+		"matricule": 198,
+		"dateNaissance": "12/1888",
+		"dateDeces": "12/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.17194508624866123",
+		"yNaissance": "0.3171804494382028"
+	},
+	{
+		"id": 23150,
+		"matricule": 163,
+		"dateNaissance": "07/1879",
+		"dateDeces": "07/1918",
+		"xNaissance": "0.1712592356817088",
+		"yNaissance": "0.3247097003745319",
+		"xDeces": "0.26437687186606085",
+		"yDeces": "0.24118367415730346"
+	},
+	{
+		"id": 23163,
+		"matricule": 678,
+		"dateNaissance": "08/1896",
+		"dateDeces": "08/1917",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555",
+		"xDeces": "0.16663094707199005",
+		"yDeces": "0.26254256554307137"
+	},
+	{
+		"id": 23166,
+		"matricule": 3999,
+		"dateNaissance": "09/1893",
+		"dateDeces": "09/1915",
+		"xDeces": "0.16062584254711126",
+		"yDeces": "0.3301534232209738",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 23191,
+		"matricule": 2058,
+		"dateNaissance": "04/1893",
+		"dateDeces": "04/1914",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103",
+		"xDeces": "0.2783117151216655",
+		"yDeces": "0.27046333333333344"
+	},
+	{
+		"id": 23221,
+		"matricule": 2685,
+		"dateNaissance": "08/1889",
+		"dateDeces": "08/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435"
+	},
+	{
+		"id": 23227,
+		"matricule": 1461,
+		"dateNaissance": "04/1883",
+		"dateDeces": "04/1914",
+		"xDeces": "0.25171575786607614",
+		"yDeces": "0.2235551310861425",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115"
+	},
+	{
+		"id": 23238,
+		"matricule": 691,
+		"dateNaissance": "07/1894",
+		"dateDeces": "07/1918",
+		"xDeces": "0.26939337301966504",
+		"yDeces": "0.24681284644194773",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 23322,
+		"matricule": 2468,
+		"dateNaissance": "05/1893",
+		"dateDeces": "05/1915",
+		"xDeces": "0.2544163106390054",
+		"yDeces": "0.21128329588015",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 23323,
+		"matricule": 2127,
+		"dateNaissance": "02/1887",
+		"dateDeces": "02/1918",
+		"xDeces": "0.15610138205700497",
+		"yDeces": "0.24803497378277173",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 23349,
+		"matricule": 573,
+		"dateNaissance": "07/1887",
+		"dateDeces": "07/1915",
+		"xDeces": "0.31437154372750975",
+		"yDeces": "0.26430503370786534",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423"
+	},
+	{
+		"id": 23381,
+		"matricule": 162,
+		"dateNaissance": "04/1896",
+		"dateDeces": "04/1916",
+		"xNaissance": "0.15849375039950048",
+		"yNaissance": "0.33357820224719115",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614"
+	},
+	{
+		"id": 23441,
+		"matricule": 1572,
+		"dateNaissance": "03/1893",
+		"dateDeces": "03/1914",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066"
+	},
+	{
+		"id": 23442,
+		"matricule": 1634,
+		"dateNaissance": "11/1895",
+		"dateDeces": "11/1914",
+		"xDeces": "0.30632719337501413",
+		"yDeces": "0.27207640823970036",
+		"xNaissance": "0.1672780908366756",
+		"yNaissance": "0.3285110861423222"
+	},
+	{
+		"id": 23534,
+		"matricule": 1920,
+		"dateNaissance": "07/1892",
+		"dateDeces": "07/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.155182312121588",
+		"yNaissance": "0.3233077565543071"
+	},
+	{
+		"id": 23617,
+		"matricule": 1190,
+		"dateNaissance": "05/1895",
+		"dateDeces": "05/1918",
+		"xDeces": "0.27334781236964945",
+		"yDeces": "0.25786520599250995",
+		"xNaissance": "0.15577616990979276",
+		"yNaissance": "0.332101722846442"
+	},
+	{
+		"id": 23618,
+		"matricule": 1702,
+		"dateNaissance": "04/1888",
+		"dateDeces": "04/1914",
+		"xDeces": "0.2971119805749054",
+		"yDeces": "0.23458185393258435",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 23691,
+		"matricule": 1835,
+		"dateNaissance": "12/1888",
+		"dateDeces": "12/1915",
+		"xNaissance": "0.15315778125883778",
+		"yNaissance": "0.33460569288389524",
+		"xDeces": "0.2567549920992833",
+		"yDeces": "0.22623026217228465"
+	},
+	{
+		"id": 23839,
+		"matricule": 3063,
+		"dateNaissance": "10/1896",
+		"dateDeces": "10/1915",
+		"xNaissance": "0.1434826110312119",
+		"yNaissance": "0.3228723970037459",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614"
+	},
+	{
+		"id": 23933,
+		"matricule": 136,
+		"dateNaissance": "12/1885",
+		"dateDeces": "12/1914",
+		"xDeces": "0.244492708178988",
+		"yDeces": "0.23055928838951323",
+		"xNaissance": "0.1728485036170851",
+		"yNaissance": "0.3214388389513111"
+	},
+	{
+		"id": 23988,
+		"matricule": 1683,
+		"dateNaissance": "10/1892",
+		"dateDeces": "10/1916",
+		"xDeces": "0.27964035337537835",
+		"yDeces": "0.250879838951311",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103"
+	},
+	{
+		"id": 24049,
+		"matricule": 99,
+		"dateNaissance": "07/1895",
+		"dateDeces": "07/1917",
+		"xNaissance": "0.1696301573755858",
+		"yNaissance": "0.3252635205992509",
+		"xDeces": "0.2755449482399469",
+		"yDeces": "0.24934599250936385"
+	},
+	{
+		"id": 24063,
+		"matricule": 2780,
+		"dateNaissance": "01/1894",
+		"dateDeces": "01/1915",
+		"xDeces": "0.25447194169850584",
+		"yDeces": "0.21686677902621743",
+		"xNaissance": "0.15214624866590631",
+		"yNaissance": "0.3144453183520599"
+	},
+	{
+		"id": 24192,
+		"matricule": 3477,
+		"dateNaissance": "02/1892",
+		"dateDeces": "02/1914",
+		"xNaissance": "0.1600997011865053",
+		"yNaissance": "0.3323451310861423",
+		"xDeces": "0.25800251806972907",
+		"yDeces": "0.19533694756554332"
+	},
+	{
+		"id": 24236,
+		"matricule": 1581,
+		"dateNaissance": "01/1894",
+		"dateDeces": "01/1914",
+		"xDeces": "0.30632719337501413",
+		"yDeces": "0.27207640823970036",
+		"xNaissance": "0.1537314644357708",
+		"yNaissance": "0.3343736704119852"
+	},
+	{
+		"id": 24399,
+		"matricule": 722,
+		"dateNaissance": "09/1893",
+		"dateDeces": "09/1914",
+		"xDeces": "0.1653466541657458",
+		"yDeces": "0.3119495131086143",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 24478,
+		"matricule": 723,
+		"dateNaissance": "12/1893",
+		"dateDeces": "12/1914",
+		"xDeces": "0.30313778563040955",
+		"yDeces": "0.2287859400749066",
+		"xNaissance": "0.1653466541657458",
+		"yNaissance": "0.3119495131086143"
+	},
+	{
+		"id": 24535,
+		"matricule": 2284,
+		"dateNaissance": "12/1882",
+		"dateDeces": "12/1914",
+		"xDeces": "0.2768948797612616",
+		"yDeces": "0.24829535580524364",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 24640,
+		"matricule": 2942,
+		"dateNaissance": "08/1896",
+		"dateDeces": "08/1916",
+		"xDeces": "0.27906201236351397",
+		"yDeces": "0.24894872659176032",
+		"xNaissance": "0.14991313904965525",
+		"yNaissance": "0.32409883895131103"
+	},
+	{
+		"id": 24701,
+		"matricule": 1259,
+		"dateNaissance": "07/1890",
+		"dateDeces": "07/1914",
+		"xDeces": "0.25940225889573165",
+		"yDeces": "0.1939055580524346",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 24791,
+		"matricule": 1163,
+		"dateNaissance": "11/1891",
+		"dateDeces": "11/1915",
+		"xDeces": "0.27912037001310613",
+		"yDeces": "0.24914669662921363",
+		"xNaissance": "0.14333972908877546",
+		"yNaissance": "0.32094632958801506"
+	},
+	{
+		"id": 24953,
+		"matricule": 164,
+		"dateNaissance": "06/1892",
+		"dateDeces": "06/1914",
+		"xNaissance": "0.16830643560566683",
+		"yNaissance": "0.3191832209737828",
+		"xDeces": "0.28950838728270367",
+		"yDeces": "0.2657770037453183"
+	},
+	{
+		"id": 25409,
+		"matricule": 697,
+		"dateNaissance": "06/1882",
+		"dateDeces": "06/1916",
+		"xDeces": "0.27406661911249347",
+		"yDeces": "0.24743591760299638",
+		"xNaissance": "0.17604689078803132",
+		"yNaissance": "0.33672632958801507"
+	},
+	{
+		"id": 25512,
+		"matricule": 1191,
+		"dateNaissance": "03/1889",
+		"dateDeces": "03/1914",
+		"xDeces": "0.22609061756165277",
+		"yDeces": "0.43454970411985017",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 25560,
+		"matricule": 1465,
+		"dateNaissance": "02/1897",
+		"dateDeces": "02/1916",
+		"xDeces": "0.14624851575005565",
+		"yDeces": "0.289618951310862",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 25561,
+		"matricule": 1641,
+		"dateNaissance": "09/1883",
+		"dateDeces": "09/1916",
+		"xDeces": "0.2579485919373137",
+		"yDeces": "0.22721378277153614",
+		"xNaissance": "0.16442836233232344",
+		"yNaissance": "0.3342922097378278"
+	},
+	{
+		"id": 25734,
+		"matricule": 1322,
+		"dateNaissance": "05/1889",
+		"dateDeces": "05/1917",
+		"xDeces": "0.21991196827169313",
+		"yDeces": "0.290760329588015",
+		"xNaissance": "0.16942597565274664",
+		"yNaissance": "0.33735176029962566"
+	},
+	{
+		"id": 25758,
+		"matricule": 1942,
+		"dateNaissance": "01/1888",
+		"dateDeces": "01/1918",
+		"xDeces": "0.18252619567112",
+		"yDeces": "0.4199329962546817",
+		"xNaissance": "0.15259944458107733",
+		"yNaissance": "0.32351123595505626"
+	},
+	{
+		"id": 25845,
+		"matricule": 1796,
+		"dateNaissance": "12/1881",
+		"dateDeces": "12/1917",
+		"xDeces": "0.16487455532954343",
+		"yDeces": "0.33611337078651704",
+		"xNaissance": "0.15290501665800021",
+		"yNaissance": "0.3373444194756555"
+	},
+	{
+		"id": 25846,
+		"matricule": 1179,
+		"dateNaissance": "05/1885",
+		"dateDeces": "05/1917",
+		"xNaissance": "0.16487455532954343",
+		"yNaissance": "0.33611337078651704",
+		"xDeces": "0.31244379495827723",
+		"yDeces": "0.254990823970038"
+	},
+	{
+		"id": 28093,
+		"matricule": 1412,
+		"dateNaissance": "08/1899",
+		"dateDeces": "08/1918",
+		"xDeces": "0.325334703384706",
+		"yDeces": "0.25793228464419493",
+		"xNaissance": "0.19837742438926664",
+		"yNaissance": "0.3895738951310861"
+	}
+]
