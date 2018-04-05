@@ -1,4 +1,4 @@
-Date startDate = new Date(1850, 0, 0, 0, 0);
+Date startDate = new Date(1860, 0, 0, 0, 0);
 Date endDate = new Date(1920, 0, 0, 0, 0);
 
 /**
@@ -44,16 +44,21 @@ void drawArrow(float x1, float y1, float x2, float y2) {
 * affichage des matricules des soldats morts
 */
 void drawMatricules(){
-  int y = 10;
+  int col = 1;
+  int li = 1;
   for (Soldier s : matricules.list) {
-    textSize(10);
+    textSize(20);
     fill(102, 102, 102);
-    text(s.matricule, width-30, y); 
+    text(s.matricule, width-(70*col), li*20);
     pushStyle();
     stroke(102, 102, 102);
-    line(width-30, y-5, width-5, y-5);
+    //line(width-30, y-5, width-5, y-5);
     popStyle();
-    y+=10;
+    if((li+1)*20 > height){
+      col++;
+      li = 1;
+    }
+    else li++;
   }
 }
 

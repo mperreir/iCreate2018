@@ -49,8 +49,8 @@ final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil."
 // y total = 21.1 --> -8.69 à 12.4
 
 void initDates(){
-  formerDate = new Date(1850, 0, 0, 0, 0); // janvier 1850
-  currentDate = new Date(1851, 0, 0, 0, 0); // janvier 1851
+  formerDate = new Date(1860, 0, 0, 0, 0); // janvier 1860
+  currentDate = new Date(1861, 0, 0, 0, 0); // janvier 1861
 }
 
 void setup() {
