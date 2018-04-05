@@ -3,7 +3,7 @@
 let fs		= require('fs');
 let https	= require('https');
 
-const KEY		= 'AIzaSyAJcPm4V13bgZoHw2SYCi2c4H768NMM7YE';
+const KEY		= 'AIzaSyA1jHSq6UtePZ3DxuEdLUUuhJsK1xob7I8';
 const BASE_URL	= 'https://maps.googleapis.com/maps/api/geocode/json?address=';
 const END_URL	= '&key=' + KEY;
 
