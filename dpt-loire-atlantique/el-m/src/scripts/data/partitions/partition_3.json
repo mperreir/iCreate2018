@@ -1,0 +1,1206 @@
+[
+	{
+		"city": "Bourg-en-Bresse - HÃ´pital Auxiliaire nÂ°6",
+		"departement": "Ain",
+		"country": "France"
+	},
+	{
+		"city": "Bourg-Saint-AndÃ©ol",
+		"departement": "ArdÃ¨che",
+		"country": "France"
+	},
+	{
+		"city": "Bourg-sous-la-Roche"
+	},
+	{
+		"city": "Bourges",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - HÃ´pital",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - HÃ´pital Militaire",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - Hopital mixte",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - HÃ´pital nÂ°101",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - HÃ´pital Temporaire nÂ°15",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourges - HÃ´pital Temporaire nÂ°18",
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bourgneuf en Retz",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Bourgneuf-en-Retz"
+	},
+	{
+		"city": "Boursonne - Ambulance nÂ°226",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Boussais"
+	},
+	{
+		"city": "Boussay"
+	},
+	{
+		"city": "Boussois-Maubeuge",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Bouval",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bouvancourt - Ambulance 231",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouvron"
+	},
+	{
+		"city": "Bouy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy - Ambulance 11/41",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy - Ambulance 16/4",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy - Ambulance 4/6",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy - HÃ´pital d'Orientation et d'Evacuation nÂ°5",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy - HÃ´pital Evacuation nÂ°1",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouy-Hangars",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BouzillÃ©"
+	},
+	{
+		"city": "Bouzy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouzy - Ambulance nÂ°9/18",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Boves",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Boyau de la Bove - Ferme Hurtebise",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Braches",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Braine",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Braine - HÃ´pital Evacuation nÂ°18",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Brains"
+	},
+	{
+		"city": "Braisne - Ambulance 18/6",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bralo - HÃ´pital AE 3",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Brancourt-sur-la-Vesle",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bras",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bras - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bras sur Meuse",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bras sur Meuse - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bras-sur-Meuse",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bras-sur-Meuse - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Brasparts"
+	},
+	{
+		"city": "Braunkopf",
+		"departement": "Alsace",
+		"country": "France"
+	},
+	{
+		"city": "Braux Sainte Cohiere",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Braux-Sainte-CohiÃ¨re",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Braux-Sainte-CohiÃ¨re - Ambulance 8/4",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bray en Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bray sur Somme",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray sur Somme - Ambulance 4/9",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray sur Somme - Ambulance nÂ°1",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray sur Somme - HÃ´pital Auxiliaire nÂ°32",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray sur Somme - HÃ´pital Evacuation nÂ°32",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray-en-Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Seine",
+		"departement": "Seine-et-Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Somme",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Somme - HÃ´pital d'Evacuation",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Somme - HÃ´pital d'Evacuation nÂ°32",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Somme - HÃ´pital Evacuation nÂ°12",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bray-sur-Somme - HÃ´pital Evacuation nÂ°32",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Braye en Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Braye en Laonnois - Chemin des Dames",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Braye-en-Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Brenelle",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Brest",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Brest - HÃ´pital Maritime",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Brest - HÃ´pital Temporaire nÂ°11",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Brest - HÃ´pital Temporaire nÂ°8",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "BrÃ©tencourt",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Breteuil",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Briare - HÃ´pital Auxiliaire nÂ°24",
+		"departement": "Loiret",
+		"country": "France"
+	},
+	{
+		"city": "Briare - Infirmerie",
+		"departement": "Loiret",
+		"country": "France"
+	},
+	{
+		"city": "Brichen",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Brienne - HÃ´pital Civil",
+		"departement": "Aube",
+		"country": "France"
+	},
+	{
+		"city": "Brienne - HÃ´pital Mixte",
+		"departement": "Aube",
+		"country": "France"
+	},
+	{
+		"city": "Brienne-le-ChÃ¢teau - Hospice Mixte",
+		"departement": "Aube",
+		"country": "France"
+	},
+	{
+		"city": "Brienne-sur-Aisne - Ambulance 11/8",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Brieul-le-Sec",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Brimont",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Brive",
+		"departement": "CorrÃ¨ze",
+		"country": "France"
+	},
+	{
+		"city": "Brive - HÃ´pital Mixte",
+		"departement": "CorrÃ¨ze",
+		"country": "France"
+	},
+	{
+		"city": "Brocourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Brocourt - Ambulance 13/9",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Brocourt - Ambulance 6/13",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Brodseinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Broisette - Clinique de Dailles",
+		"departement": "Suisse",
+		"country": "Suisse"
+	},
+	{
+		"city": "Broons",
+		"departement": "CÃ´tes-du-Nord",
+		"country": "France"
+	},
+	{
+		"city": "Broussy le Grand",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Broussy-le-Grand",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Broyes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BruffiÃ¨re"
+	},
+	{
+		"city": "Brumetz",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Brusnik",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Bruxelles - HÃ´pitalaire Militaire",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "BruyÃ¨res",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "BruyÃ¨res - hÃ´pital 14/2",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "BruyÃ¨res en Vosges",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "BruyÃ¨res-en-Vosges - HÃ´pital d'Evacuation",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "BruyÃ¨res-sur-Vosges",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "Bruz",
+		"departement": "Ille-et-Vilaine",
+		"country": "France"
+	},
+	{
+		"city": "Bucarest - HÃ´pital Militaire FranÃ§ais nÂ°1",
+		"departement": "Roumanie",
+		"country": "Roumanie"
+	},
+	{
+		"city": "Bueil - Ambulance",
+		"departement": "Eure",
+		"country": "France"
+	},
+	{
+		"city": "Bueil - Ambulance 16/13",
+		"departement": "Eure",
+		"country": "France"
+	},
+	{
+		"city": "Buironfosse"
+	},
+	{
+		"city": "Buissoncourt",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Bully",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bully Grenay",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bully-Grenay",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bully-les-Mines - Ambulance",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bulson",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bus",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bussey le ChÃ¢teau",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bussiares",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Busson",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bussu",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bussus",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bussy le ChÃ¢teau",
+		"departement": "Aube",
+		"country": "France"
+	},
+	{
+		"city": "Bussy le ChÃ¢teau - Ambulance 10/13",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bussy le ChÃ¢teau - Ambulance 10/15",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bussy-le-ChÃ¢teau - Ambulance 10/13",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bussy-le-ChÃ¢teau - Ambulance nÂ°20/13",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Butte de Souain",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Butte du Mesnil",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Butte-de-Mesnil",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Buzancy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Buzancy - Ambulance nÂ°237",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Caen",
+		"departement": "Calvados",
+		"country": "France"
+	},
+	{
+		"city": "Caen - HÃ´pital Auxiliaire nÂ°9",
+		"departement": "Calvados",
+		"country": "France"
+	},
+	{
+		"city": "Caen - HÃ´pital Mixte",
+		"departement": "Calvados",
+		"country": "France"
+	},
+	{
+		"city": "Cahors",
+		"departement": "Lot",
+		"country": "France"
+	},
+	{
+		"city": "Cahors - Ambulance Mixte",
+		"departement": "Lot",
+		"country": "France"
+	},
+	{
+		"city": "Caix",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Calais - HÃ´pital",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calais - HÃ´pital du CollÃ©ge",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calais - HÃ´pital Militaire",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Calonne - Ouvrage de Cornouaille",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calonne sur la Lys",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calonne-Ricouart",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Calonnes",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Camblain l'AbbÃ©",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Cambo-les-Bains",
+		"departement": "PyrÃ©nÃ©es-Atlantiques",
+		"country": "France"
+	},
+	{
+		"city": "Cambrai",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "CamoÃ«l"
+	},
+	{
+		"city": "camp d'Isse ambulance 9/17",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Camp d'Ohrdruf",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Camp de Cassel",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Camp de CÃ©sar - Sud-Ouest de Villers-lÃ¨s- Roye",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Camp de ChÃ¢lons",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Camp de Dulmen",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Camp de Giessen",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Camp de Landau",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Camp de Prisonniers de Niedrywehren",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Campbon"
+	},
+	{
+		"city": "Canal de l'Yser",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Canly",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Canly - Ambulance 11/15",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Canly - HÃ´pital Evacuation",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cannectancourt",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cannes",
+		"departement": "Alpes-Maritimes",
+		"country": "France"
+	},
+	{
+		"city": "Cannes - Hopital Militaire nÂ°72",
+		"departement": "Alpes-Maritimes",
+		"country": "France"
+	},
+	{
+		"city": "Canny sur Matz",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cap d'Ail - HÃ´pital ComplÃ©mentaire nÂ°2",
+		"departement": "Alpes-Maritimes",
+		"country": "France"
+	},
+	{
+		"city": "Cappy - Ambulance 2/5",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cappy - Ambulance 2/70",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cappy - Ambulance 3/12",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cappy - Ambulance 3/70",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Carbay"
+	},
+	{
+		"city": "Carcassonne",
+		"departement": "Aude",
+		"country": "France"
+	},
+	{
+		"city": "Carency",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Carency Souchez",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Carhaix"
+	},
+	{
+		"city": "Carlepon",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Carlepont",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "CarnouÃ«t"
+	},
+	{
+		"city": "Carobrie",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Carquefou"
+	},
+	{
+		"city": "CarriÃ¨res d'Haudiomont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "CarriÃ¨res d'Haudromont - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "CarriÃ¨res d'Haudromont - Secteur de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "CarriÃ¨res d'Houdromont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Casablanca",
+		"departement": "Maroc",
+		"country": "Maroc"
+	},
+	{
+		"city": "Cassel",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Cassel - HÃ´pital du Camp",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Cassel - Lazarett",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Casson"
+	},
+	{
+		"city": "Casta Tadla",
+		"departement": "Maroc",
+		"country": "Maroc"
+	},
+	{
+		"city": "Castel",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Castel Rouvrel",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Castelnaudary",
+		"departement": "Aude",
+		"country": "France"
+	},
+	{
+		"city": "Castelsarrasin"
+	},
+	{
+		"city": "Castelsarrazin",
+		"departement": "Tarn-et-Garonne",
+		"country": "France"
+	},
+	{
+		"city": "Catenay - HÃ´pital Evacuation nÂ°36",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Catenoy - Ambulance 13/16",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Catenoy - Ambulance nÂ°13/26",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Catenoy - HÃ´pital ComplÃ©mentaire nÂ°36",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Caudebec-en-Caux"
+	},
+	{
+		"city": "Cauly",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cauroy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Cauroy les Hermonville - Secteur du Godat",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Cauroy-les-Hermonville",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Cavaliers de Courcy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Cayenne"
+	},
+	{
+		"city": "Cayeux en Santerre",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cayeux en Santerre - Ambulance",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cayeux-en-Santerre",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cayeux-en-Santerre - Ambulance 12/1",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Celles sur Aisne",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cellier"
+	},
+	{
+		"city": "Cellier Le"
+	},
+	{
+		"city": "Cempuis - Ambulance 1/86",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cempuis - Ambulance nÂ°1/86",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cer - Ambulance 6",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Cer - Ambulance Alpine nÂ°6",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Cer - Ambulance nÂ°6",
+		"departement": "MacÃ©doine",
+		"country": "MacÃ©doine"
+	},
+	{
+		"city": "Cerisy",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy - CÃ´te 121",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy - HÃ´pital d'Evacuation nÂ°15",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy - HÃ´pital Evacuation nÂ° 15",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy - Sailly HÃ´pital Evacuation nÂ°15",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy Gailly",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy-Gailly",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerisy-Sailly",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Cerizy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "CÃ©rizy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerizy - Moy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerizy-Moy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerna",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Cernay",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Cernoy - Sancy",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Cerny en Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerny Verneuil",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerny-en-Laonnois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerseuil",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerseuil - Ambulance 12/20",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cerseuil - Ambulance nÂ°12/20",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Cesson",
+		"departement": "Ille-et-Vilaine",
+		"country": "France"
+	},
+	{
+		"city": "Chacrise",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Chacrisse",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Chagny",
+		"departement": "SaÃ´ne-et-Loire",
+		"country": "France"
+	},
+	{
+		"city": "Chalaines - HÃ´pital ComplÃ©mentaire nÂ°32",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Challans"
+	},
+	{
+		"city": "Challerange",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Chalon sur Marne - HÃ´pital Civil Annexe",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "ChÃ¢lon-sur-Marne",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "ChÃ¢lon-sur-Marne - HÃ´pital Civil",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "ChÃ¢lon-sur-Marne - HÃ´pital complÃ©mentaire 5",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "ChÃ¢lon-sur-SaÃ´ne",
+		"departement": "SaÃ´ne-et-Loire",
+		"country": "France"
+	}
+]

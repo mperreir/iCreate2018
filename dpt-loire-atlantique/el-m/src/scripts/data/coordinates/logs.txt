@@ -1,0 +1,2051 @@
+Geocoding partition test (4 elements)
+Partition test has been geolocalized and the file has been saved (contains 4 lines)
+Geocoding partition test (4 elements)
+Geocoding partition test (4 elements)
+Geocoding partition test (4 elements)
+2018_04_05_04_39_56 ("Disparu en Mer lors de la perte de La Ginette") : ZERO_RESULTS
+Partition test has been geolocalized and the file has been saved (contains 3 lines)
+Geocoding partition test (4 elements)
+2018_04_05_04_41_34 ("Disparu en Mer lors de la perte de La Ginette") : ZERO_RESULTS
+Partition test has been geolocalized and the file has been saved (contains 3 lines)
+Geocoding partition 0 (250 elements)
+2018_04_05_04_57_26 ("1 km au Nord Ouest de Zonnebeck") : ZERO_RESULTS
+2018_04_05_04_57_27 ("12 miles dans le Nord Ouest de l'Ile d'Yeu") : ZERO_RESULTS
+2018_04_05_04_57_27 ("1Ã¨re Bataille de la Marne") : ZERO_RESULTS
+2018_04_05_04_57_28 ("ÃÂ  bord du") : ZERO_RESULTS
+2018_04_05_04_57_28 ("A bord du Navire HÃ´pital Tchad - Dunkerque") : ZERO_RESULTS
+2018_04_05_04_57_29 ("A bord du Transport HÃ´pital Canada") : ZERO_RESULTS
+2018_04_05_04_57_29 ("Ã  l'hopital de Moudros") : ZERO_RESULTS
+2018_04_05_04_57_30 ("Ã¢Ãâ¬ÃÂ¦Ã©court") : ZERO_RESULTS
+2018_04_05_04_57_31 ("AbbÃ©court - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_04_57_32 ("Abbeville - garre - bombardement aÃ©rien") : ZERO_RESULTS
+2018_04_05_04_57_33 ("Abecle - Ambulance 14/14") : ZERO_RESULTS
+2018_04_05_04_57_35 ("Acheux - Ambulance nÂ°8") : ZERO_RESULTS
+2018_04_05_04_57_35 ("Acheux - Ambulance nÂ°8/11") : ZERO_RESULTS
+2018_04_05_04_57_37 ("Achibaba - Sud de la Colline") : ZERO_RESULTS
+2018_04_05_04_57_44 ("AÃN LEUH (Maroc)") : ZERO_RESULTS
+2018_04_05_04_57_45 ("Aire sur Adour - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_04_57_49 ("Albert - Ambulance nÂ°1/21") : ZERO_RESULTS
+2018_04_05_04_57_51 ("Albi - HÃ´pital ComplÃ©mentaire nÂ°34") : ZERO_RESULTS
+2018_04_05_04_57_52 ("Albi - HÃ´pital ComplÃ©mentaire nÂ°8") : ZERO_RESULTS
+2018_04_05_04_57_54 ("Alger - HÃ´pital Maillot") : ZERO_RESULTS
+2018_04_05_04_57_58 ("Amagne - Lieu dit Le Montant") : ZERO_RESULTS
+2018_04_05_04_57_59 ("Ambly - Ambulance 9/17") : ZERO_RESULTS
+2018_04_05_04_58_02 ("Ambulance 3/8 - Craide") : ZERO_RESULTS
+2018_04_05_04_58_02 ("Ambulance 8/1 de Sedan") : ZERO_RESULTS
+2018_04_05_04_58_03 ("Ambulance 9/5 - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_04_58_03 ("Ambulance de GumentzÃ©-Ville") : ZERO_RESULTS
+2018_04_05_04_58_05 ("Ambulance nÂ°9 SP 72") : ZERO_RESULTS
+2018_04_05_04_58_11 ("Amiens - HÃ´pital Auxiliaire nÂ°101") : ZERO_RESULTS
+2018_04_05_04_58_11 ("Amiens - HÃ´pital Auxiliare nÂ°101") : ZERO_RESULTS
+2018_04_05_04_58_12 ("Amiens - HÃ´pital ComplÃ©mentaire nÂ°5 Bis") : ZERO_RESULTS
+2018_04_05_04_58_18 ("Amiens - hÃ´pital temporaire 122") : ZERO_RESULTS
+2018_04_05_04_58_20 ("Amiens - HÃ´pital Temporaire nÂ°10") : ZERO_RESULTS
+2018_04_05_04_58_20 ("Amiens - HÃ´pital Temporaire nÂ°107") : ZERO_RESULTS
+2018_04_05_04_58_21 ("Amiens - HÃ´pital Temporaire nÂ°4") : ZERO_RESULTS
+2018_04_05_04_58_21 ("Amiens - HÃ´pital Temporaire nÂ°4 Bis") : ZERO_RESULTS
+2018_04_05_04_58_25 ("Amiens - Pavillon Duvanchel") : ZERO_RESULTS
+2018_04_05_04_58_26 ("Ancenis - HÃ´pital ComplÃ©mentaire nÂ°15") : ZERO_RESULTS
+2018_04_05_04_58_27 ("Ancenis - HÃ´pital Temporaire nÂ°13") : ZERO_RESULTS
+2018_04_05_04_58_28 ("Ancenis - Hospice Mixte") : ZERO_RESULTS
+2018_04_05_04_58_28 ("Ancenis (hÃ´pital mixte)") : ZERO_RESULTS
+2018_04_05_04_58_29 ("Anderlu - Nord du Bois d'Anderlu") : ZERO_RESULTS
+2018_04_05_04_58_31 ("Angers - HÃ´ptal mixte - maladie contractÃ©e en service: fiÃ¨vre thyphoÃ¯de") : ZERO_RESULTS
+2018_04_05_04_58_32 ("Angicourt - HÃ´pital ComplÃ©mentaire nÂ°37") : ZERO_RESULTS
+2018_04_05_04_58_33 ("Anglure - Ambulance 13/17") : ZERO_RESULTS
+2018_04_05_04_58_34 ("AngoulÃªme - HÃ´pital Temporaire nÂ°2") : ZERO_RESULTS
+2018_04_05_04_58_35 ("Angres- Combats de") : ZERO_RESULTS
+2018_04_05_04_58_37 ("Antuille prÃ¨s Albert") : ZERO_RESULTS
+2018_04_05_04_58_41 ("Arcis sur Aube - HÃ´pital ComplÃ©mentaire nÂ°64") : ZERO_RESULTS
+2018_04_05_04_58_41 ("Arcis sur Aube - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_04_58_43 ("Argonne - Bagatelle") : ZERO_RESULTS
+2018_04_05_04_58_43 ("Argonne - Bois Bolante") : ZERO_RESULTS
+2018_04_05_04_58_44 ("Arles - HÃ´pital Municipal nÂ°26 Bis") : ZERO_RESULTS
+2018_04_05_04_58_45 ("Arneck - HÃ´pital d'Evacuation nÂ°16") : ZERO_RESULTS
+2018_04_05_04_58_45 ("ArnÃ¨ke - Ambulance nÂ°202") : ZERO_RESULTS
+2018_04_05_04_58_47 ("Arras - Couvent du Saint Sacrement") : ZERO_RESULTS
+2018_04_05_04_58_48 ("Arras - Fond de Vase") : ZERO_RESULTS
+2018_04_05_04_58_50 ("Asile DÃ©partemental AliÃ©nÃ©s de Ã¢Ãâ¬ÃÂ¦") : ZERO_RESULTS
+2018_04_05_04_58_51 ("Asservillers - Boyau Hedevaux") : ZERO_RESULTS
+2018_04_05_04_58_53 ("Attichy - Ambulance nÂ°8/4") : ZERO_RESULTS
+2018_04_05_04_58_58 ("Au Combat du Camps de Chabert") : ZERO_RESULTS
+2018_04_05_04_58_59 ("Au large de Sainte-Marie-de-Leuca") : ZERO_RESULTS
+2018_04_05_04_59_00 ("Au nord de BeausÃ©jour") : ZERO_RESULTS
+2018_04_05_04_59_02 ("Au nord de Kupa") : ZERO_RESULTS
+2018_04_05_04_59_03 ("Au Sud Est d'EstrÃ©es") : ZERO_RESULTS
+2018_04_05_04_59_03 ("Au Sud Ouest de Reims") : ZERO_RESULTS
+2018_04_05_04_59_04 ("Au sud-est de Malancourt") : ZERO_RESULTS
+2018_04_05_04_59_05 ("Auberive - Secteur de Magord") : ZERO_RESULTS
+2018_04_05_04_59_08 ("Aubigny - Ambulance Chirurgicale nÂ°1") : ZERO_RESULTS
+2018_04_05_04_59_10 ("Aubilly - HÃ´pital d'Evacuation de Bouleuse") : ZERO_RESULTS
+2018_04_05_04_59_10 ("Aubilly - HÃ´pital d'Orientation et d'Evacuation de Bouleuse") : ZERO_RESULTS
+Partition 0 has been geolocalized and the file has been saved (contains 180 lines)
+Geocoding partition 1 (250 elements)
+Geocoding partition 1 (250 elements)
+2018_04_05_05_01_57 ("Auray - HÃ´pital ComplÃ©mentaire nÂ°27") : ZERO_RESULTS
+2018_04_05_05_02_04 ("Auve - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_02_05 ("Auve - HÃ´pital d'Orientation et d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_02_06 ("Aux Abords de Sailly Saillisel") : ZERO_RESULTS
+2018_04_05_05_02_06 ("Aux avant postes de Nieuport") : ZERO_RESULTS
+2018_04_05_05_02_07 ("Aux avants postes de Verdun") : ZERO_RESULTS
+2018_04_05_05_02_07 ("Aux Cavaliers de Courcy") : ZERO_RESULTS
+2018_04_05_05_02_07 ("Aux environs de BeausÃ©jour") : ZERO_RESULTS
+2018_04_05_05_02_08 ("Aux environs de Slivica") : ZERO_RESULTS
+2018_04_05_05_02_09 ("Aux Maigneux - Canton de Valmy") : ZERO_RESULTS
+2018_04_05_05_02_09 ("Aux tranchÃ©es de Serre") : ZERO_RESULTS
+2018_04_05_05_02_10 ("Aux TranchÃ©es devant Ãâ¦.ville") : ZERO_RESULTS
+2018_04_05_05_02_10 ("Aux TranchÃ©es du Pire - Saint Quentin") : ZERO_RESULTS
+2018_04_05_05_02_10 ("Auxerre - HÃ´pital ComplÃ©mentaire nÂ°107") : ZERO_RESULTS
+2018_04_05_05_02_12 ("Avallon - HÃ´pital ComplÃ©mentaire nÂ°53") : ZERO_RESULTS
+2018_04_05_05_02_15 ("Avocourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_02_15 ("Avord - HÃ´pital ComplÃ©mentaire nÂ°96") : ZERO_RESULTS
+2018_04_05_05_02_16 ("Avranches - HÃ´pital ComplÃ©mentaire nÂ°35") : ZERO_RESULTS
+2018_04_05_05_02_17 ("Awouingt - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_02_17 ("Azannes - Ambulance") : ZERO_RESULTS
+2018_04_05_05_02_22 ("Bagatelle - Argonne") : ZERO_RESULTS
+2018_04_05_05_02_25 ("Baleicourt - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_05_02_26 ("Baleicourt - Ambulance nÂ°3/12") : ZERO_RESULTS
+2018_04_05_05_02_26 ("Baleicout - Verdun") : ZERO_RESULTS
+2018_04_05_05_02_27 ("Balincourt - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_05_02_27 ("Ballancourt - Ambulance") : ZERO_RESULTS
+2018_04_05_05_02_31 ("Bar le Duc - HÃ´pital Auxiliaire 111") : ZERO_RESULTS
+2018_04_05_05_02_32 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°111") : ZERO_RESULTS
+2018_04_05_05_02_32 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°3") : ZERO_RESULTS
+2018_04_05_05_02_33 ("Bar le Duc - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_05_02_35 ("Bar-le-Duc - HÃ´pital Central des Contagieux") : ZERO_RESULTS
+2018_04_05_05_02_39 ("Barleux - Ambulance 10/1") : ZERO_RESULTS
+2018_04_05_05_02_40 ("Barly - Ambulance 88 Ã¨me Division") : ZERO_RESULTS
+2018_04_05_05_02_40 ("Barly - Ambulance de la 28 DI") : ZERO_RESULTS
+2018_04_05_05_02_41 ("Barly - Ambulance nÂ°7/8") : ZERO_RESULTS
+2018_04_05_05_02_41 ("Barren Kopkf") : ZERO_RESULTS
+2018_04_05_05_02_45 ("Bastogne - Ambulance 9/21") : ZERO_RESULTS
+2018_04_05_05_02_46 ("Batterie de Damloup - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_02_54 ("Beaulieu Bevaux - Ambulance 4/15") : ZERO_RESULTS
+2018_04_05_05_02_56 ("Beaulme et Chiry") : ZERO_RESULTS
+Geocoding partition 2 (250 elements)
+2018_04_05_05_06_50 ("Berry au Bac - La Grande CarriÃ¨re") : ZERO_RESULTS
+2018_04_05_05_06_51 ("Berteaucelart Thennes Ã  Mangard en Santerre") : ZERO_RESULTS
+2018_04_05_05_06_53 ("Berthonval - CÃ´te 140") : ZERO_RESULTS
+2018_04_05_05_06_53 ("Bertrancourt - Ambulance 10/CA") : ZERO_RESULTS
+2018_04_05_05_06_54 ("Bertrancourt - Ambulance nÂ°1") : ZERO_RESULTS
+2018_04_05_05_06_55 ("BesanÃ§on - HÃ´pital ComplÃ©mentaire nÂ°4 de la Butte") : ZERO_RESULTS
+2018_04_05_05_06_59 ("BÃ©thincourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_07_02 ("Bevaux - PrÃ¨s de Verdun - Ambulance 14/11") : ZERO_RESULTS
+2018_04_05_05_07_03 ("Beveren - HÃ´pital nÂ°1") : ZERO_RESULTS
+2018_04_05_05_07_05 ("BÃ©ziers - HÃ´pital Temporaire nÂ°29") : ZERO_RESULTS
+2018_04_05_05_07_05 ("BÃ©zonvaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_07_06 ("BÃ©zonvaux - Secteur de Verdun") : ZERO_RESULTS
+Geocoding partition 2 (250 elements)
+2018_04_05_05_10_34 ("Berry au Bac - La Grande CarriÃ¨re") : ZERO_RESULTS
+2018_04_05_05_10_34 ("Berteaucelart Thennes Ã  Mangard en Santerre") : ZERO_RESULTS
+2018_04_05_05_10_35 ("Berthonval - CÃ´te 140") : ZERO_RESULTS
+2018_04_05_05_10_35 ("Bertrancourt - Ambulance 10/CA") : ZERO_RESULTS
+2018_04_05_05_10_35 ("Bertrancourt - Ambulance nÂ°1") : ZERO_RESULTS
+2018_04_05_05_10_35 ("BesanÃ§on - HÃ´pital ComplÃ©mentaire nÂ°4 de la Butte") : ZERO_RESULTS
+2018_04_05_05_10_36 ("BÃ©thincourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_37 ("Bevaux - PrÃ¨s de Verdun - Ambulance 14/11") : ZERO_RESULTS
+2018_04_05_05_10_37 ("Beveren - HÃ´pital nÂ°1") : ZERO_RESULTS
+2018_04_05_05_10_37 ("BÃ©ziers - HÃ´pital Temporaire nÂ°29") : ZERO_RESULTS
+2018_04_05_05_10_37 ("BÃ©zonvaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_37 ("BÃ©zonvaux - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_40 ("Bir Renta") : ZERO_RESULTS
+2018_04_05_05_10_41 ("Bischoote") : ZERO_RESULTS
+2018_04_05_05_10_41 ("Bitche - Ambulance 9/14") : ZERO_RESULTS
+2018_04_05_05_10_42 ("Bitry - Ambulance nÂ°5") : ZERO_RESULTS
+2018_04_05_05_10_44 ("Blanquefort - HÃ´pital Auxiliaire nÂ°12") : ZERO_RESULTS
+2018_04_05_05_10_46 ("Blanzy Longpont Corcy") : ZERO_RESULTS
+2018_04_05_05_10_47 ("Blercourt - Ambulance 5/67") : ZERO_RESULTS
+2018_04_05_05_10_50 ("Bois AllongÃ© - Secteur Ainval") : ZERO_RESULTS
+2018_04_05_05_10_50 ("Bois Baurain") : ZERO_RESULTS
+2018_04_05_05_10_51 ("Bois Baurin - Argonne") : ZERO_RESULTS
+2018_04_05_05_10_52 ("Bois Bauvain") : ZERO_RESULTS
+2018_04_05_05_10_52 ("Bois Beau Marais") : ZERO_RESULTS
+2018_04_05_05_10_53 ("Bois Bolante") : ZERO_RESULTS
+2018_04_05_05_10_53 ("Bois Bolante - Argonne") : ZERO_RESULTS
+2018_04_05_05_10_54 ("Bois Bolante - Ravin des Meurissons - Argonne") : ZERO_RESULTS
+2018_04_05_05_10_55 ("Bois Bourrus - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_55 ("Bois BrulÃ©") : ZERO_RESULTS
+2018_04_05_05_10_56 ("Bois d'Anderbe devant la Ferme de la Priez") : ZERO_RESULTS
+2018_04_05_05_10_56 ("Bois d'Anderlu") : ZERO_RESULTS
+2018_04_05_05_10_57 ("Bois d'Avocourt") : ZERO_RESULTS
+2018_04_05_05_10_57 ("Bois d'Avocourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_58 ("Bois d'Avocourt - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_10_58 ("Bois d'Haudainville") : ZERO_RESULTS
+2018_04_05_05_10_59 ("Bois d'Urvillers") : ZERO_RESULTS
+2018_04_05_05_10_59 ("Bois de Barbillon") : ZERO_RESULTS
+2018_04_05_05_11_00 ("Bois de Bethelaunville - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_01 ("Bois de Caumont Melicocq") : ZERO_RESULTS
+2018_04_05_05_11_02 ("Bois de Chaumes - Verdun") : ZERO_RESULTS
+2018_04_05_05_11_05 ("Bois de CoÃ»tant") : ZERO_RESULTS
+2018_04_05_05_11_06 ("Bois de la Caillette - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_07 ("Bois de la Dame - Braquis") : ZERO_RESULTS
+2018_04_05_05_11_07 ("Bois de la Garenne - PrÃ¨s de Plessier") : ZERO_RESULTS
+2018_04_05_05_11_09 ("Bois de la Gruerie - Ravin de Bagatelle") : ZERO_RESULTS
+2018_04_05_05_11_11 ("bois de la Hazelle en Bernicourt") : ZERO_RESULTS
+2018_04_05_05_11_11 ("Bois de la LaufÃ©e - Secteur de Tavannes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_12 ("Bois de la MarfÃ©e") : ZERO_RESULTS
+2018_04_05_05_11_12 ("Bois de la MarfÃ©e (au sud de Sedan)") : ZERO_RESULTS
+2018_04_05_05_11_20 ("Bois de Vaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_21 ("Bois de Vaux le Chapitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_22 ("Bois de Vaux le ChÃ¢pitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_23 ("Bois de Vrigny") : ZERO_RESULTS
+2018_04_05_05_11_24 ("Bois des Caurettes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_25 ("Bois des CauriÃ¨res") : ZERO_RESULTS
+2018_04_05_05_11_26 ("Bois des CauriÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_26 ("Bois des CauriÃ¨res - RÃ©gion de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_26 ("Bois des CauriÃ¨res - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_27 ("Bois des CauriÃ¨res - Verdun") : ZERO_RESULTS
+2018_04_05_05_11_28 ("Bois des CaurriÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_29 ("Bois des Deux Tombes") : ZERO_RESULTS
+2018_04_05_05_11_30 ("Bois des Fosses - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_30 ("Bois des Fosses - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_33 ("Bois des Vignes - Bivouac") : ZERO_RESULTS
+2018_04_05_05_11_33 ("Bois des Zouaves") : ZERO_RESULTS
+2018_04_05_05_11_35 ("Bois Fumin - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_36 ("Bois Fumin - Vaux le ChÃ¢pitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_11_37 ("Bois Fumin - Verdun") : ZERO_RESULTS
+2018_04_05_05_11_37 ("Bois LabbÃ©") : ZERO_RESULTS
+2018_04_05_05_11_38 ("Bois Morin Est") : ZERO_RESULTS
+2018_04_05_05_11_39 ("Bois Papegeod") : ZERO_RESULTS
+2018_04_05_05_11_39 ("Bois rectangulaire - Ouest Belval") : ZERO_RESULTS
+2018_04_05_05_11_39 ("Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_05_11_40 ("Bois SÃ©nÃ©cat") : ZERO_RESULTS
+2018_04_05_05_11_41 ("Bois-Bolante") : ZERO_RESULTS
+2018_04_05_05_11_41 ("Bois-Bolarde") : ZERO_RESULTS
+2018_04_05_05_11_43 ("Bois-de-CenÃ©e") : ZERO_RESULTS
+2018_04_05_05_11_46 ("Bois-Tupigny") : ZERO_RESULTS
+2018_04_05_05_11_47 ("Bolant - Argonne") : ZERO_RESULTS
+2018_04_05_05_11_48 ("Bondonneau - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_11_55 ("Bouchavesnes - Au sud de") : ZERO_RESULTS
+2018_04_05_05_11_55 ("Bouchavesnes - Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_05_11_56 ("Bouchavesnes - Ferme du Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_05_11_56 ("Bouchavesnes - La Ferme du Bois LabÃ©") : ZERO_RESULTS
+2018_04_05_05_11_56 ("Boucle de la Cerna") : ZERO_RESULTS
+2018_04_05_05_12_00 ("Bouleuse - HÃ´pital Evacuation") : ZERO_RESULTS
+2018_04_05_05_12_00 ("Bouleuse - HÃ´pital Orientation d'Ã©vacuation") : ZERO_RESULTS
+Partition 2 has been geolocalized and the file has been saved (contains 163 lines)
+Geocoding partition 1 (250 elements)
+2018_04_05_05_12_11 ("Auray - HÃ´pital ComplÃ©mentaire nÂ°27") : ZERO_RESULTS
+2018_04_05_05_12_16 ("Auve - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_12_16 ("Auve - HÃ´pital d'Orientation et d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_12_17 ("Aux Abords de Sailly Saillisel") : ZERO_RESULTS
+2018_04_05_05_12_17 ("Aux avant postes de Nieuport") : ZERO_RESULTS
+2018_04_05_05_12_18 ("Aux avants postes de Verdun") : ZERO_RESULTS
+2018_04_05_05_12_18 ("Aux Cavaliers de Courcy") : ZERO_RESULTS
+2018_04_05_05_12_18 ("Aux environs de BeausÃ©jour") : ZERO_RESULTS
+2018_04_05_05_12_19 ("Aux environs de Slivica") : ZERO_RESULTS
+2018_04_05_05_12_20 ("Aux Maigneux - Canton de Valmy") : ZERO_RESULTS
+2018_04_05_05_12_20 ("Aux tranchÃ©es de Serre") : ZERO_RESULTS
+2018_04_05_05_12_20 ("Aux TranchÃ©es devant Ãâ¦.ville") : ZERO_RESULTS
+2018_04_05_05_12_21 ("Aux TranchÃ©es du Pire - Saint Quentin") : ZERO_RESULTS
+2018_04_05_05_12_21 ("Auxerre - HÃ´pital ComplÃ©mentaire nÂ°107") : ZERO_RESULTS
+2018_04_05_05_12_22 ("Avallon - HÃ´pital ComplÃ©mentaire nÂ°53") : ZERO_RESULTS
+2018_04_05_05_12_25 ("Avocourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_12_25 ("Avord - HÃ´pital ComplÃ©mentaire nÂ°96") : ZERO_RESULTS
+2018_04_05_05_12_26 ("Avranches - HÃ´pital ComplÃ©mentaire nÂ°35") : ZERO_RESULTS
+2018_04_05_05_12_26 ("Awouingt - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_12_26 ("Azannes - Ambulance") : ZERO_RESULTS
+2018_04_05_05_12_30 ("Bagatelle - Argonne") : ZERO_RESULTS
+2018_04_05_05_12_33 ("Baleicourt - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_05_12_33 ("Baleicourt - Ambulance nÂ°3/12") : ZERO_RESULTS
+2018_04_05_05_12_33 ("Baleicout - Verdun") : ZERO_RESULTS
+2018_04_05_05_12_34 ("Balincourt - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_05_12_34 ("Ballancourt - Ambulance") : ZERO_RESULTS
+2018_04_05_05_12_37 ("Bar le Duc - HÃ´pital Auxiliaire 111") : ZERO_RESULTS
+2018_04_05_05_12_37 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°111") : ZERO_RESULTS
+2018_04_05_05_12_38 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°3") : ZERO_RESULTS
+2018_04_05_05_12_38 ("Bar le Duc - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_05_12_40 ("Bar-le-Duc - HÃ´pital Central des Contagieux") : ZERO_RESULTS
+2018_04_05_05_12_42 ("Barleux - Ambulance 10/1") : ZERO_RESULTS
+2018_04_05_05_12_43 ("Barly - Ambulance 88 Ã¨me Division") : ZERO_RESULTS
+2018_04_05_05_12_43 ("Barly - Ambulance de la 28 DI") : ZERO_RESULTS
+2018_04_05_05_12_43 ("Barly - Ambulance nÂ°7/8") : ZERO_RESULTS
+2018_04_05_05_12_44 ("Barren Kopkf") : ZERO_RESULTS
+2018_04_05_05_12_46 ("Bastogne - Ambulance 9/21") : ZERO_RESULTS
+2018_04_05_05_12_48 ("Batterie de Damloup - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_12_53 ("Beaulieu Bevaux - Ambulance 4/15") : ZERO_RESULTS
+2018_04_05_05_12_54 ("Beaulme et Chiry") : ZERO_RESULTS
+2018_04_05_05_12_56 ("Beaumetz les Loges - Ambulance nÂ°11/17") : ZERO_RESULTS
+2018_04_05_05_12_58 ("Beaumont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_12_58 ("Beaumont - dans tranchÃ©e Bismont") : ZERO_RESULTS
+2018_04_05_05_12_59 ("Beaumont - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_13_01 ("Beaurain-Sernage") : ZERO_RESULTS
+2018_04_05_05_13_01 ("Beaurains (devant Arras)") : ZERO_RESULTS
+2018_04_05_05_13_02 ("Beaurains devant Arras") : ZERO_RESULTS
+2018_04_05_05_13_02 ("Beaurains et Sermaize") : ZERO_RESULTS
+2018_04_05_05_13_03 ("Beaurieux - 1500 mÃ¨tres  au nord") : ZERO_RESULTS
+2018_04_05_05_13_03 ("Beaurieux - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_05_13_04 ("Beaurieux - Ambulance 5/22") : ZERO_RESULTS
+2018_04_05_05_13_04 ("Beaurieux - Ambulance nÂ°9/3") : ZERO_RESULTS
+2018_04_05_05_13_05 ("BeausÃ©jour - Ambulance nÂ°15/15") : ZERO_RESULTS
+2018_04_05_05_13_06 ("BeausÃ©jour - Secteur du Bois AllongÃ©") : ZERO_RESULTS
+2018_04_05_05_13_06 ("BeausÃ©jour-Minancourt") : ZERO_RESULTS
+2018_04_05_05_13_07 ("Beauvais - HÃ´pital ComplÃ©mentaire des ArmÃ©es nÂ°43") : ZERO_RESULTS
+2018_04_05_05_13_08 ("Beauvais - Hopital complÃ©mentaire nÂ° 39") : ZERO_RESULTS
+2018_04_05_05_13_08 ("Beauvais - HÃ´pital ComplÃ©mentaire nÂ°38") : ZERO_RESULTS
+2018_04_05_05_13_09 ("Beauvais - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_05_13_09 ("Beauvais - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_05_13_11 ("Beauvais - HÃ´pital Temporaire nÂ°11") : ZERO_RESULTS
+2018_04_05_05_13_11 ("Beauvais - HÃ´pital Temporaire nÂ°16") : ZERO_RESULTS
+2018_04_05_05_13_12 ("Beauvieux - Ambulance 9/3") : ZERO_RESULTS
+2018_04_05_05_13_18 ("Bekrit - Ambulance") : ZERO_RESULTS
+2018_04_05_05_13_19 ("Belfort - Ambulance nÂ°220") : ZERO_RESULTS
+2018_04_05_05_13_20 ("Belfort - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_05_13_21 ("Belgrade - 11 Ambulance de la Division du Danube") : ZERO_RESULTS
+2018_04_05_05_13_23 ("Belleville (ambulance)") : ZERO_RESULTS
+2018_04_05_05_13_25 ("Bellevue prÃ¨s de Zonaebek") : ZERO_RESULTS
+2018_04_05_05_13_27 ("Belloy - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_05_13_28 ("Ben Gardane - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_05_13_29 ("Benoite Vaux - Ambulance 11/6") : ZERO_RESULTS
+2018_04_05_05_13_32 ("Bergues - HÃ´pital Temporaire 61") : ZERO_RESULTS
+2018_04_05_05_13_33 ("Berlin-Lazarett Alexandre") : ZERO_RESULTS
+2018_04_05_05_13_37 ("Berny sur Noye - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_05_13_37 ("Berny-sur-Noye - Ambulance nÂ°3/72") : ZERO_RESULTS
+Partition 1 has been geolocalized and the file has been saved (contains 174 lines)
+Geocoding partition 3 (250 elements)
+2018_04_05_05_13_54 ("Boureuilles - Combat de la CÃ´te 265") : ZERO_RESULTS
+2018_04_05_05_13_55 ("Bourg en Bresse - HÃ´pital Auxiliaire nÂ°6") : ZERO_RESULTS
+2018_04_05_05_13_55 ("Bourg et Comin - Ambulance 1/20") : ZERO_RESULTS
+2018_04_05_05_13_55 ("Bourg-en-Bresse - HÃ´pital Auxiliaire nÂ°6") : ZERO_RESULTS
+2018_04_05_05_13_59 ("Bourges - HÃ´pital Temporaire nÂ°15") : ZERO_RESULTS
+2018_04_05_05_13_59 ("Bourges - HÃ´pital Temporaire nÂ°18") : ZERO_RESULTS
+2018_04_05_05_14_00 ("Boursonne - Ambulance nÂ°226") : ZERO_RESULTS
+2018_04_05_05_14_02 ("Bouvancourt - Ambulance 231") : ZERO_RESULTS
+2018_04_05_05_14_03 ("Bouy - Ambulance 11/41") : ZERO_RESULTS
+2018_04_05_05_14_04 ("Bouy - Ambulance 16/4") : ZERO_RESULTS
+2018_04_05_05_14_04 ("Bouy - Ambulance 4/6") : ZERO_RESULTS
+2018_04_05_05_14_05 ("Bouy - HÃ´pital d'Orientation et d'Evacuation nÂ°5") : ZERO_RESULTS
+2018_04_05_05_14_05 ("Bouy - HÃ´pital Evacuation nÂ°1") : ZERO_RESULTS
+2018_04_05_05_14_06 ("Bouy-Hangars") : ZERO_RESULTS
+2018_04_05_05_14_07 ("Bouzy - Ambulance nÂ°9/18") : ZERO_RESULTS
+2018_04_05_05_14_07 ("Boyau de la Bove - Ferme Hurtebise") : ZERO_RESULTS
+2018_04_05_05_14_08 ("Bozanti") : ZERO_RESULTS
+2018_04_05_05_14_09 ("Braine - HÃ´pital Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_05_14_10 ("Braisne - Ambulance 18/6") : ZERO_RESULTS
+2018_04_05_05_14_10 ("Bralo - HÃ´pital AE 3") : ZERO_RESULTS
+2018_04_05_05_14_11 ("Brancourt-sur-la-Vesle") : ZERO_RESULTS
+2018_04_05_05_14_12 ("Bras - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_14_12 ("Bras sur Meuse - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_14_15 ("Braux-Sainte-CohiÃ¨re - Ambulance 8/4") : ZERO_RESULTS
+2018_04_05_05_14_16 ("Bray sur Somme - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_05_14_17 ("Bray sur Somme - HÃ´pital Auxiliaire nÂ°32") : ZERO_RESULTS
+2018_04_05_05_14_17 ("Bray sur Somme - HÃ´pital Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_05_14_19 ("Bray-sur-Somme - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_14_20 ("Bray-sur-Somme - HÃ´pital d'Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_05_14_20 ("Bray-sur-Somme - HÃ´pital Evacuation nÂ°12") : ZERO_RESULTS
+2018_04_05_05_14_21 ("Bray-sur-Somme - HÃ´pital Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_05_14_25 ("Briare - HÃ´pital Auxiliaire nÂ°24") : ZERO_RESULTS
+2018_04_05_05_14_26 ("Briare - Infirmerie") : ZERO_RESULTS
+2018_04_05_05_14_26 ("Brichen") : ZERO_RESULTS
+2018_04_05_05_14_27 ("Brienne - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_05_14_27 ("Brienne-le-ChÃ¢teau - Hospice Mixte") : ZERO_RESULTS
+2018_04_05_05_14_28 ("Brienne-sur-Aisne - Ambulance 11/8") : ZERO_RESULTS
+2018_04_05_05_14_30 ("Brocourt - Ambulance 13/9") : ZERO_RESULTS
+2018_04_05_05_14_31 ("Brocourt - Ambulance 3/37 Ã¨me DI") : ZERO_RESULTS
+2018_04_05_05_14_31 ("Brocourt - Ambulance 6/13") : ZERO_RESULTS
+2018_04_05_05_14_31 ("Brod - Ambulance Coloniale Mobile nÂ°3") : ZERO_RESULTS
+2018_04_05_05_14_32 ("Broisette - Clinique de Dailles") : ZERO_RESULTS
+2018_04_05_05_14_36 ("Bruxelles - HÃ´pitalaire Militaire") : ZERO_RESULTS
+2018_04_05_05_14_38 ("Bucarest - HÃ´pital Militaire FranÃ§ais nÂ°1") : ZERO_RESULTS
+2018_04_05_05_14_39 ("Bueil - Ambulance 16/13") : ZERO_RESULTS
+2018_04_05_05_14_46 ("Bussy le ChÃ¢teau - Ambulance 10/13") : ZERO_RESULTS
+2018_04_05_05_14_46 ("Bussy le ChÃ¢teau - Ambulance 10/15") : ZERO_RESULTS
+2018_04_05_05_14_46 ("Bussy-le-ChÃ¢teau - Ambulance 10/13") : ZERO_RESULTS
+2018_04_05_05_14_47 ("Bussy-le-ChÃ¢teau - Ambulance 10/19") : ZERO_RESULTS
+2018_04_05_05_14_47 ("Bussy-le-ChÃ¢teau - Ambulance nÂ°20/13") : ZERO_RESULTS
+2018_04_05_05_14_50 ("Buzancy - Ambulance nÂ°237") : ZERO_RESULTS
+2018_04_05_05_14_54 ("Calonne - Ouvrage de Cornouaille") : ZERO_RESULTS
+2018_04_05_05_14_58 ("camp d'Isse ambulance 9/17") : ZERO_RESULTS
+2018_04_05_05_14_59 ("Camp de CÃ©sar - Sud-Ouest de Villers-lÃ¨s- Roye") : ZERO_RESULTS
+2018_04_05_05_14_59 ("Camp de ChÃ¢lons") : ZERO_RESULTS
+2018_04_05_05_15_00 ("Camp de Dulmen") : ZERO_RESULTS
+2018_04_05_05_15_01 ("Camp de Landau") : ZERO_RESULTS
+2018_04_05_05_15_01 ("Camp de Prisonniers de Niedrywehren") : ZERO_RESULTS
+2018_04_05_05_15_01 ("Camp Dilleman - Ambulance 7/4") : ZERO_RESULTS
+2018_04_05_05_15_03 ("Canly - Ambulance 11/15") : ZERO_RESULTS
+2018_04_05_05_15_04 ("Canly - HÃ´pital Evacuation") : ZERO_RESULTS
+2018_04_05_05_15_05 ("Cannes - Hopital Militaire nÂ°72") : ZERO_RESULTS
+2018_04_05_05_15_06 ("Cap d'Ail - HÃ´pital ComplÃ©mentaire nÂ°2") : ZERO_RESULTS
+2018_04_05_05_15_06 ("Cappy - Ambulance 2/5") : ZERO_RESULTS
+2018_04_05_05_15_07 ("Cappy - Ambulance 2/70") : ZERO_RESULTS
+2018_04_05_05_15_07 ("Cappy - Ambulance 3/12") : ZERO_RESULTS
+2018_04_05_05_15_07 ("Cappy - Ambulance 3/70") : ZERO_RESULTS
+2018_04_05_05_15_11 ("CarnouÃ«t") : ZERO_RESULTS
+2018_04_05_05_15_12 ("CarriÃ¨res d'Haudiomont") : ZERO_RESULTS
+2018_04_05_05_15_12 ("CarriÃ¨res d'Haudromont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_15_13 ("CarriÃ¨res d'Haudromont - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_15_13 ("CarriÃ¨res d'Houdromont") : ZERO_RESULTS
+2018_04_05_05_15_14 ("Cassel - HÃ´pital du Camp") : ZERO_RESULTS
+2018_04_05_05_15_16 ("Casta Tadla") : ZERO_RESULTS
+2018_04_05_05_15_18 ("Catenay - HÃ´pital Evacuation nÂ°36") : ZERO_RESULTS
+2018_04_05_05_15_19 ("Catenoy - Ambulance 13/16") : ZERO_RESULTS
+2018_04_05_05_15_19 ("Catenoy - Ambulance nÂ°13/26") : ZERO_RESULTS
+2018_04_05_05_15_19 ("Catenoy - HÃ´pital ComplÃ©mentaire nÂ°36") : ZERO_RESULTS
+2018_04_05_05_15_21 ("Cauroy les Hermonville - Secteur du Godat") : ZERO_RESULTS
+2018_04_05_05_15_22 ("Cavaliers de Courcy") : ZERO_RESULTS
+2018_04_05_05_15_24 ("Cayeux-en-Santerre - Ambulance 12/1") : ZERO_RESULTS
+2018_04_05_05_15_26 ("Cempuis - Ambulance 1/86") : ZERO_RESULTS
+2018_04_05_05_15_26 ("Cempuis - Ambulance nÂ°1/86") : ZERO_RESULTS
+2018_04_05_05_15_27 ("Cer - Ambulance 6") : ZERO_RESULTS
+2018_04_05_05_15_27 ("Cer - Ambulance Alpine nÂ°6") : ZERO_RESULTS
+2018_04_05_05_15_28 ("Cer - Ambulance nÂ°6") : ZERO_RESULTS
+2018_04_05_05_15_29 ("Cerisy - CÃ´te 121") : ZERO_RESULTS
+2018_04_05_05_15_29 ("Cerisy - HÃ´pital d'Evacuation nÂ°15") : ZERO_RESULTS
+2018_04_05_05_15_29 ("Cerisy - HÃ´pital Evacuation nÂ° 15") : ZERO_RESULTS
+2018_04_05_05_15_30 ("Cerisy - Sailly HÃ´pital Evacuation nÂ°15") : ZERO_RESULTS
+Partition 3 has been geolocalized and the file has been saved (contains 160 lines)
+Geocoding partition 4 (250 elements)
+2018_04_05_05_15_38 ("Cernoy - Sancy") : ZERO_RESULTS
+2018_04_05_05_15_41 ("Cerseuil - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_05_15_41 ("Cerseuil - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_05_15_43 ("Chalaines - HÃ´pital ComplÃ©mentaire nÂ°32") : ZERO_RESULTS
+2018_04_05_05_15_46 ("Chalons  - Ambulance nÂ°224") : ZERO_RESULTS
+2018_04_05_05_15_46 ("ChÃ¢lons - Annexe Saint Maur de l'HÃ´tel Dieu") : ZERO_RESULTS
+2018_04_05_05_15_48 ("ChÃ¢lons - HÃ´pital Temporaire nÂ°1") : ZERO_RESULTS
+2018_04_05_05_15_49 ("ChÃ¢lons en Champagne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_05_15_51 ("ChÃ¢lons sur Marne - Ambulance 1/6") : ZERO_RESULTS
+2018_04_05_05_15_51 ("ChÃ¢lons sur Marne - Ambulance 13/20") : ZERO_RESULTS
+2018_04_05_05_15_52 ("ChÃ¢lons sur Marne - Ambulance nÂ°4") : ZERO_RESULTS
+2018_04_05_05_15_55 ("ChÃ¢lons sur Marne - HÃ´pital ComplÃ©mentaire A") : ZERO_RESULTS
+2018_04_05_05_15_56 ("Chalons sur Marne - HÃ´pital ComplÃ©mentaire nÂ°18 Corbineau") : ZERO_RESULTS
+2018_04_05_05_15_56 ("Chalons sur Marne - HÃ´pital ComplÃ©mentaire nÂ°4") : ZERO_RESULTS
+2018_04_05_05_15_58 ("ChÃ¢lons sur Marne - HÃ´pital Militaire ComplÃ©mentaire") : ZERO_RESULTS
+2018_04_05_05_16_00 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°15") : ZERO_RESULTS
+2018_04_05_05_16_01 ("Chalons sur Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_05_16_01 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_05_16_02 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°18") : ZERO_RESULTS
+2018_04_05_05_16_02 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°2") : ZERO_RESULTS
+2018_04_05_05_16_03 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°8") : ZERO_RESULTS
+2018_04_05_05_16_03 ("Chalons sur Vesle - Ambulance 4/1") : ZERO_RESULTS
+2018_04_05_05_16_05 ("Chalons-sur-Marne - Annexe de l'hÃ´pital") : ZERO_RESULTS
+2018_04_05_05_16_05 ("ChÃ¢lons-sur-Marne - HÃ´pital complÃ©mentaire nÂ° 37") : ZERO_RESULTS
+2018_04_05_05_16_06 ("ChÃ¢lons-sur-Marne - HÃ´pital ComplÃ©mentaire nÂ°19") : ZERO_RESULTS
+2018_04_05_05_16_07 ("Chalons-sur-Marne - HÃ´pital Corps d'ArmÃ©e nÂ°54") : ZERO_RESULTS
+2018_04_05_05_16_09 ("Chalons-sur-Marne - HÃ´pital Temporaire nÂ°1") : ZERO_RESULTS
+2018_04_05_05_16_09 ("ChÃ¢lons-sur-Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_05_16_10 ("ChÃ¢lons-sur-Marne (hÃ´pital militaire)") : ZERO_RESULTS
+2018_04_05_05_16_17 ("Chanfontaine - HOE 21/1") : ZERO_RESULTS
+2018_04_05_05_16_19 ("Chapelle-Saint-Pantaleon - Sous Secteur Plat ChÃªne") : ZERO_RESULTS
+2018_04_05_05_16_20 ("Charleville - Ambulance 3/64") : ZERO_RESULTS
+2018_04_05_05_16_21 ("Charly-sur-Marne - Ambulance 10/21") : ZERO_RESULTS
+2018_04_05_05_16_21 ("Charmes - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_05_16_25 ("Chasseny - Ambulance 13/8") : ZERO_RESULTS
+2018_04_05_05_16_26 ("ChÃ¢teau Chinon - HÃ´pital Temporaire nÂ°66") : ZERO_RESULTS
+2018_04_05_05_16_26 ("ChÃ¢teau de Boursault - Ambulance 10/6") : ZERO_RESULTS
+2018_04_05_05_16_27 ("ChÃ¢teau de la Trapperie - Ambulance 5/11") : ZERO_RESULTS
+2018_04_05_05_16_27 ("ChÃ¢teau de la Trapperie - Habbaye-la-Vieille - Ambulance nÂ°5/11") : ZERO_RESULTS
+2018_04_05_05_16_30 ("ChÃ¢teau Thierry - Ambulance nÂ°14/4") : ZERO_RESULTS
+2018_04_05_05_16_40 ("Chattancourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_16_41 ("Chaudefontaine - Ambulance 3/151") : ZERO_RESULTS
+2018_04_05_05_16_47 ("Chauny - Ambulance 204") : ZERO_RESULTS
+2018_04_05_05_16_48 ("Chauny - Ambulance nÂ°2/73") : ZERO_RESULTS
+2018_04_05_05_16_57 ("Cherbourg - HÃ´pital Temporaire Casino - mÃ©ningite cÃ©rÃ©bro-spinale") : ZERO_RESULTS
+2018_04_05_05_16_58 ("Cherbourg - HÃ´pital Temporaire du LycÃ©e de Cher") : ZERO_RESULTS
+2018_04_05_05_16_59 ("Chevillon - Combat de ChÃ©zy") : ZERO_RESULTS
+2018_04_05_05_17_03 ("Chigny les Roses - Ambulance nÂ°1/89") : ZERO_RESULTS
+2018_04_05_05_17_08 ("Clairvaux - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_05_17_08 ("Clamecy - HÃ´pital ComplÃ©mentaire nÂ°36") : ZERO_RESULTS
+2018_04_05_05_17_12 ("Clermont-sur-Oise - Asile d'AliÃ©nÃ©s") : ZERO_RESULTS
+2018_04_05_05_17_14 ("Coeuvres - Ambulance nÂ°5/13") : ZERO_RESULTS
+2018_04_05_05_17_16 ("Cognac - HÃ´pital BÃ©nÃ©vole nÂ°128 Bis") : ZERO_RESULTS
+2018_04_05_05_17_21 ("Colline d'Achi Baba - Presqu'Ã®le de Gallipoli") : ZERO_RESULTS
+2018_04_05_05_17_23 ("Combat d'Ayencourt") : ZERO_RESULTS
+2018_04_05_05_17_23 ("combat de Bois Hault") : ZERO_RESULTS
+Partition 4 has been geolocalized and the file has been saved (contains 194 lines)
+Geocoding partition 5 (250 elements)
+2018_04_05_05_17_29 ("Combat de Carlepont") : ZERO_RESULTS
+2018_04_05_05_17_29 ("Combat de Courjoil") : ZERO_RESULTS
+2018_04_05_05_17_30 ("Combat de Gratt Viershatt") : ZERO_RESULTS
+2018_04_05_05_17_30 ("Combat de la Ferme de la RoyÃ¨re") : ZERO_RESULTS
+2018_04_05_05_17_32 ("Combat de la Noulette") : ZERO_RESULTS
+2018_04_05_05_17_33 ("Combat de Lizerne") : ZERO_RESULTS
+2018_04_05_05_17_33 ("Combat de Locre") : ZERO_RESULTS
+2018_04_05_05_17_34 ("Combat de Selve - commune de Sissonne") : ZERO_RESULTS
+2018_04_05_05_17_35 ("Combat de Treloup") : ZERO_RESULTS
+2018_04_05_05_17_35 ("Combat du Bois de Cernay") : ZERO_RESULTS
+2018_04_05_05_17_36 ("Combat du Mont des Tombes - Commune de Leuilly-sous-Coucy") : ZERO_RESULTS
+2018_04_05_05_17_36 ("Combat du Mont Renaud") : ZERO_RESULTS
+2018_04_05_05_17_37 ("Combat du Signal de Xon") : ZERO_RESULTS
+2018_04_05_05_17_37 ("Combat du Souchez") : ZERO_RESULTS
+2018_04_05_05_17_38 ("Combat du TÃªton - Commune de Moronvilliers") : ZERO_RESULTS
+2018_04_05_05_17_38 ("Combats au sud de l'Ourcq") : ZERO_RESULTS
+2018_04_05_05_17_39 ("Combats d'Angres") : ZERO_RESULTS
+2018_04_05_05_17_39 ("Combats de Baconnes") : ZERO_RESULTS
+2018_04_05_05_17_39 ("Combats de Calonne") : ZERO_RESULTS
+2018_04_05_05_17_40 ("Combats de Champagne") : ZERO_RESULTS
+2018_04_05_05_17_40 ("Combats de Chassins") : ZERO_RESULTS
+2018_04_05_05_17_41 ("Combats de Chavigny") : ZERO_RESULTS
+2018_04_05_05_17_41 ("Combats de Glennes") : ZERO_RESULTS
+2018_04_05_05_17_42 ("Combats de Hooge") : ZERO_RESULTS
+2018_04_05_05_17_42 ("Combats de Juvincourt") : ZERO_RESULTS
+2018_04_05_05_17_43 ("Combats de l'Aisne - Paissy") : ZERO_RESULTS
+2018_04_05_05_17_44 ("Combats de la Ville aux Bois") : ZERO_RESULTS
+2018_04_05_05_17_45 ("Combats de les Mouches devant Domeliers") : ZERO_RESULTS
+2018_04_05_05_17_45 ("Combats de Maizeray") : ZERO_RESULTS
+2018_04_05_05_17_46 ("Combats de Moulin de Tous Vents") : ZERO_RESULTS
+2018_04_05_05_17_47 ("Combats de Neuville") : ZERO_RESULTS
+2018_04_05_05_17_47 ("Combats de NormÃ©e") : ZERO_RESULTS
+2018_04_05_05_17_48 ("Combats de Noyon") : ZERO_RESULTS
+2018_04_05_05_17_48 ("Combats de Pernant Ã   Ambleny") : ZERO_RESULTS
+2018_04_05_05_17_48 ("Combats de Pilkem") : ZERO_RESULTS
+2018_04_05_05_17_49 ("Combats de Saint Junien") : ZERO_RESULTS
+2018_04_05_05_17_49 ("Combats de Saint Prix") : ZERO_RESULTS
+2018_04_05_05_17_50 ("Combats de Sauvillers") : ZERO_RESULTS
+2018_04_05_05_17_50 ("Combats de Sauvilliers") : ZERO_RESULTS
+2018_04_05_05_17_51 ("Combats de souchez - Givenchy") : ZERO_RESULTS
+2018_04_05_05_17_52 ("Combats de Vandy") : ZERO_RESULTS
+2018_04_05_05_17_52 ("Combats devant Chavigny") : ZERO_RESULTS
+2018_04_05_05_17_53 ("Combats du Casque et du TÃ©ton") : ZERO_RESULTS
+2018_04_05_05_17_53 ("Combats du Mont des Roches") : ZERO_RESULTS
+2018_04_05_05_17_54 ("Combats Ouvrage CÃ´te 123 Souchez - Neuville") : ZERO_RESULTS
+2018_04_05_05_17_54 ("Combats sur la Lys") : ZERO_RESULTS
+2018_04_05_05_18_01 ("CompiÃ¨gne - Ferme d'Attichy") : ZERO_RESULTS
+2018_04_05_05_18_01 ("CompiÃ¨gne - HÃ´pital 105 Herson") : ZERO_RESULTS
+2018_04_05_05_18_02 ("CompiÃ¨gne - HÃ´pital Auxiliaire nÂ°34") : ZERO_RESULTS
+2018_04_05_05_18_02 ("CompiÃ¨gne - HÃ´pital du Palais") : ZERO_RESULTS
+2018_04_05_05_18_07 ("CompiÃ¨gne - HÃ´pital Temporaire 16") : ZERO_RESULTS
+2018_04_05_05_18_07 ("CompiÃ¨gne - HÃ´pital Temporaire nÂ°150") : ZERO_RESULTS
+2018_04_05_05_18_08 ("CompiÃ¨gne - HÃ´pital Temporaire nÂ°16") : ZERO_RESULTS
+2018_04_05_05_18_08 ("CompiÃ¨gne - HÃ´pital Temporaire nÂ°25") : ZERO_RESULTS
+2018_04_05_05_18_12 ("Connantre - HOE") : ZERO_RESULTS
+2018_04_05_05_18_13 ("Connantre - HÃ´pital Evacuation nÂ°10") : ZERO_RESULTS
+2018_04_05_05_18_13 ("Connegis - Ferme de Janvier") : ZERO_RESULTS
+2018_04_05_05_18_15 ("Constantinople - Ambulance Colone Mobile") : ZERO_RESULTS
+2018_04_05_05_18_16 ("ContrexÃ©ville - HÃ´pital ComplÃ©mentaire nÂ°9") : ZERO_RESULTS
+2018_04_05_05_18_22 ("Corlach sur Mall") : ZERO_RESULTS
+2018_04_05_05_18_25 ("CÃ´te 170 - Secteur de Servon") : ZERO_RESULTS
+2018_04_05_05_18_27 ("CÃ´te 287 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_28 ("CÃ´te 304 - au sud du Ruisseau des Forges") : ZERO_RESULTS
+2018_04_05_05_18_33 ("CÃ´te 321 - Nord-Est de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_33 ("CÃ´te 344 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_34 ("CÃ´te 90 - Bois Etoile") : ZERO_RESULTS
+2018_04_05_05_18_35 ("CÃ´te de Froideterre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_36 ("CÃ´te du Poivre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_36 ("CÃ´te du Poivre - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_37 ("CÃ´te du Talou - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_18_41 ("Coulomiers - Ambulance 13/4") : ZERO_RESULTS
+2018_04_05_05_18_42 ("Coulommiers - HÃ´pital ComplÃ©mentaire nÂ°31") : ZERO_RESULTS
+2018_04_05_05_18_42 ("Coulommiers - HÃ´pital d'Evacuation B52") : ZERO_RESULTS
+2018_04_05_05_18_43 ("Coupures-d'Esnes") : ZERO_RESULTS
+2018_04_05_05_18_44 ("Courbe Chausse") : ZERO_RESULTS
+2018_04_05_05_18_48 ("Courlandon - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_18_48 ("Courlandon - HÃ´pital d'Evacuation nÂ°13") : ZERO_RESULTS
+2018_04_05_05_18_49 ("Courlandon - HÃ´pital nÂ°13") : ZERO_RESULTS
+2018_04_05_05_18_54 ("Couvrelles - Ambulance 18/6") : ZERO_RESULTS
+2018_04_05_05_18_54 ("Couvrelles - HÃ´pital d'Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_05_18_55 ("Couvrelles - HÃ´pital Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_05_18_55 ("Coxyde - Ambulance 7/15") : ZERO_RESULTS
+2018_04_05_05_18_57 ("Craonne - Ambulance 3/11") : ZERO_RESULTS
+2018_04_05_05_18_59 ("Creil - HÃ´pital d'ArmÃ©e nÂ°41") : ZERO_RESULTS
+2018_04_05_05_19_00 ("Creil - hÃ´pital Evacuation nÂ°16") : ZERO_RESULTS
+2018_04_05_05_19_01 ("CrÃ©mieu - HÃ´pital ComplÃ©mentaire nÂ°53") : ZERO_RESULTS
+2018_04_05_05_19_02 ("CrÃ©py en Valois - Ambulance 7/20") : ZERO_RESULTS
+2018_04_05_05_19_03 ("CrÃ©vecoeur le Grand - Ambulance 6/14") : ZERO_RESULTS
+2018_04_05_05_19_03 ("CrÃ©vecoeur-le-Grand - Ambulance 6/14") : ZERO_RESULTS
+2018_04_05_05_19_04 ("Croix-en-Champagne - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_05_19_05 ("Croix-en-Champagne - Ambulance 5/11") : ZERO_RESULTS
+2018_04_05_05_19_05 ("Croix-en-Champagne - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_05_19_06 ("Croix-en-Champagne - Ambulance nÂ°5/11") : ZERO_RESULTS
+2018_04_05_05_19_06 ("Croix-Mouzarde") : ZERO_RESULTS
+2018_04_05_05_19_07 ("Crombecke - Ambulance") : ZERO_RESULTS
+2018_04_05_05_19_07 ("Crombeke - Ambulance 3/1") : ZERO_RESULTS
+2018_04_05_05_19_09 ("Crossen - Lazarett") : ZERO_RESULTS
+2018_04_05_05_19_11 ("Cugnand") : ZERO_RESULTS
+2018_04_05_05_19_11 ("Cugny - Ambulance 5/59") : ZERO_RESULTS
+2018_04_05_05_19_11 ("Cugny - Ambulance 5/69") : ZERO_RESULTS
+2018_04_05_05_19_12 ("Cugny - Ambulance 6/13") : ZERO_RESULTS
+2018_04_05_05_19_12 ("Cugny - Ambulance nÂ°1/9") : ZERO_RESULTS
+2018_04_05_05_19_12 ("Cugny - Ambulance nÂ°12/20") : ZERO_RESULTS
+Partition 5 has been geolocalized and the file has been saved (contains 147 lines)
+Geocoding partition 6 (250 elements)
+2018_04_05_05_19_18 ("Cugny - Ambulance nÂ°15/16") : ZERO_RESULTS
+2018_04_05_05_19_19 ("Cugny - Ambulance nÂ°5/59") : ZERO_RESULTS
+2018_04_05_05_19_21 ("CumiÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_19_22 ("CumiÃ¨res - Mort Homme - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_19_23 ("Cuperly - Ambulance 3/45") : ZERO_RESULTS
+2018_04_05_05_19_23 ("Cuperly - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_05_19_23 ("Cuperly - Ambulance 7/2") : ZERO_RESULTS
+2018_04_05_05_19_24 ("Cuperly - Ambulance nÂ°1/2") : ZERO_RESULTS
+2018_04_05_05_19_24 ("Cuperly - Ambulance nÂ°3/65") : ZERO_RESULTS
+2018_04_05_05_19_24 ("Cuperly - Ambulance nÂ°7/2") : ZERO_RESULTS
+2018_04_05_05_19_25 ("Cuperly - Mont de Frenet - Ambulance 3/69") : ZERO_RESULTS
+2018_04_05_05_19_26 ("Cuperly - Mont Frenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_05_19_26 ("Cuperly - Montfrenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_05_19_27 ("Cuperly Mont de Frenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_05_19_28 ("Cuperly Montfrenet") : ZERO_RESULTS
+2018_04_05_05_19_28 ("Cuperly Montfrenet - Ambulance nÂ°3/65") : ZERO_RESULTS
+2018_04_05_05_19_28 ("Cuperly Montfrenet - Ambulance nÂ°7/2") : ZERO_RESULTS
+2018_04_05_05_19_30 ("Dakulevo") : ZERO_RESULTS
+2018_04_05_05_19_31 ("Damas - HÃ´pital Civil") : ZERO_RESULTS
+2018_04_05_05_19_32 ("Damloup (Secteur de Verdun)") : ZERO_RESULTS
+2018_04_05_05_19_35 ("Darmstadt - Lazarett") : ZERO_RESULTS
+2018_04_05_05_19_35 ("Darmstat - Lazarettt") : ZERO_RESULTS
+2018_04_05_05_19_38 ("Deauville - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_19_38 ("Deauville - HÃ´pital ComplÃ©mentaire nÂ°35") : ZERO_RESULTS
+2018_04_05_05_19_39 ("Decize - Ambulance du DÃ©pÃ´t Commun") : ZERO_RESULTS
+2018_04_05_05_19_43 ("Dernbach - Maison de SantÃ©") : ZERO_RESULTS
+2018_04_05_05_19_45 ("Devant Arras") : ZERO_RESULTS
+2018_04_05_05_19_45 ("Devant Bezannes") : ZERO_RESULTS
+2018_04_05_05_19_45 ("Devant Ginchy") : ZERO_RESULTS
+2018_04_05_05_19_47 ("Devant Pareid") : ZERO_RESULTS
+2018_04_05_05_19_48 ("Devant Saponay") : ZERO_RESULTS
+2018_04_05_05_19_48 ("Devant Thory") : ZERO_RESULTS
+2018_04_05_05_19_49 ("devant Verdun CÃ´te Froide-Terre") : ZERO_RESULTS
+2018_04_05_05_19_50 ("Dickbusch") : ZERO_RESULTS
+2018_04_05_05_19_51 ("Diedenhofen") : ZERO_RESULTS
+2018_04_05_05_19_52 ("Dieppe - HÃ´pital Auxiliaire nÂ°5") : ZERO_RESULTS
+2018_04_05_05_19_55 ("Dieuze - Ambulance 7/3") : ZERO_RESULTS
+2018_04_05_05_19_56 ("Dijon - HÃ´pital ComlplÃ©mentaire nÂ°75") : ZERO_RESULTS
+2018_04_05_05_19_59 ("Dinard -  hÃ´pital nÂ°38") : ZERO_RESULTS
+2018_04_05_05_20_00 ("Disparu en Mer") : ZERO_RESULTS
+2018_04_05_05_20_00 ("Disparu en Mer lors de la perte de La Ginette") : ZERO_RESULTS
+2018_04_05_05_20_02 ("Dogny Sojor") : ZERO_RESULTS
+2018_04_05_05_20_05 ("Dompierre - Ambulance nÂ°3/2") : ZERO_RESULTS
+2018_04_05_05_20_06 ("Dompierre - HÃ´pital d'Evacuation nÂ°37/2") : ZERO_RESULTS
+2018_04_05_05_20_11 ("Douaumont - Ferme des Chambrettes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_20_11 ("Douaumont - Ravin de Chambouillet") : ZERO_RESULTS
+2018_04_05_05_20_13 ("Doullens - Ambulance 13/16") : ZERO_RESULTS
+2018_04_05_05_20_13 ("Doullens - Ambulance 4/15") : ZERO_RESULTS
+2018_04_05_05_20_14 ("Doullens - HÃ´pital ComplÃ©mentaire nÂ°86") : ZERO_RESULTS
+2018_04_05_05_20_14 ("Doulon") : ZERO_RESULTS
+2018_04_05_05_20_16 ("Dugny - Ambulance 15/1") : ZERO_RESULTS
+2018_04_05_05_20_17 ("Dugny - Ambulance 16/3") : ZERO_RESULTS
+2018_04_05_05_20_17 ("Dugny - Ambulance 19/6") : ZERO_RESULTS
+2018_04_05_05_20_18 ("Dugny - Ambulance 3/18") : ZERO_RESULTS
+2018_04_05_05_20_18 ("Dugny - Ambulance 5-3-45") : ZERO_RESULTS
+2018_04_05_05_20_19 ("Dugny - Ambulance 5/3") : ZERO_RESULTS
+2018_04_05_05_20_19 ("Dugny - Ambulance 7/8") : ZERO_RESULTS
+2018_04_05_05_20_19 ("Dugny - Ambulance nÂ°15/1") : ZERO_RESULTS
+2018_04_05_05_20_20 ("Dugny - Ambulance nÂ°2/65") : ZERO_RESULTS
+2018_04_05_05_20_22 ("Dulmen-Lazarett") : ZERO_RESULTS
+2018_04_05_05_20_23 ("Dunkerque - Asile") : ZERO_RESULTS
+2018_04_05_05_20_23 ("Dunkerque - Asile des Viellards") : ZERO_RESULTS
+2018_04_05_05_20_24 ("Dunkerque - HÃ´pital Jean Bart") : ZERO_RESULTS
+2018_04_05_05_20_25 ("Dunkerque - HÃ´pital Militaire nÂ°56") : ZERO_RESULTS
+2018_04_05_05_20_26 ("Dunkerque - HÃ´pital Temporaire nÂ°56") : ZERO_RESULTS
+2018_04_05_05_20_27 ("Dury - Ambulance 12/21") : ZERO_RESULTS
+2018_04_05_05_20_28 ("Dury - Ambulance 2/9 Asile") : ZERO_RESULTS
+2018_04_05_05_20_28 ("Dury - Ambulance 9/9") : ZERO_RESULTS
+2018_04_05_05_20_29 ("Dury - Ambulance nÂ°5/68") : ZERO_RESULTS
+2018_04_05_05_20_30 ("Dury - Asile DÃ©partemental") : ZERO_RESULTS
+2018_04_05_05_20_33 ("Echoupria - Ambulance Colonne Mobile") : ZERO_RESULTS
+2018_04_05_05_20_33 ("Ecluse de Boesinghe") : ZERO_RESULTS
+2018_04_05_05_20_34 ("Ecurie devant Roclincourt") : ZERO_RESULTS
+2018_04_05_05_20_36 ("Ecury sur Coole - Ambulance 14/22") : ZERO_RESULTS
+2018_04_05_05_20_36 ("Ecury sur Coole - Ambulance nÂ°14/122") : ZERO_RESULTS
+2018_04_05_05_20_38 ("EishtÃ¤tt Lazaret") : ZERO_RESULTS
+2018_04_05_05_20_38 ("Eix - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_20_40 ("EjperlÃ©e") : ZERO_RESULTS
+2018_04_05_05_20_40 ("El herry") : ZERO_RESULTS
+2018_04_05_05_20_41 ("Elboeuf - HÃ´pital Auxiliaire nÂ°3") : ZERO_RESULTS
+2018_04_05_05_20_43 ("Entre Berny et Belloy") : ZERO_RESULTS
+2018_04_05_05_20_43 ("Entre Braches et Hardicourt") : ZERO_RESULTS
+2018_04_05_05_20_44 ("Entre Douaumont et Fleury - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_20_45 ("Entre Maricourt et le Moulin de Farguy") : ZERO_RESULTS
+2018_04_05_05_20_45 ("Entre Neuville Saint Vaast et Souchez - CÃ´te 140") : ZERO_RESULTS
+2018_04_05_05_20_46 ("Entre Noulettes et Angres") : ZERO_RESULTS
+2018_04_05_05_20_46 ("Entre Pilkem et Saint-Jean d'Ypres") : ZERO_RESULTS
+2018_04_05_05_20_47 ("Entre Regret et passage Ã Â  niveau de Glorieux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_20_47 ("Entre Somme Py -Sainte Marie Ã Â  Py") : ZERO_RESULTS
+2018_04_05_05_20_47 ("Entre Souchez et Givenchy") : ZERO_RESULTS
+2018_04_05_05_20_50 ("Epernay - Ambulance") : ZERO_RESULTS
+2018_04_05_05_20_53 ("Eperon de Courtecon") : ZERO_RESULTS
+2018_04_05_05_20_54 ("Eperon-de-Beaulne") : ZERO_RESULTS
+2018_04_05_05_20_54 ("Epinal - HÃ´pital Militaire Golber") : ZERO_RESULTS
+2018_04_05_05_20_55 ("Epinal - HÃ´pital Militaire Saint Maurice") : ZERO_RESULTS
+2018_04_05_05_20_56 ("Epine de Vedegrange") : ZERO_RESULTS
+2018_04_05_05_20_56 ("Epine de VÃ©degrange") : ZERO_RESULTS
+Partition 6 has been geolocalized and the file has been saved (contains 153 lines)
+Geocoding partition 7 (250 elements)
+2018_04_05_05_21_05 ("Eshernot") : ZERO_RESULTS
+2018_04_05_05_21_06 ("Esnes - Bois Camard") : ZERO_RESULTS
+2018_04_05_05_21_06 ("Esnes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_08 ("Esnes - Cote 304 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_10 ("Esnes - CÃ´te 344 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_15 ("EstrÃ©es - Ambulance 16/9") : ZERO_RESULTS
+2018_04_05_05_21_15 ("EstrÃ©es - Centre Hospitalier") : ZERO_RESULTS
+2018_04_05_05_21_16 ("EstrÃ©es - Sortie Est") : ZERO_RESULTS
+2018_04_05_05_21_17 ("EstrÃ©es (Sortie Est)") : ZERO_RESULTS
+2018_04_05_05_21_18 ("Estressin - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_21_19 ("Etang de Pickebusch") : ZERO_RESULTS
+2018_04_05_05_21_19 ("Etang de Vaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_20 ("Etinehem - Ambulance 5/1") : ZERO_RESULTS
+2018_04_05_05_21_21 ("Etinehem - Ambulance 7/20") : ZERO_RESULTS
+2018_04_05_05_21_23 ("Evreux - Hospice") : ZERO_RESULTS
+2018_04_05_05_21_23 ("Face Ã Â  Saint Quentin - Secteur de Beauvois") : ZERO_RESULTS
+2018_04_05_05_21_27 ("Fay - Bois Touffu") : ZERO_RESULTS
+2018_04_05_05_21_28 ("Fay - Poste de Secours") : ZERO_RESULTS
+2018_04_05_05_21_30 ("Fayel - Ambulance 14/20") : ZERO_RESULTS
+2018_04_05_05_21_30 ("Fazel - Canton d'EstrÃ©es") : ZERO_RESULTS
+2018_04_05_05_21_31 ("FÃ©camp - HÃ´pital Anglais") : ZERO_RESULTS
+2018_04_05_05_21_35 ("Ferme de BeausÃ©jour") : ZERO_RESULTS
+2018_04_05_05_21_37 ("Ferme de la Falloise et de la BarbassiÃ¨re") : ZERO_RESULTS
+2018_04_05_05_21_38 ("Ferme de Maujouy-SÃ©nancourt - Ambulance 6/16") : ZERO_RESULTS
+2018_04_05_05_21_39 ("Ferme de Mormont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_40 ("Ferme de Navarin - Bois P15") : ZERO_RESULTS
+2018_04_05_05_21_41 ("Ferme de Ragnenet - Ambulance nÂ°6/2") : ZERO_RESULTS
+2018_04_05_05_21_42 ("Ferme de Sizerne - Sud Est") : ZERO_RESULTS
+2018_04_05_05_21_44 ("Ferme de Vouly - Ambulance 16/4") : ZERO_RESULTS
+2018_04_05_05_21_45 ("Ferme des Chambrettes - Louvemont") : ZERO_RESULTS
+2018_04_05_05_21_45 ("Ferme des Chambrettes - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_05_21_47 ("Ferme du CholÃ©ra - Gernicourt") : ZERO_RESULTS
+2018_04_05_05_21_47 ("Ferme du Godat - Cauroy") : ZERO_RESULTS
+2018_04_05_05_21_49 ("Ferme Mollet - Commune de la ForestiÃ¨re") : ZERO_RESULTS
+2018_04_05_05_21_51 ("Fescamps - Ambulance nÂ°8") : ZERO_RESULTS
+2018_04_05_05_21_51 ("fest lazaret de Kiel 3") : ZERO_RESULTS
+2018_04_05_05_21_52 ("FigÃ©ac - HÃ´pital ComplÃ©mentaire nÂ°3") : ZERO_RESULTS
+2018_04_05_05_21_53 ("Filain - Eperon Sainte Berthe") : ZERO_RESULTS
+2018_04_05_05_21_54 ("Fismes - Ambulance 1/38") : ZERO_RESULTS
+2018_04_05_05_21_56 ("Flaucourt - Ravin du 120") : ZERO_RESULTS
+2018_04_05_05_21_58 ("Fleury (devant Douaumont)") : ZERO_RESULTS
+2018_04_05_05_22_00 ("Fleury sur Aire - HÃ´pital Evacuation 11 B") : ZERO_RESULTS
+2018_04_05_05_22_01 ("Fleury-sur-Aire - Hospice") : ZERO_RESULTS
+2018_04_05_05_22_03 ("Florent en Argonne - Ambulance nÂ°3") : ZERO_RESULTS
+2018_04_05_05_22_04 ("Florina - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_22_04 ("Florina - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_05_22_06 ("Fontaine Bouton Souchesmes") : ZERO_RESULTS
+2018_04_05_05_22_06 ("Fontaine Houpette") : ZERO_RESULTS
+2018_04_05_05_22_06 ("Fontaine Houyette") : ZERO_RESULTS
+2018_04_05_05_22_07 ("Fontaine Houyettes") : ZERO_RESULTS
+2018_04_05_05_22_08 ("Fontaine Routhon - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_05_22_08 ("Fontaine Routon - Ambulance 5/15") : ZERO_RESULTS
+2018_04_05_05_22_08 ("Fontaine Routron") : ZERO_RESULTS
+2018_04_05_05_22_09 ("Fontaine-Houyette") : ZERO_RESULTS
+2018_04_05_05_22_14 ("Forbach - Ambulance 12/7") : ZERO_RESULTS
+2018_04_05_05_22_14 ("Forceville - Ambulance nÂ°5") : ZERO_RESULTS
+2018_04_05_05_22_17 ("ForÃªt d'Argonne - CÃ´te 263") : ZERO_RESULTS
+2018_04_05_05_22_17 ("FÃ´ret d'Argonne - Cote 263") : ZERO_RESULTS
+2018_04_05_05_22_18 ("ForÃªt de la Montagne de Reims - Ambulance nÂ°223") : ZERO_RESULTS
+2018_04_05_05_22_21 ("Fort de Tavannes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_22_23 ("FortÃ¢Ãâ¬ÃÂ¦") : ZERO_RESULTS
+2018_04_05_05_22_25 ("Fosseux - ambulance 7") : ZERO_RESULTS
+2018_04_05_05_22_26 ("Fosseux - Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_05_22_26 ("Fosseux - Ambulance NÂ°7") : ZERO_RESULTS
+2018_04_05_05_22_27 ("Fosseux -Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_05_22_28 ("Foucaucourt - Bois CouffÃ©") : ZERO_RESULTS
+2018_04_05_05_22_31 ("Fraide - Ambulance 3 VIII AK") : ZERO_RESULTS
+2018_04_05_05_22_35 ("Francilly Selenoy") : ZERO_RESULTS
+2018_04_05_05_22_37 ("FrÃ©saut - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_22_41 ("FrÃ©vin Capelle - Ambulance 11/9") : ZERO_RESULTS
+2018_04_05_05_22_42 ("FrÃ©zemberg") : ZERO_RESULTS
+Partition 7 has been geolocalized and the file has been saved (contains 179 lines)
+Geocoding partition 8 (250 elements)
+2018_04_05_05_22_53 ("Frise devant Dampierre") : ZERO_RESULTS
+2018_04_05_05_22_53 ("Frizemberg") : ZERO_RESULTS
+2018_04_05_05_22_56 ("Froidos - Ambulance 3/5") : ZERO_RESULTS
+2018_04_05_05_22_56 ("Froidos - Ambulance 3/55") : ZERO_RESULTS
+2018_04_05_05_22_56 ("Froidos - Ambulance 7 Ã¨me CA") : ZERO_RESULTS
+2018_04_05_05_22_57 ("Froidos - Ambulance nÂ°3/5") : ZERO_RESULTS
+2018_04_05_05_22_57 ("Froidos - HÃ´pital d'Evacuation nÂ°38") : ZERO_RESULTS
+2018_04_05_05_22_58 ("FromÃ©reville - fosse 40 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_22_59 ("Front de l'Aisne") : ZERO_RESULTS
+2018_04_05_05_22_59 ("Fumin - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_05_23_00 ("GÃ Â¼ben") : ZERO_RESULTS
+2018_04_05_05_23_02 ("Gardelegen - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_23_03 ("Gauchin-le-Gal - Ambulance 13/1") : ZERO_RESULTS
+2018_04_05_05_23_07 ("GÃ©nicourt - Ambulance 230") : ZERO_RESULTS
+2018_04_05_05_23_09 ("GÃ©rardmer - HÃ´pital Evacuation nÂ°98") : ZERO_RESULTS
+2018_04_05_05_23_10 ("Germersheim - Ambulance 5/2") : ZERO_RESULTS
+2018_04_05_05_23_13 ("Gershaussen-Lazarett") : ZERO_RESULTS
+2018_04_05_05_23_14 ("GhÃ©luvel") : ZERO_RESULTS
+2018_04_05_05_23_15 ("Ghelwalt") : ZERO_RESULTS
+2018_04_05_05_23_17 ("Giessen - Lazarett des Prisonniers de Guerre") : ZERO_RESULTS
+2018_04_05_05_23_19 ("Givet - Infirmerie Militaire") : ZERO_RESULTS
+2018_04_05_05_23_20 ("Givors - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_05_23_21 ("Glagen") : ZERO_RESULTS
+2018_04_05_05_23_22 ("Glaignes - Ambulance 5/1") : ZERO_RESULTS
+2018_04_05_05_23_22 ("Glennes - Ambulance 10/16") : ZERO_RESULTS
+2018_04_05_05_23_23 ("Glennes-Lazarett") : ZERO_RESULTS
+2018_04_05_05_23_23 ("Glogot") : ZERO_RESULTS
+2018_04_05_05_23_24 ("Glorieux - Verdun - Ambulance 6/7") : ZERO_RESULTS
+2018_04_05_05_23_26 ("Gondrecourt - Ambulance 7/9") : ZERO_RESULTS
+2018_04_05_05_23_26 ("Gondrecourt - Ambulance nÂ°7/9") : ZERO_RESULTS
+2018_04_05_05_23_28 ("GÃ¶ttinguen - HÃ´pital des prisonniers de guerre") : ZERO_RESULTS
+2018_04_05_05_23_29 ("Gourin - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_05_23_32 ("Graide - Ambulance 3 VIII AR") : ZERO_RESULTS
+2018_04_05_05_23_33 ("Grand Quevilly - Camp du Grand Aulnoy") : ZERO_RESULTS
+2018_04_05_05_23_34 ("Grand Rullecourt - Ambulance nÂ°6") : ZERO_RESULTS
+2018_04_05_05_23_37 ("Grandes-Landes") : ZERO_RESULTS
+2018_04_05_05_23_38 ("Grange aux Bois - Ambulance 71/16") : ZERO_RESULTS
+2018_04_05_05_23_39 ("Granville - HÃ´pital ComplÃ©mentaire") : ZERO_RESULTS
+2018_04_05_05_23_40 ("Grenay - devant le double crassier") : ZERO_RESULTS
+2018_04_05_05_23_41 ("Grenoble - HÃ´pital Annexe LycÃ©e de GarÃ§ons") : ZERO_RESULTS
+2018_04_05_05_23_42 ("Grenoble - HÃ´pital ComplÃ©mentaire - maladie contractÃ©e au front : mÃ©ningite tuberculeuse") : ZERO_RESULTS
+2018_04_05_05_23_42 ("Grenoble - HÃ´pital ComplÃ©mentaire nÂ°41") : ZERO_RESULTS
+2018_04_05_05_23_43 ("Gressen-Lazarett") : ZERO_RESULTS
+2018_04_05_05_23_44 ("Grosz Breeten") : ZERO_RESULTS
+2018_04_05_05_23_44 ("GuÃ© de Hodza") : ZERO_RESULTS
+2018_04_05_05_23_45 ("GuÃ©-en-TresmÃ©") : ZERO_RESULTS
+2018_04_05_05_23_45 ("Guedlinbourg - HÃ´pital des Prisonniers de Guerre") : ZERO_RESULTS
+2018_04_05_05_23_49 ("Gueux - Ambulance 7/10") : ZERO_RESULTS
+2018_04_05_05_23_50 ("Guignicourt - Ambulance 231") : ZERO_RESULTS
+2018_04_05_05_23_52 ("Guinendze - Ville") : ZERO_RESULTS
+2018_04_05_05_23_52 ("Gumendze") : ZERO_RESULTS
+2018_04_05_05_23_53 ("GumendzÃ© ville") : ZERO_RESULTS
+2018_04_05_05_23_55 ("Guyencourt - Ambulance nÂ°1/96") : ZERO_RESULTS
+2018_04_05_05_23_55 ("H.O.E de la Veuve") : ZERO_RESULTS
+2018_04_05_05_23_56 ("Habaye-la-Vieille - ambulance 5/11") : ZERO_RESULTS
+2018_04_05_05_23_56 ("Hadji-Kiri (Cilicie) prÃ¨s de Budjack") : ZERO_RESULTS
+2018_04_05_05_23_56 ("Hadzi-Bari-Mah") : ZERO_RESULTS
+2018_04_05_05_23_58 ("Halberstadt - Lazarett") : ZERO_RESULTS
+2018_04_05_05_23_58 ("Hallavillers - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_05_24_00 ("Ham - Commune d'OlsÃ¨ne") : ZERO_RESULTS
+2018_04_05_05_24_00 ("Hameau d'Orfeuil Ã  Semide") : ZERO_RESULTS
+2018_04_05_05_24_01 ("Hameau des Quatre Vents - EstrÃ©e") : ZERO_RESULTS
+2018_04_05_05_24_02 ("Hamertingue") : ZERO_RESULTS
+2018_04_05_05_24_04 ("Hangart en Santerre") : ZERO_RESULTS
+2018_04_05_05_24_04 ("Hangest - ambulance 3/75") : ZERO_RESULTS
+2018_04_05_05_24_05 ("Hangest en Santerre - Ambulance nÂ°3/75") : ZERO_RESULTS
+2018_04_05_05_24_05 ("Hann MÃ Â¼nden - HÃ´pital") : ZERO_RESULTS
+2018_04_05_05_24_06 ("Hans - Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_05_24_07 ("Haramont - Ambulance 8/6") : ZERO_RESULTS
+2018_04_05_05_24_08 ("HarbonniÃ¨res - Ambulance 1/21") : ZERO_RESULTS
+2018_04_05_05_24_08 ("HarbonniÃ¨res - Ambulance 1/52") : ZERO_RESULTS
+2018_04_05_05_24_09 ("HarbonniÃ¨res - Ambulance 1/81") : ZERO_RESULTS
+2018_04_05_05_24_09 ("HarbonniÃ¨res - Ambulance 16/16") : ZERO_RESULTS
+2018_04_05_05_24_09 ("HarbonniÃ¨res - Ambulance 2/61") : ZERO_RESULTS
+2018_04_05_05_24_10 ("HarbonniÃ¨res - Ambulance 7/21") : ZERO_RESULTS
+2018_04_05_05_24_10 ("HarbonniÃ¨res - Ambulance 8/15") : ZERO_RESULTS
+2018_04_05_05_24_10 ("HarbonniÃ¨res - Ambulance 9/21") : ZERO_RESULTS
+2018_04_05_05_24_11 ("HarbonniÃ¨res - Ambulance nÂ°1/53") : ZERO_RESULTS
+2018_04_05_05_24_12 ("Hargicourt - Ambulance 12/21") : ZERO_RESULTS
+2018_04_05_05_24_13 ("Hargicourt - HOE nÂ°18") : ZERO_RESULTS
+2018_04_05_05_24_13 ("Hargicourt - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_24_14 ("Hargicourt - HÃ´pital d'Evacuation nÂ°34") : ZERO_RESULTS
+2018_04_05_05_24_14 ("Haringhe - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_05_24_17 ("Hattencourt - Ambulance nÂ°13/17") : ZERO_RESULTS
+2018_04_05_05_24_17 ("Hattencourt - Ambulance nÂ°7/13") : ZERO_RESULTS
+2018_04_05_05_24_18 ("Haudain - Ambulance 5/17") : ZERO_RESULTS
+2018_04_05_05_24_19 ("Haudiomont - Ambulance nÂ°1 du 2 Ã¨me Corps") : ZERO_RESULTS
+2018_04_05_05_24_20 ("Haute Avesnes - Ambulance 15/21") : ZERO_RESULTS
+2018_04_05_05_24_24 ("Hazebrouck - HÃ´pital Auxiliaire nÂ°16") : ZERO_RESULTS
+2018_04_05_05_24_26 ("HÃ©buterne - Ambulance 8") : ZERO_RESULTS
+2018_04_05_05_24_26 ("Heet Saas") : ZERO_RESULTS
+Partition 8 has been geolocalized and the file has been saved (contains 159 lines)
+Geocoding partition 9 (250 elements)
+2018_04_05_05_24_41 ("Herbisse - Train Sanitaire") : ZERO_RESULTS
+2018_04_05_05_24_42 ("Hermonville") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hesdin") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Het Sas") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Het-Sas") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hetsers") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Heurtebise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("HigniÃ¨res") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hilsenfirst") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hindelingen") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hirson - Ambulance 2/60") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("HoÃ©ville") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hohrod") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hollebecke") : OVER_QUERY_LIMIT
+2018_04_05_05_24_43 ("Hollerich - Formation Sanitaire") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hoodlege") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hooge") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hoogstaede") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hoogstaede - HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital Chanzy Ã  Sainte-Menehould") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital Chanzy-Sainte-Menehould") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hopital Contrexeville") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital d'Alexandrie") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital d'Orientation et d'Evacuation 8/2") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital de Cannes") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("HÃ´pital de Dunkerque") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("Hopital de Nanteuil") : OVER_QUERY_LIMIT
+2018_04_05_05_24_44 ("hÃ´pital de quartier Gueret") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital de RosendaÃ«l") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital Maurers") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital militaire de Cherbourg") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital mixte de Tours") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("hÃ´pital mixte FougÃ¨res") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("hÃ´pital mixte Saint-Denis") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital Nantes") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HÃ´pital Val de GrÃ¢ce") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("HormÃ©e (?)") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("Houdain") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("Houdain - Ambulance 5/17") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("Houlgate - HÃ´pital Militaire nÂ°24") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("Hourges") : OVER_QUERY_LIMIT
+2018_04_05_05_24_45 ("Hourges - Hangard") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Houtulst") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Hurtebise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Hurtebise - Commune d'Ailles") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("HyÃ¨res") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Igny - Commune d'Arcy le Ponsart") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Ile de Lemnos") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Ile-d'-Elle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Illisible") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Illzach-Modenheim") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Ilorina - HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Indre") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Indret") : OVER_QUERY_LIMIT
+2018_04_05_05_24_46 ("Ingolstadt") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Ingolstadt-Lazarett") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Ingrandes-sur-Loire") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Irvillac") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Is-sur-Tille") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("IssÃ©") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Issoudun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Issoudun - HÃ´pital Temporaire nÂ°29") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Issy les Moulineaux - HÃ´pital Auxiliaire nÂ°24") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Issy-les-Moulineaux") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Issy-les-Moulineaux - HÃ´pital Saint-Nicolas") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Ivry-sur-Seine") : OVER_QUERY_LIMIT
+2018_04_05_05_24_47 ("Jans") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jaulgonne") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jaulzy") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("JaulzY") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jaulzy - Ambulance 3/55") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jeandelaincourt") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("JÃ«hrendorf") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Joigny - HÃ´pital Auxiliaire") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jonchery") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jonchery - Ambulance 14/1") : ZERO_RESULTS
+2018_04_05_05_24_48 ("Jonchery - Ambulance 4/7") : OVER_QUERY_LIMIT
+2018_04_05_05_24_48 ("Jonchery sur Vesle - Ambulance 15/3") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jonchery-sur-Vesle - Ambulance 14/1") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jonquery") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jonzac") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("JoppÃ©court") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jouaignes") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jouaignes - Ambulance nÂ°1") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("JouÃ©-sur-Erdre") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jouy") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Jouy en Argonne - Ambulance nÂ°6/6") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("JuignÃ©-les-Moutiers") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Juilly") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("JunÃ©ville") : OVER_QUERY_LIMIT
+2018_04_05_05_24_49 ("Juniville") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Juvigny") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Juvincourt") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Juvisy sur Orge - HÃ´pital Auxiliaire nÂ°250") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Juvisy-sur-Orge") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kaaskerke") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kalskova") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Karlsruhe - Camp") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kasbacht") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kemchlen") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kemmel") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kenali") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("KÃ©nali") : OVER_QUERY_LIMIT
+2018_04_05_05_24_50 ("Kenalie") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("KÃ©ralie") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kherson") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kinden") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kircharst") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Klostermoten") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("KoebisgsbrÃ Â¼ck") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("KoÃ«lcapelle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kordeke") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Koritza - Ambulance nÂ°13/21") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Korytza - Ambulance 13/21") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Krussogras - Secteur 501") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kucksorni") : OVER_QUERY_LIMIT
+2018_04_05_05_24_51 ("Kum-kalÃ©") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("Kuna - Combat Ã Â  3500 mÃ¨tres") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("Kupa") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("L' Huisserie") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("L' Ille-d'-Elle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("L'Ecouvillon") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("L'Epine") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("L'Herbergement") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La Barre-de-Monts") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La BassÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La Baule Escoublac") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La Baule-Escoublac") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La BernadiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La BernardiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_52 ("La Bernerie en Retz") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Bernerie-en-Retz") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Blytte") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Boiselle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Boisselle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La BoissiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La BoissiÃ¨re-du-DorÃ©") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Bourboule") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La BouxiÃ¨re-aux-Dames") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Brosse Ã Â  dents prÃ¨s de Tahure") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La BruffiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La BruffiÃ¨re-les-Clisson") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Butte de Souain") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Butte de Tahure") : OVER_QUERY_LIMIT
+2018_04_05_05_24_53 ("La Butte du Mesnil") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La CaillÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Capelle") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Capelle - Lazarett nÂ°55") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Chalade") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Chapelle Glain") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Chapelle-Basse-Mer") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Chapelle-Caro") : OVER_QUERY_LIMIT
+2018_04_05_05_24_54 ("La Chapelle-des-Marais") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chapelle-Glain") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chapelle-Heulin") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chapelle-Launay") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chapelle-Saint-Sauveur") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chapelle-sur-Erdre") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chaussaire") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chesnoy") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Chesnoye") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La ChevroliÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Clytte") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La CopechagniÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Cote 104 prÃ¨s de Morisel") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La Cote 193 - Au Voussoir") : OVER_QUERY_LIMIT
+2018_04_05_05_24_55 ("La CÃ´te 263 - ForÃªt d'Argonne") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 304") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La Cote 304 - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 304 - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 304 - Esnes") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 304 - Le Mort Homme") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 304 - Le Mort Homme - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La Cote 304 - Malancourt") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te 344 - Samogneux") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te du Poivre") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te du Poivre - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La CÃ´te du Poivre - Secteur de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La Courneuve") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La Courtine") : OVER_QUERY_LIMIT
+2018_04_05_05_24_56 ("La Courtine - TranchÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Creute (Chemin des Dames)") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance 12/20") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance 3/11") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance 5/11") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance 8/11") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance nÂ°12/20") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix en Champagne - Ambulance nÂ°3/11") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Croix-en-Champagne") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Cude") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Faloise prÃ¨s d'Attichy") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La Fere Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_57 ("La FÃ©re Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La FÃ©re-Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La FÃ¨re Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La FÃ¨re-champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La FÃ¨re-Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme d'Hurtebise") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Bauchemont prÃ¨s Belloy") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de BeausÃ©jour") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Gelles") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de l'HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Mormont - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Moscou") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Moscou - PrÃ¨s de Prosnes") : OVER_QUERY_LIMIT
+2018_04_05_05_24_58 ("La Ferme de Moulin sous Touvent") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme de Saint RÃ©my") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme de Toutvent") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme de Touvent") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme de ValÃ©court") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme des Savarts") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme des Wacques") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme des Wacques - Souain") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme des Waques") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme Fairy-Ho") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("la ferme FortÃ© - SÃ©boncourt") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme Jesuiten Goede Aschkop") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme Le Priez") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme Marveuil") : OVER_QUERY_LIMIT
+2018_04_05_05_24_59 ("La Ferme Saint Claude") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Ferme-de-la-Folie") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Ferme-de-Metz") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Filanderie") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Fille Morte - Argonne") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Fontaine aux charmes") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La Forest") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La ForÃªt d'Argonne") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La ForÃªt de Retz") : OVER_QUERY_LIMIT
+2018_04_05_05_25_00 ("La ForÃªt Saint-Benoit") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Fosse 5 de BÃ©thune") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Gacilly") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Garnache") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Grange aux Bois - Ambulance 2/60") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La GraviÃ¨re Ormes") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("la GrenouillÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Guerche") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Haie-FouassiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La HarazÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La HarazÃ©e Route de Bagatelle") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Havre - HÃ´pital Mixte") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La Jaille-Yvon") : OVER_QUERY_LIMIT
+2018_04_05_05_25_01 ("La LaufÃ©e") : OVER_QUERY_LIMIT
+Partition 9 has been geolocalized and the file has been saved (contains 5 lines)
+Geocoding partition 0 (250 elements)
+2018_04_05_18_50_48 ("1 km au Nord Ouest de Zonnebeck") : ZERO_RESULTS
+2018_04_05_18_50_49 ("1Ã¨re Bataille de la Marne") : ZERO_RESULTS
+2018_04_05_18_50_50 ("A bord du Navire HÃ´pital Tchad - Dunkerque") : ZERO_RESULTS
+2018_04_05_18_50_50 ("A bord du Transport HÃ´pital Canada") : ZERO_RESULTS
+2018_04_05_18_50_51 ("Ã  l'hopital de Moudros") : ZERO_RESULTS
+2018_04_05_18_50_52 ("Ã¢Ãâ¬ÃÂ¦Ã©court") : ZERO_RESULTS
+2018_04_05_18_50_53 ("AbbÃ©court - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_18_50_54 ("Abbeville - garre - bombardement aÃ©rien") : ZERO_RESULTS
+2018_04_05_18_50_55 ("Abecle - Ambulance 14/14") : ZERO_RESULTS
+2018_04_05_18_50_57 ("Acheux - Ambulance nÂ°8") : ZERO_RESULTS
+2018_04_05_18_50_58 ("Acheux - Ambulance nÂ°8/11") : ZERO_RESULTS
+2018_04_05_18_50_58 ("Achi-Baba") : ZERO_RESULTS
+2018_04_05_18_50_59 ("Achibaba") : ZERO_RESULTS
+2018_04_05_18_50_59 ("Achibaba - Sud de la Colline") : ZERO_RESULTS
+2018_04_05_18_51_07 ("Aire sur Adour - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_18_51_11 ("Albert - Ambulance nÂ°1/21") : ZERO_RESULTS
+2018_04_05_18_51_14 ("Albi - HÃ´pital ComplÃ©mentaire nÂ°34") : ZERO_RESULTS
+2018_04_05_18_51_15 ("Albi - HÃ´pital ComplÃ©mentaire nÂ°8") : ZERO_RESULTS
+2018_04_05_18_51_17 ("Alger - HÃ´pital Maillot") : ZERO_RESULTS
+2018_04_05_18_51_20 ("Altengrabour") : ZERO_RESULTS
+2018_04_05_18_51_21 ("Amagne - Lieu dit Le Montant") : ZERO_RESULTS
+2018_04_05_18_51_23 ("Ambly - Ambulance 9/17") : ZERO_RESULTS
+2018_04_05_18_51_25 ("Ambulance 3/8 - Craide") : ZERO_RESULTS
+2018_04_05_18_51_26 ("Ambulance 8/1 de Sedan") : ZERO_RESULTS
+2018_04_05_18_51_27 ("Ambulance 9/5 - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_18_51_27 ("Ambulance de GumentzÃ©-Ville") : ZERO_RESULTS
+2018_04_05_18_51_28 ("Ambulance nÂ°9 SP 72") : ZERO_RESULTS
+2018_04_05_18_51_37 ("Amiens - HÃ´pital Auxiliaire nÂ°101") : ZERO_RESULTS
+2018_04_05_18_51_37 ("Amiens - HÃ´pital Auxiliare nÂ°101") : ZERO_RESULTS
+2018_04_05_18_51_38 ("Amiens - HÃ´pital ComplÃ©mentaire nÂ°5 Bis") : ZERO_RESULTS
+2018_04_05_18_51_46 ("Amiens - HÃ´pital Temporaire nÂ°10") : ZERO_RESULTS
+2018_04_05_18_51_47 ("Amiens - HÃ´pital Temporaire nÂ°107") : ZERO_RESULTS
+2018_04_05_18_51_47 ("Amiens - HÃ´pital Temporaire nÂ°4") : ZERO_RESULTS
+2018_04_05_18_51_48 ("Amiens - HÃ´pital Temporaire nÂ°4 Bis") : ZERO_RESULTS
+2018_04_05_18_51_48 ("Amiens - HÃ´pital Temporaire nÂ°40") : ZERO_RESULTS
+2018_04_05_18_51_50 ("Amiens - HÃ´pital Temporaire nÂ°78") : ZERO_RESULTS
+2018_04_05_18_51_50 ("Amiens - HÃ´pital Temporaire nÂ°8") : ZERO_RESULTS
+2018_04_05_18_51_52 ("Amiens - Pavillon Duvanchel") : ZERO_RESULTS
+2018_04_05_18_51_53 ("Ancenis - HÃ´pital ComplÃ©mentaire nÂ°15") : ZERO_RESULTS
+2018_04_05_18_51_55 ("Ancenis - HÃ´pital Temporaire nÂ°13") : ZERO_RESULTS
+2018_04_05_18_51_55 ("Ancenis - Hospice Mixte") : ZERO_RESULTS
+2018_04_05_18_51_57 ("Anderlu - Nord du Bois d'Anderlu") : ZERO_RESULTS
+2018_04_05_18_51_58 ("Angers - HÃ´ptal mixte - maladie contractÃ©e en service: fiÃ¨vre thyphoÃ¯de") : ZERO_RESULTS
+2018_04_05_18_52_00 ("Angicourt - HÃ´pital ComplÃ©mentaire nÂ°37") : ZERO_RESULTS
+2018_04_05_18_52_01 ("Anglure - Ambulance 13/17") : ZERO_RESULTS
+2018_04_05_18_52_03 ("Angres- Combats de") : ZERO_RESULTS
+2018_04_05_18_52_09 ("Arcis sur Aube - HÃ´pital ComplÃ©mentaire nÂ°64") : ZERO_RESULTS
+2018_04_05_18_52_09 ("Arcis sur Aube - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_18_52_11 ("Argonne - Bagatelle") : ZERO_RESULTS
+2018_04_05_18_52_12 ("Argonne - Bois Bolante") : ZERO_RESULTS
+2018_04_05_18_52_12 ("Arles - HÃ´pital Municipal nÂ°26 Bis") : ZERO_RESULTS
+2018_04_05_18_52_14 ("Arneck - HÃ´pital d'Evacuation nÂ°16") : ZERO_RESULTS
+2018_04_05_18_52_14 ("ArnÃ¨ke - Ambulance nÂ°202") : ZERO_RESULTS
+2018_04_05_18_52_17 ("Arras - Couvent du Saint Sacrement") : ZERO_RESULTS
+2018_04_05_18_52_17 ("Arras - Fond de Vase") : ZERO_RESULTS
+2018_04_05_18_52_19 ("Asile DÃ©partemental AliÃ©nÃ©s de Ã¢Ãâ¬ÃÂ¦") : ZERO_RESULTS
+2018_04_05_18_52_21 ("Asservillers - Boyau Hedevaux") : ZERO_RESULTS
+2018_04_05_18_52_21 ("Asservilliers") : ZERO_RESULTS
+2018_04_05_18_52_23 ("Attichy - Ambulance nÂ°8/4") : ZERO_RESULTS
+2018_04_05_18_52_25 ("Au Bois de Monthizel") : ZERO_RESULTS
+2018_04_05_18_52_27 ("Au Combat du Camps de Chabert") : ZERO_RESULTS
+2018_04_05_18_52_29 ("Au large de Sainte-Marie-de-Leuca") : ZERO_RESULTS
+2018_04_05_18_52_32 ("Au nord de Kupa") : ZERO_RESULTS
+2018_04_05_18_52_32 ("Au nord de Saint Pierre Ã Â  Arnes") : ZERO_RESULTS
+2018_04_05_18_52_33 ("Au Sud Est d'EstrÃ©es") : ZERO_RESULTS
+2018_04_05_18_52_34 ("Au sud-est de Malancourt") : ZERO_RESULTS
+2018_04_05_18_52_35 ("Auberive - Secteur de Magord") : ZERO_RESULTS
+2018_04_05_18_52_38 ("Aubigny - Ambulance Chirurgicale nÂ°1") : ZERO_RESULTS
+2018_04_05_18_52_41 ("Aubilly - HÃ´pital d'Evacuation de Bouleuse") : ZERO_RESULTS
+2018_04_05_18_52_41 ("Aubilly - HÃ´pital d'Orientation et d'Evacuation de Bouleuse") : ZERO_RESULTS
+2018_04_05_18_52_45 ("Audignicourt - Ambulance nÂ°2") : ZERO_RESULTS
+2018_04_05_18_52_47 ("Augy - La Ferme Lagrange") : ZERO_RESULTS
+2018_04_05_18_52_48 ("Auray - HÃ´pital ComplÃ©mentaire nÂ°27") : ZERO_RESULTS
+Partition 0 has been geolocalized and the file has been saved (contains 172 lines)
+Geocoding partition 1 (250 elements)
+2018_04_05_18_53_18 ("Auve - Ambulance 9/5") : ZERO_RESULTS
+2018_04_05_18_53_19 ("Auve - Hopital") : ZERO_RESULTS
+2018_04_05_18_53_19 ("Auve - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_18_53_20 ("Auve - HÃ´pital d'Orientation et d'Evacuation") : ZERO_RESULTS
+2018_04_05_18_53_21 ("Aux Abords de Sailly Saillisel") : ZERO_RESULTS
+2018_04_05_18_53_22 ("Aux avant postes de Nieuport") : ZERO_RESULTS
+2018_04_05_18_53_22 ("Aux Cavaliers de Courcy") : ZERO_RESULTS
+2018_04_05_18_53_23 ("Aux environs de Slivica") : ZERO_RESULTS
+2018_04_05_18_53_25 ("Aux tranchÃ©es de Serre") : ZERO_RESULTS
+2018_04_05_18_53_26 ("Aux TranchÃ©es devant Ãâ¦.ville") : ZERO_RESULTS
+2018_04_05_18_53_26 ("Aux TranchÃ©es du Pire - Saint Quentin") : ZERO_RESULTS
+2018_04_05_18_53_27 ("Auxerre - HÃ´pital ComplÃ©mentaire nÂ°107") : ZERO_RESULTS
+2018_04_05_18_53_28 ("Avallon - HÃ´pital ComplÃ©mentaire nÂ°53") : ZERO_RESULTS
+2018_04_05_18_53_32 ("Avocourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_53_32 ("Avord - HÃ´pital ComplÃ©mentaire nÂ°96") : ZERO_RESULTS
+2018_04_05_18_53_33 ("Avranches - HÃ´pital ComplÃ©mentaire nÂ°35") : ZERO_RESULTS
+2018_04_05_18_53_34 ("Awouingt - HÃ´pital") : ZERO_RESULTS
+2018_04_05_18_53_34 ("Azannes - Ambulance") : ZERO_RESULTS
+2018_04_05_18_53_35 ("Babia") : ZERO_RESULTS
+2018_04_05_18_53_42 ("Baleicourt - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_18_53_43 ("Baleicourt - Ambulance nÂ°3/12") : ZERO_RESULTS
+2018_04_05_18_53_43 ("Baleicout - Verdun") : ZERO_RESULTS
+2018_04_05_18_53_44 ("Balincourt - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_18_53_46 ("Bannogne") : ZERO_RESULTS
+2018_04_05_18_53_49 ("Bar le Duc - HÃ´pital Auxiliaire 111") : ZERO_RESULTS
+2018_04_05_18_53_49 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°111") : ZERO_RESULTS
+2018_04_05_18_53_50 ("Bar le Duc - HÃ´pital Auxiliaire nÂ°3") : ZERO_RESULTS
+2018_04_05_18_53_50 ("Bar le Duc - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_18_53_53 ("Bar-le-Duc - HÃ´pital Central des Contagieux") : ZERO_RESULTS
+2018_04_05_18_53_57 ("Barleux - Ambulance 10/1") : ZERO_RESULTS
+2018_04_05_18_53_58 ("Barly - Ambulance 88 Ã¨me Division") : ZERO_RESULTS
+2018_04_05_18_53_58 ("Barly - Ambulance de la 28 DI") : ZERO_RESULTS
+2018_04_05_18_53_59 ("Barly - Ambulance nÂ°7/8") : ZERO_RESULTS
+2018_04_05_18_53_59 ("Barren Kopkf") : ZERO_RESULTS
+2018_04_05_18_54_03 ("Bastogne - Ambulance 9/21") : ZERO_RESULTS
+2018_04_05_18_54_05 ("Batterie de Damloup - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_54_08 ("BausÃ©jour") : ZERO_RESULTS
+2018_04_05_18_54_12 ("Beaucourt - Poste de Secours de la Gare") : ZERO_RESULTS
+2018_04_05_18_54_14 ("Beaulieu Bevaux - Ambulance 4/15") : ZERO_RESULTS
+2018_04_05_18_54_15 ("Beaulme et Chiry") : ZERO_RESULTS
+2018_04_05_18_54_17 ("Beaumetz les Loges - Ambulance nÂ°11/17") : ZERO_RESULTS
+2018_04_05_18_54_20 ("Beaumont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_54_20 ("Beaumont - dans tranchÃ©e Bismont") : ZERO_RESULTS
+2018_04_05_18_54_21 ("Beaumont - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_54_23 ("Beaurain-Sernage") : ZERO_RESULTS
+2018_04_05_18_54_23 ("Beaurains (devant Arras)") : ZERO_RESULTS
+2018_04_05_18_54_24 ("Beaurains devant Arras") : ZERO_RESULTS
+2018_04_05_18_54_24 ("Beaurains et Sermaize") : ZERO_RESULTS
+2018_04_05_18_54_25 ("Beaurieux - 1500 mÃ¨tres  au nord") : ZERO_RESULTS
+2018_04_05_18_54_25 ("Beaurieux - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_18_54_26 ("Beaurieux - Ambulance 5/22") : ZERO_RESULTS
+2018_04_05_18_54_26 ("Beaurieux - Ambulance nÂ°9/3") : ZERO_RESULTS
+2018_04_05_18_54_28 ("BeausÃ©jour - Ambulance nÂ°15/15") : ZERO_RESULTS
+2018_04_05_18_54_29 ("BeausÃ©jour - Secteur du Bois AllongÃ©") : ZERO_RESULTS
+2018_04_05_18_54_29 ("BeausÃ©jour-Minancourt") : ZERO_RESULTS
+2018_04_05_18_54_30 ("Beauvais - HÃ´pital ComplÃ©mentaire des ArmÃ©es nÂ°43") : ZERO_RESULTS
+2018_04_05_18_54_31 ("Beauvais - Hopital complÃ©mentaire nÂ° 39") : ZERO_RESULTS
+2018_04_05_18_54_31 ("Beauvais - HÃ´pital ComplÃ©mentaire nÂ°38") : ZERO_RESULTS
+2018_04_05_18_54_32 ("Beauvais - HÃ´pital ComplÃ©mentaire nÂ°39") : ZERO_RESULTS
+2018_04_05_18_54_32 ("Beauvais - HÃ´pital d'ArmÃ©e") : ZERO_RESULTS
+2018_04_05_18_54_32 ("Beauvais - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_18_54_35 ("Beauvieux - Ambulance 9/3") : ZERO_RESULTS
+2018_04_05_18_54_42 ("BÃ©gnicourt") : ZERO_RESULTS
+2018_04_05_18_54_43 ("Bekrit - Ambulance") : ZERO_RESULTS
+2018_04_05_18_54_44 ("Belfort - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_18_54_45 ("Belgrade - 11 Ambulance de la Division du Danube") : ZERO_RESULTS
+2018_04_05_18_54_48 ("Bellevue") : ZERO_RESULTS
+2018_04_05_18_54_49 ("Bellevue - Zonnebeck") : ZERO_RESULTS
+2018_04_05_18_54_50 ("Bellevue prÃ¨s de Zonaebek") : ZERO_RESULTS
+2018_04_05_18_54_52 ("Belloy - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_18_54_53 ("Ben Gardane - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_18_54_55 ("Benoite Vaux - Ambulance 11/6") : ZERO_RESULTS
+2018_04_05_18_54_58 ("Bergues - HÃ´pital Temporaire 61") : ZERO_RESULTS
+2018_04_05_18_54_59 ("Berlin-Lazarett Alexandre") : ZERO_RESULTS
+2018_04_05_18_55_04 ("Berny-sur-Noye - Ambulance nÂ°3/72") : ZERO_RESULTS
+2018_04_05_18_55_07 ("Berry au Bac - La Grande CarriÃ¨re") : ZERO_RESULTS
+Partition 1 has been geolocalized and the file has been saved (contains 172 lines)
+Geocoding partition 2 (250 elements)
+2018_04_05_18_55_17 ("Berry-au-Bac - Ferme du CholÃ©ra") : ZERO_RESULTS
+2018_04_05_18_55_19 ("Berthonval") : ZERO_RESULTS
+2018_04_05_18_55_19 ("Berthonval - CÃ´te 140") : ZERO_RESULTS
+2018_04_05_18_55_20 ("Bertrancourt - Ambulance 10/CA") : ZERO_RESULTS
+2018_04_05_18_55_20 ("Bertrancourt - Ambulance nÂ°1") : ZERO_RESULTS
+2018_04_05_18_55_26 ("BÃ©thincourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_55_29 ("Bevaux - PrÃ¨s de Verdun - Ambulance 14/11") : ZERO_RESULTS
+2018_04_05_18_55_31 ("Beveren - HÃ´pital nÂ°1") : ZERO_RESULTS
+2018_04_05_18_55_32 ("Beverin") : ZERO_RESULTS
+2018_04_05_18_55_33 ("BÃ©zonvaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_55_35 ("BÃ©zonvaux - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_55_41 ("Bir Renta") : ZERO_RESULTS
+2018_04_05_18_55_41 ("Bischoote") : ZERO_RESULTS
+2018_04_05_18_55_41 ("Bitche - Ambulance 9/14") : ZERO_RESULTS
+2018_04_05_18_55_42 ("Bitry - Ambulance nÂ°5") : ZERO_RESULTS
+2018_04_05_18_55_45 ("Blanquefort - HÃ´pital Auxiliaire nÂ°12") : ZERO_RESULTS
+2018_04_05_18_55_48 ("Blercourt - Ambulance 5/67") : ZERO_RESULTS
+2018_04_05_18_55_51 ("Bois AllongÃ© - Secteur Ainval") : ZERO_RESULTS
+2018_04_05_18_55_53 ("Bois Baurin - Argonne") : ZERO_RESULTS
+2018_04_05_18_55_55 ("Bois Bolante") : ZERO_RESULTS
+2018_04_05_18_55_55 ("Bois Bolante - Argonne") : ZERO_RESULTS
+2018_04_05_18_55_56 ("Bois Bourrus - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_55_58 ("Bois d'Anderbe devant la Ferme de la Priez") : ZERO_RESULTS
+2018_04_05_18_55_59 ("Bois d'Avocourt") : ZERO_RESULTS
+2018_04_05_18_56_00 ("Bois d'Avocourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_01 ("Bois d'Avocourt - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_01 ("Bois d'Haudainville") : ZERO_RESULTS
+2018_04_05_18_56_03 ("Bois de Bethelaunville - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_04 ("Bois de Caumont Melicocq") : ZERO_RESULTS
+2018_04_05_18_56_06 ("Bois de Chaumes - Verdun") : ZERO_RESULTS
+2018_04_05_18_56_10 ("Bois de la Caillette - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_10 ("Bois de la Dame - Braquis") : ZERO_RESULTS
+2018_04_05_18_56_11 ("Bois de la Garenne - PrÃ¨s de Plessier") : ZERO_RESULTS
+2018_04_05_18_56_13 ("Bois de la Gruerie - Ravin de Bagatelle") : ZERO_RESULTS
+2018_04_05_18_56_15 ("bois de la Hazelle en Bernicourt") : ZERO_RESULTS
+2018_04_05_18_56_15 ("Bois de la LaufÃ©e - Secteur de Tavannes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_17 ("Bois de la MarfÃ©e (au sud de Sedan)") : ZERO_RESULTS
+2018_04_05_18_56_17 ("Bois de la Marine") : ZERO_RESULTS
+2018_04_05_18_56_25 ("Bois de Vaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_25 ("Bois de Vaux le Chapitre") : ZERO_RESULTS
+2018_04_05_18_56_25 ("Bois de Vaux le ChÃ¢pitre") : ZERO_RESULTS
+2018_04_05_18_56_26 ("Bois de Vaux le Chapitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_26 ("Bois de Vaux le ChÃ¢pitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_29 ("Bois des Caurettes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_31 ("Bois des CauriÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_32 ("Bois des CauriÃ¨res - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_34 ("Bois des CaurriÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_35 ("Bois des Corbeaux") : ZERO_RESULTS
+2018_04_05_18_56_36 ("Bois des Deux Tombes") : ZERO_RESULTS
+2018_04_05_18_56_36 ("Bois des Fosses - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_37 ("Bois des Fosses - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_39 ("Bois des Saulliset") : ZERO_RESULTS
+2018_04_05_18_56_40 ("Bois des Vignes - Bivouac") : ZERO_RESULTS
+2018_04_05_18_56_43 ("Bois Fumin - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_44 ("Bois Fumin - Vaux le ChÃ¢pitre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_56_45 ("Bois Fumin - Verdun") : ZERO_RESULTS
+2018_04_05_18_56_46 ("Bois Papegeod") : ZERO_RESULTS
+2018_04_05_18_56_47 ("Bois rectangulaire - Ouest Belval") : ZERO_RESULTS
+2018_04_05_18_56_47 ("Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_18_56_48 ("Bois SÃ©nÃ©cat") : ZERO_RESULTS
+2018_04_05_18_56_49 ("Bois-Bolante") : ZERO_RESULTS
+2018_04_05_18_56_51 ("Bois-de-CenÃ©e") : ZERO_RESULTS
+2018_04_05_18_56_54 ("Bois-des-Corbeaux") : ZERO_RESULTS
+2018_04_05_18_56_56 ("Bois-Tupigny") : ZERO_RESULTS
+2018_04_05_18_56_57 ("Bolant - Argonne") : ZERO_RESULTS
+2018_04_05_18_56_57 ("Bondonneau - HÃ´pital") : ZERO_RESULTS
+2018_04_05_18_57_01 ("Bordeaux - hopital complÃ©mentaire 36") : ZERO_RESULTS
+2018_04_05_18_57_07 ("Bouchavesnes - Au sud de") : ZERO_RESULTS
+2018_04_05_18_57_07 ("Bouchavesnes - Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_18_57_08 ("Bouchavesnes - Ferme du Bois SabÃ©") : ZERO_RESULTS
+2018_04_05_18_57_09 ("Bouchavesnes - La Ferme du Bois LabÃ©") : ZERO_RESULTS
+2018_04_05_18_57_09 ("Boucle de la Cerna") : ZERO_RESULTS
+2018_04_05_18_57_14 ("Bouleuse - HÃ´pital Evacuation") : ZERO_RESULTS
+2018_04_05_18_57_14 ("Bouleuse - HÃ´pital Orientation d'Ã©vacuation") : ZERO_RESULTS
+2018_04_05_18_57_18 ("Boureuilles - Combat de la CÃ´te 265") : ZERO_RESULTS
+2018_04_05_18_57_20 ("Bourg et Comin - Ambulance 1/20") : ZERO_RESULTS
+Partition 2 has been geolocalized and the file has been saved (contains 173 lines)
+Geocoding partition 3 (250 elements)
+2018_04_05_18_57_40 ("Bourges - HÃ´pital Temporaire nÂ°18") : ZERO_RESULTS
+2018_04_05_18_57_42 ("Boursonne - Ambulance nÂ°226") : ZERO_RESULTS
+2018_04_05_18_57_44 ("Bouvancourt - Ambulance 231") : ZERO_RESULTS
+2018_04_05_18_57_45 ("Bouy - Ambulance 11/41") : ZERO_RESULTS
+2018_04_05_18_57_46 ("Bouy - Ambulance 16/4") : ZERO_RESULTS
+2018_04_05_18_57_46 ("Bouy - Ambulance 4/6") : ZERO_RESULTS
+2018_04_05_18_57_47 ("Bouy - HÃ´pital d'Orientation et d'Evacuation nÂ°5") : ZERO_RESULTS
+2018_04_05_18_57_47 ("Bouy - HÃ´pital Evacuation nÂ°1") : ZERO_RESULTS
+2018_04_05_18_57_49 ("Bouzy - Ambulance nÂ°9/18") : ZERO_RESULTS
+2018_04_05_18_57_50 ("Boyau de la Bove - Ferme Hurtebise") : ZERO_RESULTS
+2018_04_05_18_57_51 ("Braine - HÃ´pital Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_18_57_52 ("Braisne - Ambulance 18/6") : ZERO_RESULTS
+2018_04_05_18_57_53 ("Bralo - HÃ´pital AE 3") : ZERO_RESULTS
+2018_04_05_18_57_54 ("Brancourt-sur-la-Vesle") : ZERO_RESULTS
+2018_04_05_18_57_54 ("Bras - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_57_55 ("Bras sur Meuse - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_57_58 ("Braux-Sainte-CohiÃ¨re - Ambulance 8/4") : ZERO_RESULTS
+2018_04_05_18_58_01 ("Bray sur Somme - HÃ´pital Auxiliaire nÂ°32") : ZERO_RESULTS
+2018_04_05_18_58_02 ("Bray sur Somme - HÃ´pital Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_18_58_04 ("Bray-sur-Somme - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_18_58_04 ("Bray-sur-Somme - HÃ´pital d'Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_18_58_05 ("Bray-sur-Somme - HÃ´pital Evacuation nÂ°12") : ZERO_RESULTS
+2018_04_05_18_58_06 ("Bray-sur-Somme - HÃ´pital Evacuation nÂ°32") : ZERO_RESULTS
+2018_04_05_18_58_11 ("Briare - HÃ´pital Auxiliaire nÂ°24") : ZERO_RESULTS
+2018_04_05_18_58_12 ("Brichen") : ZERO_RESULTS
+2018_04_05_18_58_14 ("Brienne-le-ChÃ¢teau - Hospice Mixte") : ZERO_RESULTS
+2018_04_05_18_58_17 ("Brocourt - Ambulance 13/9") : ZERO_RESULTS
+2018_04_05_18_58_18 ("Brocourt - Ambulance 6/13") : ZERO_RESULTS
+2018_04_05_18_58_19 ("Broisette - Clinique de Dailles") : ZERO_RESULTS
+2018_04_05_18_58_23 ("Bruxelles - HÃ´pitalaire Militaire") : ZERO_RESULTS
+2018_04_05_18_58_27 ("Bucarest - HÃ´pital Militaire FranÃ§ais nÂ°1") : ZERO_RESULTS
+2018_04_05_18_58_28 ("Bueil - Ambulance 16/13") : ZERO_RESULTS
+2018_04_05_18_58_35 ("Bussy le ChÃ¢teau - Ambulance 10/13") : ZERO_RESULTS
+2018_04_05_18_58_36 ("Bussy le ChÃ¢teau - Ambulance 10/15") : ZERO_RESULTS
+2018_04_05_18_58_37 ("Bussy-le-ChÃ¢teau - Ambulance 10/13") : ZERO_RESULTS
+2018_04_05_18_58_37 ("Bussy-le-ChÃ¢teau - Ambulance nÂ°20/13") : ZERO_RESULTS
+2018_04_05_18_58_40 ("Buzancy - Ambulance nÂ°237") : ZERO_RESULTS
+2018_04_05_18_58_44 ("Calais - HÃ´pital du CollÃ©ge") : ZERO_RESULTS
+2018_04_05_18_58_45 ("Calonne - Ouvrage de Cornouaille") : ZERO_RESULTS
+2018_04_05_18_58_49 ("camp d'Isse ambulance 9/17") : ZERO_RESULTS
+2018_04_05_18_58_50 ("Camp d'Ohrdruf") : ZERO_RESULTS
+2018_04_05_18_58_51 ("Camp de Cassel") : ZERO_RESULTS
+2018_04_05_18_58_51 ("Camp de CÃ©sar - Sud-Ouest de Villers-lÃ¨s- Roye") : ZERO_RESULTS
+2018_04_05_18_58_52 ("Camp de ChÃ¢lons") : ZERO_RESULTS
+2018_04_05_18_58_53 ("Camp de Dulmen") : ZERO_RESULTS
+2018_04_05_18_58_53 ("Camp de Giessen") : ZERO_RESULTS
+2018_04_05_18_58_53 ("Camp de Landau") : ZERO_RESULTS
+2018_04_05_18_58_54 ("Camp de Prisonniers de Niedrywehren") : ZERO_RESULTS
+2018_04_05_18_58_55 ("Canal de l'Yser") : ZERO_RESULTS
+2018_04_05_18_58_56 ("Canly - Ambulance 11/15") : ZERO_RESULTS
+2018_04_05_18_58_56 ("Canly - HÃ´pital Evacuation") : ZERO_RESULTS
+2018_04_05_18_58_58 ("Cannes - Hopital Militaire nÂ°72") : ZERO_RESULTS
+2018_04_05_18_58_59 ("Cap d'Ail - HÃ´pital ComplÃ©mentaire nÂ°2") : ZERO_RESULTS
+2018_04_05_18_58_59 ("Cappy - Ambulance 2/5") : ZERO_RESULTS
+2018_04_05_18_59_00 ("Cappy - Ambulance 2/70") : ZERO_RESULTS
+2018_04_05_18_59_01 ("Cappy - Ambulance 3/12") : ZERO_RESULTS
+2018_04_05_18_59_01 ("Cappy - Ambulance 3/70") : ZERO_RESULTS
+2018_04_05_18_59_05 ("CarnouÃ«t") : ZERO_RESULTS
+2018_04_05_18_59_05 ("Carobrie") : ZERO_RESULTS
+2018_04_05_18_59_06 ("CarriÃ¨res d'Haudiomont") : ZERO_RESULTS
+2018_04_05_18_59_07 ("CarriÃ¨res d'Haudromont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_18_59_08 ("CarriÃ¨res d'Haudromont - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_18_59_08 ("CarriÃ¨res d'Houdromont") : ZERO_RESULTS
+2018_04_05_18_59_10 ("Cassel - HÃ´pital du Camp") : ZERO_RESULTS
+2018_04_05_18_59_10 ("Cassel - Lazarett") : ZERO_RESULTS
+2018_04_05_18_59_11 ("Casta Tadla") : ZERO_RESULTS
+2018_04_05_18_59_14 ("Catenay - HÃ´pital Evacuation nÂ°36") : ZERO_RESULTS
+2018_04_05_18_59_15 ("Catenoy - Ambulance 13/16") : ZERO_RESULTS
+2018_04_05_18_59_15 ("Catenoy - Ambulance nÂ°13/26") : ZERO_RESULTS
+2018_04_05_18_59_16 ("Catenoy - HÃ´pital ComplÃ©mentaire nÂ°36") : ZERO_RESULTS
+2018_04_05_18_59_18 ("Cauroy les Hermonville - Secteur du Godat") : ZERO_RESULTS
+2018_04_05_18_59_19 ("Cavaliers de Courcy") : ZERO_RESULTS
+2018_04_05_18_59_24 ("Cempuis - Ambulance 1/86") : ZERO_RESULTS
+2018_04_05_18_59_25 ("Cempuis - Ambulance nÂ°1/86") : ZERO_RESULTS
+2018_04_05_18_59_25 ("Cer - Ambulance 6") : ZERO_RESULTS
+2018_04_05_18_59_26 ("Cer - Ambulance Alpine nÂ°6") : ZERO_RESULTS
+2018_04_05_18_59_27 ("Cer - Ambulance nÂ°6") : ZERO_RESULTS
+2018_04_05_18_59_28 ("Cerisy - CÃ´te 121") : ZERO_RESULTS
+2018_04_05_18_59_28 ("Cerisy - HÃ´pital d'Evacuation nÂ°15") : ZERO_RESULTS
+2018_04_05_18_59_29 ("Cerisy - HÃ´pital Evacuation nÂ° 15") : ZERO_RESULTS
+2018_04_05_18_59_30 ("Cerisy - Sailly HÃ´pital Evacuation nÂ°15") : ZERO_RESULTS
+2018_04_05_18_59_34 ("Cerna") : ZERO_RESULTS
+2018_04_05_18_59_35 ("Cernoy - Sancy") : ZERO_RESULTS
+2018_04_05_18_59_38 ("Cerseuil - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_18_59_38 ("Cerseuil - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_18_59_41 ("Chalaines - HÃ´pital ComplÃ©mentaire nÂ°32") : ZERO_RESULTS
+2018_04_05_18_59_44 ("ChÃ¢lon-sur-Marne - HÃ´pital Civil") : ZERO_RESULTS
+Partition 3 has been geolocalized and the file has been saved (contains 159 lines)
+Geocoding partition 4 (250 elements)
+2018_04_05_18_59_53 ("Chalons  - Ambulance nÂ°224") : ZERO_RESULTS
+2018_04_05_18_59_53 ("ChÃ¢lons - Annexe Saint Maur de l'HÃ´tel Dieu") : ZERO_RESULTS
+2018_04_05_18_59_54 ("ChÃ¢lons - HÃ´pital Temporaire nÂ°1") : ZERO_RESULTS
+2018_04_05_18_59_56 ("ChÃ¢lons en Champagne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_18_59_58 ("ChÃ¢lons sur Marne - Ambulance 1/6") : ZERO_RESULTS
+2018_04_05_18_59_58 ("ChÃ¢lons sur Marne - Ambulance 13/20") : ZERO_RESULTS
+2018_04_05_18_59_59 ("ChÃ¢lons sur Marne - Ambulance nÂ°4") : ZERO_RESULTS
+2018_04_05_19_00_02 ("Chalons sur Marne - HÃ´pital Civil") : ZERO_RESULTS
+2018_04_05_19_00_02 ("ChÃ¢lons sur Marne - HÃ´pital Civil") : ZERO_RESULTS
+2018_04_05_19_00_03 ("Chalons sur Marne - HÃ´pital ComplÃ©mentaire Corbineau") : ZERO_RESULTS
+2018_04_05_19_00_04 ("Chalons sur Marne - HÃ´pital ComplÃ©mentaire nÂ°18 Corbineau") : ZERO_RESULTS
+2018_04_05_19_00_05 ("Chalons sur Marne - HÃ´pital ComplÃ©mentaire nÂ°4") : ZERO_RESULTS
+2018_04_05_19_00_06 ("ChÃ¢lons sur Marne - HÃ´pital Militaire ComplÃ©mentaire") : ZERO_RESULTS
+2018_04_05_19_00_07 ("Chalons sur Marne - HÃ´pital Militaire du Camp") : ZERO_RESULTS
+2018_04_05_19_00_10 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°15") : ZERO_RESULTS
+2018_04_05_19_00_10 ("Chalons sur Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_19_00_11 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_19_00_11 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°18") : ZERO_RESULTS
+2018_04_05_19_00_12 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°2") : ZERO_RESULTS
+2018_04_05_19_00_13 ("ChÃ¢lons sur Marne - HÃ´pital Temporaire nÂ°8") : ZERO_RESULTS
+2018_04_05_19_00_13 ("Chalons sur Vesle - Ambulance 4/1") : ZERO_RESULTS
+2018_04_05_19_00_16 ("ChÃ¢lons-sur-Marne - HÃ´pital complÃ©mentaire nÂ° 37") : ZERO_RESULTS
+2018_04_05_19_00_17 ("ChÃ¢lons-sur-Marne - HÃ´pital ComplÃ©mentaire nÂ°19") : ZERO_RESULTS
+2018_04_05_19_00_18 ("Chalons-sur-Marne - HÃ´pital Corps d'ArmÃ©e nÂ°54") : ZERO_RESULTS
+2018_04_05_19_00_20 ("Chalons-sur-Marne - HÃ´pital Temporaire nÂ°1") : ZERO_RESULTS
+2018_04_05_19_00_21 ("ChÃ¢lons-sur-Marne - HÃ´pital Temporaire nÂ°17") : ZERO_RESULTS
+2018_04_05_19_00_22 ("ChÃ¢lons-sur-Marne (hÃ´pital militaire)") : ZERO_RESULTS
+2018_04_05_19_00_25 ("Champ de Bataille de CompiÃ¨gne") : ZERO_RESULTS
+2018_04_05_19_00_31 ("Chanfontaine - HOE 21/1") : ZERO_RESULTS
+2018_04_05_19_00_34 ("Chapelle-Saint-Pantaleon - Sous Secteur Plat ChÃªne") : ZERO_RESULTS
+2018_04_05_19_00_35 ("Charleville - Ambulance 3/64") : ZERO_RESULTS
+2018_04_05_19_00_36 ("Charlognes") : ZERO_RESULTS
+2018_04_05_19_00_36 ("Charly-sur-Marne - Ambulance 10/21") : ZERO_RESULTS
+2018_04_05_19_00_37 ("Charmes - HÃ´pital Mixte") : ZERO_RESULTS
+2018_04_05_19_00_40 ("Chartres - HÃ´pital Temporaire nÂ°36") : ZERO_RESULTS
+2018_04_05_19_00_42 ("Chasseny - Ambulance 13/8") : ZERO_RESULTS
+2018_04_05_19_00_42 ("ChÃ¢teau Chinon - HÃ´pital Temporaire nÂ°66") : ZERO_RESULTS
+2018_04_05_19_00_43 ("ChÃ¢teau de Boursault - Ambulance 10/6") : ZERO_RESULTS
+2018_04_05_19_00_43 ("ChÃ¢teau de la Trapperie - Ambulance 5/11") : ZERO_RESULTS
+2018_04_05_19_00_44 ("ChÃ¢teau de la Trapperie - Habbaye-la-Vieille - Ambulance nÂ°5/11") : ZERO_RESULTS
+2018_04_05_19_00_47 ("ChÃ¢teau Thierry - Ambulance nÂ°14/4") : ZERO_RESULTS
+2018_04_05_19_00_50 ("ChÃ¢teau-de-Beth") : ZERO_RESULTS
+2018_04_05_19_01_00 ("Chattancourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_01_01 ("Chattencourt - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_01_02 ("Chaudefontaine - Ambulance 3/151") : ZERO_RESULTS
+2018_04_05_19_01_07 ("Chaumont sur Aire - Ambulance nÂ°235") : ZERO_RESULTS
+2018_04_05_19_01_09 ("Chauny - Ambulance nÂ°2/73") : ZERO_RESULTS
+2018_04_05_19_01_20 ("Cherbourg - HÃ´pital Temporaire Casino - mÃ©ningite cÃ©rÃ©bro-spinale") : ZERO_RESULTS
+2018_04_05_19_01_21 ("Cherbourg - HÃ´pital Temporaire du LycÃ©e de Cher") : ZERO_RESULTS
+2018_04_05_19_01_23 ("Chevillon - Combat de ChÃ©zy") : ZERO_RESULTS
+2018_04_05_19_01_27 ("Chigny les Roses - Ambulance nÂ°1/89") : ZERO_RESULTS
+2018_04_05_19_01_34 ("Clairvaux - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_19_01_35 ("Clamecy - HÃ´pital ComplÃ©mentaire nÂ°36") : ZERO_RESULTS
+2018_04_05_19_01_38 ("Clermont-sur-Oise - Asile d'AliÃ©nÃ©s") : ZERO_RESULTS
+2018_04_05_19_01_40 ("Coblence - Lazarett") : ZERO_RESULTS
+2018_04_05_19_01_41 ("Coeuvres - Ambulance nÂ°5/13") : ZERO_RESULTS
+2018_04_05_19_01_43 ("Cognac - HÃ´pital BÃ©nÃ©vole nÂ°128 Bis") : ZERO_RESULTS
+2018_04_05_19_01_49 ("CollÃ¨ge Jette-Saint-Pierre - Ambulance 242") : ZERO_RESULTS
+2018_04_05_19_01_49 ("Colline d'Achi Baba - Presqu'Ã®le de Gallipoli") : ZERO_RESULTS
+2018_04_05_19_01_51 ("Comantre") : ZERO_RESULTS
+2018_04_05_19_01_52 ("Combat d'Ayencourt") : ZERO_RESULTS
+2018_04_05_19_01_52 ("combat de Bois Hault") : ZERO_RESULTS
+2018_04_05_19_01_53 ("Combat de Carlepont") : ZERO_RESULTS
+2018_04_05_19_01_53 ("Combat de Courjoil") : ZERO_RESULTS
+2018_04_05_19_01_54 ("Combat de Gratt Viershatt") : ZERO_RESULTS
+2018_04_05_19_01_55 ("Combat de la Ferme de la RoyÃ¨re") : ZERO_RESULTS
+2018_04_05_19_01_56 ("Combat de la Marne - Trelou sur Marne") : ZERO_RESULTS
+2018_04_05_19_01_56 ("Combat de la Noulette") : ZERO_RESULTS
+2018_04_05_19_01_58 ("Combat de Lizerne") : ZERO_RESULTS
+2018_04_05_19_01_58 ("Combat de Locre") : ZERO_RESULTS
+2018_04_05_19_01_59 ("Combat de Selve - commune de Sissonne") : ZERO_RESULTS
+2018_04_05_19_02_00 ("Combat de Treloup") : ZERO_RESULTS
+2018_04_05_19_02_01 ("Combat du Bois de Cernay") : ZERO_RESULTS
+2018_04_05_19_02_01 ("Combat du Mont des Tombes - Commune de Leuilly-sous-Coucy") : ZERO_RESULTS
+2018_04_05_19_02_02 ("Combat du Signal de Xon") : ZERO_RESULTS
+2018_04_05_19_02_03 ("Combat du Souchez") : ZERO_RESULTS
+2018_04_05_19_02_03 ("Combat du TÃªton - Commune de Moronvilliers") : ZERO_RESULTS
+2018_04_05_19_02_04 ("Combats au sud de l'Ourcq") : ZERO_RESULTS
+2018_04_05_19_02_04 ("Combats d'Angres") : ZERO_RESULTS
+2018_04_05_19_02_05 ("Combats de Baconnes") : ZERO_RESULTS
+Partition 4 has been geolocalized and the file has been saved (contains 170 lines)
+Geocoding partition 20 (83 elements)
+2018_04_05_19_08_15 ("Wailly - Ambulance nÂ°15") : ZERO_RESULTS
+2018_04_05_19_08_16 ("Wamerthinghe") : ZERO_RESULTS
+2018_04_05_19_08_16 ("Wanquelin - Ambulance") : ZERO_RESULTS
+2018_04_05_19_08_17 ("Wanquetin - Ambulance nÂ°3") : ZERO_RESULTS
+2018_04_05_19_08_19 ("Warloy Baillon - Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_19_08_21 ("Wasbeck - Camp de Prisonniers") : ZERO_RESULTS
+2018_04_05_19_08_22 ("Weilheimerback") : ZERO_RESULTS
+2018_04_05_19_08_22 ("Welles") : ZERO_RESULTS
+2018_04_05_19_08_23 ("Welzen") : ZERO_RESULTS
+2018_04_05_19_08_25 ("Wiencourt - HÃ´pital - Ambulance 9/.") : ZERO_RESULTS
+2018_04_05_19_08_26 ("Wiencourt l'EquipÃ©e - Ambulance 9/1") : ZERO_RESULTS
+2018_04_05_19_08_27 ("Wiencourt l'EquipÃ©e - HÃ´pital Evacuation") : ZERO_RESULTS
+2018_04_05_19_08_28 ("Wierstraadt") : ZERO_RESULTS
+2018_04_05_19_08_28 ("Wierstraat/Dickebush") : ZERO_RESULTS
+2018_04_05_19_08_29 ("Wiz (?)") : ZERO_RESULTS
+2018_04_05_19_08_30 ("Woeslen - Ambulance nÂ°3") : ZERO_RESULTS
+2018_04_05_19_08_31 ("Woessen") : ZERO_RESULTS
+2018_04_05_19_08_31 ("Wosch") : ZERO_RESULTS
+2018_04_05_19_08_32 ("Wydendreft") : ZERO_RESULTS
+2018_04_05_19_08_32 ("Ypres - Ambulance nÂ°3/9") : ZERO_RESULTS
+2018_04_05_19_08_33 ("Yzvor - Ambulance Alpine nÂ°4 - Poteau 21") : ZERO_RESULTS
+2018_04_05_19_08_33 ("Zandworde") : ZERO_RESULTS
+2018_04_05_19_08_34 ("Zeitenlick") : ZERO_RESULTS
+2018_04_05_19_08_34 ("Zeitenlick - Ambulance nÂ°3") : ZERO_RESULTS
+2018_04_05_19_08_34 ("Zeitenlick - hopital temporaire 13") : ZERO_RESULTS
+2018_04_05_19_08_35 ("Zeitenlik") : ZERO_RESULTS
+2018_04_05_19_08_35 ("Zeitenlik - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_19_08_36 ("Zeitenlik - HÃ´pital temporaire 2") : ZERO_RESULTS
+2018_04_05_19_08_36 ("Zeunclerck") : ZERO_RESULTS
+2018_04_05_19_08_41 ("Zuitenlik - HÃ´pital nÂ°13") : ZERO_RESULTS
+2018_04_05_19_08_42 ("Zuitenlik - HÃ´pital Temporaire nÂ°1") : ZERO_RESULTS
+2018_04_05_19_08_43 ("Zuydcoote - HÃ´pital Auxiliaire du Sanatorium Militaire") : ZERO_RESULTS
+2018_04_05_19_08_44 ("Zuydcoote - HÃ´pital Auxiliaire du Sanotorium") : ZERO_RESULTS
+2018_04_05_19_08_45 ("Zuydcoote - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_19_08_46 ("Zuydcoote - HÃ´pital Temporaire nÂ°34 Bis") : ZERO_RESULTS
+2018_04_05_19_08_46 ("Zuydecoote") : ZERO_RESULTS
+2018_04_05_19_08_47 ("Zuydecoote - HÃ´pital temporaire") : ZERO_RESULTS
+Partition 20 has been geolocalized and the file has been saved (contains 45 lines)
+Geocoding partition 5 (250 elements)
+2018_04_05_19_19_56 ("Combats de Calonne") : ZERO_RESULTS
+2018_04_05_19_19_57 ("Combats de Champagne") : ZERO_RESULTS
+2018_04_05_19_19_57 ("Combats de Chassins") : ZERO_RESULTS
+2018_04_05_19_19_58 ("Combats de Chavigny") : ZERO_RESULTS
+2018_04_05_19_19_59 ("Combats de Glennes") : ZERO_RESULTS
+2018_04_05_19_19_59 ("Combats de Hooge") : ZERO_RESULTS
+2018_04_05_19_20_00 ("Combats de Juvincourt") : ZERO_RESULTS
+2018_04_05_19_20_01 ("Combats de l'Aisne - Paissy") : ZERO_RESULTS
+2018_04_05_19_20_02 ("Combats de la Ville aux Bois") : ZERO_RESULTS
+2018_04_05_19_20_03 ("Combats de les Mouches devant Domeliers") : ZERO_RESULTS
+2018_04_05_19_20_03 ("Combats de Maizeray") : ZERO_RESULTS
+2018_04_05_19_20_04 ("Combats de Moulin de Tous Vents") : ZERO_RESULTS
+2018_04_05_19_20_05 ("Combats de Neuville") : ZERO_RESULTS
+2018_04_05_19_20_06 ("Combats de NormÃ©e") : ZERO_RESULTS
+2018_04_05_19_20_06 ("Combats de Pernant Ã   Ambleny") : ZERO_RESULTS
+2018_04_05_19_20_07 ("Combats de Pilkem") : ZERO_RESULTS
+2018_04_05_19_20_07 ("Combats de Saint Junien") : ZERO_RESULTS
+2018_04_05_19_20_08 ("Combats de Saint Prix") : ZERO_RESULTS
+2018_04_05_19_20_08 ("Combats de Sauvillers") : ZERO_RESULTS
+2018_04_05_19_20_09 ("Combats de Sauvilliers") : ZERO_RESULTS
+2018_04_05_19_20_10 ("Combats de souchez - Givenchy") : ZERO_RESULTS
+2018_04_05_19_20_11 ("Combats de Vandy") : ZERO_RESULTS
+2018_04_05_19_20_12 ("Combats devant Chavigny") : ZERO_RESULTS
+2018_04_05_19_20_12 ("Combats du Casque et du TÃ©ton") : ZERO_RESULTS
+2018_04_05_19_20_13 ("Combats du Mont des Roches") : ZERO_RESULTS
+2018_04_05_19_20_13 ("Combats Ouvrage CÃ´te 123 Souchez - Neuville") : ZERO_RESULTS
+2018_04_05_19_20_14 ("Combats sur la Lys") : ZERO_RESULTS
+2018_04_05_19_20_16 ("Commentray") : ZERO_RESULTS
+2018_04_05_19_20_22 ("CompiÃ¨gne - Ferme d'Attichy") : ZERO_RESULTS
+2018_04_05_19_20_23 ("CompiÃ¨gne - HÃ´pital Auxiliaire nÂ°34") : ZERO_RESULTS
+2018_04_05_19_20_23 ("CompiÃ¨gne - HÃ´pital du Palais") : ZERO_RESULTS
+2018_04_05_19_20_24 ("Compiegne - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_19_20_24 ("CompiÃ¨gne - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_19_20_29 ("CompiÃ¨gne - HÃ´pital Temporaire nÂ°150") : ZERO_RESULTS
+2018_04_05_19_20_30 ("CompiÃ¨gne - HÃ´pital Temporaire nÂ°25") : ZERO_RESULTS
+2018_04_05_19_20_34 ("Connantre - HOE") : ZERO_RESULTS
+2018_04_05_19_20_35 ("Connantre - HÃ´pital Evacuation nÂ°10") : ZERO_RESULTS
+2018_04_05_19_20_35 ("Connantroy") : ZERO_RESULTS
+2018_04_05_19_20_36 ("Connegis - Ferme de Janvier") : ZERO_RESULTS
+2018_04_05_19_20_37 ("Constantinople - Ambulance Colone Mobile") : ZERO_RESULTS
+2018_04_05_19_20_39 ("ContrexÃ©ville - HÃ´pital ComplÃ©mentaire nÂ°9") : ZERO_RESULTS
+2018_04_05_19_20_44 ("Corlach sur Mall") : ZERO_RESULTS
+2018_04_05_19_20_49 ("CÃ´te 170 - Secteur de Servon") : ZERO_RESULTS
+2018_04_05_19_20_51 ("CÃ´te 287 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_20_52 ("CÃ´te 304 - au sud du Ruisseau des Forges") : ZERO_RESULTS
+2018_04_05_19_20_55 ("CÃ´te 304 - Le Mort Homme - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_20_58 ("CÃ´te 321 - Nord-Est de Verdun") : ZERO_RESULTS
+2018_04_05_19_20_58 ("CÃ´te 344 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_20_59 ("CÃ´te 90 - Bois Etoile") : ZERO_RESULTS
+2018_04_05_19_21_00 ("CÃ´te de Froideterre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_01 ("CÃ´te du Poivre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_02 ("CÃ´te du Poivre - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_02 ("CÃ´te du Talou - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_07 ("Coulomiers - Ambulance 13/4") : ZERO_RESULTS
+2018_04_05_19_21_08 ("Coulommiers - HÃ´pital ComplÃ©mentaire nÂ°31") : ZERO_RESULTS
+2018_04_05_19_21_09 ("Coulommiers - HÃ´pital d'Evacuation B52") : ZERO_RESULTS
+2018_04_05_19_21_10 ("Coupures-d'Esnes") : ZERO_RESULTS
+2018_04_05_19_21_15 ("Courlandon - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_19_21_15 ("Courlandon - HÃ´pital d'Evacuation nÂ°13") : ZERO_RESULTS
+2018_04_05_19_21_16 ("Courlandon - HÃ´pital nÂ°13") : ZERO_RESULTS
+2018_04_05_19_21_21 ("Couvrelles - Ambulance 18/6") : ZERO_RESULTS
+2018_04_05_19_21_21 ("Couvrelles - HÃ´pital d'Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_19_21_22 ("Couvrelles - HÃ´pital Evacuation nÂ°18") : ZERO_RESULTS
+2018_04_05_19_21_23 ("Coxyde - Ambulance 7/15") : ZERO_RESULTS
+2018_04_05_19_21_23 ("Cramoiselle") : ZERO_RESULTS
+2018_04_05_19_21_24 ("Craonne - Ambulance 3/11") : ZERO_RESULTS
+2018_04_05_19_21_27 ("Creil - HÃ´pital d'ArmÃ©e nÂ°41") : ZERO_RESULTS
+2018_04_05_19_21_28 ("Creil - hÃ´pital Evacuation nÂ°16") : ZERO_RESULTS
+2018_04_05_19_21_29 ("CrÃ©mieu - HÃ´pital ComplÃ©mentaire nÂ°53") : ZERO_RESULTS
+2018_04_05_19_21_30 ("CrÃ©py en Valois - Ambulance 7/20") : ZERO_RESULTS
+2018_04_05_19_21_32 ("CrÃ©vecoeur-le-Grand - Ambulance 6/14") : ZERO_RESULTS
+2018_04_05_19_21_33 ("Croix-en-Champagne - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_19_21_33 ("Croix-en-Champagne - Ambulance 5/11") : ZERO_RESULTS
+2018_04_05_19_21_34 ("Croix-en-Champagne - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_19_21_34 ("Croix-en-Champagne - Ambulance nÂ°5/11") : ZERO_RESULTS
+2018_04_05_19_21_35 ("Croix-Mouzarde") : ZERO_RESULTS
+2018_04_05_19_21_36 ("Crombecke - Ambulance") : ZERO_RESULTS
+2018_04_05_19_21_37 ("Crombeke - Ambulance 3/1") : ZERO_RESULTS
+2018_04_05_19_21_39 ("Crossen - Lazarett") : ZERO_RESULTS
+2018_04_05_19_21_41 ("Cugnand") : ZERO_RESULTS
+2018_04_05_19_21_41 ("Cugny - Ambulance 5/59") : ZERO_RESULTS
+2018_04_05_19_21_42 ("Cugny - Ambulance 5/69") : ZERO_RESULTS
+2018_04_05_19_21_42 ("Cugny - Ambulance 6/13") : ZERO_RESULTS
+2018_04_05_19_21_43 ("Cugny - Ambulance nÂ°1/9") : ZERO_RESULTS
+2018_04_05_19_21_43 ("Cugny - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_19_21_43 ("Cugny - Ambulance nÂ°15/16") : ZERO_RESULTS
+2018_04_05_19_21_44 ("Cugny - Ambulance nÂ°5/59") : ZERO_RESULTS
+2018_04_05_19_21_46 ("CumiÃ¨res - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_47 ("CumiÃ¨res - Mort Homme - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_21_48 ("Cuperly - Ambulance 3/45") : ZERO_RESULTS
+2018_04_05_19_21_48 ("Cuperly - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_19_21_49 ("Cuperly - Ambulance 7/2") : ZERO_RESULTS
+2018_04_05_19_21_49 ("Cuperly - Ambulance nÂ°1/2") : ZERO_RESULTS
+2018_04_05_19_21_50 ("Cuperly - Ambulance nÂ°3/65") : ZERO_RESULTS
+2018_04_05_19_21_50 ("Cuperly - Ambulance nÂ°7/2") : ZERO_RESULTS
+2018_04_05_19_21_51 ("Cuperly - Mont de Frenet - Ambulance 3/69") : ZERO_RESULTS
+2018_04_05_19_21_52 ("Cuperly - Mont Frenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_19_21_53 ("Cuperly - Montfrenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_19_21_53 ("Cuperly Mont de Frenet - Ambulance 3/65") : ZERO_RESULTS
+2018_04_05_19_21_54 ("Cuperly Montfrenet - Ambulance nÂ°3/65") : ZERO_RESULTS
+2018_04_05_19_21_55 ("Cuperly Montfrenet - Ambulance nÂ°7/2") : ZERO_RESULTS
+Partition 5 has been geolocalized and the file has been saved (contains 148 lines)
+Geocoding partition 6 (250 elements)
+2018_04_05_19_22_31 ("Dakulevo") : ZERO_RESULTS
+2018_04_05_19_22_31 ("Damas - HÃ´pital Civil") : ZERO_RESULTS
+2018_04_05_19_22_33 ("Damloup - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_22_33 ("Damloup (Secteur de Verdun)") : ZERO_RESULTS
+2018_04_05_19_22_35 ("Dardanelles") : ZERO_RESULTS
+2018_04_05_19_22_36 ("Dardannelles") : ZERO_RESULTS
+2018_04_05_19_22_37 ("Darmstadt - Lazarett") : ZERO_RESULTS
+2018_04_05_19_22_39 ("Deauville - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_22_40 ("Deauville - HÃ´pital ComplÃ©mentaire nÂ°35") : ZERO_RESULTS
+2018_04_05_19_22_45 ("Dernbach - Maison de SantÃ©") : ZERO_RESULTS
+2018_04_05_19_22_46 ("Devant Arras") : ZERO_RESULTS
+2018_04_05_19_22_47 ("Devant Bezannes") : ZERO_RESULTS
+2018_04_05_19_22_47 ("Devant Ginchy") : ZERO_RESULTS
+2018_04_05_19_22_50 ("Devant Saponay") : ZERO_RESULTS
+2018_04_05_19_22_51 ("Dickbusch") : ZERO_RESULTS
+2018_04_05_19_22_52 ("Dickebusch") : ZERO_RESULTS
+2018_04_05_19_22_52 ("Diedenhofen") : ZERO_RESULTS
+2018_04_05_19_22_53 ("Diego Suarez") : ZERO_RESULTS
+2018_04_05_19_22_54 ("Dieppe - HÃ´pital Auxiliaire nÂ°5") : ZERO_RESULTS
+2018_04_05_19_22_57 ("Dihovo") : ZERO_RESULTS
+2018_04_05_19_22_58 ("Dijon - HÃ´pital ComlplÃ©mentaire nÂ°75") : ZERO_RESULTS
+2018_04_05_19_23_00 ("Dikovo") : ZERO_RESULTS
+2018_04_05_19_23_01 ("Dinant") : ZERO_RESULTS
+2018_04_05_19_23_02 ("Dinard -  hÃ´pital nÂ°38") : ZERO_RESULTS
+2018_04_05_19_23_03 ("Disparu en Mer") : ZERO_RESULTS
+2018_04_05_19_23_03 ("Disparu en Mer lors de la perte de La Ginette") : ZERO_RESULTS
+2018_04_05_19_23_05 ("Dogny Sojor") : ZERO_RESULTS
+2018_04_05_19_23_05 ("Doiray") : ZERO_RESULTS
+2018_04_05_19_23_09 ("Dompierre - Ambulance nÂ°3/2") : ZERO_RESULTS
+2018_04_05_19_23_10 ("Dompierre - HÃ´pital d'Evacuation nÂ°37/2") : ZERO_RESULTS
+2018_04_05_19_23_12 ("Dortmand - Lazarett") : ZERO_RESULTS
+2018_04_05_19_23_15 ("Douaumont - Ferme des Chambrettes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_23_16 ("Douaumont - Ravin de Chambouillet") : ZERO_RESULTS
+2018_04_05_19_23_17 ("Doullens - Ambulance 13/16") : ZERO_RESULTS
+2018_04_05_19_23_18 ("Doullens - HÃ´pital ComplÃ©mentaire nÂ°86") : ZERO_RESULTS
+2018_04_05_19_23_19 ("Doulon") : ZERO_RESULTS
+2018_04_05_19_23_22 ("Dugny - Ambulance 16/3") : ZERO_RESULTS
+2018_04_05_19_23_25 ("Dugny - Ambulance nÂ°15/1") : ZERO_RESULTS
+2018_04_05_19_23_28 ("Dulmen-Lazarett") : ZERO_RESULTS
+2018_04_05_19_23_30 ("Dunkerque - Asile") : ZERO_RESULTS
+2018_04_05_19_23_30 ("Dunkerque - Asile des Viellards") : ZERO_RESULTS
+2018_04_05_19_23_30 ("Dunkerque - HÃ´pital d'Evacuation nÂ°10") : ZERO_RESULTS
+2018_04_05_19_23_32 ("Dunkerque - HÃ´pital Militaire nÂ°56") : ZERO_RESULTS
+2018_04_05_19_23_33 ("Dunkerque - HÃ´pital Temporaire nÂ°56") : ZERO_RESULTS
+2018_04_05_19_23_35 ("Dury - Ambulance 12/21") : ZERO_RESULTS
+2018_04_05_19_23_35 ("Dury - Ambulance 2/9 Asile") : ZERO_RESULTS
+2018_04_05_19_23_36 ("Dury - Ambulance 9/9") : ZERO_RESULTS
+2018_04_05_19_23_37 ("Dury - Ambulance nÂ°5/68") : ZERO_RESULTS
+2018_04_05_19_23_37 ("Dury - Asile DÃ©partemental") : ZERO_RESULTS
+2018_04_05_19_23_41 ("Echoupria - Ambulance Colonne Mobile") : ZERO_RESULTS
+2018_04_05_19_23_41 ("Ecluse de Boesinghe") : ZERO_RESULTS
+2018_04_05_19_23_43 ("Ecurie devant Roclincourt") : ZERO_RESULTS
+2018_04_05_19_23_44 ("Ecury sur Coole - Ambulance 14/22") : ZERO_RESULTS
+2018_04_05_19_23_44 ("Ecury sur Coole - Ambulance nÂ°14/122") : ZERO_RESULTS
+2018_04_05_19_23_47 ("EishtÃ¤tt Lazaret") : ZERO_RESULTS
+2018_04_05_19_23_47 ("Eix - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_23_49 ("EjperlÃ©e") : ZERO_RESULTS
+2018_04_05_19_23_49 ("Ekcusson") : ZERO_RESULTS
+2018_04_05_19_23_49 ("El herry") : ZERO_RESULTS
+2018_04_05_19_23_50 ("Elboeuf - HÃ´pital Auxiliaire nÂ°3") : ZERO_RESULTS
+2018_04_05_19_23_51 ("en mer") : ZERO_RESULTS
+2018_04_05_19_23_52 ("Entre Berny et Belloy") : ZERO_RESULTS
+2018_04_05_19_23_53 ("Entre Braches et Hardicourt") : ZERO_RESULTS
+2018_04_05_19_23_53 ("Entre Douaumont et Fleury - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_23_54 ("Entre la Lys et l'Escaut") : ZERO_RESULTS
+2018_04_05_19_23_55 ("Entre Maricourt et le Moulin de Farguy") : ZERO_RESULTS
+2018_04_05_19_23_55 ("Entre Neuville Saint Vaast et Souchez - CÃ´te 140") : ZERO_RESULTS
+2018_04_05_19_23_56 ("Entre Noulettes et Angres") : ZERO_RESULTS
+2018_04_05_19_23_56 ("Entre Pilkem et Saint-Jean d'Ypres") : ZERO_RESULTS
+2018_04_05_19_23_57 ("Entre Regret et passage Ã Â  niveau de Glorieux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_23_57 ("Entre Somme Py -Sainte Marie Ã Â  Py") : ZERO_RESULTS
+2018_04_05_19_23_58 ("Entre Souchez et Givenchy") : ZERO_RESULTS
+2018_04_05_19_24_02 ("Epernay - Ambulance 6/4") : ZERO_RESULTS
+2018_04_05_19_24_04 ("Epernay - HÃ´pital Rolland") : ZERO_RESULTS
+2018_04_05_19_24_05 ("Epernay - Hopital Temporaire 30") : ZERO_RESULTS
+2018_04_05_19_24_05 ("Eperon de Courtecon") : ZERO_RESULTS
+2018_04_05_19_24_06 ("Eperon de Saint Remy") : ZERO_RESULTS
+2018_04_05_19_24_06 ("Eperon-de-Beaulne") : ZERO_RESULTS
+2018_04_05_19_24_06 ("Epinal - HÃ´pital Militaire Golber") : ZERO_RESULTS
+2018_04_05_19_24_08 ("Epine de Vedegrange") : ZERO_RESULTS
+2018_04_05_19_24_09 ("Epine de VÃ©degrange") : ZERO_RESULTS
+2018_04_05_19_24_12 ("Eshernot") : ZERO_RESULTS
+2018_04_05_19_24_13 ("Esnes - Bois Camard") : ZERO_RESULTS
+2018_04_05_19_24_14 ("Esnes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_24_18 ("Esnes - CÃ´te 344 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_24_23 ("EstrÃ©es - Ambulance 16/9") : ZERO_RESULTS
+2018_04_05_19_24_23 ("EstrÃ©es - Centre Hospitalier") : ZERO_RESULTS
+2018_04_05_19_24_25 ("EstrÃ©es - Sortie Est") : ZERO_RESULTS
+2018_04_05_19_24_25 ("EstrÃ¨es - Sortie NE") : ZERO_RESULTS
+Partition 6 has been geolocalized and the file has been saved (contains 159 lines)
+Geocoding partition 7 (250 elements)
+2018_04_05_19_24_40 ("EstrÃ©es (Sortie Est)") : ZERO_RESULTS
+2018_04_05_19_24_41 ("Estressin - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_24_42 ("Etang de Pickebusch") : ZERO_RESULTS
+2018_04_05_19_24_42 ("Etang de Vaux - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_24_43 ("Etinehem - Ambulance 5/1") : ZERO_RESULTS
+2018_04_05_19_24_44 ("Etinehem - Ambulance 7/20") : ZERO_RESULTS
+2018_04_05_19_24_46 ("Evreux - Hospice") : ZERO_RESULTS
+2018_04_05_19_24_46 ("Face Ã Â  Saint Quentin - Secteur de Beauvois") : ZERO_RESULTS
+2018_04_05_19_24_47 ("FaguiÃ¨res") : ZERO_RESULTS
+2018_04_05_19_24_51 ("Fay - Bois Touffu") : ZERO_RESULTS
+2018_04_05_19_24_52 ("Fay - Poste de Secours") : ZERO_RESULTS
+2018_04_05_19_24_54 ("Fayel - Ambulance 14/20") : ZERO_RESULTS
+2018_04_05_19_24_55 ("FÃ©camp - HÃ´pital Anglais") : ZERO_RESULTS
+2018_04_05_19_25_00 ("Ferme de BeausÃ©jour") : ZERO_RESULTS
+2018_04_05_19_25_01 ("Ferme de Haumeret") : ZERO_RESULTS
+2018_04_05_19_25_01 ("Ferme de Hurtebrie") : ZERO_RESULTS
+2018_04_05_19_25_02 ("Ferme de la Falloise et de la BarbassiÃ¨re") : ZERO_RESULTS
+2018_04_05_19_25_03 ("Ferme de Maujouy-SÃ©nancourt - Ambulance 6/16") : ZERO_RESULTS
+2018_04_05_19_25_05 ("Ferme de Mormont - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_25_05 ("Ferme de Navarin - Bois P15") : ZERO_RESULTS
+2018_04_05_19_25_07 ("Ferme de Ragnenet - Ambulance nÂ°6/2") : ZERO_RESULTS
+2018_04_05_19_25_08 ("Ferme de Sizerne - Sud Est") : ZERO_RESULTS
+2018_04_05_19_25_09 ("Ferme de Telencamp") : ZERO_RESULTS
+2018_04_05_19_25_11 ("Ferme des Chambrettes - Louvemont") : ZERO_RESULTS
+2018_04_05_19_25_12 ("Ferme des Chambrettes - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_19_25_13 ("Ferme du CholÃ©ra - Gernicourt") : ZERO_RESULTS
+2018_04_05_19_25_14 ("Ferme du Godat - Cauroy") : ZERO_RESULTS
+2018_04_05_19_25_16 ("Ferme Mollet - Commune de la ForestiÃ¨re") : ZERO_RESULTS
+2018_04_05_19_25_18 ("Fescamps - Ambulance nÂ°8") : ZERO_RESULTS
+2018_04_05_19_25_19 ("fest lazaret de Kiel 3") : ZERO_RESULTS
+2018_04_05_19_25_20 ("FigÃ©ac - HÃ´pital ComplÃ©mentaire nÂ°3") : ZERO_RESULTS
+2018_04_05_19_25_21 ("Filain - Eperon Sainte Berthe") : ZERO_RESULTS
+2018_04_05_19_25_24 ("Flaucourt - Ravin du 120") : ZERO_RESULTS
+2018_04_05_19_25_25 ("FlÃ©rey") : ZERO_RESULTS
+2018_04_05_19_25_28 ("Fleury sur Aire - HÃ´pital Evacuation 11 B") : ZERO_RESULTS
+2018_04_05_19_25_29 ("Fleury-sur-Aire - Hospice") : ZERO_RESULTS
+2018_04_05_19_25_32 ("Florent en Argonne - Ambulance nÂ°3") : ZERO_RESULTS
+2018_04_05_19_25_32 ("Florina - HÃ´pital Temporaire") : ZERO_RESULTS
+2018_04_05_19_25_34 ("Fontaine Bouton Souchesmes") : ZERO_RESULTS
+2018_04_05_19_25_34 ("Fontaine Houpette") : ZERO_RESULTS
+2018_04_05_19_25_35 ("Fontaine Houyette") : ZERO_RESULTS
+2018_04_05_19_25_35 ("Fontaine Houyettes") : ZERO_RESULTS
+2018_04_05_19_25_36 ("Fontaine Routhon - Ambulance nÂ°12/20") : ZERO_RESULTS
+2018_04_05_19_25_37 ("Fontaine Routon - Ambulance 5/15") : ZERO_RESULTS
+2018_04_05_19_25_37 ("Fontaine Routron") : ZERO_RESULTS
+2018_04_05_19_25_39 ("Fontaine-Houyette") : ZERO_RESULTS
+2018_04_05_19_25_39 ("Fontaine-la-Houyette") : ZERO_RESULTS
+2018_04_05_19_25_44 ("Forceville - Ambulance nÂ°5") : ZERO_RESULTS
+2018_04_05_19_25_46 ("ForÃªt d'Argonne - CÃ´te 263") : ZERO_RESULTS
+2018_04_05_19_25_48 ("ForÃªt de la Montagne de Reims - Ambulance nÂ°223") : ZERO_RESULTS
+2018_04_05_19_25_51 ("Fort de Tavannes - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_25_54 ("FortÃ¢Ãâ¬ÃÂ¦") : ZERO_RESULTS
+2018_04_05_19_25_54 ("Fortuyn") : ZERO_RESULTS
+2018_04_05_19_25_56 ("Fosseux - ambulance 7") : ZERO_RESULTS
+2018_04_05_19_25_57 ("Fosseux - Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_19_25_57 ("Fosseux - Ambulance NÂ°7") : ZERO_RESULTS
+2018_04_05_19_25_58 ("Fosseux - Ambulance nÂ°88") : ZERO_RESULTS
+2018_04_05_19_25_58 ("Fosseux -Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_19_25_59 ("Foucaucourt - Bois CouffÃ©") : ZERO_RESULTS
+2018_04_05_19_26_03 ("Fraide - Ambulance 3 VIII AK") : ZERO_RESULTS
+2018_04_05_19_26_05 ("Francfort (?)") : ZERO_RESULTS
+2018_04_05_19_26_06 ("Francilly Selenoy") : ZERO_RESULTS
+2018_04_05_19_26_14 ("FrÃ©vin Capelle - Ambulance 11/9") : ZERO_RESULTS
+2018_04_05_19_26_15 ("FrÃ©zemberg") : ZERO_RESULTS
+2018_04_05_19_26_17 ("Frise devant Dampierre") : ZERO_RESULTS
+2018_04_05_19_26_18 ("Frizemberg") : ZERO_RESULTS
+2018_04_05_19_26_18 ("Froidas") : ZERO_RESULTS
+2018_04_05_19_26_19 ("Froideterre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_26_20 ("Froidos - Ambulance 3/5") : ZERO_RESULTS
+2018_04_05_19_26_21 ("Froidos - Ambulance 3/55") : ZERO_RESULTS
+2018_04_05_19_26_21 ("Froidos - Ambulance 7 Ã¨me CA") : ZERO_RESULTS
+2018_04_05_19_26_22 ("Froidos - Ambulance nÂ°3/5") : ZERO_RESULTS
+2018_04_05_19_26_22 ("Froidos - HÃ´pital d'Evacuation nÂ°38") : ZERO_RESULTS
+2018_04_05_19_26_24 ("FromÃ©reville - fosse 40 - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_26_25 ("Fumin - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_26_26 ("GÃ Â¼ben") : ZERO_RESULTS
+2018_04_05_19_26_27 ("Gallipolli") : ZERO_RESULTS
+2018_04_05_19_26_28 ("Gardelegen - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_26_28 ("Gauches") : ZERO_RESULTS
+2018_04_05_19_26_29 ("Gauchin-le-Gal - Ambulance 13/1") : ZERO_RESULTS
+2018_04_05_19_26_30 ("Geduines") : ZERO_RESULTS
+2018_04_05_19_26_31 ("Geits Saint Joseph") : ZERO_RESULTS
+2018_04_05_19_26_33 ("GÃ©nicourt - Ambulance 230") : ZERO_RESULTS
+Partition 7 has been geolocalized and the file has been saved (contains 166 lines)
+Geocoding partition 8 (250 elements)
+2018_04_05_19_27_13 ("GÃ©rardmer - HÃ´pital Evacuation nÂ°98") : ZERO_RESULTS
+2018_04_05_19_27_14 ("Germersheim - Ambulance 5/2") : ZERO_RESULTS
+2018_04_05_19_27_17 ("Gershaussen-Lazarett") : ZERO_RESULTS
+2018_04_05_19_27_18 ("Gettingen - HÃ´pital de Prisonniers") : ZERO_RESULTS
+2018_04_05_19_27_19 ("GhÃ©luvel") : ZERO_RESULTS
+2018_04_05_19_27_19 ("Ghelwalt") : ZERO_RESULTS
+2018_04_05_19_27_21 ("Giessen - Lazarett des Prisonniers de Guerre") : ZERO_RESULTS
+2018_04_05_19_27_25 ("Givet - Infirmerie Militaire") : ZERO_RESULTS
+2018_04_05_19_27_26 ("Givors - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_19_27_27 ("Glagen") : ZERO_RESULTS
+2018_04_05_19_27_27 ("Glaignes - Ambulance 5/1") : ZERO_RESULTS
+2018_04_05_19_27_28 ("Glennes - Ambulance 10/16") : ZERO_RESULTS
+2018_04_05_19_27_29 ("Glennes-Lazarett") : ZERO_RESULTS
+2018_04_05_19_27_29 ("Glogot") : ZERO_RESULTS
+2018_04_05_19_27_30 ("Glorieux - Verdun - Ambulance 6/7") : ZERO_RESULTS
+2018_04_05_19_27_32 ("Gondrecourt - Ambulance 7/9") : ZERO_RESULTS
+2018_04_05_19_27_32 ("Gondrecourt - Ambulance nÂ°7/9") : ZERO_RESULTS
+2018_04_05_19_27_34 ("Gottingen-Lazarett") : ZERO_RESULTS
+2018_04_05_19_27_34 ("GÃ¶ttinguen - HÃ´pital des prisonniers de guerre") : ZERO_RESULTS
+2018_04_05_19_27_35 ("Gourin - HÃ´pital Militaire") : ZERO_RESULTS
+2018_04_05_19_27_38 ("Graide - Ambulance 3 VIII AR") : ZERO_RESULTS
+2018_04_05_19_27_39 ("Grand Quevilly - Camp du Grand Aulnoy") : ZERO_RESULTS
+2018_04_05_19_27_40 ("Grand Rullecourt - Ambulance nÂ°6") : ZERO_RESULTS
+2018_04_05_19_27_44 ("Grandes-Landes") : ZERO_RESULTS
+2018_04_05_19_27_45 ("Grange aux Bois - Ambulance 71/16") : ZERO_RESULTS
+2018_04_05_19_27_46 ("Granville - HÃ´pital ComplÃ©mentaire") : ZERO_RESULTS
+2018_04_05_19_27_46 ("Gravetza") : ZERO_RESULTS
+2018_04_05_19_27_47 ("Grenay - devant le double crassier") : ZERO_RESULTS
+2018_04_05_19_27_48 ("Grenoble - HÃ´pital Annexe LycÃ©e de GarÃ§ons") : ZERO_RESULTS
+2018_04_05_19_27_49 ("Grenoble - HÃ´pital ComplÃ©mentaire - maladie contractÃ©e au front : mÃ©ningite tuberculeuse") : ZERO_RESULTS
+2018_04_05_19_27_49 ("Grenoble - HÃ´pital ComplÃ©mentaire nÂ°41") : ZERO_RESULTS
+2018_04_05_19_27_50 ("Gressen-Lazarett") : ZERO_RESULTS
+2018_04_05_19_27_51 ("Grosz Breeten") : ZERO_RESULTS
+2018_04_05_19_27_52 ("GuÃ© de Hodza") : ZERO_RESULTS
+2018_04_05_19_27_52 ("GuÃ©-en-TresmÃ©") : ZERO_RESULTS
+2018_04_05_19_27_52 ("Guedlinbourg - HÃ´pital des Prisonniers de Guerre") : ZERO_RESULTS
+2018_04_05_19_27_57 ("Gueux - Ambulance 7/10") : ZERO_RESULTS
+2018_04_05_19_27_58 ("Guignicourt - Ambulance 231") : ZERO_RESULTS
+2018_04_05_19_28_00 ("Guinendze - Ville") : ZERO_RESULTS
+2018_04_05_19_28_00 ("GumendzÃ© ville") : ZERO_RESULTS
+2018_04_05_19_28_02 ("Guyencourt - Ambulance nÂ°1/96") : ZERO_RESULTS
+2018_04_05_19_28_03 ("H.O.E de la Veuve") : ZERO_RESULTS
+2018_04_05_19_28_03 ("Habaye-la-Vieille - ambulance 5/11") : ZERO_RESULTS
+2018_04_05_19_28_04 ("Hadzi-Bari-Mah") : ZERO_RESULTS
+2018_04_05_19_28_05 ("Halberstadt - Lazarett") : ZERO_RESULTS
+2018_04_05_19_28_06 ("Hallavillers - Ambulance 4/9") : ZERO_RESULTS
+2018_04_05_19_28_06 ("Halveur") : ZERO_RESULTS
+2018_04_05_19_28_07 ("Ham - Commune d'OlsÃ¨ne") : ZERO_RESULTS
+2018_04_05_19_28_08 ("Hameau d'Orfeuil Ã  Semide") : ZERO_RESULTS
+2018_04_05_19_28_09 ("Hameau des Quatre Vents - EstrÃ©e") : ZERO_RESULTS
+2018_04_05_19_28_10 ("Hamertingue") : ZERO_RESULTS
+2018_04_05_19_28_13 ("Hangart en Santerre") : ZERO_RESULTS
+2018_04_05_19_28_13 ("Hangest en Santerre - Ambulance nÂ°3/75") : ZERO_RESULTS
+2018_04_05_19_28_13 ("Hann MÃ Â¼nden - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_28_15 ("Hans - Ambulance nÂ°7") : ZERO_RESULTS
+2018_04_05_19_28_15 ("Haramont - Ambulance 8/6") : ZERO_RESULTS
+2018_04_05_19_28_16 ("HarbonniÃ¨res - Ambulance 1/21") : ZERO_RESULTS
+2018_04_05_19_28_17 ("HarbonniÃ¨res - Ambulance 1/52") : ZERO_RESULTS
+2018_04_05_19_28_17 ("HarbonniÃ¨res - Ambulance 1/81") : ZERO_RESULTS
+2018_04_05_19_28_18 ("HarbonniÃ¨res - Ambulance 16/16") : ZERO_RESULTS
+2018_04_05_19_28_18 ("HarbonniÃ¨res - Ambulance 2/61") : ZERO_RESULTS
+2018_04_05_19_28_19 ("HarbonniÃ¨res - Ambulance 7/21") : ZERO_RESULTS
+2018_04_05_19_28_19 ("HarbonniÃ¨res - Ambulance 8/15") : ZERO_RESULTS
+2018_04_05_19_28_20 ("HarbonniÃ¨res - Ambulance 9/21") : ZERO_RESULTS
+2018_04_05_19_28_22 ("Hargicourt - Ambulance 12/21") : ZERO_RESULTS
+2018_04_05_19_28_22 ("Hargicourt - HOE nÂ°18") : ZERO_RESULTS
+2018_04_05_19_28_23 ("Hargicourt - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_19_28_23 ("Hargicourt - HÃ´pital d'Evacuation nÂ°34") : ZERO_RESULTS
+2018_04_05_19_28_24 ("Haringhe - HÃ´pital d'Evacuation") : ZERO_RESULTS
+2018_04_05_19_28_27 ("Hattencourt - Ambulance nÂ°13/17") : ZERO_RESULTS
+2018_04_05_19_28_27 ("Hattencourt - Ambulance nÂ°7/13") : ZERO_RESULTS
+2018_04_05_19_28_28 ("Haudain - Ambulance 5/17") : ZERO_RESULTS
+2018_04_05_19_28_29 ("Haudiomont - Ambulance nÂ°1 du 2 Ã¨me Corps") : ZERO_RESULTS
+2018_04_05_19_28_31 ("Haute Avesnes - Ambulance 15/21") : ZERO_RESULTS
+2018_04_05_19_28_36 ("Hazebrouck - HÃ´pital Auxiliaire nÂ°16") : ZERO_RESULTS
+2018_04_05_19_28_37 ("HÃ©buterne - Ambulance 8") : ZERO_RESULTS
+2018_04_05_19_28_37 ("Heet Saas") : ZERO_RESULTS
+2018_04_05_19_28_41 ("Herbisse - Train Sanitaire") : ZERO_RESULTS
+2018_04_05_19_28_42 ("HÃ©rincourt") : ZERO_RESULTS
+2018_04_05_19_28_44 ("Hetsers") : ZERO_RESULTS
+2018_04_05_19_28_46 ("Hindelingen") : ZERO_RESULTS
+2018_04_05_19_28_46 ("Hirson - Ambulance 2/60") : ZERO_RESULTS
+2018_04_05_19_28_48 ("Hollerich - Formation Sanitaire") : ZERO_RESULTS
+2018_04_05_19_28_49 ("Hoodlege") : ZERO_RESULTS
+2018_04_05_19_28_50 ("Hoogstaede - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_28_51 ("HÃ´pital Chanzy Ã  Sainte-Menehould") : ZERO_RESULTS
+2018_04_05_19_28_51 ("HÃ´pital Chanzy-Sainte-Menehould") : ZERO_RESULTS
+2018_04_05_19_28_52 ("HÃ´pital d'Alexandrie") : ZERO_RESULTS
+2018_04_05_19_28_53 ("HÃ´pital d'Orientation et d'Evacuation 8/2") : ZERO_RESULTS
+2018_04_05_19_28_56 ("HÃ´pital Maurers") : ZERO_RESULTS
+2018_04_05_19_28_56 ("HÃ´pital militaire de Cherbourg") : ZERO_RESULTS
+2018_04_05_19_28_58 ("hÃ´pital mixte Saint-Denis") : ZERO_RESULTS
+2018_04_05_19_29_00 ("HormÃ©e (?)") : ZERO_RESULTS
+2018_04_05_19_29_01 ("Houlgate - HÃ´pital Militaire nÂ°24") : ZERO_RESULTS
+Partition 8 has been geolocalized and the file has been saved (contains 155 lines)
+Geocoding partition 9 (250 elements)
+2018_04_05_19_29_19 ("Igny - Commune d'Arcy le Ponsart") : ZERO_RESULTS
+2018_04_05_19_29_20 ("Ile de Lemnos") : ZERO_RESULTS
+2018_04_05_19_29_21 ("Illisible") : ZERO_RESULTS
+2018_04_05_19_29_22 ("Ilorina - HÃ´pital") : ZERO_RESULTS
+2018_04_05_19_29_24 ("Ingolstadt-Lazarett") : ZERO_RESULTS
+2018_04_05_19_29_26 ("Issoudun - HÃ´pital Temporaire nÂ°29") : ZERO_RESULTS
+2018_04_05_19_29_27 ("Issy les Moulineaux - HÃ´pital Auxiliaire nÂ°24") : ZERO_RESULTS
+2018_04_05_19_29_30 ("Jaulzy - Ambulance 3/55") : ZERO_RESULTS
+2018_04_05_19_29_31 ("JÃ«hrendorf") : ZERO_RESULTS
+2018_04_05_19_29_31 ("Joigny - HÃ´pital Auxiliaire") : ZERO_RESULTS
+2018_04_05_19_29_32 ("Jonchery - Ambulance 14/1") : ZERO_RESULTS
+2018_04_05_19_29_33 ("Jonchery - Ambulance 4/7") : ZERO_RESULTS
+2018_04_05_19_29_33 ("Jonchery sur Vesle - Ambulance 15/3") : ZERO_RESULTS
+2018_04_05_19_29_34 ("Jonchery-sur-Vesle - Ambulance 14/1") : ZERO_RESULTS
+2018_04_05_19_29_36 ("Jouaignes - Ambulance nÂ°1") : ZERO_RESULTS
+2018_04_05_19_29_37 ("Jouy en Argonne - Ambulance nÂ°6/6") : ZERO_RESULTS
+2018_04_05_19_29_39 ("JunÃ©ville") : ZERO_RESULTS
+2018_04_05_19_29_40 ("Juvisy sur Orge - HÃ´pital Auxiliaire nÂ°250") : ZERO_RESULTS
+2018_04_05_19_29_42 ("Kalskova") : ZERO_RESULTS
+2018_04_05_19_29_42 ("Karlsruhe - Camp") : ZERO_RESULTS
+2018_04_05_19_29_43 ("Kasbacht") : ZERO_RESULTS
+2018_04_05_19_29_43 ("Kenali") : ZERO_RESULTS
+2018_04_05_19_29_44 ("KÃ©nali") : ZERO_RESULTS
+2018_04_05_19_29_44 ("Kenalie") : ZERO_RESULTS
+2018_04_05_19_29_45 ("KÃ©ralie") : ZERO_RESULTS
+2018_04_05_19_29_45 ("Kherson") : ZERO_RESULTS
+2018_04_05_19_29_47 ("Klostermoten") : ZERO_RESULTS
+2018_04_05_19_29_47 ("KoebisgsbrÃ Â¼ck") : ZERO_RESULTS
+2018_04_05_19_29_47 ("KoÃ«lcapelle") : ZERO_RESULTS
+2018_04_05_19_29_47 ("Kordeke") : ZERO_RESULTS
+2018_04_05_19_29_48 ("Koritza - Ambulance nÂ°13/21") : ZERO_RESULTS
+2018_04_05_19_29_48 ("Korytza - Ambulance 13/21") : ZERO_RESULTS
+2018_04_05_19_29_49 ("Krussogras - Secteur 501") : ZERO_RESULTS
+2018_04_05_19_29_49 ("Kucksorni") : ZERO_RESULTS
+2018_04_05_19_29_50 ("Kuna - Combat Ã Â  3500 mÃ¨tres") : ZERO_RESULTS
+2018_04_05_19_29_51 ("Kupa") : ZERO_RESULTS
+2018_04_05_19_29_52 ("L'Ecouvillon") : ZERO_RESULTS
+2018_04_05_19_29_57 ("La Blytte") : ZERO_RESULTS
+2018_04_05_19_30_00 ("La Brosse Ã Â  dents prÃ¨s de Tahure") : ZERO_RESULTS
+2018_04_05_19_30_02 ("La Butte de Tahure") : ZERO_RESULTS
+2018_04_05_19_30_04 ("La Capelle - Lazarett nÂ°55") : ZERO_RESULTS
+2018_04_05_19_30_10 ("La Clytte") : ZERO_RESULTS
+2018_04_05_19_30_11 ("La Cote 193 - Au Voussoir") : ZERO_RESULTS
+2018_04_05_19_30_12 ("La CÃ´te 263 - ForÃªt d'Argonne") : ZERO_RESULTS
+2018_04_05_19_30_16 ("La CÃ´te 344 - Samogneux") : ZERO_RESULTS
+2018_04_05_19_30_17 ("La CÃ´te du Poivre - Combats de Verdun") : ZERO_RESULTS
+2018_04_05_19_30_17 ("La CÃ´te du Poivre - Secteur de Verdun") : ZERO_RESULTS
+2018_04_05_19_30_19 ("La Courtine - TranchÃ©e") : ZERO_RESULTS
+2018_04_05_19_30_21 ("La Croix en Champagne - Ambulance 12/20") : ZERO_RESULTS
+2018_04_05_19_30_21 ("La Croix en Champagne - Ambulance 3/11") : ZERO_RESULTS
+2018_04_05_19_30_22 ("La Croix en Champagne - Ambulance 5/11") : ZERO_RESULTS
+2018_04_05_19_30_22 ("La Croix en Champagne - Ambulance 8/11") : OVER_QUERY_LIMIT
+2018_04_05_19_30_22 ("La Croix en Champagne - Ambulance nÂ°12/20") : OVER_QUERY_LIMIT
+2018_04_05_19_30_22 ("La Croix en Champagne - Ambulance nÂ°3/11") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Croix-en-Champagne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Cude") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Faloise prÃ¨s d'Attichy") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Fere Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La FÃ©re Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La FÃ¨re Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La FÃ©re-Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La FÃ¨re-champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La FÃ¨re-Champenoise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Ferme d'Hurtebise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Ferme de Bauchemont prÃ¨s Belloy") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Ferme de BeausÃ©jour") : OVER_QUERY_LIMIT
+2018_04_05_19_30_23 ("La Ferme de Gelles") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de l'HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Mormont - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Moscou") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Moscou - PrÃ¨s de Prosnes") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Moulin sous Touvent") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Saint RÃ©my") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Toutvent") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de Touvent") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme de ValÃ©court") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme des Savarts") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme des Wacques") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme des Wacques - Souain") : OVER_QUERY_LIMIT
+2018_04_05_19_30_24 ("La Ferme des Waques") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme Fairy-Ho") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("la ferme FortÃ© - SÃ©boncourt") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme Jesuiten Goede Aschkop") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme Le Priez") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme Marveuil") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme Saint Claude") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme-de-la-Folie") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Ferme-de-Metz") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La FertÃ©-Gaucher") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Filanderie") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Fille Morte - Argonne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Fontaine aux charmes") : OVER_QUERY_LIMIT
+2018_04_05_19_30_25 ("La Forest") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La ForÃªt d'Argonne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La ForÃªt de Retz") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La ForÃªt Saint-Benoit") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Fosse 5 de BÃ©thune") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Gacilly") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Garnache") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Grange aux Bois - Ambulance 2/60") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La GraviÃ¨re Ormes") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("la GrenouillÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Guerche") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La Haie-FouassiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La HarazÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_19_30_26 ("La HarazÃ©e Route de Bagatelle") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Havre - HÃ´pital Mixte") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Jaille-Yvon") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La LaufÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La LaufÃ©e - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La LauffÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La LauffÃ©e - Combats de Verdun") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La LimouziniÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Loge aux Boeufs") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Loupe") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Loupe - HÃ´pital Militaire Annexe") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Main de Massiges") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Maison ForestiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Maisonnette") : OVER_QUERY_LIMIT
+2018_04_05_19_30_27 ("La Malmaison") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Malmaison - 200 mÃ¨tre de Jouy") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La MarfÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Marne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Marquise") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Meilleraye-de-Bretagne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Meilleraye-Tillaye") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Mitte") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Montagne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Montagne Neuve") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Neuville") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Neuville les Bray") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Neuvillette") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La NormÃ©e") : OVER_QUERY_LIMIT
+2018_04_05_19_30_28 ("La Panne - Ambulance OcÃ©an") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Panne - HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Plaine-sur-Mer") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Planche") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Plessier Huleu") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La PoissonniÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La PoiteviniÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Pommeraye") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Redoute Bouchet - Gallipolli") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La RegrippiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La RemaudiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La RenaudiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Roche sur Yon - HÃ´pital Mixte") : OVER_QUERY_LIMIT
+2018_04_05_19_30_29 ("La Roche-sur-Yon") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Rochelle") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La RouxiÃ¨re") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Salle - Ambulance 6/1") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Salle - Ambulance nÂ°6") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Souterraine - HÃ´pital") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Sucrerie de GÃ©nermont") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Suze") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Targette") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La TranchÃ©e de Calonne") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La TranchÃ©e de Calonne - Les Eparges") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La TranchÃ©e de Charlevaux") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La TranchÃ©e de Tholon") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Tronche") : OVER_QUERY_LIMIT
+2018_04_05_19_30_30 ("La Turballe") : OVER_QUERY_LIMIT
+2018_04_05_19_30_31 ("La VallÃ©e aux Bleds") : OVER_QUERY_LIMIT
+Partition 9 has been geolocalized and the file has been saved (contains 87 lines)

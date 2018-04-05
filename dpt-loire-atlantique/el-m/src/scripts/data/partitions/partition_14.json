@@ -1,0 +1,1180 @@
+[
+	{
+		"city": "Paris - HÃ´pital Beaujon",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital BÃ©nÃ©vole",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Boucicaut",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Broussais",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Cochin",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital de la CharitÃ©",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital de la PitiÃ©",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital du Val de GrÃ¢ce",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Ecole Polytechnique",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital KlÃ©ber",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Laennec",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital LaÃ«nnec",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital LariboisiÃ¨re",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Majestic",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Militaire du Grand Palais",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Militaire du Val de GrÃ¢ce",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Militaire Villemain",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital nÂ°12",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital nÂ°28",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital nÂ°77",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Necker",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Pasteur",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Saint Louis",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Temporaire nÂ°108",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Temporaire nÂ°29 Bastion",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Trousseau",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Val de GrÃ¢ce",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´pital Villemin",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - HÃ´tel Dieu",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - Les Invalides",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris - LycÃ©e Buffon",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Paris XIV - HÃ´pital Auxiliaire 68",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Parisis",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Parthenay"
+	},
+	{
+		"city": "Parthenay - HÃ´pital Mixte",
+		"departement": "Deux-SÃ¨vres",
+		"country": "France"
+	},
+	{
+		"city": "Paschendgele",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pasly",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Passchendaele",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Passy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Passy en Valois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Passy-en-Valois",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pau",
+		"departement": "PyrÃ©nÃ©es-Atlantiques",
+		"country": "France"
+	},
+	{
+		"city": "Pau - HÃ´pital miste",
+		"departement": "PyrÃ©nÃ©es-Atlantiques",
+		"country": "France"
+	},
+	{
+		"city": "Paulx"
+	},
+	{
+		"city": "Pauvres",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "PÃ©aule"
+	},
+	{
+		"city": "PÃ©nestin"
+	},
+	{
+		"city": "Pennar - commune d'Asiago",
+		"departement": "Italie",
+		"country": "Italie"
+	},
+	{
+		"city": "PercÃ©"
+	},
+	{
+		"city": "PÃ©rigueux - HÃ´pital Mixte",
+		"departement": "Dordogne",
+		"country": "France"
+	},
+	{
+		"city": "PÃ©rigueux - HÃ´pital Temporaire nÂ°14",
+		"departement": "Dordogne",
+		"country": "France"
+	},
+	{
+		"city": "Pernant",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Peronne",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "PÃ©ronne",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "PÃ©ronne - HÃ´pital",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Perpignan",
+		"departement": "PyrÃ©nÃ©es-Orientales",
+		"country": "France"
+	},
+	{
+		"city": "Perpignan - HÃ´pital",
+		"departement": "PyrÃ©nÃ©es-Orientales",
+		"country": "France"
+	},
+	{
+		"city": "Perros Guirec - HÃ´pital ComplÃ©mentaire nÂ°90",
+		"departement": "CÃ´tes-du-Nord",
+		"country": "France"
+	},
+	{
+		"city": "Perros-Guirrec",
+		"departement": "CÃ´tes-du-Nord",
+		"country": "France"
+	},
+	{
+		"city": "Perthes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes - CÃ´te 200",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes - la Fourche du Trou Bicot",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes - Tahure",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes et Tahure",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes les Hurlus - 200 mÃ¨tres au nord",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes les Hurlus - La Maison ForestiÃ¨re",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes-les-Hurlus",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Perthes-lÃ¨s-Hurlus",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pessac - HÃ´pital Sanitaire",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Pessiens - HÃ´pital Mixte",
+		"departement": "Seine-et-Marne",
+		"country": "France"
+	},
+	{
+		"city": "Petit Mars",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Petit Monthairon",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Petit-AuvernÃ©"
+	},
+	{
+		"city": "Petit-Mars"
+	},
+	{
+		"city": "Petit-Monthairon",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "PÃ©torak",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Pierrefonds",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pierrefonds - Ambulance 4/6",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pierrefonds - Ambulance nÂ°226",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pierrefonds - HÃ´pital d'Evacuation",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pierrefonds - HÃ´pital d'Evacuation nÂ°7",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pierrepont",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Pierric"
+	},
+	{
+		"city": "Pilkem",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pilkem - Saint Jean d'Ypres",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pilken",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pilkren",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pinon",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pintheville",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Pipriac"
+	},
+	{
+		"city": "Pire Aller",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Piriac"
+	},
+	{
+		"city": "Piriac sur Mer",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Piriac-sur-Mer"
+	},
+	{
+		"city": "Pithiviers - HÃ´pital Mixte",
+		"departement": "Loiret",
+		"country": "France"
+	},
+	{
+		"city": "Pithiviers - HÃ´pital nÂ°41",
+		"departement": "Loiret",
+		"country": "France"
+	},
+	{
+		"city": "Plainville - 800 mÃ¨tres",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Plaissy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Planpalais",
+		"departement": "Suisse",
+		"country": "Suisse"
+	},
+	{
+		"city": "Plateau de Bolante",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Californie - Chemin des Dames",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Craonne",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Laffaux",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Montecouve",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de MontÃ©couvÃ©",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Saint Claude",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Sissonnne",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau de Vauclerc",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plateau des CauriÃ¨res",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Plaudren"
+	},
+	{
+		"city": "PlÃ©mont",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PlÃ©rin"
+	},
+	{
+		"city": "PlessÃ©"
+	},
+	{
+		"city": "Plessier de Roye",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plessier Huleu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plessier Hurlu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plessier Rozainvillers",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Plessier-Huleu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Plessis de Roye",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pleucadeuc"
+	},
+	{
+		"city": "Plumelec"
+	},
+	{
+		"city": "Plumergat",
+		"departement": "Morbihan",
+		"country": "France"
+	},
+	{
+		"city": "Pluneret"
+	},
+	{
+		"city": "PoÃ«lcapelle",
+		"departement": "Province de Flandre Occidentale",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poissy",
+		"departement": "Yvelines",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers - HÃ´pital",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers - HÃ´pital Auxiliaire nÂ°3",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers - hÃ´pital Auxiliaire nÂ°4",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers - HÃ´pital Auxiliaire nÂ°4",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Poitiers - HÃ´pital Mixte",
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Polsen",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Pont de Binson",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pont de la Besace",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pont de Sapigneul",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pont de SteenstraÃ«te",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Pont Faverger",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pont Saint Mard",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pont Saint Maxence",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pont-Ã Â -Mousson",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Pont-l'-AbbÃ©"
+	},
+	{
+		"city": "Pont-l'AbbÃ©"
+	},
+	{
+		"city": "Pont-Saint-Martin"
+	},
+	{
+		"city": "Pont-Saint-Maxence - HÃ´pital ComplÃ©mentaire d'ArmÃ©e nÂ°35",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pont-Saint-Thierry",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "PontÃâ¦.",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pontavert",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pontavert - Bois des Buttes",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pontchateau",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "PontchÃ¢teau"
+	},
+	{
+		"city": "Pontenx les Forges"
+	},
+	{
+		"city": "Pontivy",
+		"departement": "CÃ´tes-du-Nord",
+		"country": "France"
+	},
+	{
+		"city": "Pontivy - hÃ´pital ComplÃ©mentaire nÂ°18",
+		"departement": "Morbihan",
+		"country": "France"
+	},
+	{
+		"city": "Pontlevoy",
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"city": "Pontlevoy - HÃ´pital temporaire 38",
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"city": "Pontoise",
+		"departement": "Seine-et-Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pontoise - Hopital auxiliaire",
+		"departement": "Yvelines",
+		"country": "France"
+	},
+	{
+		"city": "Pontoise - HÃ´pital Auxiliaire nÂ°181",
+		"departement": "Seine-et-Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pontoise - HÃ´pital ComplÃ©mentaire nÂ°65",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pontvaberger",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pontvaferger",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Poperinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poperinghe - Ambulance nÂ°16",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poperinghe - HÃ´pital",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poperinghe - HÃ´pital Anglais",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poperinghe - HÃ´pital Evacuation nÂ°15",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Poperinghe - HÃ´pital Temporaire",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Popincourt",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Porcheresse",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "PoriÃ©-sur-Vie"
+	},
+	{
+		"city": "Pornic"
+	},
+	{
+		"city": "Pornichet",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Porocani",
+		"departement": "Albanie",
+		"country": "Albanie"
+	},
+	{
+		"city": "Port Louis - HÃ´pital",
+		"departement": "Morbihan",
+		"country": "France"
+	},
+	{
+		"city": "Port Saint PÃ¨re",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Port-Louis",
+		"departement": "Morbihan",
+		"country": "France"
+	},
+	{
+		"city": "Port-Saint-PÃ¨re"
+	},
+	{
+		"city": "Portieux",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "Posen",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Poteau d'Ailles",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Pouance"
+	},
+	{
+		"city": "PouillÃ©-les-CÃ´teaux"
+	},
+	{
+		"city": "Pourgues-les-Eaux - HÃ´pital Temporaire nÂ°31",
+		"departement": "NiÃ¨vre",
+		"country": "France"
+	},
+	{
+		"city": "Pousouges"
+	},
+	{
+		"city": "Praize",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ©failles",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Prenzlau",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "PrÃ¨s d'Ecafaut - Commune de Saint CrÃ©pin",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de Baconnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "prÃ¨s de la Chapelle de MÃ©ry MÃ©ry",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de la Ferme de Touvent",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de la Ferme Mormont - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "prÃ¨s de la MAURE",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de Morval",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de Reveron",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "PrÃ¨s de Rouvrel",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de Saint Souplet",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s de Sakulevo",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "PrÃ¨s de Salonique",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "PrÃ¨s de Souain",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s du Fort de Souville",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s du village d'Ecafaut",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s Montemer Ã Â  Tricot",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "PrÃ¨s Urvillers",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Presqu'Ile de Gallipoli",
+		"departement": "Turquie",
+		"country": "Turquie"
+	},
+	{
+		"city": "Pressoir",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Prilep - Ambulance 1/57",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Prilep - HÃ´pital Militaire",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Prilesp - HÃ´pital nÂ°210",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Primel - HÃ´pital ComplÃ©mentaire nÂ°66",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Prinquiau"
+	},
+	{
+		"city": "Proisy - Lazaret",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Prosnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prosnes - Bois des Casques",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prosnes - La Ferme de Moseaux",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prouilly",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prouilly - HÃ´pital",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prouilly - HÃ´pital d'Orientation et d'Evacuation",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Prouilly - HÃ´pital Orientation et Evacuation",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "province de Posnanie Camp de SkamierschÃ¼tz",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Proyart",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Prunay",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Pschow Rybnik - Camp des Russes",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Puceul"
+	},
+	{
+		"city": "Puckheim",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Puisaleine",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Puisaleine - au nord de",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Puisaleme",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Pupille-assistance-publique-de-Nantes"
+	},
+	{
+		"city": "Pupille-Assistance-Puplique"
+	},
+	{
+		"city": "Puteaux"
+	},
+	{
+		"city": "Quartier Collardelle",
+		"departement": "Alsace",
+		"country": "France"
+	},
+	{
+		"city": "Quartier de Wailly",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Quatre-Champs",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Quedlinburg",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Quennevieres",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "QuenneviÃ©res",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "QuenneviÃ¨res",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "QuenneviÃ¨res - Puisalenne",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Questembert"
+	},
+	{
+		"city": "Quilly"
+	},
+	{
+		"city": "Quimper",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Quimper - HÃ´pital ComplÃ©mentaire nÂ°67",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Quimper - HÃ´pital Mixte",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "Quimper - HÃ´pital Temporaire nÂ°30",
+		"departement": "FinistÃ¨re",
+		"country": "France"
+	},
+	{
+		"city": "QuimperlÃ©"
+	},
+	{
+		"city": "Quiry-le-Sec",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Rahumanhi",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Raismes",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Rambervilliers - Ambulance 2/105",
+		"departement": "Vosges",
+		"country": "France"
+	}
+]
