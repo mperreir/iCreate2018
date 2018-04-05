@@ -20,8 +20,8 @@ export default function sketch(p) {
   p.setup = function() {
     p.createCanvas(0, 0);
     vid = p.createVideo([video_name]);
-    button = p.createButton('play');
-    button.mousePressed(p.toggleVid);
+    //button = p.createButton('play');
+    //button.mousePressed(p.toggleVid);
     mic = new p5.AudioIn();
     mic.start();
     amp = new p5.Amplitude(0.2);

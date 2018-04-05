@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import socketIOClient from 'socket.io-client'
 
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
+//const socketUrl = "http://localhost:5000"
 
 class ControlPage extends Component {
 
@@ -45,13 +46,13 @@ class ControlPage extends Component {
   }
 
   pauseMobile() {
-    console.log('pauseMobile')
-    this.state.socket.emit('pauseMobile', 8)
+    console.log('pause-sound')
+    this.state.socket.emit('pause-sound', 8)
   }
 
   playMobile() {
-    console.log('playMobile')
-    this.state.socket.emit('playMobile', 8)
+    console.log('play-sound')
+    this.state.socket.emit('play-sound', 8)
   }
 
   render() {
