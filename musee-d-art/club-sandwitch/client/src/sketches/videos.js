@@ -24,7 +24,7 @@ export default function sketch(p) {
     button.mousePressed(p.toggleVid);
     mic = new p5.AudioIn();
     mic.start();
-    amp = new p5.Amplitude(0.99);
+    amp = new p5.Amplitude(0.2);
     amp.setInput(mic);
     console.log(video_name);
     timeC = p.millis();
