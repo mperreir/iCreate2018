@@ -15,7 +15,7 @@ class SoldiersList {
   * remplissage de la liste à partir du json
   */
   void initialize() {
-    JSONArray values = loadJSONArray("converted.json");
+    JSONArray values = loadJSONArray("final_result.json");
     for (int i = 0; i < values.size(); i++) {
       JSONObject soldier = values.getJSONObject(i); 
 
@@ -33,6 +33,7 @@ class SoldiersList {
       float yDeces = Float.parseFloat(soldier.getString("yDeces"));
 
       this.list.add(new Soldier(id, matricule, dateNaissance, xNaissance, yNaissance, dateDeces, xDeces, yDeces));
+      println("-----");
     } 
   }
 
