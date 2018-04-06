@@ -28,6 +28,8 @@ public class CameraMove : MonoBehaviour {
         string myQR = QR.EvalQR();
         if (myQR != null)
         {
+            video.SetActive(false);
+            message.SetActive(false);
             target = GameObject.Find(myQR);
             wantedPosition = target.transform.position + Vector3.Normalize(target.transform.position - center.transform.position) * distanceToCenter;
         }
@@ -42,14 +44,12 @@ public class CameraMove : MonoBehaviour {
         // Launch the webcam
         if (Vector3.Distance(transform.position, wantedPosition) < 1)
         {
-            if (target.name == "Allemagne")
+            if (target.name == "Irlande")
             {
                 video.SetActive(true);
-                message.SetActive(false);
             }
             else
             {
-                video.SetActive(false);
                 message.SetActive(true);
             }
         }
