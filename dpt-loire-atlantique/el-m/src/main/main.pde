@@ -1,5 +1,7 @@
 PImage img; // image de fond d'ecran
 
+boolean changeColor = false;
+
 /*
 Variables d'ajustement pour détecter au mieux le mouvement
 --------------------------------------------------------  ---------------
@@ -56,9 +58,10 @@ void initDates(){
 void setup() {
   // Commence à écouter les messages OSC sur le port 12000
   oscP5 = new OscP5(this,12000);
-  size(400,400);
+  //size(400,400);
+  fullScreen();
   //size(745, 439);
-  img = loadImage("carte_europe.jpg");  
+  img = loadImage("../../img/bords_sombres.png");  
   imageMode(CORNER);
   noStroke();
   background(255);
@@ -171,9 +174,11 @@ void move(int delay, double angularSpeed){
     
     if(rollValue == 1 && rolling){
         moveForward();
+        changeColor = true;
     }
     else if (rolling){
         moveBackward();
+        changeColor = true;
     }
 }
 
