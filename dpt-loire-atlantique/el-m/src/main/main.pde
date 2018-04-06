@@ -192,12 +192,15 @@ void moveForward(){
 
 // Met à jour les infos quand on recule
 void moveBackward(){
-    // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
-    updateSoldiersLists(false);
-    // on passe à la période de temps précédente
-    setPeriodOfTime(false);
-    // ajoute les naissances et les décès dans l'intervalle de temps
-    addPointsInMeantime(false);
+  println(currentDate.getYear());
+  if(currentDate.getYear() > 1860){
+      // MaJ de la liste des lieux de naissance et des lieux de décès en fonction de la période de temps courante
+      updateSoldiersLists(false);
+      // on passe à la période de temps précédente
+      setPeriodOfTime(false);
+      // ajoute les naissances et les décès dans l'intervalle de temps
+      addPointsInMeantime(false);
+  }
 }
 
 /**
