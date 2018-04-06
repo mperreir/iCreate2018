@@ -36,6 +36,9 @@ class Soldier {
     //System.out.println(this.x + "," + this.y);
   }
   
+  /**
+  * redéfinition de la méthode equals
+  */
   boolean equals(Soldier s){
     return (this.id == s.id);
   }
