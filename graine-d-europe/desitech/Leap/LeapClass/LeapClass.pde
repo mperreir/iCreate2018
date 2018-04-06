@@ -117,13 +117,15 @@ void circleActions(Vector v) {
                 detectionHover(detectedHover);
              }
             }
-          }}} else {
-              savedIndexCircleFull = -1;
-              timerReachSize = 0;
-              if (waitExplosion <= timerExplosion) {
-                initCircles();
-              }
-            }
+          }
+        }
+      } else {
+        savedIndexCircleFull = -1;
+        timerReachSize = 0;
+        if (waitExplosion <= timerExplosion) {
+          initCircles();
+        }
+      }
           
         
     }

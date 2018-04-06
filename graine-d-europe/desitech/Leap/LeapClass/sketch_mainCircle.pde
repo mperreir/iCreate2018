@@ -117,7 +117,9 @@ class MainCircle {
       
       if(nbFrames == 0) {
          mc = null;
-         listCirclesFull[indexCircle].mainCircle = false;
+         if (indexCircle >= 0 && indexCircle < listCirclesFull.length) {
+            listCirclesFull[indexCircle].mainCircle = false;
+         }
          noHover();
        }
       
