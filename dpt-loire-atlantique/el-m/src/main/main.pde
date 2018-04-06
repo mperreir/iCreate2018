@@ -58,7 +58,7 @@ void setup() {
   oscP5 = new OscP5(this,12000);
   fullScreen();
   //size(745, 439);
-  img = loadImage("map1.PNG");  
+  img = loadImage("carte_europe.jpg");  
   imageMode(CORNER);
   noStroke();
   background(255);
@@ -102,7 +102,7 @@ void draw() {
       // on repasse à la période de temps précédente
       setPeriodOfTime(false);
       // ajoute les naissances et les décès dans l'intervalle de temps
-      addPointsInMeantime();
+      addPointsInMeantime(false);
       //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     }
   }
@@ -123,6 +123,8 @@ void draw() {
     move(delayDeath, angularSpeed);
   }
   
+  // suppression des matricules des soldats morts après la date courante
+  updateMatricules();
   // affichage de la période
   //drawDate();
   // affiche les lieux de naissance
@@ -140,6 +142,7 @@ void checkActivity(){
     if(millis() > (timeAnimation + delayReset)){
       displayedSoldiers_birth.list.clear();
       displayedSoldiers_death.list.clear();
+      matricules.list.clear();
       initDates();
       resetSensor();
       timeAnimation = millis();
@@ -189,7 +192,7 @@ void moveBackward(){
     // on passe à la période de temps précédente
     setPeriodOfTime(false);
     // ajoute les naissances et les décès dans l'intervalle de temps
-    addPointsInMeantime();
+    addPointsInMeantime(false);
 }
 
 /**
@@ -198,28 +201,51 @@ void moveBackward(){
 void setPeriodOfTime(boolean forward){
   // on avance la date courante
   if(forward && currentDate.getYear() < 1919){
-    formerDate.setYear(currentDate.getYear());
-    formerDate.setMonth(currentDate.getMonth());
     // avant la guerre
-    if(currentDate.compareTo(warDate) < 0) currentDate.setYear(currentDate.getYear()+iteratorBeforeWar);
+    if(currentDate.compareTo(warDate) < 0){
+      formerDate = new Date(currentDate.getYear()+1, 0, 0, 0, 0);
+      currentDate.setYear(currentDate.getYear()+iteratorBeforeWar);
+    }
     // pendant la guerre
     else{
-      currentDate.setMonth((currentDate.getMonth()+iteratorDuringWar)%12);
-      // on change d'année
-      if (currentDate.compareTo(formerDate) < 0) currentDate.setYear(currentDate.getYear()+1);
+      // si mois de décembre
+      if(currentDate.getMonth()==11){
+        formerDate = new Date(currentDate.getYear()+1, 0, 0, 0, 0);
+        currentDate = new Date(currentDate.getYear()+1, 1, 0, 0, 0);
+      }
+      // si mois d'octobre
+      else if(currentDate.getMonth()==10){
+        formerDate = new Date(currentDate.getYear(), 11, 0, 0, 0);
+        currentDate = new Date(currentDate.getYear()+1, 0, 0, 0, 0);
+      }
+      else{
+        formerDate = new Date(currentDate.getYear(), currentDate.getMonth()+1, 0, 0, 0);
+        currentDate = new Date(currentDate.getYear(), currentDate.getMonth()+2, 0, 0, 0);
+      }
     }
   }
   // on recule la date courante
   else if(!forward && currentDate.getYear() > 1849){
-    currentDate.setYear(formerDate.getYear());
-    currentDate.setMonth(formerDate  .getMonth());
     // avant la guerre
-    if(currentDate.compareTo(warDate) < 0) formerDate.setYear(currentDate.getYear()-iteratorBeforeWar);
+    if(currentDate.compareTo(warDate) < 0) 
+    {
+      currentDate = new Date(currentDate.getYear(), 0, 0, 0, 0);
+      formerDate = new Date(currentDate.getYear(), 0, 0, 0, 0);
+    }
     // pendant la guerre
     else{
-      formerDate.setMonth((currentDate.getMonth()-iteratorDuringWar)%12);
-      // on change d'année
-      if (currentDate.compareTo(formerDate) < 0) formerDate.setYear(currentDate.getYear()-1);
+      // si mois de janvier
+      if(currentDate.getMonth() == 0)
+      {
+        currentDate = new Date(currentDate.getYear()-1, 0, 0, 0, 0);
+        // si année du début de la guerre
+        if(currentDate.getYear() == 1913) formerDate = new Date(1913, 0, 0, 0, 0);
+        else formerDate = new Date(currentDate.getYear(), 11, 0, 0, 0);
+      }
+      else {
+        currentDate = new Date(currentDate.getYear(), currentDate.getMonth(), 0, 0, 0);
+        formerDate = new Date(currentDate.getYear(), currentDate.getMonth(), 0, 0, 0);
+      }
     }
   }
   timeAnimation = millis();
@@ -234,29 +260,29 @@ void updateSoldiersLists(boolean forward){
     // suppression des points de naissance et de décès des soldats morts précédemment
     for (int i = displayedSoldiers_death.list.size()-1; i >= 0; i--) {
       Soldier tmp = displayedSoldiers_death.list.get(i);
-      matricules.list.add(tmp);
-      displayedSoldiers_birth.list.remove(tmp);
-      displayedSoldiers_death.list.remove(tmp);
+      if(!matricules.list.contains(tmp)) matricules.list.add(tmp);
+      if(displayedSoldiers_birth.list.contains(tmp)) displayedSoldiers_birth.list.remove(tmp);
+      if(displayedSoldiers_death.list.contains(tmp)) displayedSoldiers_death.list.remove(tmp);
     }
     // ajoute les naissances et les décès dans l'intervalle de temps
-    addPointsInMeantime();
+    addPointsInMeantime(true);
   }
   // si on recule
   else {
     // suppression des naissances et des décès sur la période précédente
-    for (int i = displayedSoldiers_birth.list.size()-1; i >= 0; i--) {
+   for (int i = displayedSoldiers_birth.list.size()-1; i >= 0; i--) {
       Soldier tmp = displayedSoldiers_birth.list.get(i);
       // si la date de naissance est dans l'intervalle de temps, on supprime le soldat de la liste des soldats à afficher
       if(tmp.dateNaissance.compareTo(formerDate) > 0 && tmp.dateNaissance.compareTo(currentDate) <= 0){
-        displayedSoldiers_birth.list.remove(tmp);
+        if(displayedSoldiers_birth.list.contains(tmp)) displayedSoldiers_birth.list.remove(tmp);
       }
     }
     for (int i = displayedSoldiers_death.list.size()-1; i >= 0; i--) {
       Soldier tmp = displayedSoldiers_death.list.get(i);
       // si la date de décès est dans l'intervalle de temps, on supprime le soldat de la liste des soldats à afficher
       if(tmp.dateDeces.compareTo(formerDate) > 0 && tmp.dateDeces.compareTo(currentDate) <= 0){
-        displayedSoldiers_death.list.remove(tmp);
-        matricules.list.remove(tmp);
+        if(displayedSoldiers_death.list.contains(tmp)) displayedSoldiers_death.list.remove(tmp);
+        if(!displayedSoldiers_birth.list.contains(tmp)) displayedSoldiers_birth.list.add(tmp);
       }
     }
   }
@@ -265,17 +291,42 @@ void updateSoldiersLists(boolean forward){
 /**
 * ajoute les naissances et les décès dans l'intervalle de temps
 */
-void addPointsInMeantime(){
-  for (Soldier s : allSoldiers.list) {
-    // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
-    if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
-      //println("----> Naissance");
-      displayedSoldiers_birth.list.add(s);
+void addPointsInMeantime(boolean forward){
+  // si on avance
+  if(forward)
+  {
+    for (Soldier s : allSoldiers.list) {
+      // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+      if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
+        //println("----> Naissance");
+        if(!displayedSoldiers_birth.list.contains(s)) displayedSoldiers_birth.list.add(s);
+      }
+      // si la date de décès est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+      if(s.dateDeces.compareTo(formerDate) > 0 && s.dateDeces.compareTo(currentDate) <= 0){
+        //println("----> Deces");
+        if(!displayedSoldiers_death.list.contains(s))  displayedSoldiers_death.list.add(s);
+      }
     }
-    // si la date de décès est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
-    if(s.dateDeces.compareTo(formerDate) > 0 && s.dateDeces.compareTo(currentDate) <= 0){
-      //println("----> Deces");
-      displayedSoldiers_death.list.add(s);
+  }
+  // si on recule
+  else{
+    for (Soldier s : allSoldiers.list) {
+    // si la date de naissance est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+      if(s.dateNaissance.compareTo(formerDate) > 0 && s.dateNaissance.compareTo(currentDate) <= 0){
+        //println("----> Naissance");
+        if(!displayedSoldiers_birth.list.contains(s)) displayedSoldiers_birth.list.add(s);
+      }
+      // si la date de décès est dans l'intervalle de temps, on rajoute le soldat à la liste des soldats à afficher
+      if(s.dateDeces.compareTo(formerDate) > 0 && s.dateDeces.compareTo(currentDate) <= 0){
+        //println("----> Deces");
+        if(!displayedSoldiers_death.list.contains(s)) displayedSoldiers_death.list.add(s);
+      }
+    }
+    // si on est pendant la guerre
+    if(this.currentDate.compareTo(warDate) >= 0){
+      for (Soldier s : displayedSoldiers_death.list) {
+        if(!displayedSoldiers_birth.list.contains(s)) displayedSoldiers_birth.list.add(s);
+      }
     }
   }
 }
@@ -289,4 +340,14 @@ String getDateAsString(Date d){
   if(d.getYear() >= 1914) ret+=months[d.getMonth()]+" ";
   ret+=d.getYear();
   return ret;
+}
+
+/**
+* suppression des matricules des soldats morts après la date courante
+*/
+void updateMatricules(){
+  for (int i = matricules.list.size()-1; i >= 0; i--) {
+    Soldier tmp = matricules.list.get(i);
+    if(tmp.dateDeces.compareTo(currentDate) > 0) matricules.list.remove(tmp);
+  }
 }

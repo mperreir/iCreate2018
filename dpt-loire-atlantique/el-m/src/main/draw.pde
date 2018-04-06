@@ -47,14 +47,16 @@ void drawMatricules(){
   int col = 1;
   int li = 1;
   for (Soldier s : matricules.list) {
-    textSize(20);
-    fill(102, 102, 102);
-    text(s.matricule, width-(70*col), li*20);
+    textSize(10);
+    // si on arrive à la fin de la simulation
+    if(currentDate.getYear() == 1919) fill(102, 102, 102, 200);
+    else fill(102, 102, 102, 20+random(180));
+    text(s.matricule, width-(30*col), li*20);
     pushStyle();
     stroke(102, 102, 102);
     //line(width-30, y-5, width-5, y-5);
     popStyle();
-    if((li+1)*20 > height){
+    if((li+1)*6 > height){
       col++;
       li = 1;
     }
