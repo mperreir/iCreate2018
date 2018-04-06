@@ -18,11 +18,14 @@ final int waitExplosion = 45;
 final int waitAppear = 30;
 final int waitText = 90;
 final int waitSwipe = 50;
+final int waitReachSize = 30;
 int timerSlow = 0;
 int timerExplosion = 0;
 int timerAppear = 0;
 int timerText = 0;
 int timerSwipe = 0;
+int timerReachSize = 0;
+int savedIndexCircleFull = -1;
 
 // Swipe
 final int entropyCoef = 1500;

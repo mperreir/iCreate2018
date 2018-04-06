@@ -100,18 +100,30 @@ void circleActions(Vector v) {
           
           if (!explosion) {
             if (v != null) {
-                int xToReplace = (int)v.getX();
-                int yToReplace = (int)v.getZ();
-                int detectedHover = checkIfHover(xToReplace, yToReplace);
+              int xToReplace = (int)v.getX();
+              int yToReplace = (int)v.getZ();
+              int detectedHover = checkIfHover(xToReplace, yToReplace);
+              if (detectedHover == -1 && savedIndexCircleFull != -1) {
+                timerReachSize += 1;
+                if (timerReachSize >= waitReachSize) {
+                  savedIndexCircleFull = -1;
+                  timerReachSize = 0;
+                }
+                detectionHover(savedIndexCircleFull);
+              } else {
+                if (detectedHover != -1 && listCirclesFull[detectedHover].reachSize == true) {
+                  savedIndexCircleFull = detectedHover;
+                }
                 detectionHover(detectedHover);
+             }
+            }
+          } else {
+              if (waitExplosion <= timerExplosion) {
+                initCircles();
+              }
             }
           }
         }
-      } else {
-        if (waitExplosion <= timerExplosion) {
-          initCircles();
-        }
-      }
     }
   } else if (!swipe) {
     detectionHand(true);
