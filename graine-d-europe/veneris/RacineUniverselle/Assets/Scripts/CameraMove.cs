@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class CameraMove : MonoBehaviour {
 
+    public GameObject video;
+    public GameObject message;
+
     public float cameraSpeed = 1f;
     public float distanceToCenter = 20f;
 
@@ -13,7 +16,6 @@ public class CameraMove : MonoBehaviour {
     private Vector3 wantedPosition;
 
     public CameraForQR QR;
-    public UIController uicontroller;
 
     // Use this for initialization
     void Start () {
@@ -40,7 +42,16 @@ public class CameraMove : MonoBehaviour {
         // Launch the webcam
         if (Vector3.Distance(transform.position, wantedPosition) < 1)
         {
-            uicontroller.popWebCam();
+            if (target.name == "Allemagne")
+            {
+                video.SetActive(true);
+                message.SetActive(false);
+            }
+            else
+            {
+                video.SetActive(false);
+                message.SetActive(true);
+            }
         }
     }
     
