@@ -35,6 +35,13 @@ class Soldier {
     
     //System.out.println(this.x + "," + this.y);
   }
+  
+  /**
+  * redéfinition de la méthode equals
+  */
+  boolean equals(Soldier s){
+    return (this.id == s.id);
+  }
 
   String toString() {
     return "Soldier [id=" + id + ", matricule=" + matricule + ", dateNaissance=" + dateNaissance + ", xNaissance="
