@@ -56,7 +56,7 @@ void initDates(){
 void setup() {
   // Commence à écouter les messages OSC sur le port 12000
   oscP5 = new OscP5(this,12000);
-  fullScreen();
+  size(400,400);
   //size(745, 439);
   img = loadImage("carte_europe.jpg");  
   imageMode(CORNER);
@@ -119,7 +119,7 @@ void draw() {
   }
   
   // Chande de période avec un délai pour les morts
-  if (year < 1919){
+  if (year <= 1919){
     move(delayDeath, angularSpeed);
   }
   
