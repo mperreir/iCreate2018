@@ -43,14 +43,14 @@ void drawArrow(float x1, float y1, float x2, float y2) {
 /**
 * affichage des matricules des soldats morts
 */
-void drawMatricules(){
+void drawMatricules(){    
+    
   int col = 1;
   int li = 1;
   for (Soldier s : matricules.list) {
     textSize(10);
-    // si on arrive à la fin de la simulation
-    if(currentDate.getYear() == 1919) fill(102, 102, 102, 200);
-    else fill(102, 102, 102, 20+random(180));
+    if(changeColor) fill(102, 102, 102, 20+random(180)); 
+    else fill(102, 102, 102, 200);
     text(s.matricule, width-(30*col), li*20);
     pushStyle();
     stroke(102, 102, 102);
@@ -62,6 +62,8 @@ void drawMatricules(){
     }
     else li++;
   }
+  
+  changeColor = false;
 }
 
 /**
