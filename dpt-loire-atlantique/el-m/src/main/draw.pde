@@ -48,10 +48,10 @@ void drawMatricules(){
   int col = 1;
   int li = 1;
   for (Soldier s : matricules.list) {
-    textSize(10);
-    if(changeColor) fill(102, 102, 102, 20+random(180)); 
-    else fill(102, 102, 102, 200);
-    text(s.matricule, width-(30*col), li*20);
+    textSize(16);
+    if(changeColor) fill(0, 0, 0, 80); 
+    else fill(0, 0, 0, 180);
+    text(s.matricule, width-(38*col), li*14);
     pushStyle();
     stroke(102, 102, 102);
     //line(width-30, y-5, width-5, y-5);
@@ -71,7 +71,7 @@ void drawMatricules(){
 */
 void drawTimeline(){
   int interval = endDate.getYear() - startDate.getYear();
-  fill(0, 0, 0, 63);
+  fill(0, 0, 0, 255);
   float x = ((float(formerDate.getYear()-startDate.getYear())/interval) + (float(formerDate.getMonth())/11)*(1.0/interval))*width;
   rect(0, height-15, x, 15);
   triangle(x-8, height-25, x, height-15, x+8, height-25);
@@ -82,9 +82,28 @@ void drawTimeline(){
 * affiche la date courante
 */
 void drawDate(float x){
-  textSize(32);
+  textSize(50);
   float textWidth = textWidth(getDateAsString(currentDate));
   x = x + textWidth/2 > width ? x-textWidth : x - textWidth/2 < 0 ? x : x-textWidth/2;
+  //fill(255, 255, 255);
+  //rect(x+10, height-1, 130, height-);
   fill(102, 102, 102);
-  text(getDateAsString(currentDate), x, height-30); 
+  text(getDateAsString(currentDate), x, height-30);
+}
+
+void drawLegende(){
+  
+  fill(0, 0, 255, 255);
+    ellipse(50, height-175, 40, 40);
+    
+    fill(102, 102, 102);
+  text("Lieu de naissance", 80, height-160);
+    
+    
+    fill(255, 0, 0, 255);
+    ellipse(50, height-135, 40, 40);
+    
+    fill(102, 102, 102);
+  text("Lieu de décès", 80, height-120);
+  
 }
