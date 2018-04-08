@@ -23,8 +23,11 @@ public class MainActivity extends AppCompatActivity{
     final static String EXTRA_NUM_QUESTION_FINAL = "numero_question_final";
 
     final static String Q_CITOYENNETE = "Qu'est-ce-que la citoyenneté Européenne ?";
-    final static String Q_ETRE_CITOYEN = "Qu'est-ce-que ça nous apporte \nd'être citoyen Européen ?";
-    final static String Q_ROLE_CITOYEN = "Quel est notre rôle en \ntant que citoyen Européen ?";
+    final static String Q_ETRE_CITOYEN = "Qu'est-ce-que ça nous \napporte d'être \ncitoyen Européen ?";
+    final static String Q_ROLE_CITOYEN = "Quel est notre rôle \nen tant que \ncitoyen Européen ?";
+    final static String PUSH_ME = "Pousse moi";
+
+    final static String INTRO_REG_FONT_PATH = "fonts/Intro-Regular.otf";
 
     private boolean END_PLAYING_QUESTION = false;
 
@@ -107,14 +110,13 @@ public class MainActivity extends AppCompatActivity{
             countDownTimer.start();
         } else {
             END_PLAYING_QUESTION = true;
-            hint.setText("Poussez moi");
+            hint.setText(PUSH_ME);
         }
     }
 
     protected void initStart() {
         Random r = new Random();
         int rand = r.nextInt(2) % 2;
-        System.out.println(rand);
 
         if(rand == 0)
             start_layout.setBackground(getDrawable(R.drawable.start_screen));
@@ -123,17 +125,17 @@ public class MainActivity extends AppCompatActivity{
     }
 
     protected void initTxt() {
-        Typeface lucifer = Typeface.createFromAsset(getAssets(),  "fonts/Intro-Regular.otf");
+        Typeface intro_reg = Typeface.createFromAsset(getAssets(),  INTRO_REG_FONT_PATH);
 
         q_1 = findViewById(R.id.q_1);
         q_2 = findViewById(R.id.q_2);
         q_3 = findViewById(R.id.q_3);
         hint = findViewById(R.id.hint);
 
-        q_1.setTypeface(lucifer);
-        q_2.setTypeface(lucifer);
-        q_3.setTypeface(lucifer);
-        hint.setTypeface(lucifer);
+        q_1.setTypeface(intro_reg);
+        q_2.setTypeface(intro_reg);
+        q_3.setTypeface(intro_reg);
+        hint.setTypeface(intro_reg);
     }
 
     protected void initSensor() {
