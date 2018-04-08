@@ -25,8 +25,8 @@ int iteratorBeforeWar; // itérateur avant la guerre (en années)
 int iteratorDuringWar; // itérateur durant la guerre (en mois)
 
 int timeAnimation = millis(); //stocke le temps pour décider quand dessiner
-final int delayDeath = 150; // Délai entre l'affichage des points pour les naissances
-final int delayBirth = 50; // Délai entre l'affichage des points pour les morts
+final int delayDeath = 100; // Délai entre l'affichage des points pour les naissances
+final int delayBirth = 150; // Délai entre l'affichage des points pour les morts
 final int delayReset = 15000; // Délai de retour à zéro si l'utilisateur est inactif
 
 final String[] months = {"Janv.", "Fev.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."};
@@ -62,7 +62,8 @@ void setup() {
   fullScreen();
   //size(745, 439);
   img = loadImage("../../img/bords_sombres.png");  
-  imageMode(CORNER);
+    //img = loadImage("carte_europe.png");  
+imageMode(CORNER);
   noStroke();
   background(255);
  
@@ -83,6 +84,7 @@ void draw() {
   //background(img);
   image(img,0,0,width,height);
   
+  /*
   // #################### pour tester sans le téléphone ####################
   fill(51, 204, 51, 63);
   rect(70,165,30,30);
@@ -109,6 +111,7 @@ void draw() {
       //println(getDateAsString(formerDate) + "-->" + getDateAsString(currentDate));
     }
   }
+  */
   // #######################################################################
   
   checkActivity();
@@ -138,6 +141,7 @@ void draw() {
   drawMatricules();
   // affichage de la frise chronologique  
   drawTimeline();
+  drawLegende();
 
 }
 
