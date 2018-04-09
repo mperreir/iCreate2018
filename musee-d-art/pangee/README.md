@@ -1,11 +1,14 @@
-# Nom de groupe
+# Pangée
 
-- Partenaire:
+- Partenaire: Musée d'Art de Nantes
 - Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+  - Nassim CHIAHOUI
+  - Zheng DAI
+  - Nathan MOUCHIROUD
+- Technologie d'entrée: Gestuel Leap Motion
+- Technologie de sortie: Rendu 2D
 
-# Nom de l'installation
+# Plongeon de saison (Les Nymphéas)
 
 ## Description
 
