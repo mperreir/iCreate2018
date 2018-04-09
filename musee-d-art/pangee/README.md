@@ -2,7 +2,7 @@
 
 - Partenaire: Musée d'Art de Nantes
 - Etudiants:
-  - Nassim CHIAHOUI
+  - Nassim CHIHAOUI
   - Zheng DAI
   - Nathan MOUCHIROUD
 - Technologie d'entrée: Gestuel Leap Motion
