@@ -17,7 +17,7 @@ Le tableau _Les Nymphéas_ de Claude Monet est projeté sur une toile tendue hor
 ## Dépendances logicielles
 
 Projet élaboré avec Unity version 2017.4.0f1 Personal.
-Nécessite le [SDK Leap Motion (Orion)](https://developer.leapmotion.com/get-started/) ainsi qu'un controleur Leap Motion pour fonctionner.
+Nécessite le [SDK Leap Motion (Orion)](https://developer.leapmotion.com/get-started/) ainsi qu'un capteur Leap Motion pour fonctionner.
 
 Assets Unity utilisés :
 - [LeapMotion](https://developer.leapmotion.com/unity/#116) v4.3.4 (gratuit)
