@@ -29,7 +29,8 @@ L'ensemble de ces assets est inclus (entièrement ou partiellement) dans le code
 
 ## Instructions de génération de l'application
 
-Dans Unity : _File > Build & Run_ pour générer le .exe associé au projet.
+Ouvrir Unity : _Open > Selectionner le dossier "iCreate 2018 Pangee"_ pour créer un nouveau projet.
+Une fois dans le projet Unity : _File > Build & Run_ pour générer le .exe associé au projet.
 
 ## Instructions d'exécution
 
