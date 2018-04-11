@@ -10,9 +10,14 @@ import controlPage from './Pages/ControlPage';
 import 'whatwg-fetch';
 import './App.css';
 
+/*
+Main Component with all the routes pointing to the differents parts of the App
+*/
+
 class App extends Component {
 
   render() {
+
     return (
       <Switch>
         <Route exact path='/' component={LandingPage}/>
@@ -21,8 +26,8 @@ class App extends Component {
         <Route path='/sketch' component={SketchPage}/>
         <Route path='/control' component={controlPage}/>
       </Switch>
-    );
+    )
   }
 }
 
-export default App;
+export default App

@@ -28,17 +28,24 @@ io.on('connection', socket => {
   });
   socket.on('play-intro', (id) => {
     console.log('play-intro ' + id);
+    if(id === 2) {
+      setTimeout(function() {
+        io.sockets.emit('play-sound', 8)
+      }, 5000);
+    } else if(id === 3) {
+      io.sockets.emit('pause-sound');
+    }
     io.sockets.emit('play-intro', id);
   });
 
-  socket.on('pauseMobile', (id) => {
-    console.log('pauseMobile ' + id);
-    io.sockets.emit('pauseMobile', id);
+  socket.on('pause-sound', (id) => {
+    console.log('pause-sound ' + id);
+    io.sockets.emit('pause-sound', id);
   });
 
-  socket.on('playMobile', (id) => {
-    console.log('playMobile ' + id);
-    io.sockets.emit('playMobile', id);
+  socket.on('play-sound', (id) => {
+    console.log('play-sound ' + id);
+    io.sockets.emit('play-sound', id);
   });
 
   socket.on('control-co', () => {

@@ -1,31 +1,21 @@
-import React, {Component} from 'react';
-import io from 'socket.io-client';
-import P5Wrapper from 'react-p5-wrapper';
-import audio from '../sketches/audio';
+import React, { Component } from 'react'
+import io from 'socket.io-client'
+import P5Wrapper from 'react-p5-wrapper'
+import audio from '../sketches/audio'
 
 const socketUrl = "https://serversocket2018v2.herokuapp.com"
-//const socketUrl = "http://localhost:5000/"
-
+//const socketUrl = "http://localhost:5000"
 const listeSound = ['CHIEN.mp3', 'COQ-POULE.mp3', 'GRENOUILLE.mp3', 'VACHE.mp3']
 
 class SoundPlayerPage extends Component {
 
   constructor() {
-    super();
+    super()
     this.state = {
       nomFct: "",
-      arg: "/Grenouille.mp3",
+      name_file: "/None.mp3",
       socket: null
     }
-    /*this.socket = io();
-    this.socket.on('connect', () => {
-      console.log(this.socket.id); // 'G5p5...'
-      const idSocket = this.socket.id;
-      this.socket.emit('connect-tablet', idSocket);
-    });
-    this.socket.on('update', () => this.setState({nomFct: "play"}));
-    this.socket.on('stopSong', () => this.setState({nomFct: "stop"}));
-    this.socket.on('pauseSong', () => this.setState({nomFct: "pause"}));*/
   }
 
   componentWillMount() {
@@ -35,18 +25,23 @@ class SoundPlayerPage extends Component {
   initSocket = () => {
     const socket = io(socketUrl)
     socket.on('control-co', () => [console.log("SoundPlayer connected")])
-    socket.emit('connect-tablet', listeSound[this.props.match.params.id]);
+    socket.emit('connect-tablet', listeSound[this.props.match.params.id])
     this.setState({socket})
-    socket.on('playMobile', () => this.setState({nomFct: "play"}));
-    socket.on('pauseMobile', () => this.setState({nomFct: "pause"}));
+    socket.on('play-sound', () => this.setState({nomFct: "play"}))
+    socket.on('pause-sound', () => this.setState({nomFct: "pause"}))
   }
+
   render() {
     let name_file = listeSound[this.props.match.params.id]
-    return (<div>
-      <p>{this.props.match.params.id}</p>
-      <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={'/sonQueteChien/' + name_file}/>
-    </div>);
+
+    return (
+      <div>
+        <p>{this.props.match.params.id}</p>
+        <p>{name_file}</p>
+        <P5Wrapper sketch={audio} nomFct={this.state.nomFct} arg={'/sonQueteChien/' + name_file}/>
+      </div>
+    )
   }
 }
 
-export default SoundPlayerPage;
+export default SoundPlayerPage

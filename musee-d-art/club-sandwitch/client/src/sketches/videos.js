@@ -14,17 +14,14 @@ let mic;
 let amp;
 let amplitude;
 let socket;
-let button;
 
 export default function sketch(p) {
   p.setup = function() {
     p.createCanvas(0, 0);
     vid = p.createVideo([video_name]);
-    button = p.createButton('play');
-    button.mousePressed(p.toggleVid);
     mic = new p5.AudioIn();
     mic.start();
-    amp = new p5.Amplitude(0.99);
+    amp = new p5.Amplitude(0.2);
     amp.setInput(mic);
     console.log(video_name);
     timeC = p.millis();
@@ -74,7 +71,7 @@ export default function sketch(p) {
         boolTC = true;
       }
       
-    } else if (p.millis() - timeF > 10000 && amplitude > 0.2 && video_name === './video/1.mp4') {
+    } else if (p.millis() - timeF > 10000 && amplitude > 0.09 && video_name === './video/1.mp4') {
       console.log('Presto ' + amplitude + ' : ' + p.millis());
       if(boolTF){
         boolTF = true;

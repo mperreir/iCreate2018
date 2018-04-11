@@ -1,17 +1,13 @@
-import "p5/lib/addons/p5.dom";
+import "p5/lib/addons/p5.dom"
 
-let mySound;
-let src;
+let mySound
+let src
 
 export default function sketch(p) {
 
   p.preload = function() {
-    p.soundFormats('mp3');
-    mySound = p.loadSound(src);
-  }
-
-  p.setup = function() {
-    //mySound.loop();
+    p.soundFormats('mp3')
+    mySound = p.loadSound(src)
   }
 
   p.myCustomRedrawAccordingToNewPropsHandler = function(props) {
@@ -19,20 +15,20 @@ export default function sketch(p) {
       if (mySound.isLoaded()) {
         switch (props.nomFct) {
           case "play":
-            mySound.loop();
-            break;
+            mySound.loop()
+            break
           case "pause":
-            mySound.stop();
-            break;
+            mySound.stop()
+            break
           case "stop":
-            mySound.stop();
-            break;
+            mySound.stop()
+            break
           default:
 
         }
       }
     } else {
-      src = props.arg;
+      src = props.arg
     }
   }
 
