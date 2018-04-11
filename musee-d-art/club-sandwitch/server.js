@@ -29,7 +29,9 @@ io.on('connection', socket => {
   socket.on('play-intro', (id) => {
     console.log('play-intro ' + id);
     if(id === 2) {
-      io.sockets.emit('play-sound');
+      setTimeout(function() {
+        io.sockets.emit('play-sound', 8)
+      }, 5000);
     } else if(id === 3) {
       io.sockets.emit('pause-sound');
     }
