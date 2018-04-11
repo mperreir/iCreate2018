@@ -1,72 +1,71 @@
-import "p5/lib/addons/p5.sound";
-import p5 from "p5";
+import "p5/lib/addons/p5.sound"
+import p5 from "p5"
 
-let mic;
-let res;
-let writingbool = false;
-let writer;
+let mic
+let res
+let writingbool = false
+let writer
 
-let son;
-//let son2;
-let fft;
+let son
+let fft
 let freqChien = [191, 184, 149, 67, 23, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-let freqGrenouille = [201, 229, 232, 203, 142, 113, 89, 43, 5, 8, 23, 8, 0, 0, 0, 0];
-let freqVache = [220, 206, 159, 71, 31, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-let freqCoqPoule = [154, 154, 138, 123, 130, 136, 121, 89, 29, 0, 0, 0, 0, 0, 0, 0];
+let freqGrenouille = [201, 229, 232, 203, 142, 113, 89, 43, 5, 8, 23, 8, 0, 0, 0, 0]
+let freqVache = [220, 206, 159, 71, 31, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+let freqCoqPoule = [154, 154, 138, 123, 130, 136, 121, 89, 29, 0, 0, 0, 0, 0, 0, 0]
 
-let animaux = ['Grenouille', 'Coq_Poule', 'Chien', 'Vache'];
+let animaux = ['Grenouille', 'Coq_Poule', 'Chien', 'Vache']
 
 export default function sketch(p) {
+
     p.preload = function() {
-        son = p.loadSound("./sonQueteChien/COQ-POULE.mp3");
-        //son2 = p.loadSound('CORNE.wav');
+        son = p.loadSound("./sonQueteChien/COQ-POULE.mp3")
     }
 
     p.setup = function() {
-        p.createCanvas(window.innerWidth, window.innerHeight);
-        p.background(10);
-        son.loop();
-        mic = new p5.AudioIn();
-        mic.start();
-        console.log(freqChien.length);
-        fft = new p5.FFT(0.2, 16);
-        fft.setInput(mic);
+        p.createCanvas(window.innerWidth, window.innerHeight)
+        p.background(10)
+        son.loop()
+        mic = new p5.AudioIn()
+        mic.start()
+        console.log(freqChien.length)
+        fft = new p5.FFT(0.2, 16)
+        fft.setInput(mic)
         p.createButton('record')
         .position(10, 10)
         .mousePressed(function() {
-            writer = p.createWriter('sound.txt');
-            writingbool = true;
+            writer = p.createWriter('sound.txt')
+            writingbool = true
         })
         p.createButton('save')
         .position(100, 10)
         .mousePressed(function() {
             if(writingbool) {
-                writer.close();
-                writer.clear();
+                writer.close()
+                writer.clear()
             }            
         })
     };
 
     p.diff = function(spc) {
-        let sG = 0, sQP = 0, sC = 0, sV = 0;
+        let sG = 0, sQP = 0, sC = 0, sV = 0
         for (var i = 0; i< freqGrenouille.length; i++) {
-            sG += Math.abs(freqGrenouille[i] - spc[i]);
-            sQP += Math.abs(freqCoqPoule[i] - spc[i]);
-            sC +=Math.abs(freqChien[i] - spc[i]);
-            sV += Math.abs(freqVache[i] - spc[i]);
+            sG += Math.abs(freqGrenouille[i] - spc[i])
+            sQP += Math.abs(freqCoqPoule[i] - spc[i])
+            sC +=Math.abs(freqChien[i] - spc[i])
+            sV += Math.abs(freqVache[i] - spc[i])
         }
-        return [sG/100, sQP/100, sC/100, sV/100];
+        return [sG/100, sQP/100, sC/100, sV/100]
     }
+
     p.argMin = function(array) {
-        return array.map((x, i) => [x, i]).reduce((r, a) => (a[0] < r[0] ? a : r))[1];
-      }
+        return array.map((x, i) => [x, i]).reduce((r, a) => (a[0] < r[0] ? a : r))[1]
+    }
 
     p.draw = function() {
-        p.background(0);
-        var spectrum = fft.analyze();
-        //console.log(spectrum);
+        p.background(0)
+        var spectrum = fft.analyze()
         res = p.diff(spectrum);
-        console.log(res, animaux[p.argMin(res)]);
+        console.log(res, animaux[p.argMin(res)])
         if(writingbool){
             writer.print(spectrum);
         }
