@@ -44,7 +44,7 @@ public class CameraMove : MonoBehaviour {
         // Launch the webcam
         if (Vector3.Distance(transform.position, wantedPosition) < 1)
         {
-            if (target.name == "Irlande")
+            if (target.name == "Irlande" || target.name == "Luxembourg")
             {
                 video.SetActive(true);
             }

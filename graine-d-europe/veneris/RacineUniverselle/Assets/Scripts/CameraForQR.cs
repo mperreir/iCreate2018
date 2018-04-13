@@ -13,7 +13,8 @@ public class CameraForQR : MonoBehaviour {
     void Start()
     {
         screenRect = new Rect(0, 0, Screen.width, Screen.height);
-        camTexture = new WebCamTexture();
+
+        camTexture = new WebCamTexture(WebCamTexture.devices[1].name);
         camTexture.requestedHeight = Screen.height;
         camTexture.requestedWidth = Screen.width;
         if (camTexture != null)
