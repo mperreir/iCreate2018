@@ -12,14 +12,22 @@ public class rawimg2 : MonoBehaviour {
 
 
         WebCamDevice[] webc = WebCamTexture.devices;
-        WebCamTexture webcamTexture = new WebCamTexture(webc[1].name);
+        WebCamTexture webcamTexture = new WebCamTexture(webc[0].name);
 
         rawImage.texture = webcamTexture;
         rawImage.material.mainTexture = webcamTexture;
         webcamTexture.Play();
 
-        for (int i = 0; i < webc.Length; i++)
-            Debug.Log(webc[i].name);
+
+        string[] micros = Microphone.devices;
+        print("coucou");
+        for (int i = 0; i <= 1; i++)
+            print(micros[i]);
+        AudioSource aud = GetComponent<AudioSource>();
+        aud.clip = Microphone.Start("Logitech HD Webcam C270", true, 10, 44100);
+        aud.loop = true;
+        while (!(Microphone.GetPosition(null) > 0)) { }
+        aud.Play();
 
     }
 
