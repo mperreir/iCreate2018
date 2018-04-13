@@ -1,0 +1,6 @@
+WebRTC (api pour envoyer des flux video) :
+  tuto : https://assetstore.unity.com/packages/tools/network/webrtc-network-47846
+  github : https://github.com/ritchielozada/UnityWithWebRTC
+
+Unity mapping (texture video) :
+  tuto : http://www.unity3d-france.com/unity/phpBB3/viewtopic.php?t=12173
