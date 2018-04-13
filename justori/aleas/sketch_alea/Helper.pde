@@ -4,6 +4,8 @@ static class Helper {
   static ArrayList<OffScreen> offScreensPlayed;
   static ArrayList<OffScreen> lesImages;
   static ArrayList<OffScreen> lesImagesDisplayed;
+  static ArrayList<OffScreen> lesMots;
+  static ArrayList<OffScreen> lesMotsDisplayed;
   
   private Helper() {
   }
@@ -32,6 +34,21 @@ static class Helper {
     while(i < lesImages.size() && !fin){
       if(lesImages.get(i) == contenu){
         lesImages.remove(i);
+        fin = true;
+      }
+      i++;
+    }
+  }
+  
+  static void setupMot(Surface surf, int id){
+    OffScreen contenu = lesMots.get(id);
+    lesMotsDisplayed.add(contenu);
+    surf.setOffScreenBuffer(contenu);
+    boolean fin = false;
+    int i = 0;
+    while(i < lesMots.size() && !fin){
+      if(lesMots.get(i) == contenu){
+        lesMots.remove(i);
         fin = true;
       }
       i++;
@@ -89,6 +106,32 @@ static class Helper {
       offScreens.add(caller);
   }
   
+  static void changerMot(Surface surf, OffScreen caller){
+      int newId = (int)(Math.random() * lesMots.size());
+      OffScreen contenu = lesMots.get(newId);
+      surf.setOffScreenBuffer(contenu);
+      lesMotsDisplayed.add(contenu);
+      boolean fin = false;
+      int i = 0;
+      while(i < lesMots.size() && !fin){
+        if(lesMots.get(i) == contenu){
+          lesMots.remove(i);
+          fin = true;
+        }
+        i++;
+      }
+      fin = false;
+      i = 0;
+      while(i < lesMotsDisplayed.size() && !fin){
+        if(lesMotsDisplayed.get(i) == caller){
+          lesMotsDisplayed.remove(i);
+          fin = true;
+        }
+        i++;
+      }
+      lesMots.add(caller);
+  }
+  
   static void setOffScreens(ArrayList<OffScreen> OffScreens){
     offScreens = OffScreens;
     offScreensPlayed = new ArrayList<OffScreen>();
@@ -97,6 +140,11 @@ static class Helper {
   static void setImages(ArrayList<OffScreen> LesImages){
     lesImages = LesImages;
     lesImagesDisplayed = new ArrayList<OffScreen>();
+  }
+  
+  static void setMots(ArrayList<OffScreen> LesMots){
+    lesMots = LesMots;
+    lesMotsDisplayed = new ArrayList<OffScreen>();
   }
   
   static void freeOffScreen(OffScreen off){
@@ -117,11 +165,26 @@ static class Helper {
     int i = 0;
      while(i < lesImagesDisplayed.size() && !fin){
       if(lesImagesDisplayed.get(i) == off){
+        
         lesImagesDisplayed.remove(i);
         fin = true;
       }
       i++;
     }
     lesImages.add(off);
+  }
+  
+  static void freeMot(OffScreen off){
+    boolean fin = false;
+    int i = 0;
+     while(i < lesMotsDisplayed.size() && !fin){
+      if(lesMotsDisplayed.get(i) == off){
+        
+        lesMotsDisplayed.remove(i);
+        fin = true;
+      }
+      i++;
+    }
+    lesMots.add(off);
   }
 }
