@@ -23,7 +23,7 @@ class OffScreen {
     return offScreen;
   }
   
-   void play(){
+  void play(){
     movPlaying = true;
   }
   
@@ -36,6 +36,7 @@ class OffScreen {
   }
   
   void reset(){
+    this.play();
   }
   
   void setSurface(Surface Surface){

@@ -15,6 +15,7 @@ ArrayList<Movie> lOeuil;
 ArrayList<PImage> lesSrcImage;
 ArrayList<OffScreen> lesContenus;
 ArrayList<OffScreen> lesImages;
+ArrayList<OffScreen> lesMots;
 VideoFrame frame;
 OffScreen frame2;
 int y;
@@ -75,7 +76,7 @@ void setup() {
   // On crée l'ojet keystone qui va gérer les surfaces que l'on veut map
   ks = new Keystone(this);
   //On charge les vidéo que l'on veut utiliser
-   String[] fichierFilm = {"portion_1.mp4", "portion_2.mp4", "portion_4.mp4", "portion_6.mp4", "portion_7.mp4", "portion_8.mp4", "portion_9.mp4", "portion_10.mp4", "portion_12.mp4", "portion_13.mp4"};
+   String[] fichierFilm = {"vid_1.mp4", "vid_2.mp4", "vid_3.mp4", "vid_4.mp4", "vid_5.mp4", "vid_6.mp4", "vid_7.mp4", "vid_8.mp4", "vid_9.mp4", "vid_10.mp4", "vid_11.mp4", "vid_12.mp4"};
    lesFilms = creerMovie(fichierFilm);
    String[] bouche = {"bouche.mp4"};
    laBouche = creerMovie(bouche);
@@ -84,6 +85,7 @@ void setup() {
    laBouche.get(0).volume(100);
    String[] fichierImage = {"img_1.jpg", "img_2.png", "img_3.jpg", "img_4.jpg", "img_5.jpg", "img_6.jpg", "img_7.jpg"};
    lesSrcImage = creerImage(fichierImage);
+   String[] mots = {"Authenticité", "Archipel indonésien", "Ile des dieux", "Artisanat", "Selamat jalan", "Le batik", "Macaque crabier", "Hindouisme", "Bales", "Keliki", "Sanghyang"};
    lesContenus = new ArrayList<OffScreen>();
    for(int i = 0; i < lesFilms.size(); i++){
      lesContenus.add(new VideoFrame(600,600,lesFilms.get(i)));
@@ -92,14 +94,22 @@ void setup() {
    for(int i = 0; i < lesSrcImage.size();i++){
      lesImages.add(new ImageFrame(600,600,lesSrcImage.get(i)));
    }
+   lesMots = new ArrayList<OffScreen>();
+   for(int i = 0; i < mots.length;i++){
+     lesMots.add(new MovingTextFrame(600,600,mots[i]));
+   }
 
   //On charge une surface qui sert a la projection d'une vidéo
    surfaces = new collectionSurface();
-   for(int i = 0; i < 7; i++){
-     surfaces.add(new Surface(ks, 600,600,20, i));
+   for(int i = 0; i < 2; i++){
+     surfaces.add(new SurfaceStatique(ks, 600,600,20, i)); 
+   }
+   for(int i = 0; i < 5; i++){
+     surfaces.add(new Surface(ks, 600,600,20, i+2));
    }
    Helper.setOffScreens(lesContenus);
    Helper.setImages(lesImages);
+   Helper.setMots(lesMots);
 
   osc=new OscP5(this,12000); //listen on port 12000
   osc.plug(this,"pitch","/orientation/pitch");
@@ -222,8 +232,8 @@ void pitch(float rotationValue) {
     // println("Periode : " + (2 * this.demiPeriode));
     // println("Frequence : " + (1000/(2.0*this.demiPeriode)));
 
-    if (this.change == 0) newAmplitude(0.02);
-    if (this.change > 3) newAmplitude(-0.03);
+    if (this.change == 0) newAmplitude(0.04);
+    if (this.change > 3) newAmplitude(-0.01);
 }
 
 private void newAmplitude(float add) {
@@ -287,7 +297,7 @@ private void verifSon() {
     }
     if ((this.vitesse > 1.0/8) && !e1) {
         println("e1");
-        Helper.setupOffScreen(surfaces.getSurface(1),0);
+        Helper.setupOffScreen(surfaces.getSurface(3),0);
         this.ambiances[0].shiftGain(-80, -10, 2000);
         e1 = true;
     }
@@ -298,7 +308,7 @@ private void verifSon() {
     }
     if ((this.vitesse > 3.0/8) && !e3) {
         println("e3");
-        surfaces.getSurface(3).setOffScreenBuffer(new VideoFrame(600,600,lOeuil.get(0)));
+        surfaces.getSurface(1).setOffScreenBuffer(new VideoFrame(600,600,lOeuil.get(0)));
         e3 = true;
 
     }
@@ -310,7 +320,7 @@ private void verifSon() {
     }
     if ((this.vitesse > 5.0/8) && !e5) {
         println("e5");
-
+        Helper.setupMot(surfaces.getSurface(5),0);
         e5 = true;
 
     }
@@ -338,11 +348,11 @@ private void verifSon() {
 
 
 private boolean estDescendant() {
-    return rotationVitesseInstant < -1.5;
+    return rotationVitesseInstant < -1.0;
 }
 
 private boolean estAscendant() {
-    return rotationVitesseInstant > 1.5;
+    return rotationVitesseInstant > 1.0;
 }
 
 // Permet de créer une liste de films a partir d'une liste de nom de fichiers.

@@ -16,7 +16,7 @@ class ImageFrame extends OffScreen {
       if(movPlaying){
         i++;
       }
-      if(i > 500){
+      if(i > 300){
         Helper.changerImage(this.surface,this);
       }
     }
@@ -24,6 +24,7 @@ class ImageFrame extends OffScreen {
   @Override
   void reset(){
     i = 0;
+    this.play();
   }
   
   @Override
