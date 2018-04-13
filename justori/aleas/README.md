@@ -42,3 +42,5 @@
 
 ## Note
 *Certains fichiers ressources n'ont pas été inclu pour des raisons de taille.*
+Il est en effet nécessaire d'inclure des vidéo au format mp4, les vidéo en question doivent avoir une taille de 600/600px.
+Il est possible de modifier les noms de fichiers vidéo ou des images au sein du fichier sketch_alea.pde
