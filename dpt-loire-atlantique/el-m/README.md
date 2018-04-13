@@ -17,7 +17,9 @@ des personnes enrôlées en Loire-Atlantique durant la première guerre mondiale
 Le spectateur est ici acteur car c'est lui qui possède le contrôle du défilement
 du temps en actionnant une manivelle dans laquelle est insérée un téléphone 
 mobile possédant un gyroscope. Lorsque la manivelle est mise en mouvement, des villes apparaissent sur la carte qui est projetée face au spectateur.
+
 Dans un premier temps, ces villes sont les lieux de naissance des soldats et sont représentées par un point bleu sur la carte. Ils apparaissent en fonction de la date de naissance du soldat, donc plus le spectateur avance dans le temps avec la manivelle et plus il y a de point sur la carte.
+
 Lorsque l'utilisateur arrive au moment de la guerre, les points qui s'affichent sur la carte sont désormais rouges et correspondent aux villes de décès des soldats (en fonction de leur date de décès).
 
 
