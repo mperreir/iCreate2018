@@ -1,0 +1,1154 @@
+[
+	{
+		"city": "La vallÃ©e de la Prosnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "La Varenne"
+	},
+	{
+		"city": "La Vaux FÃ©ry",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "La Veuve",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "La Veuve - Ambulance 13/20",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "La Veuve - Ambulance nÂ°13/20",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "La Veuve - ChÃ¢lons-sur-Marne - Amb 13/20",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "La Ville aux Bois - Commune de Pontavert",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "LaboissiÃ¨re",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Lachalade",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Lacroix-sur-Meuse",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Laffaux",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laffaux - Ambulance 3/151",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laffaux - Le Chemin des Dames",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laheycourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Laimont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Lairoux"
+	},
+	{
+		"city": "Lamadorf - Lazarett",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lamath",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "LamaziÃ¨re"
+	},
+	{
+		"city": "Lambartzyde - Nieuport",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Lamotte",
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"city": "Landau",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Landemont"
+	},
+	{
+		"city": "Landeronde"
+	},
+	{
+		"city": "Landifay et Bertaignemont",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance 3/6",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - ambulance 4/54",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance 4/54",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance nÂ°3/6",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance nÂ°4/54",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance nÂ°5/8",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - Ambulance NÃÂ°4/54",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landrecourt - HÃ´pital Temporaire",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Landremont"
+	},
+	{
+		"city": "Landrevarzae"
+	},
+	{
+		"city": "Landricourt",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Landricourt - Ambulance 4/61",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Landstheil",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Laneuvelotte",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Laneuvelotte - Ambulance 3/68",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Lanfains"
+	},
+	{
+		"city": "Langemarche",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Langemarck",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Langemark",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Langensalza - HÃ´pital",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Langon"
+	},
+	{
+		"city": "Languemarck",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Langueux"
+	},
+	{
+		"city": "Lannion",
+		"departement": "CÃ´tes-du-Nord",
+		"country": "France"
+	},
+	{
+		"city": "Lansdorf-Lazarett",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lantilly",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Lanzach"
+	},
+	{
+		"city": "Laon",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laon - Ambulance 8/1 SP 236",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laon - Ambulance nÂ°8/1",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laon - Lazaret",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Lassigny",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Lataule",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Lauchy - Ambulance 11/17",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Laucourt",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Launois",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Launoy",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Lauterberg-les-Bains",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Laval",
+		"departement": "Mayenne",
+		"country": "France"
+	},
+	{
+		"city": "Laval - HÃ´pital ComplÃ©mentaire nÂ°37",
+		"departement": "Mayenne",
+		"country": "France"
+	},
+	{
+		"city": "Laval-sur-Tourbe",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Lavau-sur-Loire"
+	},
+	{
+		"city": "Laversine",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Lazaret 38 de Libin",
+		"departement": "Luxembourg",
+		"country": "Luxembourg"
+	},
+	{
+		"city": "Lazaret d'Haumont",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Lazaret de Trelon",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "lazareth de Langensalza",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett d'Eichstadt",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett d'Orkdruf",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett de Darmstadt",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett de Rastatt",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett des Prisonniers de Guerre Ã Â  TrÃ©lon",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Lazarett-de-Stensal",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Le - HÃ´pital HÃ¢vre",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Bignon"
+	},
+	{
+		"city": "Le Blanc - HÃ´pital",
+		"departement": "Indre",
+		"country": "France"
+	},
+	{
+		"city": "Le Blanc - HÃ´pital Mixte",
+		"departement": "Indre",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois Bolante",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois d'Avocourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois d'Haumont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois de la Gruerie",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois Haut",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois Haut - TranchÃ©e de Calonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois MeuniÃ¨re",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Bois Sabot",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Cellier"
+	},
+	{
+		"city": "Le Cessier",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Chemin des Dames",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Chemin des Dames - Cerny - Ailles",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Chemin des Dames - Ostel",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le ChevroliÃ¨re"
+	},
+	{
+		"city": "Le Clion"
+	},
+	{
+		"city": "Le Clion - HÃ´pital nÂ°65",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Clos Milon",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Croisic"
+	},
+	{
+		"city": "Le Croisic - HÃ´pital nÂ°176",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Crotoy",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Le Dorat",
+		"departement": "Haute-Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Le Falleron"
+	},
+	{
+		"city": "Le Fayel - Ambulance 1/96",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Le Fayel - Ambulance nÂ°14/20",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Le Fenouiller"
+	},
+	{
+		"city": "Le Forest",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Forest - Ferme de l'HÃ´pital",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Fort de Vaux - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Four de Paris",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Four de Paris - Argonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Fresne-sur-Loire"
+	},
+	{
+		"city": "Le Gault la ForÃªt",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le GÃ¢vre"
+	},
+	{
+		"city": "Le Godat",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Grand Ham",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Le Grand-AuvernÃ©"
+	},
+	{
+		"city": "Le Grand-Fougeray"
+	},
+	{
+		"city": "Le Havre"
+	},
+	{
+		"city": "Le Havre - HÃ´pital 201",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le HÃ¢vre - HÃ´pital ComplÃ©mentaire nÂ°15",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Havre - HÃ´pital Mixte",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le HÃ¢vre - HÃ´pital Mixte",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Havre - HÃ´pital nÂ°12",
+		"departement": "Seine InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Le Landreau"
+	},
+	{
+		"city": "Le Linge",
+		"departement": "Alsace",
+		"country": "France"
+	},
+	{
+		"city": "Le Loroux-Bottereau"
+	},
+	{
+		"city": "Le Mans",
+		"departement": "Sarthe",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Blond",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Cornillet",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Haut",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Haut - Commune de Prosnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Noir",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Sans Nom",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Sans Nom - Baconnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont Spin",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mont-Charmont",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort Homme - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort Homme - CÃ´te 304",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort Homme - CumiÃ¨res",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort Homme - CumiÃ¨res - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort Homme - La CÃ´te 304",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Mort-Homme",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Nampcel",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Palais"
+	},
+	{
+		"city": "Le Pallet"
+	},
+	{
+		"city": "Le Pellerin"
+	},
+	{
+		"city": "Le Perray - Hopital Auxiliaire 292",
+		"departement": "Yvelines",
+		"country": "France"
+	},
+	{
+		"city": "Le Pin"
+	},
+	{
+		"city": "Le Plessier - Rozainvilliers",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Plessier de Roye",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Le Plessier Huleu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Plessier Hulu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Ployron",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Le PoirÃ©-sur-Vie"
+	},
+	{
+		"city": "Le Pouliguen"
+	},
+	{
+		"city": "Le Puiset-DorÃ©"
+	},
+	{
+		"city": "Le Puy",
+		"departement": "Haute-Loire",
+		"country": "France"
+	},
+	{
+		"city": "Le Quesne",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Quesnoy",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Le Ravin Villemontoir",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Soulier",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Sourd (La VallÃ©e-aux-Bleds)",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Le Temple-de-Bretagne"
+	},
+	{
+		"city": "Le TÃ©ton",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Thillot - HÃ´pital ComplÃ©mentaire",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "Le Tillat",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Le Transloy",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Le Trou Bicot",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Vallon - Est de Prosnes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Le Violu",
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"city": "Le-Plessier-Huleu",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "LÃ©chelle",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ©"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital 58",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - Hopital militaire nÂ°58",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital Militaire nÂ°58",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital nÂ°56",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital nÂ°58",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital Sanitaire",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LegÃ© - HÃ´pital Sanitaire nÂ°58",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "LenharÃ©e",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "LenharrÃ©e",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "LÃ©noncourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les (VendÃ©e) Herbiers"
+	},
+	{
+		"city": "Les Bovettes",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Les Brouzils"
+	},
+	{
+		"city": "Les Cavaliers de Courcy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Chambrettes - TranchÃ©e DauphinÃ© - Louvemont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Clairs ChÃªnes - Ambulance 7/16",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Eparges",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Eparges - Ravin de Sonvaux",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Eparges - TranchÃ©e de Calonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Essarts"
+	},
+	{
+		"city": "Les Essarts les Sezanne",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Essarts prÃ¨s SÃ©zanne",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Herbiers"
+	},
+	{
+		"city": "Les Hurlus",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Islettes",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Islettes - Ambulance",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Islettes - Ambulance 14/3",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Islettes - Ambulance nÂ°8/5",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Lucs-sur-Boulogne"
+	},
+	{
+		"city": "Les Maigneux - Commune de Valmy - Ambulance 5/20",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Marais de Saint-Gond",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Les Morthairons",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Les Moutiers en Retz",
+		"departement": "Loire InfÃ©rieure",
+		"country": "France"
+	},
+	{
+		"city": "Les Moutiers-en-Retz"
+	},
+	{
+		"city": "Les Sables d'Olonne",
+		"departement": "VendÃ©e",
+		"country": "France"
+	},
+	{
+		"city": "Les Sables d'Olonne - HÃ´pital Mixte",
+		"departement": "VendÃ©e",
+		"country": "France"
+	},
+	{
+		"city": "Les Sables-d'-Olonne"
+	},
+	{
+		"city": "Les SoriniÃ¨res"
+	},
+	{
+		"city": "Les Touches"
+	},
+	{
+		"city": "Lesnica",
+		"departement": "Albanie",
+		"country": "Albanie"
+	},
+	{
+		"city": "Letz - Ambulance 9/16",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Leuilly",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Leury",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Leuvrigny",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Levallois-Perret"
+	},
+	{
+		"city": "Leyr",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Leysin",
+		"departement": "Suisse",
+		"country": "Suisse"
+	},
+	{
+		"city": "Lez"
+	},
+	{
+		"city": "LiÃ¨ge - Ambulance 7/11",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Liesse Notre Dame - Lazaret de Campagne",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "LiffrÃ©"
+	},
+	{
+		"city": "LignÃ©"
+	},
+	{
+		"city": "LigniÃ¨res - Ambulance 11/4",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Ligny en Barrois",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Ligny-en-Barrois",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Ligny-en-Barrois - HÃ´pital",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Ligny-en-Barrois - HÃ´pital 110",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Lihons",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Lihons - TranchÃ©e Sud",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Lille",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Lille - HÃ´pital Auxiliaire nÂ°4",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Lille - HÃ´pital Militaire",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Limberg - HÃ´pital des Prisonniers",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Limbourg sur la Lalm",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Limburg-Lazarett",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Limoges",
+		"departement": "Haute-Vienne",
+		"country": "France"
+	},
+	{
+		"city": "Linaouen",
+		"departement": "Maroc",
+		"country": "Maroc"
+	},
+	{
+		"city": "Linge-Kopf",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "LirÃ©"
+	},
+	{
+		"city": "LisiÃ¨re du Bois Dhesly",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Litz - Ambulance 3/6",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Lizerne",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Loere",
+		"departement": "Belgique",
+		"country": "Belgique"
+	}
+]
