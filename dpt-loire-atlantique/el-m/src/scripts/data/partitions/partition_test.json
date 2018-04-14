@@ -1,0 +1,22 @@
+[
+	{
+		"city": "Rossignol",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wailly",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Villers",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Disparu en Mer lors de la perte de La Ginette",
+		"departement": "Au large de Corfou",
+		"country": "GrÃ¨ce"
+	}
+]

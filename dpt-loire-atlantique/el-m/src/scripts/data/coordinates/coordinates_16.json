@@ -1,0 +1,1430 @@
+[
+	{
+		"ville": "Saint Pierre les Bitry",
+		"latitude": 49.4245779,
+		"longitude": 3.076862,
+		"x": 0.2613287877044964,
+		"y": 0.24814314981273405
+	},
+	{
+		"ville": "Saint Pierre Les Bitry",
+		"latitude": 49.4245779,
+		"longitude": 3.076862,
+		"x": 0.2613287877044964,
+		"y": 0.24814314981273405
+	},
+	{
+		"ville": "Saint Pierre Saint ClÃ©ment",
+		"latitude": 45.4136765,
+		"longitude": 0.868759,
+		"x": 0.21373517694272876,
+		"y": 0.3983641760299626
+	},
+	{
+		"ville": "Saint Pol - HÃ´pital Temporaire",
+		"latitude": 50.3786964,
+		"longitude": 2.3221172,
+		"x": 0.24506096404062372,
+		"y": 0.2124083745318352
+	},
+	{
+		"ville": "Saint Pol - HÃ´pital Temporaire du CollÃ¨ge",
+		"latitude": 50.3795998,
+		"longitude": 2.3307996,
+		"x": 0.24524810511424122,
+		"y": 0.21237453932584277
+	},
+	{
+		"ville": "Saint RÃ©my Blanzy",
+		"latitude": 49.241386,
+		"longitude": 3.310877,
+		"x": 0.26637276383351527,
+		"y": 0.2550042696629215
+	},
+	{
+		"ville": "Saint Remy sur Bussy",
+		"latitude": 49.05676099999999,
+		"longitude": 4.581357,
+		"x": 0.293756781064872,
+		"y": 0.26191906367041257
+	},
+	{
+		"ville": "Saint RÃ©my sur Bussy",
+		"latitude": 49.05676099999999,
+		"longitude": 4.581357,
+		"x": 0.293756781064872,
+		"y": 0.26191906367041257
+	},
+	{
+		"ville": "Saint Servon",
+		"latitude": 48.636622,
+		"longitude": -2.01518,
+		"x": 0.1515745484635856,
+		"y": 0.27765460674157305
+	},
+	{
+		"ville": "Saint Soupplet",
+		"latitude": 49.039423,
+		"longitude": 2.806764,
+		"x": 0.2555070760001366,
+		"y": 0.26256842696629223
+	},
+	{
+		"ville": "Saint Soupplets",
+		"latitude": 49.039423,
+		"longitude": 2.806764,
+		"x": 0.2555070760001366,
+		"y": 0.26256842696629223
+	},
+	{
+		"ville": "Saint Sulpice des Landes",
+		"latitude": 47.766424,
+		"longitude": -1.621031,
+		"x": 0.16007006433768195,
+		"y": 0.31024629213483157
+	},
+	{
+		"ville": "Saint Thomas en Argonne",
+		"latitude": 49.184202,
+		"longitude": 4.865342,
+		"x": 0.2998778141653119,
+		"y": 0.25714599250936343
+	},
+	{
+		"ville": "Saint Viaud",
+		"latitude": 47.256301,
+		"longitude": -2.018918,
+		"x": 0.15149397934292969,
+		"y": 0.3293520224719102
+	},
+	{
+		"ville": "Saint Vincent",
+		"latitude": 49.6772976,
+		"longitude": 5.475743599999999,
+		"x": 0.3130344541222162,
+		"y": 0.23867799250936328
+	},
+	{
+		"ville": "Saint-Aignan",
+		"latitude": 47.268553,
+		"longitude": 1.373492,
+		"x": 0.2246142283006678,
+		"y": 0.32889314606741593
+	},
+	{
+		"ville": "Saint-Aignan-de-Grand-Lieu",
+		"latitude": 47.268553,
+		"longitude": 1.373492,
+		"x": 0.2246142283006678,
+		"y": 0.32889314606741593
+	},
+	{
+		"ville": "Saint-Aignan-Grandlieu",
+		"latitude": 47.124134,
+		"longitude": -1.630217,
+		"x": 0.15987206863346998,
+		"y": 0.3343020973782773
+	},
+	{
+		"ville": "Saint-Amarin",
+		"latitude": 47.873919,
+		"longitude": 7.031154,
+		"x": 0.3465598816735602,
+		"y": 0.3062202621722847
+	},
+	{
+		"ville": "Saint-AndrÃ©-des-Eaux",
+		"latitude": 47.313768,
+		"longitude": -2.310278,
+		"x": 0.14521398496243726,
+		"y": 0.32719970037453183
+	},
+	{
+		"ville": "Saint-AndrÃ©-les-Vergers",
+		"latitude": 48.279962,
+		"longitude": 4.053341,
+		"x": 0.2823758862515479,
+		"y": 0.29101265917603014
+	},
+	{
+		"ville": "Saint-AndrÃ©-Treize-Voies",
+		"latitude": 46.934442,
+		"longitude": -1.411717,
+		"x": 0.16458163333740194,
+		"y": 0.34140666666666686
+	},
+	{
+		"ville": "Saint-Anne-de-Campbon",
+		"latitude": 47.45791699999999,
+		"longitude": -2.005884,
+		"x": 0.15177491511570346,
+		"y": 0.3218008614232215
+	},
+	{
+		"ville": "Saint-Aubin-des-ChÃ¢teaux",
+		"latitude": 47.7194829,
+		"longitude": -1.485455,
+		"x": 0.16299227918573816,
+		"y": 0.31200438576779027
+	},
+	{
+		"ville": "Saint-Bandry",
+		"latitude": 49.371301,
+		"longitude": 3.168447,
+		"x": 0.2633028173768516,
+		"y": 0.25013853932584273
+	},
+	{
+		"ville": "Saint-Benoit",
+		"latitude": 46.440907,
+		"longitude": 1.389618,
+		"x": 0.22496180926366827,
+		"y": 0.3598911235955056
+	},
+	{
+		"ville": "Saint-Berthevin",
+		"latitude": 48.069215,
+		"longitude": -0.82895,
+		"x": 0.17714263513976486,
+		"y": 0.2989058052434458
+	},
+	{
+		"ville": "Saint-Brandy",
+		"latitude": 47.56707489999999,
+		"longitude": -1.9929218,
+		"x": 0.1520543033061167,
+		"y": 0.31771255056179837
+	},
+	{
+		"ville": "Saint-BrÃ©vin",
+		"latitude": 47.246659,
+		"longitude": -2.165807,
+		"x": 0.14832792327979083,
+		"y": 0.32971314606741575
+	},
+	{
+		"ville": "Saint-BrÃ©vin-les-Pins",
+		"latitude": 47.246659,
+		"longitude": -2.165807,
+		"x": 0.14832792327979083,
+		"y": 0.32971314606741575
+	},
+	{
+		"ville": "Saint-Brieuc",
+		"latitude": 48.51418,
+		"longitude": -2.765835,
+		"x": 0.1353948766428531,
+		"y": 0.28224044943820226
+	},
+	{
+		"ville": "Saint-Christophe Ã  Berry",
+		"latitude": 49.422909,
+		"longitude": 3.133088,
+		"x": 0.2625406869495457,
+		"y": 0.24820565543071182
+	},
+	{
+		"ville": "Saint-Christophe-la-Couperie",
+		"latitude": 47.253639,
+		"longitude": -1.179836,
+		"x": 0.169579613077047,
+		"y": 0.3294517228464421
+	},
+	{
+		"ville": "Saint-ClÃ©ment",
+		"latitude": 48.218338,
+		"longitude": 3.291422,
+		"x": 0.26595342936525446,
+		"y": 0.29332067415730334
+	},
+	{
+		"ville": "Saint-ClÃ©ment Ã Â  Arnes",
+		"latitude": 49.300329,
+		"longitude": 4.4288,
+		"x": 0.29046855652236525,
+		"y": 0.25279666666666684
+	},
+	{
+		"ville": "Saint-CrÃ©pin",
+		"latitude": 44.706765,
+		"longitude": 6.607158999999999,
+		"x": 0.33742106297038577,
+		"y": 0.4248402621722849
+	},
+	{
+		"ville": "Saint-CrÃ©pin-au-Bois",
+		"latitude": 49.434244,
+		"longitude": 2.979427,
+		"x": 0.25922866671169265,
+		"y": 0.24778112359550575
+	},
+	{
+		"ville": "Saint-Crespin",
+		"latitude": 49.78198399999999,
+		"longitude": 1.112256,
+		"x": 0.21898352878123362,
+		"y": 0.234757153558053
+	},
+	{
+		"ville": "Saint-Cyr-en-Retz",
+		"latitude": 47.032151,
+		"longitude": -1.900927,
+		"x": 0.15403716583712485,
+		"y": 0.33774715355805257
+	},
+	{
+		"ville": "Saint-Denis",
+		"latitude": 48.936181,
+		"longitude": 2.357443,
+		"x": 0.24582237887274344,
+		"y": 0.26643516853932603
+	},
+	{
+		"ville": "Saint-Dizier",
+		"latitude": 48.637692,
+		"longitude": 4.947418,
+		"x": 0.30164688616824065,
+		"y": 0.277614531835206
+	},
+	{
+		"ville": "Saint-Dolay",
+		"latitude": 47.545323,
+		"longitude": -2.1577449,
+		"x": 0.14850169436262634,
+		"y": 0.31852722846441944
+	},
+	{
+		"ville": "Saint-Eloi",
+		"latitude": 50.90348849999999,
+		"longitude": 3.4098713,
+		"x": 0.2685064940905883,
+		"y": 0.1927532397003751
+	},
+	{
+		"ville": "Saint-Etienne",
+		"latitude": 45.439695,
+		"longitude": 4.3871779,
+		"x": 0.2895714307875207,
+		"y": 0.3973897003745319
+	},
+	{
+		"ville": "Saint-Etienne - HÃ´pital nÂ°13",
+		"latitude": 45.4815563,
+		"longitude": 4.3637137,
+		"x": 0.28906568173431246,
+		"y": 0.39582186142322107
+	},
+	{
+		"ville": "Saint-Etienne-Ã Â -Arnes",
+		"latitude": 45.4403368,
+		"longitude": 4.3844948,
+		"x": 0.2895135990572822,
+		"y": 0.3973656629213485
+	},
+	{
+		"ville": "Saint-Etienne-aux-Bois",
+		"latitude": 46.1064137,
+		"longitude": 1.5422059,
+		"x": 0.22825069982699592,
+		"y": 0.37241896254681667
+	},
+	{
+		"ville": "Saint-Etienne-de-Bois",
+		"latitude": 46.28836099999999,
+		"longitude": 5.292784999999999,
+		"x": 0.3090909513082995,
+		"y": 0.3656044569288395
+	},
+	{
+		"ville": "Saint-Etienne-de-CorcouÃ©",
+		"latitude": 46.9662416,
+		"longitude": -1.5768403,
+		"x": 0.16102255386153574,
+		"y": 0.34021567041198525
+	},
+	{
+		"ville": "Saint-Etienne-de-Mer-Morte",
+		"latitude": 46.929753,
+		"longitude": -1.742728,
+		"x": 0.15744699845313098,
+		"y": 0.34158228464419493
+	},
+	{
+		"ville": "Saint-Etienne-de-Montluc",
+		"latitude": 47.27645099999999,
+		"longitude": -1.78059,
+		"x": 0.1566309181839306,
+		"y": 0.32859734082397063
+	},
+	{
+		"ville": "Saint-Etienne-du-Bois",
+		"latitude": 46.28836099999999,
+		"longitude": 5.292784999999999,
+		"x": 0.3090909513082995,
+		"y": 0.3656044569288395
+	},
+	{
+		"ville": "Saint-Etienne-du-Rouvray - Station Sanitaire",
+		"latitude": 49.3956776,
+		"longitude": 1.1122058,
+		"x": 0.21898244676682566,
+		"y": 0.24922555805243457
+	},
+	{
+		"ville": "Saint-Euphraise",
+		"latitude": 49.212829,
+		"longitude": 3.887553,
+		"x": 0.2788024797841087,
+		"y": 0.25607382022471925
+	},
+	{
+		"ville": "Saint-Feyre",
+		"latitude": 46.13952099999999,
+		"longitude": 1.91504,
+		"x": 0.2362867928145576,
+		"y": 0.37117898876404554
+	},
+	{
+		"ville": "Saint-Fiacre",
+		"latitude": 48.92306199999999,
+		"longitude": 2.954301,
+		"x": 0.2586870991018483,
+		"y": 0.26692651685393315
+	},
+	{
+		"ville": "Saint-Fiacre-sur-Maine",
+		"latitude": 47.142942,
+		"longitude": -1.416576,
+		"x": 0.16447690210217808,
+		"y": 0.3335976779026219
+	},
+	{
+		"ville": "Saint-Florentin-Versigny (hopital train sanitaire)",
+		"latitude": 47.980404,
+		"longitude": 3.730959,
+		"x": 0.27542724145345643,
+		"y": 0.3022320599250937
+	},
+	{
+		"ville": "Saint-Fulgent",
+		"latitude": 46.850641,
+		"longitude": -1.176739,
+		"x": 0.1696463660376331,
+		"y": 0.34454528089887637
+	},
+	{
+		"ville": "Saint-Genis-Laval",
+		"latitude": 45.691999,
+		"longitude": 4.792768,
+		"x": 0.29831354895330664,
+		"y": 0.38794011235955056
+	},
+	{
+		"ville": "Saint-GÃ©nis-Laval",
+		"latitude": 45.691999,
+		"longitude": 4.792768,
+		"x": 0.29831354895330664,
+		"y": 0.38794011235955056
+	},
+	{
+		"ville": "Saint-Georges-de-Montaigu",
+		"latitude": 46.94751,
+		"longitude": -1.296767,
+		"x": 0.1670592738990357,
+		"y": 0.3409172284644195
+	},
+	{
+		"ville": "Saint-Georges-sur-Loire",
+		"latitude": 47.40881299999999,
+		"longitude": -0.7606191,
+		"x": 0.17861544426941206,
+		"y": 0.32363996254681704
+	},
+	{
+		"ville": "Saint-GÃ©rÃ©on",
+		"latitude": 47.369643,
+		"longitude": -1.198681,
+		"x": 0.1691734265926278,
+		"y": 0.3251070037453183
+	},
+	{
+		"ville": "Saint-Germain",
+		"latitude": 48.898908,
+		"longitude": 2.093761,
+		"x": 0.24013895809351155,
+		"y": 0.2678311610486893
+	},
+	{
+		"ville": "Saint-Germain-en-Laye - HÃ´pital mixte",
+		"latitude": 48.898924,
+		"longitude": 2.0757254,
+		"x": 0.23975021747486513,
+		"y": 0.2678305617977529
+	},
+	{
+		"ville": "Saint-Germain-les-Belles",
+		"latitude": 45.614643,
+		"longitude": 1.496753,
+		"x": 0.22727100475362594,
+		"y": 0.3908373408239701
+	},
+	{
+		"ville": "Saint-Germain-sur-Maine",
+		"latitude": 47.11866,
+		"longitude": -1.125127,
+		"x": 0.17075881479506722,
+		"y": 0.33450711610486905
+	},
+	{
+		"ville": "Saint-Germes-de-Fly",
+		"latitude": 49.442997,
+		"longitude": 1.78025,
+		"x": 0.23338151946699248,
+		"y": 0.24745329588014997
+	},
+	{
+		"ville": "Saint-Gervais",
+		"latitude": 45.892013,
+		"longitude": 6.712187,
+		"x": 0.33968484403091004,
+		"y": 0.3804489513108616
+	},
+	{
+		"ville": "Saint-Gihien",
+		"latitude": 48.217242,
+		"longitude": -2.934505,
+		"x": 0.13175935134028016,
+		"y": 0.29336172284644213
+	},
+	{
+		"ville": "Saint-Gildas-des-Bois",
+		"latitude": 47.517319,
+		"longitude": -2.037288,
+		"x": 0.15109803104264946,
+		"y": 0.3195760674157304
+	},
+	{
+		"ville": "Saint-Gilles",
+		"latitude": 43.677079,
+		"longitude": 4.433703,
+		"x": 0.2905742361367514,
+		"y": 0.46340528089887656
+	},
+	{
+		"ville": "Saint-Gilles - Ambulance nÂ°10/21",
+		"latitude": 46.7027398,
+		"longitude": -1.9473198,
+		"x": 0.15303721209160276,
+		"y": 0.35008465168539327
+	},
+	{
+		"ville": "Saint-Herblain",
+		"latitude": 47.210335,
+		"longitude": -1.651444,
+		"x": 0.15941454034985275,
+		"y": 0.33107359550561805
+	},
+	{
+		"ville": "Saint-Herblon",
+		"latitude": 47.407115,
+		"longitude": -1.09477,
+		"x": 0.1714131317548716,
+		"y": 0.32370355805243467
+	},
+	{
+		"ville": "Saint-Hilaire - Saint-Mesmins",
+		"latitude": 47.86944,
+		"longitude": 1.837931,
+		"x": 0.2346247798866149,
+		"y": 0.3063880149812736
+	},
+	{
+		"ville": "Saint-Hilaire-de-ChalÃ©ons",
+		"latitude": 47.103143,
+		"longitude": -1.864344,
+		"x": 0.15482567844840145,
+		"y": 0.33508827715355805
+	},
+	{
+		"ville": "Saint-Hilaire-de-Clisson",
+		"latitude": 47.061117,
+		"longitude": -1.307291,
+		"x": 0.1668324388466596,
+		"y": 0.3366622846441948
+	},
+	{
+		"ville": "Saint-Hilaire-de-Loulay",
+		"latitude": 47.00391,
+		"longitude": -1.331426,
+		"x": 0.16631223132203987,
+		"y": 0.33880486891385786
+	},
+	{
+		"ville": "Saint-Hilaire-des-Bois",
+		"latitude": 45.417237,
+		"longitude": -0.4949269999999999,
+		"x": 0.184342190888513,
+		"y": 0.39823082397003756
+	},
+	{
+		"ville": "Saint-Hilaire-du-Bois",
+		"latitude": 45.417237,
+		"longitude": -0.4949269999999999,
+		"x": 0.184342190888513,
+		"y": 0.39823082397003756
+	},
+	{
+		"ville": "Saint-Hilaire-du-Loulay",
+		"latitude": 47.00391,
+		"longitude": -1.331426,
+		"x": 0.16631223132203987,
+		"y": 0.33880486891385786
+	},
+	{
+		"ville": "Saint-Hilaire-le-Grand",
+		"latitude": 49.170883,
+		"longitude": 4.463915,
+		"x": 0.2912254277561344,
+		"y": 0.25764483146067413
+	},
+	{
+		"ville": "Saint-Hilaire-le-Grand - CÃ´te 147",
+		"latitude": 49.04575089999999,
+		"longitude": 0.4977872,
+		"x": 0.20573922410321338,
+		"y": 0.26233142696629275
+	},
+	{
+		"ville": "Saint-Jans - Monts des Cats",
+		"latitude": 50.7780858,
+		"longitude": 2.7362662,
+		"x": 0.25398756135215106,
+		"y": 0.1974499700374533
+	},
+	{
+		"ville": "Saint-Jean",
+		"latitude": 43.665056,
+		"longitude": 1.504758,
+		"x": 0.22744354509895764,
+		"y": 0.46385558052434467
+	},
+	{
+		"ville": "Saint-Jean d'Ypres",
+		"latitude": 50.86691399999999,
+		"longitude": 2.9021437,
+		"x": 0.25756289690902273,
+		"y": 0.19412307116104927
+	},
+	{
+		"ville": "Saint-Jean-d'Ypres",
+		"latitude": 50.86691399999999,
+		"longitude": 2.9021437,
+		"x": 0.25756289690902273,
+		"y": 0.19412307116104927
+	},
+	{
+		"ville": "Saint-Jean-de-Boiseau",
+		"latitude": 47.195556,
+		"longitude": -1.724199,
+		"x": 0.15784637385083872,
+		"y": 0.3316271161048689
+	},
+	{
+		"ville": "Saint-Jean-de-Braye",
+		"latitude": 47.912048,
+		"longitude": 1.970843,
+		"x": 0.23748957468720527,
+		"y": 0.30479220973782783
+	},
+	{
+		"ville": "Saint-Jean-de-CorcouÃ©",
+		"latitude": 46.9662416,
+		"longitude": -1.5768403,
+		"x": 0.16102255386153574,
+		"y": 0.34021567041198525
+	},
+	{
+		"ville": "Saint-Jean-de-Monts",
+		"latitude": 46.79346400000001,
+		"longitude": -2.0617863,
+		"x": 0.15056999292371892,
+		"y": 0.34668674157303353
+	},
+	{
+		"ville": "Saint-Jean-la-Poterie",
+		"latitude": 47.636707,
+		"longitude": -2.126086,
+		"x": 0.14918407256860033,
+		"y": 0.3151046067415731
+	},
+	{
+		"ville": "Saint-Jean-sur-Tourbe",
+		"latitude": 49.126564,
+		"longitude": 4.679525,
+		"x": 0.29587270119235765,
+		"y": 0.2593047191011236
+	},
+	{
+		"ville": "Saint-Julien",
+		"latitude": 50.88873,
+		"longitude": 2.93561,
+		"x": 0.25828423194449734,
+		"y": 0.1933059925093633
+	},
+	{
+		"ville": "Saint-Julien-de-Concelles",
+		"latitude": 47.253399,
+		"longitude": -1.385788,
+		"x": 0.16514050886695913,
+		"y": 0.32946071161048696
+	},
+	{
+		"ville": "Saint-Julien-de-Vouvantes",
+		"latitude": 47.642309,
+		"longitude": -1.241556,
+		"x": 0.16824929576113534,
+		"y": 0.3148947940074909
+	},
+	{
+		"ville": "Saint-Just",
+		"latitude": 50.12448699999999,
+		"longitude": -5.679195,
+		"x": 0.0726001058151774,
+		"y": 0.2219293258426972
+	},
+	{
+		"ville": "Saint-Lambert-la-Potherie",
+		"latitude": 47.48663,
+		"longitude": -0.6835899999999999,
+		"x": 0.18027573502701222,
+		"y": 0.3207254681647942
+	},
+	{
+		"ville": "Saint-Laurent-sur-SÃ¨vre",
+		"latitude": 46.958955,
+		"longitude": -0.889664,
+		"x": 0.17583400122015608,
+		"y": 0.3404885767790262
+	},
+	{
+		"ville": "Saint-LÃ©ger-au-Bois",
+		"latitude": 49.480557,
+		"longitude": 2.954266000000001,
+		"x": 0.2586863447093328,
+		"y": 0.2460465543071163
+	},
+	{
+		"ville": "Saint-lÃ©ger-les-Vignes",
+		"latitude": 47.135077,
+		"longitude": -1.731736,
+		"x": 0.15768392081114296,
+		"y": 0.33389224719101124
+	},
+	{
+		"ville": "Saint-LÃ©ger-les-Vignes",
+		"latitude": 47.135077,
+		"longitude": -1.731736,
+		"x": 0.15768392081114296,
+		"y": 0.33389224719101124
+	},
+	{
+		"ville": "Saint-LÃ©onard",
+		"latitude": 49.739392,
+		"longitude": 0.358333,
+		"x": 0.202733418253625,
+		"y": 0.23635235955056183
+	},
+	{
+		"ville": "Saint-Loup",
+		"latitude": 48.668692,
+		"longitude": -1.29448,
+		"x": 0.16710856806140595,
+		"y": 0.27645348314606755
+	},
+	{
+		"ville": "Saint-Lumine",
+		"latitude": 47.055317,
+		"longitude": -1.726531,
+		"x": 0.15779610975523428,
+		"y": 0.33687951310861425
+	},
+	{
+		"ville": "Saint-Lumine-de-Clisson",
+		"latitude": 47.08320399999999,
+		"longitude": -1.337138,
+		"x": 0.1661891144635097,
+		"y": 0.3358350561797758
+	},
+	{
+		"ville": "Saint-Lumine-de-Courtrais",
+		"latitude": 47.055317,
+		"longitude": -1.726531,
+		"x": 0.15779610975523428,
+		"y": 0.33687951310861425
+	},
+	{
+		"ville": "Saint-Lumine-de-Coutais",
+		"latitude": 47.055317,
+		"longitude": -1.726531,
+		"x": 0.15779610975523428,
+		"y": 0.33687951310861425
+	},
+	{
+		"ville": "Saint-Lyphard",
+		"latitude": 47.397123,
+		"longitude": -2.3098359,
+		"x": 0.14522351401761163,
+		"y": 0.32407779026217237
+	},
+	{
+		"ville": "Saint-Maixen-l'Ecole",
+		"latitude": 46.41316500000001,
+		"longitude": -0.20341,
+		"x": 0.19062556925828938,
+		"y": 0.36093014981273364
+	},
+	{
+		"ville": "Saint-Maixent",
+		"latitude": 46.41316500000001,
+		"longitude": -0.20341,
+		"x": 0.19062556925828938,
+		"y": 0.36093014981273364
+	},
+	{
+		"ville": "Saint-Malo",
+		"latitude": 48.649337,
+		"longitude": -2.025674,
+		"x": 0.1513483600333656,
+		"y": 0.2771783895131086
+	},
+	{
+		"ville": "Saint-MandÃ©",
+		"latitude": 48.84283199999999,
+		"longitude": 2.4178639,
+		"x": 0.24712469529388675,
+		"y": 0.26993138576779085
+	},
+	{
+		"ville": "Saint-Mandrier",
+		"latitude": 43.07541,
+		"longitude": 5.927237,
+		"x": 0.3227659753153431,
+		"y": 0.485939700374532
+	},
+	{
+		"ville": "Saint-Marcel",
+		"latitude": 49.094615,
+		"longitude": 1.454389,
+		"x": 0.2263578880528599,
+		"y": 0.2605013108614234
+	},
+	{
+		"ville": "Saint-Mard-sur-Auve",
+		"latitude": 49.034995,
+		"longitude": 4.72539,
+		"x": 0.2968612786987459,
+		"y": 0.26273426966292135
+	},
+	{
+		"ville": "Saint-Marie-du-Vaux",
+		"latitude": 45.86592599999999,
+		"longitude": 1.046876,
+		"x": 0.21757432356227213,
+		"y": 0.3814259925093639
+	},
+	{
+		"ville": "Saint-Mars-de-Coutais",
+		"latitude": 47.112705,
+		"longitude": -1.735474,
+		"x": 0.15760335169048706,
+		"y": 0.33473014981273425
+	},
+	{
+		"ville": "Saint-Mars-du-DÃ©sert",
+		"latitude": 47.36657599999999,
+		"longitude": -1.404858,
+		"x": 0.16472947271636884,
+		"y": 0.32522187265917657
+	},
+	{
+		"ville": "Saint-Mars-la-Jaille",
+		"latitude": 47.524938,
+		"longitude": -1.184397,
+		"x": 0.16948130495524089,
+		"y": 0.31929071161048705
+	},
+	{
+		"ville": "Saint-Martin d'Ablois",
+		"latitude": 49.012289,
+		"longitude": 3.867231,
+		"x": 0.2783644579355352,
+		"y": 0.2635846816479401
+	},
+	{
+		"ville": "Saint-Martin-des-Besaces",
+		"latitude": 49.010248,
+		"longitude": -0.8453809999999999,
+		"x": 0.1767884801848436,
+		"y": 0.26366112359550586
+	},
+	{
+		"ville": "Saint-Maurice-des-NouÃ©es",
+		"latitude": 46.603281,
+		"longitude": -0.7205450000000001,
+		"x": 0.17947920430099945,
+		"y": 0.35380970037453185
+	},
+	{
+		"ville": "Saint-Maurice-sur-Moselle",
+		"latitude": 47.858875,
+		"longitude": 6.825815,
+		"x": 0.34213399010952966,
+		"y": 0.30678370786516873
+	},
+	{
+		"ville": "Saint-Mein",
+		"latitude": 50.1824439,
+		"longitude": 2.910286,
+		"x": 0.25773839662842246,
+		"y": 0.2197586554307116
+	},
+	{
+		"ville": "Saint-MÃªme",
+		"latitude": 45.643645,
+		"longitude": -0.140051,
+		"x": 0.19199121369799832,
+		"y": 0.38975112359550573
+	},
+	{
+		"ville": "Saint-MÃªme-le-Tenu",
+		"latitude": 47.020922,
+		"longitude": -1.794218,
+		"x": 0.1563371792924652,
+		"y": 0.33816771535580537
+	},
+	{
+		"ville": "Saint-MÃ¨ne",
+		"latitude": 49.090822,
+		"longitude": 4.892977999999999,
+		"x": 0.30047348249555383,
+		"y": 0.26064337078651684
+	},
+	{
+		"ville": "Saint-Michel-Chef-Chef",
+		"latitude": 47.182298,
+		"longitude": -2.148009,
+		"x": 0.14871154265096048,
+		"y": 0.332123670411985
+	},
+	{
+		"ville": "Saint-Michel-de-Maurienne",
+		"latitude": 45.217675,
+		"longitude": 6.475869899999999,
+		"x": 0.33459124827303566,
+		"y": 0.40570505617977537
+	},
+	{
+		"ville": "Saint-Molf",
+		"latitude": 47.3929365,
+		"longitude": -2.422458,
+		"x": 0.14279604917988764,
+		"y": 0.3242345880149815
+	},
+	{
+		"ville": "Saint-Nazaire",
+		"latitude": 47.2734979,
+		"longitude": -2.213848,
+		"x": 0.14729244411301,
+		"y": 0.3287079438202247
+	},
+	{
+		"ville": "Saint-Nicolas-de-Port",
+		"latitude": 48.6331149,
+		"longitude": 6.303732999999999,
+		"x": 0.3308809971586912,
+		"y": 0.27778595880149815
+	},
+	{
+		"ville": "Saint-Nicolas-de-Redon",
+		"latitude": 47.64422099999999,
+		"longitude": -2.068266,
+		"x": 0.15043032900421288,
+		"y": 0.3148231835205998
+	},
+	{
+		"ville": "Saint-Omer-de-Blain",
+		"latitude": 47.473628,
+		"longitude": -1.857815,
+		"x": 0.15496640498365077,
+		"y": 0.32121243445692904
+	},
+	{
+		"ville": "Saint-Ouen",
+		"latitude": 48.911856,
+		"longitude": 2.333764,
+		"x": 0.24531200000489722,
+		"y": 0.2673462172284645
+	},
+	{
+		"ville": "Saint-Pardoux (Deux-SÃ¨vres)",
+		"latitude": 46.571379,
+		"longitude": -0.305421,
+		"x": 0.18842681683260143,
+		"y": 0.3550045318352061
+	},
+	{
+		"ville": "Saint-Paul-aux-Bois",
+		"latitude": 49.532523,
+		"longitude": 3.205004,
+		"x": 0.2640907695822595,
+		"y": 0.2441002621722848
+	},
+	{
+		"ville": "Saint-PÃ¨re-en-Retz",
+		"latitude": 47.207685,
+		"longitude": -2.043902,
+		"x": 0.15095547241129115,
+		"y": 0.3311728464419478
+	},
+	{
+		"ville": "Saint-Perreux",
+		"latitude": 47.668195,
+		"longitude": -2.107239,
+		"x": 0.1495903021611633,
+		"y": 0.3139252808988766
+	},
+	{
+		"ville": "Saint-Philbert-de-Bouaine",
+		"latitude": 46.98504399999999,
+		"longitude": -1.521408,
+		"x": 0.16221734563974066,
+		"y": 0.33951146067415783
+	},
+	{
+		"ville": "Saint-Philbert-de-Grand-Lieu",
+		"latitude": 47.03687799999999,
+		"longitude": -1.642905,
+		"x": 0.15959859056956388,
+		"y": 0.33757011235955114
+	},
+	{
+		"ville": "Saint-Pierre Ã Â  Arnes",
+		"latitude": 49.29959600000001,
+		"longitude": 4.453752,
+		"x": 0.29100637372370397,
+		"y": 0.25282411985018705
+	},
+	{
+		"ville": "Saint-Pierre lÃ¨s-Bitry",
+		"latitude": 49.4245779,
+		"longitude": 3.076862,
+		"x": 0.2613287877044964,
+		"y": 0.24814314981273405
+	},
+	{
+		"ville": "Saint-Pierre-Aigle",
+		"latitude": 49.320723,
+		"longitude": 3.186073,
+		"x": 0.26368272944765936,
+		"y": 0.2520328464419476
+	},
+	{
+		"ville": "Saint-Pierre-l'Aigle",
+		"latitude": 49.320723,
+		"longitude": 3.186073,
+		"x": 0.26368272944765936,
+		"y": 0.2520328464419476
+	},
+	{
+		"ville": "Saint-Pierre-les-Bitry",
+		"latitude": 49.4245779,
+		"longitude": 3.076862,
+		"x": 0.2613287877044964,
+		"y": 0.24814314981273405
+	},
+	{
+		"ville": "Saint-Pierre-lÃ¨s-Bitry",
+		"latitude": 49.4245779,
+		"longitude": 3.076862,
+		"x": 0.2613287877044964,
+		"y": 0.24814314981273405
+	},
+	{
+		"ville": "Saint-Pol",
+		"latitude": 50.381329,
+		"longitude": 2.336217,
+		"x": 0.24536487214319808,
+		"y": 0.21230977528089895
+	},
+	{
+		"ville": "Saint-Pol-de-LÃ©on",
+		"latitude": 48.685113,
+		"longitude": -3.986533,
+		"x": 0.10908386421740551,
+		"y": 0.2758384644194757
+	},
+	{
+		"ville": "Saint-Pol-sur-Ternoise",
+		"latitude": 50.381329,
+		"longitude": 2.336217,
+		"x": 0.24536487214319808,
+		"y": 0.21230977528089895
+	},
+	{
+		"ville": "Saint-Prix",
+		"latitude": 49.006469,
+		"longitude": 2.262489,
+		"x": 0.24377573353225307,
+		"y": 0.26380265917602996
+	},
+	{
+		"ville": "Saint-Quentin",
+		"latitude": 49.847066,
+		"longitude": 3.2874,
+		"x": 0.2658667388881871,
+		"y": 0.23231962546816498
+	},
+	{
+		"ville": "Saint-Quentin - Ambulance 2/56",
+		"latitude": 49.8552239,
+		"longitude": 3.260378,
+		"x": 0.2652843047580743,
+		"y": 0.23201408614232227
+	},
+	{
+		"ville": "Saint-Quentin-le-Petit",
+		"latitude": 49.58379,
+		"longitude": 4.079172,
+		"x": 0.2829326494820617,
+		"y": 0.24218014981273417
+	},
+	{
+		"ville": "Saint-Quentin-Le-Petit",
+		"latitude": 49.58379,
+		"longitude": 4.079172,
+		"x": 0.2829326494820617,
+		"y": 0.24218014981273417
+	},
+	{
+		"ville": "Saint-Radegonde-des-Noyers",
+		"latitude": 46.376076,
+		"longitude": -1.0602419,
+		"x": 0.17215735290385942,
+		"y": 0.3623192509363298
+	},
+	{
+		"ville": "Saint-RÃ©my-de-Blanzy",
+		"latitude": 49.241386,
+		"longitude": 3.310877,
+		"x": 0.26637276383351527,
+		"y": 0.2550042696629215
+	},
+	{
+		"ville": "Saint-RÃ©my-en-l'Eau",
+		"latitude": 49.470988,
+		"longitude": 2.431174,
+		"x": 0.24741158214590414,
+		"y": 0.24640494382022488
+	},
+	{
+		"ville": "Saint-RÃ©my-sur-Bussy",
+		"latitude": 49.05676099999999,
+		"longitude": 4.581357,
+		"x": 0.293756781064872,
+		"y": 0.26191906367041257
+	},
+	{
+		"ville": "Saint-Riquier",
+		"latitude": 50.134581,
+		"longitude": 1.945999,
+		"x": 0.23695408532562873,
+		"y": 0.22155127340823988
+	},
+	{
+		"ville": "Saint-SÃ©bastien-sur-Loire",
+		"latitude": 47.205376,
+		"longitude": -1.503103,
+		"x": 0.16261189292534922,
+		"y": 0.3312593258426967
+	},
+	{
+		"ville": "Saint-Souplet",
+		"latitude": 50.05502,
+		"longitude": 3.530189,
+		"x": 0.2710998304438069,
+		"y": 0.22453108614232226
+	},
+	{
+		"ville": "Saint-Soupplets",
+		"latitude": 49.039423,
+		"longitude": 2.806764,
+		"x": 0.2555070760001366,
+		"y": 0.26256842696629223
+	},
+	{
+		"ville": "Saint-Sulpice-des-ChÃ¢teaux",
+		"latitude": 47.7664708,
+		"longitude": -1.6173552,
+		"x": 0.1601492927950674,
+		"y": 0.3102445393258428
+	},
+	{
+		"ville": "Saint-Sulpice-des-Landes",
+		"latitude": 47.574534,
+		"longitude": -1.20647,
+		"x": 0.16900554192682038,
+		"y": 0.31743318352059935
+	},
+	{
+		"ville": "Saint-Symphorien",
+		"latitude": 44.428094,
+		"longitude": -0.4897570000000001,
+		"x": 0.18445362544008886,
+		"y": 0.4352773782771536
+	},
+	{
+		"ville": "Saint-Thomas",
+		"latitude": 43.514396,
+		"longitude": 1.082626,
+		"x": 0.2183448816316798,
+		"y": 0.46949827715355824
+	},
+	{
+		"ville": "Saint-Thomas en Argonne",
+		"latitude": 49.184202,
+		"longitude": 4.865342,
+		"x": 0.2998778141653119,
+		"y": 0.25714599250936343
+	},
+	{
+		"ville": "Saint-Thomas-en-Argonne",
+		"latitude": 49.184202,
+		"longitude": 4.865342,
+		"x": 0.2998778141653119,
+		"y": 0.25714599250936343
+	},
+	{
+		"ville": "Saint-Viaud",
+		"latitude": 47.256301,
+		"longitude": -2.018918,
+		"x": 0.15149397934292969,
+		"y": 0.3293520224719102
+	},
+	{
+		"ville": "Saint-Vincent-des-Landes",
+		"latitude": 47.655342,
+		"longitude": -1.498041,
+		"x": 0.1627209996371629,
+		"y": 0.31440666666666683
+	},
+	{
+		"ville": "Sainte Anne du Ronceux (?) - HÃ´pital",
+		"latitude": 43.1337365,
+		"longitude": 5.9297321,
+		"x": 0.3228197548800698,
+		"y": 0.4837551872659178
+	},
+	{
+		"ville": "Sainte Catherine lez Arras",
+		"latitude": 50.30765599999999,
+		"longitude": 2.764874,
+		"x": 0.25460417592943774,
+		"y": 0.21506906367041256
+	},
+	{
+		"ville": "Sainte Luce sur Loire",
+		"latitude": 47.249491,
+		"longitude": -1.487331,
+		"x": 0.1629518437469072,
+		"y": 0.32960707865168554
+	},
+	{
+		"ville": "Sainte Menehould",
+		"latitude": 49.090822,
+		"longitude": 4.892977999999999,
+		"x": 0.30047348249555383,
+		"y": 0.26064337078651684
+	},
+	{
+		"ville": "Sainte MÃ©nÃ©hould",
+		"latitude": 49.090822,
+		"longitude": 4.892977999999999,
+		"x": 0.30047348249555383,
+		"y": 0.26064337078651684
+	},
+	{
+		"ville": "Sainte Menehould - Ambulance 6/5",
+		"latitude": 49.0910039,
+		"longitude": 4.90229,
+		"x": 0.30067419401282164,
+		"y": 0.2606365580524347
+	},
+	{
+		"ville": "Sainte Menehould - Ambulance 9/XV",
+		"latitude": 49.0910039,
+		"longitude": 4.90229,
+		"x": 0.30067419401282164,
+		"y": 0.2606365580524347
+	},
+	{
+		"ville": "Sainte Menehould - Ambulance nÂ°2",
+		"latitude": 49.0910039,
+		"longitude": 4.90229,
+		"x": 0.30067419401282164,
+		"y": 0.2606365580524347
+	},
+	{
+		"ville": "Sainte Menehould - Ambulance nÂ°8",
+		"latitude": 49.0910039,
+		"longitude": 4.90229,
+		"x": 0.30067419401282164,
+		"y": 0.2606365580524347
+	},
+	{
+		"ville": "Sainte Menehould - HÃ´pital",
+		"latitude": 49.0936801,
+		"longitude": 4.908466,
+		"x": 0.3008073119607003,
+		"y": 0.2605363258426967
+	},
+	{
+		"ville": "Sainte Menehould - HÃ´pital central",
+		"latitude": 49.0936801,
+		"longitude": 4.908466,
+		"x": 0.3008073119607003,
+		"y": 0.2605363258426967
+	},
+	{
+		"ville": "Sainte Menehould - HÃ´pital Central",
+		"latitude": 49.0936801,
+		"longitude": 4.908466,
+		"x": 0.3008073119607003,
+		"y": 0.2605363258426967
+	},
+	{
+		"ville": "Sainte Menehould - HÃ´pital Saint Charles",
+		"latitude": 49.0936801,
+		"longitude": 4.908466,
+		"x": 0.3008073119607003,
+		"y": 0.2605363258426967
+	},
+	{
+		"ville": "Sainte Pazanne",
+		"latitude": 47.103074,
+		"longitude": -1.811393,
+		"x": 0.15596698810807152,
+		"y": 0.3350908614232211
+	},
+	{
+		"ville": "Sainte-Anne-de-Campbon",
+		"latitude": 47.45791699999999,
+		"longitude": -2.005884,
+		"x": 0.15177491511570346,
+		"y": 0.3218008614232215
+	},
+	{
+		"ville": "Sainte-Anne-sur-Vilaine",
+		"latitude": 47.730154,
+		"longitude": -1.824916,
+		"x": 0.15567551239415262,
+		"y": 0.31160471910112375
+	},
+	{
+		"ville": "Sainte-CohiÃ¨re - ChÃ¢teau de Braux",
+		"latitude": 49.09234,
+		"longitude": 4.827175,
+		"x": 0.2990551599041908,
+		"y": 0.2605865168539327
+	},
+	{
+		"ville": "Sainte-Luce-sur-Loire",
+		"latitude": 47.249491,
+		"longitude": -1.487331,
+		"x": 0.1629518437469072,
+		"y": 0.32960707865168554
+	},
+	{
+		"ville": "Sainte-Lumine-de-Clisson",
+		"latitude": 47.08320399999999,
+		"longitude": -1.337138,
+		"x": 0.1661891144635097,
+		"y": 0.3358350561797758
+	},
+	{
+		"ville": "Sainte-Lumine-de-Coutais",
+		"latitude": 47.055317,
+		"longitude": -1.726531,
+		"x": 0.15779610975523428,
+		"y": 0.33687951310861425
+	},
+	{
+		"ville": "Sainte-Marie-Ã -Py",
+		"latitude": 49.238959,
+		"longitude": 4.50103,
+		"x": 0.2920254071336467,
+		"y": 0.2550951685393259
+	},
+	{
+		"ville": "Sainte-Marie-de-RÃ©",
+		"latitude": 46.151627,
+		"longitude": -1.312062,
+		"x": 0.16672960436976053,
+		"y": 0.3707255805243448
+	},
+	{
+		"ville": "Sainte-Menehould",
+		"latitude": 49.090822,
+		"longitude": 4.892977999999999,
+		"x": 0.30047348249555383,
+		"y": 0.26064337078651684
+	},
+	{
+		"ville": "Sainte-MÃ©nÃ©hould",
+		"latitude": 49.090822,
+		"longitude": 4.892977999999999,
+		"x": 0.30047348249555383,
+		"y": 0.26064337078651684
+	},
+	{
+		"ville": "Sainte-Menehould - Ambulance nÂ°6",
+		"latitude": 49.0910039,
+		"longitude": 4.90229,
+		"x": 0.30067419401282164,
+		"y": 0.2606365580524347
+	},
+	{
+		"ville": "Sainte-Pazanne",
+		"latitude": 47.103074,
+		"longitude": -1.811393,
+		"x": 0.15596698810807152,
+		"y": 0.3350908614232211
+	},
+	{
+		"ville": "Sainte-Radegonde",
+		"latitude": 44.8049589,
+		"longitude": 0.0160639,
+		"x": 0.195356125472817,
+		"y": 0.4211625880149813
+	},
+	{
+		"ville": "Sainte-RadÃ©gonde",
+		"latitude": 44.8049589,
+		"longitude": 0.0160639,
+		"x": 0.195356125472817,
+		"y": 0.4211625880149813
+	},
+	{
+		"ville": "Sainte-Reine-de-Bretagne",
+		"latitude": 47.44397,
+		"longitude": -2.19185,
+		"x": 0.14776659058604025,
+		"y": 0.32232322097378285
+	},
+	{
+		"ville": "Saintes",
+		"latitude": 45.744175,
+		"longitude": -0.633389,
+		"x": 0.18135777098903555,
+		"y": 0.38598595505617994
+	}
+]
