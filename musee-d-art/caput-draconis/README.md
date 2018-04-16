@@ -1,9 +1,9 @@
 # Nom de groupe
 
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+- Partenaire: Musée d'art de Nantes
+- Etudiants: CUPIC Tonko; DECAMP Grégoire; LE LUHANDRE Camille; MASSOT Justine; MIMEAU Corentin; VERCAMBRE Manon
+- Technologie d'entrée: Analyse d'image et de vidéo
+- Technologie de sortie: 3D vidéo projeté
 
 # Nom de l'installation
 
@@ -11,6 +11,6 @@
 
 ## Dépendances logicielles
 
-## Instructions de génération d' l'application
+## Instructions de génération de l'application
 
 ## Instructions d'exécution
