@@ -1,16 +1,2 @@
-# Nom de groupe
-
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
-
-# Nom de l'installation
-
-## Description
-
-## Dépendances logicielles
-
-## Instructions de génération d' l'application
-
-## Instructions d'exécution
+# ICreate-9h10
+Projet GitHub pour le projet I-Create 2018. Projet porté par le musée des arts de Nantes et réalisé par le groupe '9h10'.
