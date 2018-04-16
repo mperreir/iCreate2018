@@ -44,7 +44,7 @@ public class main_scene : MonoBehaviour
         if(devices.Length > 1)
             i = 1;
 
-        webCamTexture = new WebCamTexture(devices[i].name, 1280, 720);
+        webCamTexture = new WebCamTexture(devices[0].name, 1280, 720);
 
         rawimage.texture = webCamTexture;
         rawimage.material.mainTexture = webCamTexture;
