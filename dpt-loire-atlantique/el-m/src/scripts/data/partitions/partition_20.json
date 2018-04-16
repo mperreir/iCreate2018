@@ -1,0 +1,413 @@
+[
+	{
+		"city": "VrignÃ©",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Vrigne-sur-Meuse",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Vrignes sur Meuse",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Vrignes-sur-Meuse",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Vrigny",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Vrigny Mery",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Vritz"
+	},
+	{
+		"city": "Vue"
+	},
+	{
+		"city": "Vuillery",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Wailly",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wailly - Ambulance nÂ°15",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wailly les Arras",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wamerthinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wanquelin",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wanquelin - Ambulance",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wanquetin",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wanquetin - Ambulance nÂ°3",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Wargemoulin",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Warloy - Baillon",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Warloy Baillon",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Warloy Baillon - Ambulance nÂ°7",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Warloy-Baillon",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Warquetin",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Warstein",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Wasbeck - Camp de Prisonniers",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Wassigny",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Weilheimerback",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Welles",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Welzen",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Westouter",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wez - Thuisy",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt - HÃ´pital - Ambulance 9/.",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt l'EquipÃ©e",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt L'EquipÃ©e",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt l'EquipÃ©e - Ambulance 9/1",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt l'EquipÃ©e - HÃ´pital Evacuation",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt-l'EquipÃ©e",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wiencourt-L'Ã©quipÃ©e",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Wierstraadt",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wierstraat/Dickebush",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wittemberg",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Wiz (?)",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Wlamertinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Woeslen - Ambulance nÂ°3",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Woessen",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Wosch",
+		"departement": "Haute-Alsace",
+		"country": "France"
+	},
+	{
+		"city": "Wydendreft",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Ypres",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Ypres - Ambulance nÂ°3/9",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Yzvor - Ambulance Alpine nÂ°4 - Poteau 21",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zandworde",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zeitenlick",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeitenlick - Ambulance nÂ°3",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeitenlick - hopital temporaire 13",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeitenlik",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeitenlik - HÃ´pital Temporaire",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeitenlik - HÃ´pital temporaire 2",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zeunclerck",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zillebeck",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zillebecke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zillebeke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zonnebeck",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zonnebecke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zonnebeeke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zonnebeke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zoonebecke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zoonebeke",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zuidcoote",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuitenlik - HÃ´pital nÂ°13",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zuitenlik - HÃ´pital Temporaire nÂ°1",
+		"departement": "GrÃ¨ce",
+		"country": "GrÃ¨ce"
+	},
+	{
+		"city": "Zuycoote - HÃ´pital Temporaire",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital Auxiliaire du Sanatorium Militaire",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital Auxiliaire du Sanotorium",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital Militaire",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital Temporaire",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydcoote - HÃ´pital Temporaire nÂ°34 Bis",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zuydecoote",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zuydecoote - HÃ´pital temporaire",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Zuydecoote - HÃ´pital Temporaire",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Zwickau",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	}
+]
