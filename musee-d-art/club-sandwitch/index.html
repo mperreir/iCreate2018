@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Server Notifier</title>
+    </head>
+
+    <body>
+        <h1>Server side !</h1>
+        <button>Udpate !</button>
+    </body>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+        var socket = io();
+        var button = document.querySelector('button');
+        button.onclick = function() {
+            console.log('erer0');
+            socket.emit('play-intro', 3);
+        }
+    </script>
+
+
+</html>
