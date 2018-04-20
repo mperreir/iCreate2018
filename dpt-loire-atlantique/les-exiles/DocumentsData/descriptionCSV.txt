@@ -1,0 +1,65 @@
+
+================================================
+TITRE DU JEU DE DONNEES
+================================================
+
+Mémorial virtuel des morts pour la France de Loire-Atlantique au cours de la Première Guerre mondiale (CSV)
+
+================================================
+DESCRIPTION
+================================================
+
+Liste des plus de 27 000 soldats de Loire-Inférieure morts pour la France pendant la Première Guerre mondiale, rendue disponible à l'occasion des commémorations du centenaire du conflit dans le cadre du programme "La Loire-Atlantique se souvient".
+ 
+Le Mémorial virtuel consiste en une base de données collaborative de renseignements sur les combattants du département morts pour la France au cours du premier conflit mondial. Elle a été réalisée à partir des informations figurant sur les listes du « Livre d’or » rédigé par Émile Gabory en 1923 complétées par des travaux de recensement et d'analyse individuels ou collectifs (associations, mairies). Ce travail est coordonné et contrôlé par les Archives départementales de Loire-Atlantique. Conformément aux préconisations de la CNIL relatives aux données personnelles, les données ont été anonymisées.
+ 
+Le Mémorial virtuel, qui a pour objectif l'exhaustivité, peut toujours être enrichi. Il reste des champs vierges de renseignement qu’il est possible de compléter, notamment à partir de sources publiques comme les fiches matricules des soldats (www.archives.loire-atlantique.fr), la base de données des morts pour la France réalisée par le ministère de la Défense (http://www.memoiredeshommes.sga.defense.gouv.fr/article.php?larub=24&titre=morts-pour-la-france-de-la-premiere-guerre-mondiale) ou d'autres sources consultables sur Internet. 
+ 
+Par ailleurs, des documents d’origine privée – photographies ou documents écrits numérisés – peuvent être associés aux fiches pour donner plus d’épaisseur humaine à ce monument aux morts virtuel encore en cours de constitution.
+
+================================================
+INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour    : le 19/01/2016
+
+================================================
+ATTRIBUTS
+================================================
+
+id : Identifiant unique
+naissanceDate : Date de naissance du soldat (jj/mm/aa)
+naissanceLieu : Lieu de naissance du soldat, généralement la ville lorsqu'elle est connue.
+profession : Profession du soldat
+classe : Année de formation de base du soldat
+matricule : Numéro de matricule du soldat
+engageVolontaire : Indique si le soldat était volontaire ou non
+engageAnnee : Année d'engagement du soldat dans le conflit
+uniteAffectation : Unité d'affectation du soldat
+decoration : Indique si le soldat a reçu une décoration
+decorationNature : Nature de la décoration attribuée au soldat
+decesDate : Date de décès du soldat mort au combat (jj/mm/aa)
+decesLieu : Lieu du décès du soldat mort au combat
+decesDepartement : Département de décès du soldat
+decesAge : Age du décès du soldat
+residenceCanton : Canton de résidence du soldat
+residenceCommune : Commune de résidence du soldat
+residenceAdresse : Zone de résidence du soldat
+grade : Grade du soldat
+lieuSepulture : Lieu de sépulture du soldat
+matriculeArme : Précise si la fiche numérisée du soldat est disponible sur le site des archives départementales
+
+
+================================================
+CONTACT
+================================================
+
+Pour toute demande d'information ou remarque, merci de passer par le forum du site http://data.loire-atlantique.fr
+
+================================================
+INFORMATIONS LEGALES
+================================================
+
+Propriétaire 	: Département de Loire-Atlantique 
+Gestionnaire 	: Département de Loire-Atlantique
+Licence      	: Open Database License (ODbL 1.0)

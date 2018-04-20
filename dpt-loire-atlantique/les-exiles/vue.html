@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Y</title>
+	  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="vue.css" />
+    <script src="node_modules/tracking/build/tracking-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+
+  </head>
+
+  <body onclick="suppressionRectangle()" style='overflow:hidden;'>
+
+    <div ng-app="myApp">
+      <div ng-controller="MainCtrl" id="numberCenter">
+        <span ng-repeat="x in text track by $index" id={{$index}}>{{x}}</span>
+      </div>
+    </div>
+
+    <video id="myVideo" width="950" height="720" preload autoplay loop muted></video>
+
+  </body>
+
+  <script type="text/javascript" src="son.js"></script>
+  <script type="text/javascript" src="mouvement.js"></script>
+  <script type="text/javascript" src="vue.js"></script>
+
+</html>
+

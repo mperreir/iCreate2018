@@ -1,0 +1,20 @@
+{
+  "name": "icreate",
+  "version": "1.0.0",
+  "description": "<h1>Projet iCreate</h1>\r <h2>Equipe Polytech : Brulé Vincent, Maisonneuve Quentin, Poly Guillaume</h2>\r <h2>Equipe Ecole de design : Mathurin Loncle, J. Anne-Charlotte, Guillard Zélie</h2>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.univ-nantes.fr/E149926N/iCreate.git"
+  },
+  "author": "Vincent Brule",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "tracking": "^1.1.3"
+  },
+  "devDependencies": {}
+}

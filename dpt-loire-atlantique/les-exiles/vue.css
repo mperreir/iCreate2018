@@ -1,0 +1,24 @@
+#numberCenter{
+    color: black !important;
+    font-size: 200px;
+    text-align: center;
+    margin-top: 47vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+video {
+    position: absolute;
+    top: 2000;
+    left: 100;
+    /*visibility: hidden;*/
+}
+
+@font-face {
+    font-family: "Ycreate"; /*Font crée par les Design*/
+    src: url("Y.otf") format("opentype");
+}
+
+span {
+    font-family: 'Ycreate';
+    font-size: 20rem;
+}
