@@ -13,6 +13,6 @@
 
 Leap motion simple control ( https://assetstore.unity.com/packages/tools/leap-motion-simple-control-69361 )
 
-## Instructions de génération d' l'application
+## Instructions de génération de l'application
 
 ## Instructions d'exécution

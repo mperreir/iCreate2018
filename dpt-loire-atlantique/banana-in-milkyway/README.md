@@ -1,9 +1,9 @@
 # Nom de groupe
 
-- Partenaire:
-- Etudiants:
-- Technologie d'entrée:
-- Technologie de sortie:
+- Partenaire : Département Loire-Atlantique
+- Etudiants : Nicolas CHABOT, Baptiste GAUTHIER, Fabien HUDIER, Loélia RAPIN, Clémence RUSSEIL, Aurane WALLAERT
+- Technologie d'entrée : Geste Leap Motion
+- Technologie de sortie : Son spatialisé
 
 # Nom de l'installation
 
