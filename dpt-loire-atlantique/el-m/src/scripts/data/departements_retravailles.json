@@ -1,0 +1,436 @@
+[
+	{
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"departement": "Loire Inférieure",
+		"country": "France"
+	},
+	{
+		"departement": "Var",
+		"country": "France"
+	},
+	{
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"departement": "Indre-et-Loire",
+		"country": "France"
+	},
+	{
+		"departement": "Ille-et-Vilaine",
+		"country": "France"
+	},
+	{
+		"departement": "Charente-Maritime",
+		"country": "France"
+	},
+	{
+		"departement": "Loiret",
+		"country": "France"
+	},
+	{
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"departement": "Creuse",
+		"country": "France"
+	},
+	{
+		"departement": "Seine-et-Oise",
+		"country": "France"
+	},
+	{
+		"departement": "Morbihan",
+		"country": "France"
+	},
+	{
+		"departement": "Bouches-du-Rhône",
+		"country": "France"
+	},
+	{
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"departement": "Yvelines",
+		"country": "France"
+	},
+	{
+		"departement": "Seine-et-Marne",
+		"country": "France"
+	},
+	{
+		"departement": "Côtes-du-Nord",
+		"country": "France"
+	},
+	{
+		"departement": "Alpes-Maritimes",
+		"country": "France"
+	},
+	{
+		"departement": "Vosges",
+		"country": "France"
+	},
+	{
+		"departement": "Sarthe",
+		"country": "France"
+	},
+	{
+		"departement": "Finistère",
+		"country": "France"
+	},
+	{
+		"departement": "Haut-Rhin",
+		"country": "France"
+	},
+	{
+		"departement": "Seine Inférieure",
+		"country": "France"
+	},
+	{
+		"departement": "Hautes-Pyrénées",
+		"country": "France"
+	},
+	{
+		"departement": "Mayenne",
+		"country": "France"
+	},
+	{
+		"departement": "Moselle",
+		"country": "France"
+	},
+	{
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"departement": "Puy-de-Dôme",
+		"country": "France"
+	},
+	{
+		"departement": "Yonne",
+		"country": "France"
+	},
+	{
+		"departement": "Manche",
+		"country": "France"
+	},
+	{
+		"departement": "Territoire de Belfort",
+		"country": "France"
+	},
+	{
+		"departement": "Hérault",
+		"country": "France"
+	},
+	{
+		"departement": "Pyrénées-Atlantiques",
+		"country": "France"
+	},
+	{
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"departement": "Aube",
+		"country": "France"
+	},
+	{
+		"departement": "Eure-et-Loir",
+		"country": "France"
+	},
+	{
+		"departement": "Vendée",
+		"country": "France"
+	},
+	{
+		"departement": "Loire-Atlantique",
+		"country": "France"
+	},
+	{
+		"departement": "Eure",
+		"country": "France"
+	},
+	{
+		"departement": "Loire-Inférieure",
+		"country": "France"
+	},
+	{
+		"departement": "Indre",
+		"country": "France"
+	},
+	{
+		"departement": "Rhône",
+		"country": "France"
+	},
+	{
+		"departement": "Hauts-de-Seine",
+		"country": "France"
+	},
+	{
+		"departement": "Tarn-et-Garonne",
+		"country": "France"
+	},
+	{
+		"departement": "Maine-et-Loire",
+		"country": "France"
+	},
+	{
+		"departement": "Savoie",
+		"country": "France"
+	},
+	{
+		"departement": "Dordogne",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Garonne",
+		"country": "France"
+	},
+	{
+		"departement": "Alsace",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Saône",
+		"country": "France"
+	},
+	{
+		"departement": "Isère",
+		"country": "France"
+	},
+	{
+		"departement": "Doubs",
+		"country": "France"
+	},
+	{
+		"departement": "Orne",
+		"country": "France"
+	},
+	{
+		"departement": "Loire",
+		"country": "France"
+	},
+	{
+		"departement": "Landes",
+		"country": "France"
+	},
+	{
+		"departement": "Allier",
+		"country": "France"
+	},
+	{
+		"departement": "Ardèche",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Marne",
+		"country": "France"
+	},
+	{
+		"departement": "Lot",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Vienne",
+		"country": "France"
+	},
+	{
+		"departement": "Vienne",
+		"country": "France"
+	},
+	{
+		"departement": "Calvados",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Loire",
+		"country": "France"
+	},
+	{
+		"departement": "Cher",
+		"country": "France"
+	},
+	{
+		"departement": "Deux-Sèvres",
+		"country": "France"
+	},
+	{
+		"departement": "Côte-d'Or",
+		"country": "France"
+	},
+	{
+		"departement": "Tarn",
+		"country": "France"
+	},
+	{
+		"departement": "Nièvre",
+		"country": "France"
+	},
+	{
+		"departement": "Haute-Alsace",
+		"country": "France"
+	},
+	{
+		"departement": "Jura",
+		"country": "France"
+	},
+	{
+		"departement": "Val-de-Marne",
+		"country": "France"
+	},
+	{
+		"departement": "Cantal",
+		"country": "France"
+	},
+	{
+		"departement": "Saône-et-Loire",
+		"country": "France"
+	},
+	{
+		"departement": "Aveyron",
+		"country": "France"
+	},
+	{
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"departement": "Ain",
+		"country": "France"
+	},
+	{
+		"departement": "Pyrénées-Orientales",
+		"country": "France"
+	},
+	{
+		"departement": "Drôme",
+		"country": "France"
+	},
+	{
+		"departement": "Morbihan, au large de Belle-île",
+		"country": "France"
+	},
+	{
+		"departement": "Corrèze",
+		"country": "France"
+	},
+	{
+		"departement": "Vaucluse",
+		"country": "France"
+	},
+	{
+		"departement": "Aude",
+		"country": "France"
+	},
+	{
+		"departement": "Gers",
+		"country": "France"
+	},
+	{
+		"departement": "Finsitère",
+		"country": "France"
+	},
+	{
+		"departement": "35",
+		"country": "France"
+	},
+	{
+		"departement": "Ariège",
+		"country": "France"
+	},
+	{
+		"departement": "Lorraine",
+		"country": "France"
+	},
+	{
+		"departement": "Argonne",
+		"country": "France"
+	},
+	{
+		"departement": "Seine-Maritime",
+		"country": "France"
+	},
+	{
+		"departement": "Paris",
+		"country": "France"
+	}, {
+		"departement": "Meurthe et Mozelle",
+		"country": "France"
+	}, {
+		"departement" : "Ile de Lemnos / Grèce",
+		"country": "Grèce"
+	},
+	{
+		"departement" : "Bataille des Dardanelles",
+		"country": "Turquie"
+	},
+	{
+		"departement" : "Dardanelles",
+		"country": "Turquie"
+	},
+	{
+		"departement" : "Province de Flandre Occidentale",
+		"country": "Belgique"
+	},
+	{
+		"departement" : "Macédoine (Grèce)",
+		"country": "Grèce"
+	},
+	{
+		"departement" : "Sud de Malte",
+		"country": "Malte"
+	},
+	{
+		"departement" : "Au large de Corfou",
+		"country": "Grèce"
+	},
+	{
+		"departement": "",
+		"country": null
+	},
+	{
+		"departement" :"En Mer",
+		"country": null
+	},
+	{
+		"departement" :"En Méditérannée",
+		"country": null
+	},
+	{
+		"departement" :"en me",
+		"country": null
+	},
+	{
+		"departement" :"en mer",
+		"country": null
+	},
+	{
+		"departement" :"Disparu en Mer",
+		"country": null
+	}
+]
