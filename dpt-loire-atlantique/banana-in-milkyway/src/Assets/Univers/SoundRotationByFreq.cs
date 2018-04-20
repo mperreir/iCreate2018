@@ -29,7 +29,6 @@ public class SoundRotationByFreq : MonoBehaviour {
 		if(counter > 100){
 			counter = 0;
 			if(Random.value < frequency && !audio.isPlaying){
-				Debug.Log("Paly !");
 				audio.Play();
 			}
 		}
