@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liuying.video">
+
+    <permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SenActivity"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".NfcWait" />
+        <activity android:name=".CanvasActivity" />
+        <activity android:name=".CongActivity" />
+        <activity android:name=".Video2Activity" />
+        <activity android:name=".Sen2Activity" />
+        <activity android:name=".Cong2Activity" />
+        <activity android:name=".VideoLastActivity" />
+        <activity android:name=".SocketActivity" />
+        <activity android:name=".VideoMain2Activity" />
+        <activity android:name=".Videonfc1Activity" />
+        <activity android:name=".Videonfc2Activity" />
+        <activity android:name=".Video2Sen2Activity" />
+        <activity android:name=".VideoLast1Activity" />
+        <activity android:name=".VideoLast2Activity" />
+        <activity android:name=".VideoLast3Activity"></activity>
+    </application>
+
+</manifest>

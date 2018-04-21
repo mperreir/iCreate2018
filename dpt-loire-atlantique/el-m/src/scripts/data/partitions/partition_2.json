@@ -1,0 +1,1222 @@
+[
+	{
+		"city": "Berry-au-Bac",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Berry-au-Bac - CÃ´te 108",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Berry-au-Bac - Ferme du CholÃ©ra",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bertheny",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Berthonval",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Berthonval - CÃ´te 140",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bertrancourt",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bertrancourt - Ambulance 10/CA",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bertrancourt - Ambulance nÂ°1",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Berzieux",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BesanÃ§on",
+		"departement": "Doubs",
+		"country": "France"
+	},
+	{
+		"city": "BesanÃ§on - HÃ´pital ComplÃ©mentaire",
+		"departement": "Doubs",
+		"country": "France"
+	},
+	{
+		"city": "BesnÃ©"
+	},
+	{
+		"city": "Beth",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bethancourt",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©thancourt",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bethelainville",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Betheneville",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©thenÃ©ville",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©thincourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©thincourt - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©thincourt - Le Mort Homme - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Beugny",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Beurains",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Beuvraignes",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Beuvry",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bevaux - PrÃ¨s de Verdun - Ambulance 14/11",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bevaux - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Beveren",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Beveren - HÃ´pital nÂ°1",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Beveren sur Yser",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Beverin",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bezannes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©ziers - HÃ´pital Temporaire nÂ°29",
+		"departement": "HÃ©rault",
+		"country": "France"
+	},
+	{
+		"city": "Bezonvaux - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©zonvaux - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bezonvaux - Fleury devant Douaumont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©zonvaux - Secteur de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "BÃ©zu-Saint-Germain",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Biaches",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Biarritz",
+		"departement": "PyrÃ©nÃ©es-Atlantiques",
+		"country": "France"
+	},
+	{
+		"city": "Biermont",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Biernes",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bievre",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "BiÃ©vre",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "BiÃ¨vre",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bievres",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "BiÃ©vres",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "BiÃ¨vres",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bignicourt",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Binarville",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bir Renta",
+		"departement": "Tunisie",
+		"country": "Tunisie"
+	},
+	{
+		"city": "Bischoote",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bitche - Ambulance 9/14",
+		"departement": "Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Bitry - Ambulance nÂ°5",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bixschoote",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bixschote",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bizerte",
+		"departement": "Tunisie",
+		"country": "Tunisie"
+	},
+	{
+		"city": "Blain"
+	},
+	{
+		"city": "Blanc Sablon",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Blankembug",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Blanquefort - HÃ´pital Auxiliaire nÂ°12",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Blanzy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Blanzy - Bois de Mauloy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Blanzy Longpont Corcy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Blercourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Blercourt - Ambulance 5/67",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bligny",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Blois",
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"city": "Blois - HÃ´pital auxiliaire",
+		"departement": "Loir-et-Cher",
+		"country": "France"
+	},
+	{
+		"city": "Bochum",
+		"departement": "Allemagne",
+		"country": "Allemagne"
+	},
+	{
+		"city": "Boesinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Boessinghe",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bois AllongÃ© - Secteur Ainval",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois Baurain",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Baurin",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Baurin - Argonne",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Baury",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Bauvain",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Beau Marais",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Bolante",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Bolante - Argonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Bouchot",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Bourrus - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois BrulÃ©",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Ailly",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Anderbe devant la Ferme de la Priez",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Anderlu",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Aulry",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Avocourt",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Avocourt - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Avocourt - Secteur de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Haudainville",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Haumont",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois d'Urvillers",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Barbillon",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Beaumarais",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Bethelaunville - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Bouvigny",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Caumont Melicocq",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bois de CenÃ©"
+	},
+	{
+		"city": "Bois de Cernay",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Chaumes - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Chesnois",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de ConniÃ¨res",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Courton",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de CoÃ»tant",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Hem",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois de l'Echelle",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Caillette",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Caillette - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Dame - Braquis",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Garenne - PrÃ¨s de Plessier",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Grille",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Gruerie",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Gruerie - Argonne",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Gruerie - Ravin de Bagatelle",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Gruerie - Vienne le ChÃ¢teau",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Grurie",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "bois de la Hazelle en Bernicourt",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la LaufÃ©e - Secteur de Tavannes - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la LauffÃ©e",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la MarfÃ©e",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la MarfÃ©e (au sud de Sedan)",
+		"departement": "Ardennes",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Marine",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Palette",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Prairie",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de la Tournelle",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Lataule",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Mauloy",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de MÃ©ry",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Montrolle",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Saint Mard",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Saint Pierre Vaast",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Saint-Mard",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Saint-Pierre-Vaast",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois de SÃ©nÃ©cat",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vauclerc",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le Chapitre",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le ChÃ¢pitre",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le Chapitre - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le ChÃ¢pitre - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le ChÃ¢pitre - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vaux le ChÃ¢pitre et de Fumin",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois de Vrigny",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Caures",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Caurettes",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Caurettes - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res - Bezonvaux",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res - RÃ©gion de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res - Secteur de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CauriÃ¨res - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CaurriÃ¨res",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des CaurriÃ¨res - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Chevaliers",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Chevalliers",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Corbeaux",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Deux Tombes",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Fosses - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Fosses - Secteur de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des FriÃ¨res",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Hauts BÃ¢tis",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Renards",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Saulliset",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Tournelles",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Vignes - Bivouac",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois des Zouaves",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois du ChÃ¢pitre - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois du Chesnois",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois du Luxembourg",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois du MÃ©neux",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Fumin - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Fumin - Devant Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Fumin - Vaux le ChÃ¢pitre - Combats de Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois Fumin - Verdun",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois LabbÃ©",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois MeuniÃ¨re",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Morin Est",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois Papegeod",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bois rectangulaire - Ouest Belval",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois SabÃ©",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois Saint-Pierre-Vaast",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois SÃ©nÃ©cat",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois Vieux - CimetiÃ¨re",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois-Bolante",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-Bolarde",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-Belleau",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-Bernataut",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-CenÃ©"
+	},
+	{
+		"city": "Bois-de-CenÃ©e"
+	},
+	{
+		"city": "Bois-de-la-CÃ´te-104",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-la-Gruerie",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-Ranzey",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Bois-de-Savant",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bois-des-Corbeaux",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-Fumin",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bois-le-PrÃªtre",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Bois-Tupigny",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Boisset-et-Caujac"
+	},
+	{
+		"city": "Bolant - Argonne",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Boncau"
+	},
+	{
+		"city": "Bondonneau - HÃ´pital",
+		"departement": "DrÃ´me",
+		"country": "France"
+	},
+	{
+		"city": "Bonnes",
+		"departement": "Aisne",
+		"country": "France"
+	},
+	{
+		"city": "Bonnoeuvre"
+	},
+	{
+		"city": "Bonvillers",
+		"departement": "Oise",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Auxiliaire",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Auxiliaire nÂ°25",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Auxiliaire nÂ°30",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - hopital complÃ©mentaire 36",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Militaire",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Mixte",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - hÃ´pital Pellegrin",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Pellegrin",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Bordeaux - HÃ´pital Temporaire",
+		"departement": "Gironde",
+		"country": "France"
+	},
+	{
+		"city": "Borville",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "Botz-en-Mauges"
+	},
+	{
+		"city": "Bouaye"
+	},
+	{
+		"city": "Bouchavesne",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bouchavesnes",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bouchavesnes - Au sud de",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bouchavesnes - Bois SabÃ©",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bouchavesnes - Ferme du Bois SabÃ©",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Bouchavesnes - La Ferme du Bois LabÃ©",
+		"departement": "Somme",
+		"country": "France"
+	},
+	{
+		"city": "Boucle de la Cerna",
+		"departement": "Serbie",
+		"country": "Serbie"
+	},
+	{
+		"city": "Bouconville",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Boucq",
+		"departement": "Meurthe-et-Moselle",
+		"country": "France"
+	},
+	{
+		"city": "BouÃ©e"
+	},
+	{
+		"city": "BouffÃ©rÃ©"
+	},
+	{
+		"city": "Bouguenais"
+	},
+	{
+		"city": "Bouillon",
+		"departement": "Belgique",
+		"country": "Belgique"
+	},
+	{
+		"city": "Bouilly",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouin"
+	},
+	{
+		"city": "Bouleuse",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouleuse - HÃ´pital Evacuation",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Bouleuse - HÃ´pital Orientation d'Ã©vacuation",
+		"departement": "Marne",
+		"country": "France"
+	},
+	{
+		"city": "Boullencourt",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Boulogne",
+		"departement": "Seine",
+		"country": "France"
+	},
+	{
+		"city": "Boulogne sur Mer",
+		"departement": "Pas-de-Calais",
+		"country": "France"
+	},
+	{
+		"city": "Bourbon-Lancy",
+		"departement": "SaÃ´ne-et-Loire",
+		"country": "France"
+	},
+	{
+		"city": "Bourbourg - HÃ´pital nÂ°66",
+		"departement": "Nord",
+		"country": "France"
+	},
+	{
+		"city": "Boureilles",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Boureilles - CÃ´te 208",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Boureuilles",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Boureuilles - Combat de la CÃ´te 265",
+		"departement": "Meuse",
+		"country": "France"
+	},
+	{
+		"city": "Bourg en Bresse - HÃ´pital Auxiliaire nÂ°6",
+		"departement": "Ain",
+		"country": "France"
+	},
+	{
+		"city": "Bourg et Comin - Ambulance 1/20",
+		"departement": "Aisne",
+		"country": "France"
+	}
+]
